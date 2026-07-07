@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import { Fraunces, Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
@@ -58,6 +59,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main">{children}</main>
         <Footer config={config} />
         <LocalBusinessJsonLd config={config} />
+        <Script
+          src="https://www.clarionlabs.ai/widget.v1.js"
+          data-site-key="cpx__fSy1X8JikCR2mQQMFTF81zFCiT5KP33"
+          data-api="https://api.clarionlabs.ai"
+          data-color="#2D5A3D"
+          data-header-text="#ffffff"
+          data-title="Chat with our team"
+          data-font="var(--font-body), system-ui, sans-serif"
+          data-position="right"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )
