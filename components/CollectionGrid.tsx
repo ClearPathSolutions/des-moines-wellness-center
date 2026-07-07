@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import type { PageModel } from '@/lib/types'
 import { GRID_WRAP, gridItem } from '@/lib/layout'
+import { orientation } from '@/lib/images'
 import SmartImage from './SmartImage'
 
 function routeFor(slug: string) {
@@ -16,6 +17,11 @@ type Props = {
 }
 
 export default function CollectionGrid({ heading, subheading, pages, alt }: Props) {
+  // Team members are portrait headshots; a 16/10 card frame slices their faces off.
+  // If the collection is portrait-dominant, give every card a matching portrait frame.
+  const portraitCount = pages.filter((p) => orientation(p.hero?.image?.src) === 'portrait').length
+  const portraitCards = portraitCount > pages.length / 2
+  const cardAspect = portraitCards ? 'aspect-[3/4]' : 'aspect-[16/10]'
   return (
     <section className={`section ${alt ? 'bg-white' : 'bg-cream'}`}>
       <div className="container-page">
@@ -35,13 +41,15 @@ export default function CollectionGrid({ heading, subheading, pages, alt }: Prop
                 className={`${gridItem(pages.length)} group flex flex-col overflow-hidden rounded-2xl border border-line bg-white shadow-card transition-transform hover:-translate-y-1`}
               >
                 {img ? (
-                  <div className="relative aspect-[16/10] overflow-hidden">
+                  <div className={`relative ${cardAspect} overflow-hidden`}>
                     <SmartImage
                       src={img}
                       alt={p.hero.image!.alt}
                       fill
                       sizes="(max-width:768px) 100vw, 33vw"
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      className={`object-cover transition-transform duration-500 group-hover:scale-105 ${
+                        portraitCards ? 'object-top' : ''
+                      }`}
                     />
                   </div>
                 ) : null}

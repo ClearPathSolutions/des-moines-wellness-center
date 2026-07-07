@@ -16,6 +16,7 @@ import {
 } from 'lucide-react'
 import type { Section as SectionType } from '@/lib/types'
 import { GRID_WRAP, gridItem } from '@/lib/layout'
+import { orientation, canonicalKey } from '@/lib/images'
 import SmartImage from './SmartImage'
 import FaqAccordion from './FaqAccordion'
 import VerifyInsuranceForm from './VerifyInsuranceForm'
@@ -56,9 +57,11 @@ type SectionProps = {
   slug?: string
   phone?: string
   phoneHref?: string
+  /** The page's hero image, so a repeated bio portrait isn't shown twice. */
+  heroSrc?: string
 }
 
-export default function Section({ section, alt, slug, phone, phoneHref }: SectionProps) {
+export default function Section({ section, alt, slug, phone, phoneHref, heroSrc }: SectionProps) {
   const { kind } = section
   const body = section.body ?? []
   const items = section.items ?? []
@@ -72,18 +75,24 @@ export default function Section({ section, alt, slug, phone, phoneHref }: Sectio
       const src = section.image?.src
       const hasImage = !!src
       const badge = hasImage && isBadge(src!)
+      const portrait = hasImage && !badge && orientation(src) === 'portrait'
 
       // A heading with no body and no image renders as a lonely, unbalanced title — skip it.
       if (!hasImage && body.length === 0) return null
 
       // Heading-only or badge-only section -> tidy centered callout (no giant cropped photo)
       if (hasImage && body.length === 0) {
+        const frame = badge
+          ? 'h-40 w-40'
+          : portrait
+            ? 'aspect-[3/4] w-full max-w-sm overflow-hidden rounded-2xl shadow-card'
+            : 'aspect-[4/3] w-full max-w-xl overflow-hidden rounded-2xl shadow-card'
         return (
           <section className={`section ${bg}`}>
             <div className="container-page flex flex-col items-center text-center">
               <SectionHeader heading={section.heading} subheading={section.subheading} center />
-              <div className={`relative mt-2 ${badge ? 'h-40 w-40' : 'aspect-[4/3] w-full max-w-xl overflow-hidden rounded-2xl shadow-card'}`}>
-                <SmartImage src={src!} alt={section.image!.alt} fill sizes="(max-width:768px) 90vw, 40vw" className={badge ? 'object-contain' : 'object-cover'} />
+              <div className={`relative mt-2 ${frame}`}>
+                <SmartImage src={src!} alt={section.image!.alt} fill sizes="(max-width:768px) 90vw, 24rem" className={badge ? 'object-contain' : `object-cover ${portrait ? 'object-top' : ''}`} />
               </div>
             </div>
           </section>
@@ -105,6 +114,10 @@ export default function Section({ section, alt, slug, phone, phoneHref }: Sectio
               badge ? (
                 <div className="relative mx-auto h-52 w-52">
                   <SmartImage src={src!} alt={section.image!.alt} fill sizes="200px" className="object-contain" />
+                </div>
+              ) : portrait ? (
+                <div className="relative mx-auto aspect-[3/4] w-full max-w-sm overflow-hidden rounded-2xl shadow-card">
+                  <SmartImage src={src!} alt={section.image!.alt} fill sizes="(max-width:1024px) 90vw, 24rem" className="object-cover object-top" />
                 </div>
               ) : (
                 <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-card">
@@ -278,6 +291,37 @@ export default function Section({ section, alt, slug, phone, phoneHref }: Sectio
     }
 
     case 'team-bio': {
+      const src = section.image?.src
+      // Show the portrait beside the bio — but not when it's the same photo already
+      // in the hero (team member pages), which would show the same face twice.
+      const showAvatar = !!src && canonicalKey(src) !== canonicalKey(heroSrc ?? '')
+
+      // With no body and no avatar to show (the image just repeats the hero), this
+      // would render as a lonely heading over empty space — drop it.
+      if (!showAvatar && body.filter(Boolean).length === 0) return null
+
+      if (showAvatar) {
+        return (
+          <section className={`section ${bg}`}>
+            <div className="container-page">
+              <div className="mx-auto flex max-w-3xl flex-col items-center gap-5 rounded-2xl border border-line bg-white p-7 text-center shadow-card sm:flex-row sm:gap-6 sm:text-left">
+                <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-full ring-4 ring-brand-50">
+                  <SmartImage src={src!} alt={section.image!.alt} fill sizes="96px" className="object-cover object-top" />
+                </div>
+                <div>
+                  {section.heading ? <h3 className="text-lg">{section.heading}</h3> : null}
+                  <div className="prose-brand mt-2 text-base">
+                    {body.map((p, i) => (
+                      <p key={i}>{p}</p>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        )
+      }
+
       return (
         <section className={`section ${bg}`}>
           <div className="container-page">
@@ -305,6 +349,16 @@ export default function Section({ section, alt, slug, phone, phoneHref }: Sectio
         <section className={`section ${bg}`}>
           <div className="container-page">
             <SectionHeader heading={section.heading} subheading={section.subheading} center />
+            {/* Some "contact" sections are really closing statements with body copy and
+                no cards — render that copy instead of dropping it and leaving a lonely heading. */}
+            {body.length ? (
+              <div className={`prose-brand mx-auto max-w-3xl text-center ${items.length ? 'mb-10' : ''}`}>
+                {body.map((p, i) => (
+                  <p key={i}>{p}</p>
+                ))}
+              </div>
+            ) : null}
+            {items.length ? (
             <div className={GRID_WRAP}>
               {items.map((it, i) => {
                 const text = it.text ?? ''
@@ -335,6 +389,7 @@ export default function Section({ section, alt, slug, phone, phoneHref }: Sectio
                 )
               })}
             </div>
+            ) : null}
           </div>
         </section>
       )

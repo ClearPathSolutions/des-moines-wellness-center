@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Phone, ShieldCheck, ArrowRight } from 'lucide-react'
 import type { Hero as HeroType } from '@/lib/types'
+import { orientation } from '@/lib/images'
 import SmartImage from './SmartImage'
 
 type Props = {
@@ -11,6 +12,7 @@ type Props = {
 
 export default function Hero({ hero, accreditations, compact }: Props) {
   const hasImage = !!hero.image?.src
+  const isPortrait = orientation(hero.image?.src) === 'portrait'
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-brand-50 to-cream">
       <div
@@ -55,14 +57,18 @@ export default function Hero({ hero, accreditations, compact }: Props) {
         {hasImage ? (
           <div className="relative animate-fade-up">
             <div className="absolute -right-6 -top-6 h-32 w-32 rounded-full bg-gold/15 blur-2xl" />
-            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-soft">
+            <div
+              className={`relative overflow-hidden rounded-2xl shadow-soft ${
+                isPortrait ? 'mx-auto aspect-[4/5] w-full max-w-sm' : 'aspect-[4/3]'
+              }`}
+            >
               <SmartImage
                 src={hero.image!.src}
                 alt={hero.image!.alt}
                 fill
                 priority
-                sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover"
+                sizes={isPortrait ? '(max-width: 1024px) 100vw, 24rem' : '(max-width: 1024px) 100vw, 50vw'}
+                className={`object-cover ${isPortrait ? 'object-top' : ''}`}
               />
             </div>
           </div>
