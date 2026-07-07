@@ -1,0 +1,514 @@
+{
+  "slug": "programs/residential-rehab-des-moines",
+  "pageType": "program",
+  "seo": {
+    "title": "Residential Addiction Treatment in Des Moines, Iowa | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Get a complete environmental reset at our Des Moines residential program. We provide physician-led inpatient care focused on fixing the roots of addiction."
+  },
+  "hero": {
+    "eyebrow": "",
+    "headline": "Residential Addiction Treatment in Des Moines, Iowa",
+    "subhead": "",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_1467369677-scaled.jpg",
+      "alt": "Person standing on a mountain peak at sunrise, symbolizing a fresh start and the mental clarity achieved through residential treatment at Des Moines Wellness."
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-you-need-to-know",
+      "kind": "features",
+      "heading": "Inpatient: What You Need To Know",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Clinical Goal",
+          "text": "To identify and deconstruct the underlying trauma and behavioral triggers driving substance use.",
+          "icon": ""
+        },
+        {
+          "title": "Medical Oversight",
+          "text": "24/7 on-site support provided by a multidisciplinary team of doctors and master’s-level therapists.",
+          "icon": ""
+        },
+        {
+          "title": "Average Duration",
+          "text": "Most stays range from 30 to 45 days. The exact length depends on personal progress and milestones.",
+          "icon": ""
+        },
+        {
+          "title": "Evidence-Based Modalities",
+          "text": "Integration of CBT, DBT, and EMDR to rewire your stress responses and coping mechanisms.",
+          "icon": ""
+        },
+        {
+          "title": "Dual Diagnosis",
+          "text": "Specialized care for co-occurring mental health disorders like depression, anxiety, and PTSD.",
+          "icon": ""
+        },
+        {
+          "title": "Location",
+          "text": "A premier clinical estate in Des Moines, offering immediate access to Central Iowa’s premier recovery network.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "insurance-accepted",
+      "kind": "insurance",
+      "heading": "Most Major Private Insurance Plans Accepted",
+      "subheading": "",
+      "body": [
+        "At Des Moines Wellness Center, we believe that financial barriers should never stand in the way of life-saving care. Our admissions team works directly with your provider to maximize your benefits and minimize out-of-pocket costs. We provide a 100% confidential insurance verification process to get you the answers you need in minutes."
+      ],
+      "items": [
+        {
+          "title": "NYSHIP-Logo-White.png",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White.png"
+        },
+        {
+          "title": "mcr-aetna-white.webp",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white.webp"
+        },
+        {
+          "title": "UMR-Logo-White.png",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White.png"
+        },
+        {
+          "title": "mcr-first-health-network-white.webp",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white.webp"
+        },
+        {
+          "title": "Surest-Logo-White.png",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White.png"
+        },
+        {
+          "title": "cigna-white.webp",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white.webp"
+        },
+        {
+          "title": "anthem-white.webp",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white.webp"
+        },
+        {
+          "title": "med-mutual-white.webp",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white.webp"
+        },
+        {
+          "title": "mcr-uhc-white.webp",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white.webp"
+        },
+        {
+          "title": "mcr-beacon-white.webp",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "what-happens-in-residential-treatment",
+      "kind": "prose",
+      "heading": "What happens in Residential Treatment?",
+      "subheading": "Moving beyond detox to fix the root of the problem",
+      "body": [
+        "Residential treatment is where the real change happens. After you’ve finished detox and your body is clear, you move into our facility full-time to focus 100% on your recovery. Think of it as a clinical sanctuary, a safe, private place in Des Moines where the outside world and all its triggers can’t reach you while you do the heavy lifting of healing.",
+        "During this program, you are actively working with our team every day. We look at the roots of your addiction (like old trauma, family issues, or high-stress habits) and we teach you how to handle those feelings without needing a substance. You’ll have a structured schedule of therapy, wellness, and medical support designed to rewire your brain and give you a fresh start."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "who-we-help",
+      "kind": "features",
+      "heading": "Who We Help In Our Residential Program:",
+      "subheading": "",
+      "body": [
+        "Our residential care is designed for people who need more than just a weekly meeting to stay sober:"
+      ],
+      "items": [
+        {
+          "title": "Anyone coming out of detox",
+          "text": "If you’ve just finished clearing the substances from your system, this program ensures you don't go back to a hollow home environment too soon.",
+          "icon": ""
+        },
+        {
+          "title": "Individuals with a Dual Diagnosis",
+          "text": "If you are dealing with depression, anxiety, or PTSD alongside your addiction, we provide the specialized medical care needed to treat both.",
+          "icon": ""
+        },
+        {
+          "title": "People struggling with chronic relapse",
+          "text": "If you’ve tried to quit before but keep ending up back at square one, our fixing the roots approach is designed to break that cycle.",
+          "icon": ""
+        },
+        {
+          "title": "Professionals needing a complete break",
+          "text": "If your environment is full of triggers or high stress, our Des Moines facility offers a private, secure space to step away and focus entirely on your health.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "clinical-sanctuary",
+      "kind": "prose",
+      "heading": "Our Clinical Sanctuary In Iowa",
+      "subheading": "A private, calm space to reset your life",
+      "body": [
+        "Recovery is hard enough; you shouldn’t have to do it in a loud, chaotic hospital setting. Our Des Moines facility is designed to be a clinical sanctuary, a quiet, high-end environment where you can actually hear your own thoughts. By removing the noise and stress of your everyday life, we give your nervous system a chance to finally calm down.",
+        "You’ll have a semi-private or private room, healthy meals prepared by our team, and plenty of space for reflection. This isn’t just about comfort; it’s about creating a secure space where you feel safe enough to be honest and do the deep work of fixing the roots of your addiction."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "levels-of-care-continuum",
+      "kind": "steps",
+      "heading": "Medical Detox Is Only The First Step",
+      "subheading": "",
+      "body": [
+        "Recovery happens in stages, moving you from a high level of medical support toward complete independence. We meet you where you are, using our Des Moines facility as a home base to help you transition from the physical crisis of addiction back into a healthy, productive life."
+      ],
+      "items": [
+        {
+          "title": "Medical Detox",
+          "text": "Get Rid Of The Substance. We focus on your physical safety, clearing the substances from your body comfortably under 24/7 medical supervision.",
+          "icon": ""
+        },
+        {
+          "title": "Residential Inpatient",
+          "text": "Immersive Stabilization. We do the deep work of fixing the roots of the addiction while you live on-site in our private, trigger-free sanctuary.",
+          "icon": ""
+        },
+        {
+          "title": "Outpatient Programs",
+          "text": "Back to Real Life. We support your transition back to daily life, providing therapy and peer support to help you stay sober in the real world.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "a-day-in-treatment",
+      "kind": "steps",
+      "heading": "A Day in Residential Treatment in Des Moines Wellness IOWA",
+      "subheading": "What your day looks like",
+      "body": [
+        "One of the biggest parts of recovery is getting back into a healthy routine. When you’re in active addiction, life is usually chaotic. Here, we help you rebuild your day with a mix of hard work, healthy habits, and time to rest. You can expect:"
+      ],
+      "items": [
+        {
+          "title": "Mornings: Grounding and Health",
+          "text": "We start the day early with a healthy breakfast and a morning check-in. This is when we set our intentions for the day and check in on your physical health with our medical team.",
+          "icon": ""
+        },
+        {
+          "title": "Afternoons: Deep Clinical Work",
+          "text": "The middle of the day is for the heavy lifting. You’ll have one-on-one therapy sessions and small group meetings where we dive into the \"roots\" and give you the actual tools you need to stay sober.",
+          "icon": ""
+        },
+        {
+          "title": "Evenings: Reflection and Connection",
+          "text": "After dinner, we slow things down. We have peer support groups where you can talk to others who get what you’re going through, followed by personal time for journaling or reading before lights out.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "specialized-rehab-programs",
+      "kind": "prose",
+      "heading": "Specialized Rehab Programs for each substance in Iowa",
+      "subheading": "Specialized Tracks for Every Journey",
+      "body": [
+        "In residential treatment, we move beyond just getting the substances out of your system. We use specialized clinical tracks to address the unique ways different substances affect your brain and behavior. No two addictions, and no two people, are the same. Your treatment plan is built specifically for you, adapting our clinical approach based on the substance you’ve been using and your unique personal history.",
+        "We focus on rebuilding the physical and mental health damaged by long-term drinking. You’ll work on identifying social triggers and learning the specific refusal skills needed to navigate a culture where alcohol is everywhere.",
+        "These substances often hide underlying anxiety or physical pain. Our track focuses on teaching your nervous system how to stay calm and manage stress naturally without a pill, ensuring a safe transition to a chemical-free life.",
+        "The cycle of opioid use is driven by changes in the brain’s reward system. We use a combination of therapy and medical support to reset that system, focusing heavily on craving management and preventing the high risk of relapse.",
+        "For those whose use has led to amotivational syndrome or chronic anxiety, we provide a structured reset. We focus on restoring your natural sleep patterns, mental clarity, and the ability to find joy in life without being high.",
+        "Stimulant recovery requires a focus on restoring your brain’s natural energy and mood. This track provides the high-structure environment needed to manage the “crash” and repair the cognitive focus that stimulants often strip away.",
+        "Whether it was for pain or focus, prescription dependency creates specific behavioral loops. We help you deconstruct the habit of pilling and replace it with healthy, sustainable ways to manage your symptoms.",
+        "Cocaine and stimulant use can lead to intense cravings and long-term neurological effects. Our treatment focuses on restoring balance, managing triggers, and building the coping skills needed for sustained recovery.",
+        "If you are struggling with depression, PTSD, or anxiety alongside your addiction, this track is for you. We don’t treat them as two separate problems; we treat them as one connected issue, providing the psychiatric care and therapy needed to heal your mind and body together."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "why-choose-us",
+      "kind": "features",
+      "heading": "Why People chose our des moines inpatient program in Iowa",
+      "subheading": "PREMIER INPATIENT CARE IN IOWA",
+      "body": [
+        "Healing starts with a change of environment. As part of the Quadrant Health Network , Des Moines Wellness provides a high-intensity residential program backed by national clinical standards. We offer the environmental reset you need to step away from daily triggers and focus 100% on fixing the roots of addiction in a safe, physician-led setting."
+      ],
+      "items": [
+        {
+          "title": "Physician-Led Clinical Care",
+          "text": "We don't just provide a room; we provide 24/7 medical and psychiatric oversight from experts who specialize in fixing the roots of addiction.",
+          "icon": ""
+        },
+        {
+          "title": "A True Environmental Reset",
+          "text": "Our facility serves as a quiet, secure sanctuary away from daily triggers, allowing your nervous system to stabilize and heal.",
+          "icon": ""
+        },
+        {
+          "title": "Integrated Dual Diagnosis",
+          "text": "We treat the addiction and the mental health (anxiety, depression, PTSD) at the same time—because you can’t fix one without the other.",
+          "icon": ""
+        },
+        {
+          "title": "Central Iowa’s Recovery Leader",
+          "text": "Located in the heart of Des Moines, we offer a premier clinical environment with a full continuum of care from detox to long-term sobriety.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "common-questions",
+      "kind": "prose",
+      "heading": "Common Questions About Residential Treatment",
+      "subheading": "",
+      "body": [
+        "To help you achieve a true environmental reset, we limit the use of personal electronics during the early stages of treatment. This allows you to disconnect from outside triggers and focus entirely on your clinical progress. Scheduled phone time is provided as you move through the program.",
+        "Bring about a week’s worth of comfortable, modest clothing, personal toiletries (alcohol-free), and any current medications in their original bottles. We provide a peaceful, sanctuary-like environment, so leave valuables and electronics at home to keep your focus on recovery.",
+        "Yes, but we prioritize your clinical stability first. Family involvement is a key part of fixing the roots of addiction, so we schedule specific family days and supervised visits once our clinical team determines it is beneficial for your recovery process.",
+        "Most patients stay between 30 to 45 days, but the exact duration depends on your personal progress. We focus on hitting specific clinical milestones rather than watching the clock, ensuring you are fully stabilized before transitioning to the next phase of care.",
+        "We offer both private and semi-private rooms designed to feel like a clinical sanctuary rather than a hospital. Every space is structured to provide the privacy and comfort you need to rest and process your therapy sessions without the noise of a traditional medical setting.",
+        "We work with most major private insurance providers as part of the Quadrant Health Network. Because every plan is different, we offer a free, confidential insurance verification before you arrive so you know exactly what is covered. Call us at (888) 378-2158 to get a fast answer."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "medically-reviewed-by",
+      "kind": "team-bio",
+      "heading": "Medically Reviewed By Wesley Starlin, LMHC",
+      "subheading": "",
+      "body": [
+        "Wesley Starlin is the Executive Director at Des Moines Wellness Center with over 15 years of experience in behavioral health and addiction treatment."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
+        "alt": "Wesley Starlin - Executive Director"
+      }
+    },
+    {
+      "id": "levels-of-care",
+      "kind": "prose",
+      "heading": "Levels Of Care",
+      "subheading": "",
+      "body": [],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "immediate-consultation",
+      "kind": "cta",
+      "heading": "Immediate Clinical Consultation & Placement",
+      "subheading": "",
+      "body": [
+        "Don’t navigate the complexities of addiction alone. Whether you are seeking admission for yourself or a loved one, our Des Moines team is ready to provide a confidential clinical assessment and verify your insurance coverage. Your path to stabilization begins with a single conversation."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "leading-inpatient-center",
+      "kind": "prose",
+      "heading": "Des Moines' Leading Inpatient Treatment Center",
+      "subheading": "your RECOVERY STARTS HERE",
+      "body": [
+        "Choosing the right residential treatment center is a life-changing decision. At Des Moines Wellness, we provide a high-intensity inpatient program designed to fix the underlying causes of substance use. By combining dual diagnosis care with a complete environmental reset, we help individuals from across Central Iowa and beyond break the cycle of chronic relapse in a safe, physician-led setting.",
+        "Whether you are seeking help for alcoholism, opioid addiction, or prescription drug dependency, our master’s-level clinicians are ready to help. As part of the Quadrant Health Network, we offer a premier clinical sanctuary for those in Des Moines, Ankeny, Polk County and people traveling from all Iowa or out of state. Don’t wait for the perfect time to start your medical stabilization and recovery journey. Call today."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "secure-assessment",
+      "kind": "contact",
+      "heading": "Secure Your Private Clinical Assessment",
+      "subheading": "START THE PROCESS",
+      "body": [
+        "Ready to move from research to recovery? Fill out the confidential form below to connect directly with our Des Moines admissions team. We provide a comprehensive medical review and insurance verification to ensure your transition into detox, residential or outpatient programs is seamless and immediate."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_1467369677-scaled.jpg",
+      "alt": "Person standing on a mountain peak at sunrise, symbolizing a fresh start and the mental clarity achieved through residential treatment at Des Moines Wellness.",
+      "role": "hero"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/goldseal_national-1-scaled-1-1.png",
+      "alt": "des moines wellness center joint commission accredited",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/legit-script-certified_9eead42e-ecae-4ef3-b52d-82412e0e9e42-1-1.webp",
+      "alt": "des moines wellness center legitscript accredited",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White.png",
+      "alt": "NYSHIP-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white.webp",
+      "alt": "mcr-aetna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White.png",
+      "alt": "UMR-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white.webp",
+      "alt": "mcr-first-health-network-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White.png",
+      "alt": "Surest-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white.webp",
+      "alt": "cigna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white.webp",
+      "alt": "anthem-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white.webp",
+      "alt": "med-mutual-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white.webp",
+      "alt": "mcr-uhc-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp",
+      "alt": "mcr-beacon-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
+      "alt": "Wesley Starlin - Executive Director",
+      "role": "section"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "Tour The Facility",
+      "href": "http://tour"
+    },
+    {
+      "label": "Read The Bio",
+      "href": "/welsey-starlin"
+    },
+    {
+      "label": "Verify Your Insurance",
+      "href": "/admissions"
+    }
+  ]
+}

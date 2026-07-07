@@ -1,0 +1,87 @@
+{
+  "slug": "blog",
+  "pageType": "blog-index",
+  "seo": {
+    "title": "Addiction & Mental Health Blog | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Explore articles on addiction treatment, detox, mental health, dual diagnosis care, relapse prevention, and recovery support from Des Moines Wellness."
+  },
+  "hero": {
+    "eyebrow": "Recovery Resources & Insights",
+    "headline": "Addiction & Mental Health Blog",
+    "subhead": "At Des Moines Wellness Center, we believe education plays an important role in recovery and mental wellness. Our blog covers topics related to addiction treatment, mental health, recovery support, detox, dual diagnosis care, and evidence-based therapies to help individuals and families better understand the recovery process.",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/shutterstock_2612586187-scaled.jpg",
+      "alt": "A peaceful path representing the recovery journey"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "latest-posts",
+      "kind": "hub-list",
+      "heading": "See Our Latest Posts",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "How Alcohol Addiction Can Impact Every Area of Life",
+          "text": "Alcohol addiction often develops gradually. For many people, drinking starts as a social activity, a way to relax after work, or a method of coping with stress. Because alcohol is so widely accepted, it can be difficult to recognize when occasional drinking has become a larger problem. Over time, however,",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/shutterstock_2568084155-1024x683.jpg",
+        "alt": "Woman struggling with alcohol addiction drinking alone"
+      }
+    },
+    {
+      "id": "cta-recovery",
+      "kind": "cta",
+      "heading": "Stop Managing the Crisis. Start Mapping the Recovery.",
+      "subheading": "The Best Version of Your Life is Within Reach",
+      "body": [
+        "Recovery isn’t just about leaving addiction behind, it’s about moving toward the life you deserve. At Des Moines Wellness Center, we provide the clinical expertise and local community support to help you rediscover your purpose. Let’s build your path forward together, starting right now."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2524730669-1024x683.jpg",
+        "alt": "A person experiencing freedom and peace during outpatient recovery at a Johnston clinical estate in Des Moines."
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/shutterstock_2568084155-1024x683.jpg",
+      "alt": "Woman struggling with alcohol addiction drinking alone",
+      "role": "section"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2524730669-1024x683.jpg",
+      "alt": "A person experiencing freedom and peace during outpatient recovery at a Johnston clinical estate in Des Moines.",
+      "role": "section"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "Read More »",
+      "href": "/how-alcohol-addiction-can-impact-every-area-of-life"
+    }
+  ]
+}

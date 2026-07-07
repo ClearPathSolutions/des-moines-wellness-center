@@ -1,0 +1,75 @@
+{
+  "slug": "team",
+  "pageType": "hub-team",
+  "seo": {
+    "title": "Meet Our Clinical & Leadership Team | Des Moines Wellness Center",
+    "description": "Meet the board-certified clinicians and leadership behind Des Moines Wellness Center — experienced professionals guiding addiction and dual diagnosis care in Iowa."
+  },
+  "hero": {
+    "eyebrow": "The Faces Behind Your Care",
+    "headline": "Meet Our Team",
+    "subhead": "Our leadership and clinical team bring years of experience in addiction medicine, nursing, and behavioral health to every patient we serve. Get to know the people guiding your recovery.",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2766389405-1024x683.jpg",
+      "alt": "The compassionate clinical team at Des Moines Wellness Center supporting patients in recovery."
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "team-intro",
+      "kind": "prose",
+      "heading": "Experienced, Compassionate, Local",
+      "subheading": "OUR LEADERSHIP",
+      "body": [
+        "Des Moines Wellness Center is led by a multidisciplinary team of board-certified clinicians and healthcare professionals with a shared commitment to evidence-based, trauma-informed care. From medical detox to long-term aftercare, our staff bring decades of collective experience to Iowa's recovery community.",
+        "Select any team member below to learn more about their background, credentials, and role in your care."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "team-cta",
+      "kind": "cta",
+      "heading": "Ready to Speak With Our Team?",
+      "subheading": "",
+      "body": [
+        "Our intake specialists are available 24/7 for confidential assessments and insurance verification. Reach out and take the first step toward recovery today."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2766389405-1024x683.jpg",
+      "alt": "The compassionate clinical team at Des Moines Wellness Center supporting patients in recovery.",
+      "role": "hero"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  ]
+}

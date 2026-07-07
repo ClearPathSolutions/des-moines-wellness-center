@@ -1,0 +1,525 @@
+{
+  "slug": "programs/php-des-moines",
+  "pageType": "program",
+  "seo": {
+    "title": "Partial Hospitalization Program (PHP) in Des Moines, Iowa | Des Moines Wellness Center",
+    "description": "Comprehensive Day Treatment for Long-Term Recovery"
+  },
+  "hero": {
+    "eyebrow": "",
+    "headline": "Partial Hospitalization Program (PHP) in Des Moines, Iowa",
+    "subhead": "Comprehensive Day Treatment for Long-Term Recovery",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_653389807-scaled.jpg",
+      "alt": "A man standing on a lush green hilltop overlooking a vast valley and mountains under a bright blue sky, representing a fresh start and the journey to recovery at a Des Moines addiction treatment center."
+    },
+    "primaryCta": {
+      "label": "Call (888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "comprehensive-day-treatment",
+      "kind": "features",
+      "heading": "Comprehensive Day Treatment for Long-Term Recovery",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Clinical Goal",
+          "text": "To deconstruct the trauma and behavioral triggers driving addiction without an overnight stay.",
+          "icon": ""
+        },
+        {
+          "title": "Program Intensity",
+          "text": "Full-day programming that mirrors the clinical depth of residential treatment.",
+          "icon": ""
+        },
+        {
+          "title": "Frequency",
+          "text": "5 days per week (approx. 9:00 AM – 3:30 PM), providing 30+ hours of weekly clinical contact.",
+          "icon": ""
+        },
+        {
+          "title": "Expert Oversight",
+          "text": "Daily access to master’s-level therapists and psychiatric support for dual-diagnosis care.",
+          "icon": ""
+        },
+        {
+          "title": "Proven Excellence",
+          "text": "Backed by Quadrant Health’s 10+ years of accredited, gold-standard clinical results.",
+          "icon": ""
+        },
+        {
+          "title": "Evidence-Based Therapies",
+          "text": "Integration of CBT, DBT, and EMDR to address trauma and modify behavior.",
+          "icon": ""
+        },
+        {
+          "title": "Prime Location",
+          "text": "Rehab located in Des Moines, minutes from I-35/I-80 for easy metro access.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "insurance-accepted",
+      "kind": "insurance",
+      "heading": "Most Major Private Insurance Plans Accepted",
+      "subheading": "",
+      "body": [
+        "At Des Moines Wellness Center, we believe that financial barriers should never stand in the way of life-saving care. Our admissions team works directly with your provider to maximize your benefits and minimize out-of-pocket costs. We provide a 100% confidential insurance verification process to get you the answers you need in minutes."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "high-intensity-php-day-treatment",
+      "kind": "prose",
+      "heading": "High-Intensity PHP Day Treatment in Des Moines, IA",
+      "subheading": "THE HIGHEST LEVEL OF CARE",
+      "body": [
+        "A Partial Hospitalization Program (PHP) is the most intensive outpatient rehab option available. Often called “Day Treatment,” it delivers the clinical structure of residential treatment without the overnight stay. Our Des Moines PHP provides a high-level intervention for those who need significant support to stabilize and fix the roots of addiction while living at home.",
+        "According to NIH and SAMHSA research, PHP day treatment yields outcomes comparable to inpatient care. Studies show a 40% higher long-term stability rate over standard outpatient therapy because patients can apply recovery tools in the real world immediately."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "who-is-it-for",
+      "kind": "features",
+      "heading": "Who is it for?",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "You Require a Higher Level of Accountability",
+          "text": "You need a structured, full-day environment to stay focused on your recovery goals.",
+          "icon": ""
+        },
+        {
+          "title": "You are Navigating Dual-Diagnosis",
+          "text": "You need daily access to psychiatric support and master’s-level therapists to manage co-occurring mental health disorders.",
+          "icon": ""
+        },
+        {
+          "title": "You are Stepping Down from Inpatient",
+          "text": "You have completed a residential stay but aren't ready for the total independence of a standard outpatient schedule.",
+          "icon": ""
+        },
+        {
+          "title": "You Have a Supportive Home Environment",
+          "text": "You have a safe, stable place to sleep in the Des Moines area but need professional support throughout the day.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "php-vs-iop",
+      "kind": "cards",
+      "heading": "PHP vs. IOP: Choosing the Right Level of Support",
+      "subheading": "FINDING YOUR FIT",
+      "body": [
+        "While both programs allow you to live at home, the difference lies in the intensity of the clinical work. Use the breakdown below to see which path aligns with your current recovery needs."
+      ],
+      "items": [
+        {
+          "title": "PHP (Day Treatment)",
+          "text": "Best For: Early recovery & high clinical need\nClinical Goal: Crisis stabilization & deep trauma work\nFrequency: 5 Days Per Week\nWeekly Hours: 30+ Hours\nSchedule: Full-day (9:00 AM – 3:30 PM)\nDaily Life: Focus is 100% on recovery",
+          "icon": ""
+        },
+        {
+          "title": "IOP (Intensive Outpatient)",
+          "text": "Best For: Stabilized recovery & transition\nClinical Goal: Maintenance & real-world integration\nFrequency: 3–5 Days Per Week\nWeekly Hours: 9–15 Hours\nSchedule: Part-time (Morning or Evening)\nDaily Life: Balance of recovery, work, or school",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "where-php-fits",
+      "kind": "steps",
+      "heading": "Where PHP Fits in Your Recovery Journey",
+      "subheading": "",
+      "body": [
+        "Recovery is a progression. Our Des Moines facility uses a step-down model to ensure you have the right amount of support at every stage. PHP (Partial Hospitalization) serves as the critical bridge between 24-hour residential care and the independence of traditional outpatient programs."
+      ],
+      "items": [
+        {
+          "title": "Medical Detox",
+          "text": "Get Rid Of The Substance\nThe essential first step where we provide medical oversight to safely manage withdrawal symptoms and clear the body of substances.",
+          "icon": ""
+        },
+        {
+          "title": "Residential Inpatient",
+          "text": "Immersive Stabilization\nA 24/7 immersive environment where you live onsite to focus entirely on intensive healing and breaking the cycle of addiction.",
+          "icon": ""
+        },
+        {
+          "title": "Outpatient Programs",
+          "text": "Back to Real Life\nThis is where you transition back to daily life. Our PHP offers full-day clinical intensity while you sleep at home. IOP allow to work or go to school.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "what-to-expect",
+      "kind": "features",
+      "heading": "What to Expect During PHP At Des Moines Wellness Center",
+      "subheading": "What your day looks like",
+      "body": [
+        "Transitioning into a Partial Hospitalization Program shouldn’t feel like entering a hospital. At our Des Moines drug rehab, we’ve designed the experience to feel like a workday for your wellness. You get the highest level of care during the day and sleep in your own bed at night. We offer:"
+      ],
+      "items": [
+        {
+          "title": "A Private, Sanctuary Setting",
+          "text": "Recover in a private, high-end estate designed for comfort and peace of mind.",
+          "icon": ""
+        },
+        {
+          "title": "Group Connection",
+          "text": "Small group sessions using CBT and DBT to build emotional regulation and peer support.",
+          "icon": ""
+        },
+        {
+          "title": "One-on-One Clinical Work",
+          "text": "One-on-one therapy sessions to process trauma and refine your personal recovery plan.",
+          "icon": ""
+        },
+        {
+          "title": "Full-Day Structure",
+          "text": "Engagement typically runs from 9:00 AM to 3:30-5 PM, providing a consistent daily routine.",
+          "icon": ""
+        },
+        {
+          "title": "Family Healing",
+          "text": "Clinical sessions focused on mending relationships and creating a supportive home environment.",
+          "icon": ""
+        },
+        {
+          "title": "Catered Nutrition",
+          "text": "Healthy, chef-prepared meals are provided daily to support your physical recovery.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "why-choose-our-php",
+      "kind": "features",
+      "heading": "Why Choose Our Des Moines PHP?",
+      "subheading": "LOCAL EXCELLENCE in Iowa",
+      "body": [
+        "Selecting a Partial Hospitalization Program is a major decision for your long-term health. We provide a premier clinical experience that combines the high standards of a national network with the personalized care of a local Des Moines sanctuary."
+      ],
+      "items": [
+        {
+          "title": "Expert Local Clinicians",
+          "text": "You will work with a dedicated team of master's-level therapists and psychiatric experts who understand the unique needs of each individual.",
+          "icon": ""
+        },
+        {
+          "title": "Accredited Clinical Sanctuary",
+          "text": "Our facility offers a accredited, high-end setting where you can escape the noise and focus entirely on fixing the roots of your addiction.",
+          "icon": ""
+        },
+        {
+          "title": "True Continuum of Care",
+          "text": "Because we offer both PHP and IOP at the same location, you can step down your treatment intensity seamlessly without having to switch providers or locations as you progress.",
+          "icon": ""
+        },
+        {
+          "title": "Real-World Integration",
+          "text": "We prioritize a schedule that allows you to receive over 30 hours of weekly clinical support while still returning home each evening to stay connected to your local support system.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "targeted-recovery-tracks",
+      "kind": "prose",
+      "heading": "Targeted Recovery Tracks & Dual Diagnosis Support",
+      "subheading": "COMPREHENSIVE CLINICAL FOCUS",
+      "body": [
+        "At our Des Moines Alcohol & Drug rehab, we offer specialized tracks for alcohol , benzos , meth addiction , and more, tailoring our evidence-based protocols to the specific neurological and physical challenges of each substance. Our master’s-level clinicians provide the expert oversight necessary to fix the roots of the habit.",
+        "Beyond substance-specific care, we specialize in dual diagnosis treatment . We understand that addiction rarely exists in a vacuum, often intertwining with depression, anxiety, or PTSD. By treating these co-occurring disorders and substance use simultaneously, we stop the revolving door of relapse. Our Des Moines PHP integrates psychiatric medication management with trauma-informed therapy, ensuring that your mental health is supported as your body heals. This comprehensive approach provides the clinical depth of a residential stay while allowing you to remain grounded in your daily life."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "convenient-access",
+      "kind": "contact",
+      "heading": "Convenient Access for Central Iowa",
+      "subheading": "COMMUTING MADE EASY",
+      "body": [
+        "Our program is located at 5820 Winwood Dr, Johnston, IA 50131. We have chosen this private setting to provide a quiet, professional sanctuary that remains minutes away from the heart of the Des Moines metro.",
+        "For those attending our Des Moines PHP, we can help coordinate transportation logistics to ensure you arrive safely for your sessions and return home without stress. Our goal is to make your commute as seamless as your clinical care."
+      ],
+      "items": [
+        {
+          "title": "Via the I-35 / I-80 Interchange",
+          "text": "We are located just north of the major Des Moines beltway. Take Exit 131 (Merle Hay Road) and head north. This central route provides fast access for anyone traveling from West Des Moines, Urbandale, or Ankeny.",
+          "icon": ""
+        },
+        {
+          "title": "Via Merle Hay Road",
+          "text": "As a primary Des Moines artery, Merle Hay Road offers a direct, light-filled drive straight to our doors, avoiding the congestion of downtown.",
+          "icon": ""
+        },
+        {
+          "title": "DART Access",
+          "text": "Our facility is conveniently located near DART (Des Moines Area Regional Transit) Route 5, which runs directly along Merle Hay Road and provides a straightforward connection to the DART Central Station downtown.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "medically-reviewed-by",
+      "kind": "team-bio",
+      "heading": "Medically Reviewed By Wesley Starlin, LMHC",
+      "subheading": "",
+      "body": [
+        "Wesley Starlin is the Executive Director at Des Moines Wellness Center with over 15 years of experience in behavioral health and addiction treatment."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
+        "alt": "Wesley Starlin - Executive Director"
+      }
+    },
+    {
+      "id": "levels-of-care",
+      "kind": "hub-list",
+      "heading": "Levels Of Care",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Detox",
+          "text": "https://desmoinesrecovery.com/medical-detox-des-moines/",
+          "icon": ""
+        },
+        {
+          "title": "Residential",
+          "text": "https://desmoinesrecovery.com/medical-detox-des-moines/",
+          "icon": ""
+        },
+        {
+          "title": "IOP (Intensive Outpatient)",
+          "text": "https://desmoinesrecovery.com/iop-des-moines/",
+          "icon": ""
+        },
+        {
+          "title": "Outpatient",
+          "text": "https://desmoinesrecovery.com/outpatient-program-des-moines",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "immediate-consultation",
+      "kind": "cta",
+      "heading": "Immediate Clinical Consultation & Placement",
+      "subheading": "",
+      "body": [
+        "Don’t navigate the complexities of addiction alone. Whether you are seeking admission for yourself or a loved one, our Des Moines team is ready to provide a confidential clinical assessment and verify your insurance coverage. Your path to stabilization begins with a single conversation."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "premier-php-lasting-recovery",
+      "kind": "prose",
+      "heading": "Premier Des Moines Partial Hospitalization Program for Lasting Recovery",
+      "subheading": "TAKE THE NEXT STEP today",
+      "body": [
+        "If you are looking for an addiction treatment center in Des Moines that offers more than just a temporary fix, our Partial Hospitalization Program is the answer. As part of the Quadrant Health Group , we bring over 10 years of experience in providing high-end clinical excellence to the recovery community. We combine the clinical depth of detox & inpatient rehab with the flexibility of outpatient care, providing a premier recovery center experience at our private estate. Whether you are seeking alcohol rehab, meth addiction treatment, dual diagnosis support, or more, our experts are here to help you fix the roots of the struggle and find long-lasting sobriety.",
+        "Our drug & alcohol rehab serves Polk County, Dallas County, and the broader Iowa area—including West Des Moines, Ankeny, Urbandale, and more. We accept most major private health insurance plans and offer seamless transportation logistics to ensure that high-quality day treatment is accessible to everyone in Iowa. Our admissions team is available 24/7 for a free, confidential assessment. We can verify your insurance in minutes and help you determine if our PHP or IOP track is the best fit for your journey. Call us today!"
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "secure-your-assessment",
+      "kind": "contact",
+      "heading": "Secure Your Private Clinical Assessment",
+      "subheading": "START THE PROCESS",
+      "body": [
+        "Ready to move from research to recovery? Fill out the confidential form below to connect directly with our Des Moines admissions team. We provide a comprehensive medical review and insurance verification to ensure your transition into detox, residential or outpatient programs is seamless and immediate."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_653389807-scaled.jpg",
+      "alt": "A man standing on a lush green hilltop overlooking a vast valley and mountains under a bright blue sky, representing a fresh start and the journey to recovery at a Des Moines addiction treatment center.",
+      "role": "hero"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/goldseal_national-1-scaled-1-1.png",
+      "alt": "des moines wellness center joint commission accredited",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/legit-script-certified_9eead42e-ecae-4ef3-b52d-82412e0e9e42-1-1.webp",
+      "alt": "des moines wellness center legitscript accredited",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White.png",
+      "alt": "NYSHIP-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white.webp",
+      "alt": "mcr-aetna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White.png",
+      "alt": "UMR-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white.webp",
+      "alt": "mcr-first-health-network-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White.png",
+      "alt": "Surest-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white.webp",
+      "alt": "cigna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white.webp",
+      "alt": "anthem-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white.webp",
+      "alt": "med-mutual-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white.webp",
+      "alt": "mcr-uhc-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp",
+      "alt": "mcr-beacon-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
+      "alt": "Wesley Starlin - Executive Director",
+      "role": "section"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Call (888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "Verify Your Insurance",
+      "href": "/admissions"
+    },
+    {
+      "label": "Get Started",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "What We Treat",
+      "href": "/what-we-treat"
+    },
+    {
+      "label": "Read The Bio",
+      "href": "/welsey-starlin"
+    }
+  ]
+}

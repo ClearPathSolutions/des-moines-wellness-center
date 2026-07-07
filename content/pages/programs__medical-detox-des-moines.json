@@ -1,0 +1,554 @@
+{
+  "slug": "programs/medical-detox-des-moines",
+  "pageType": "program",
+  "seo": {
+    "title": "Medical Detox in Des Moines, Iowa | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Safe, 24/7 medical detox in Des Moines. We manage withdrawal with expert clinical care and MAT protocols to prepare you for long-term recovery. Verify your insurance now."
+  },
+  "hero": {
+    "eyebrow": "",
+    "headline": "Alcohol & Drug Medical Detox in Des Moines, Iowa",
+    "subhead": "",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2385668745-scaled.jpg",
+      "alt": "Man on a scenic mountain summit representing a new vantage point and health after medical detox at Des Moines."
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-you-need-to-know",
+      "kind": "features",
+      "heading": "Medical Detox: What You Need To Know",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Clinical Goal",
+          "text": "Immediate physical stabilization and safe management of acute withdrawal symptoms.",
+          "icon": ""
+        },
+        {
+          "title": "Medical Oversight",
+          "text": "24/7 monitoring by our licensed staff to prevent life-threatening complications like seizures.",
+          "icon": ""
+        },
+        {
+          "title": "Average Duration",
+          "text": "Typically 3 to 10 days, depending on the substance and individual medical profile.",
+          "icon": ""
+        },
+        {
+          "title": "Medication-Assisted Treatment (MAT)",
+          "text": "We utilize FDA-approved medications to neutralize cravings and physical distress.",
+          "icon": ""
+        },
+        {
+          "title": "Location",
+          "text": "Rehab situated in the heart of Des Moines, with immediate access to Central Iowa’s recovery network.",
+          "icon": ""
+        },
+        {
+          "title": "The Next Step",
+          "text": "No-gap transition directly into our Des Moines residential or outpatient programming once stabilized.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "insurance-accepted",
+      "kind": "insurance",
+      "heading": "Most Major Private Insurance Plans Accepted",
+      "subheading": "",
+      "body": [
+        "At Des Moines Wellness Center, we believe that financial barriers should never stand in the way of life-saving care. Our admissions team works directly with your provider to maximize your benefits and minimize out-of-pocket costs. We provide a 100% confidential insurance verification process to get you the answers you need in minutes."
+      ],
+      "items": [
+        {
+          "title": "NYSHIP",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White.png"
+        },
+        {
+          "title": "Aetna",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white.webp"
+        },
+        {
+          "title": "UMR",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White.png"
+        },
+        {
+          "title": "First Health Network",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white.webp"
+        },
+        {
+          "title": "Surest",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White.png"
+        },
+        {
+          "title": "Cigna",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white.webp"
+        },
+        {
+          "title": "Anthem",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white.webp"
+        },
+        {
+          "title": "Medical Mutual",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white.webp"
+        },
+        {
+          "title": "UnitedHealthcare",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white.webp"
+        },
+        {
+          "title": "Beacon",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "why-medical-detox",
+      "kind": "prose",
+      "heading": "Why Medical Detox Is The Essential First Step",
+      "subheading": "UNDERSTANDING ACUTE WITHDRAWAL",
+      "body": [
+        "Detox is the process who help you get rid of the substances from your body. The clinical necessity for detox is dictated by your specific substance profile, duration of use, and medical history. But attempting to stop substance use abruptly, often called cold turkey is clinically dangerous, particularly for those with a history of long-term dependency. According to the Substance Abuse and Mental Health Services Administration ( SAMHSA ), approximately 50% of individuals with alcohol use disorder will experience withdrawal symptoms, with a significant portion requiring medical intervention to prevent life-threatening complications. When the brain has been chemically altered, the sudden absence of that substance can cause the central nervous system to enter a state of acute hyper-excitability."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "risks-of-unmanaged-withdrawal",
+      "kind": "features",
+      "heading": "The Risks of Unmanaged Withdrawal:",
+      "subheading": "",
+      "body": [
+        "Without professional medical oversight, withdrawal can lead to severe physiological complications, including:"
+      ],
+      "items": [
+        {
+          "title": "Grand Mal Seizures",
+          "text": "Common in alcohol and benzodiazepine withdrawal.",
+          "icon": ""
+        },
+        {
+          "title": "Delirium Tremens (DTs)",
+          "text": "A life-threatening state of confusion, rapid heartbeat, and hallucinations.",
+          "icon": ""
+        },
+        {
+          "title": "Cardiovascular Distress",
+          "text": "Dangerous spikes in blood pressure and heart rate that can lead to stroke/cardiac arrest.",
+          "icon": ""
+        },
+        {
+          "title": "Psychological Crisis",
+          "text": "Acute anxiety, suicidal ideation, or \"post-acute\" symptoms that lead to immediate relapse.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "stabilization-vs-sobriety",
+      "kind": "prose",
+      "heading": "Stabilization vs. Sobriety:",
+      "subheading": "",
+      "body": [
+        "Detox is not treatment in itself but the medical stabilization required to make treatment possible. By managing these risks in a controlled clinical environment, we neutralize the physical barriers to recovery. This allows your brain chemistry to balance out so you can mentally engage with the therapy and behavioral work that follows in our residential and outpatient programs."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "substances-we-treat",
+      "kind": "cards",
+      "heading": "Specialized Detox Programs for each substance right here in Des Moines",
+      "subheading": "Substances We Treat",
+      "body": [
+        "Every substance affects the body differently, which is why a one-size-fits-all approach doesn’t work for detox. Our Des Moines team provides specialized medical protocols tailored to the specific chemical and neurological challenges of each substance. Whether you are facing the physical dangers of alcohol withdrawal or the intense psychological hurdles of stimulant recovery, we provide the expert oversight needed to stabilize your health and prepare you for the journey ahead."
+      ],
+      "items": [
+        {
+          "title": "Alcohol Rehab",
+          "text": "Alcohol withdrawal requires precise medical management. Our Des Moines program provides a safe, clinical environment to navigate detox, followed by intensive therapy to address the root causes of Alcohol Use Disorder (AUD) and prevent chronic relapse.",
+          "icon": ""
+        },
+        {
+          "title": "Benzo Rehab",
+          "text": "Withdrawing from benzodiazepines like Xanax or Valium is a complex process that demands a specialized, safe taper. We provide 24/7 medical supervision to manage anxiety and physical symptoms, ensuring a stabilized transition to long-term recovery.",
+          "icon": ""
+        },
+        {
+          "title": "Fentanyl Rehab",
+          "text": "Given the extreme potency of synthetic opioids, fentanyl recovery requires high-acuity medical intervention. Our Des Moines team specializes in the specific detox requirements for fentanyl, followed by intensive residential and outpatient support.",
+          "icon": ""
+        },
+        {
+          "title": "Marijuana Rehab",
+          "text": "While often overlooked, marijuana dependence can impact motivation, mental health, and daily functioning. We help clients address underlying patterns, improve focus, and develop healthier habits for long-term stability.",
+          "icon": ""
+        },
+        {
+          "title": "Meth Rehab",
+          "text": "Meth addiction can take a serious toll on both mental and physical health. Our evidence-based approach focuses on stabilizing the brain, reducing cravings, and helping clients rebuild structure, clarity, and long-term coping skills.",
+          "icon": ""
+        },
+        {
+          "title": "Prescription Drug Rehab",
+          "text": "Misuse of prescription medications can quickly lead to dependence and serious health risks. Our treatment approach focuses on safe stabilization, managing withdrawal, and building the tools needed for lasting recovery.",
+          "icon": ""
+        },
+        {
+          "title": "Stimulants Rehab",
+          "text": "Cocaine and stimulant use can lead to intense cravings and long-term neurological effects. Our treatment focuses on restoring balance, managing triggers, and building the coping skills needed for sustained recovery.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "evidence-based-approach",
+      "kind": "steps",
+      "heading": "Our Evidence-Based Approach to Medical Detox in Iowa",
+      "subheading": "PROTOCOLS & SAFETY",
+      "body": [
+        "At our Des Moines facility, we don’t just monitor withdrawal; we actively manage it through a structured medical framework. Our clinical process is designed to move you from acute physical crisis to psychological readiness using standardized medical benchmarks."
+      ],
+      "items": [
+        {
+          "title": "Multi-Dimensional Clinical Assessment",
+          "text": "Comprehensive medical and psychological evaluation aligned with ASAM Criteria to build a stabilization plan tailored to your specific substance history and health profile.",
+          "icon": ""
+        },
+        {
+          "title": "Stabilization & 24/7 Monitoring",
+          "text": "Continuous clinical oversight of vital signs using standardized CIWA (alcohol) and COWS (opioids) scales to identify and treat withdrawal distress before it escalates into a medical emergency.",
+          "icon": ""
+        },
+        {
+          "title": "Neurochemical Realignment (MAT)",
+          "text": "Strategic use of FDA-approved Medication-Assisted Treatment to stabilize brain chemistry, neutralize cravings, and eliminate the physical pain of withdrawal.",
+          "icon": ""
+        },
+        {
+          "title": "Psychosocial Preparation",
+          "text": "Early-stage therapeutic engagement that bridges the gap between physical stabilization and the intensive psychological work of residential or outpatient treatment.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "levels-of-care-transition",
+      "kind": "cards",
+      "heading": "Medical Detox Is Only The First Step",
+      "subheading": "",
+      "body": [
+        "Physiological stabilization is the foundation, but it is not a cure. To ensure a successful recovery, we facilitate a direct transition through our vertically integrated levels of care. This prevents the high risk of relapse that occurs when medical oversight ends prematurely. We offer on-site:"
+      ],
+      "items": [
+        {
+          "title": "Residential Inpatient",
+          "text": "Immersive Stabilization. You stay at our facility to focus entirely on why you started using in the first place. We help you find the root problems and teach you new ways to handle stress without a substance.",
+          "icon": ""
+        },
+        {
+          "title": "Outpatient Programs",
+          "text": "Back to Real Life. You live at home but come to us for a few hours a day for support. This helps you stay sober while you start working or taking care of your family again in Des Moines.",
+          "icon": ""
+        },
+        {
+          "title": "Clinical Aftercare & Alumni",
+          "text": "Staying Sober Long-Term. We connect you with a group of sober friends and local support. It’s an extra layer of protection to make sure you never have to do this alone again.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "dual-diagnosis-support",
+      "kind": "prose",
+      "heading": "Stabilizing Mental Health and Addiction Together",
+      "subheading": "DUAL DIAGNOSIS SUPPORT",
+      "body": [
+        "We understand that addiction often overlaps with mental health challenges like depression, anxiety, or PTSD. Our medical detox serves as the essential first step in treating a dual diagnosis by clearing the substance from your system first. This clean slate allows our clinical team to accurately assess your mental health without the interference of chemicals, ensuring you are stable and ready to begin the deep therapeutic work required to heal both your mind and body."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "How long does medical detox take?",
+          "a": "Most patients stay in our medical detox for 3 to 10 days. The exact timing depends on what substance you were using, how long you’ve been using it, and your overall physical health."
+        },
+        {
+          "q": "Is medical detox painful?",
+          "a": "No. We use FDA-approved medications and 24/7 nursing care to eliminate or greatly reduce the physical pain of withdrawal. Our goal is to keep you comfortable and stable so you can rest."
+        },
+        {
+          "q": "Can I detox at home instead?",
+          "a": "Detoxing at home can be life-threatening, especially with alcohol or benzos which carry a high risk of seizures. Our Des Moines facility provides the medical equipment and doctors needed to handle emergencies that cold turkey quitting can’t."
+        },
+        {
+          "q": "Do you treat mental health issues during detox?",
+          "a": "Detox focuses on physical safety first, but we begin the dual diagnosis process immediately. Once the drugs or alcohol are out of your system, we can accurately diagnose and start treating underlying issues like anxiety or depression."
+        },
+        {
+          "q": "What happens after detox?",
+          "a": "You won’t be left to figure it out alone. Most of our patients move directly into our Residential Treatment program to start fixing the root causes of their addiction while they are still in a safe, clinical environment."
+        },
+        {
+          "q": "Does insurance cover medical detox?",
+          "a": "Most private insurance plans cover medical detox because it is considered a medical necessity. Our admissions team provides a free insurance verification to tell you exactly what your plan covers before you arrive. Call us at (888) 378-2158 to get a fast answer."
+        }
+      ],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "medical-reviewer",
+      "kind": "team-bio",
+      "heading": "Medically Reviewed By Wesley Starlin, LMHC",
+      "subheading": "",
+      "body": [
+        "Wesley Starlin is the Executive Director at Des Moines Wellness Center with over 15 years of experience in behavioral health and addiction treatment."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
+        "alt": "Wesley Starlin - Executive Director"
+      }
+    },
+    {
+      "id": "levels-of-care",
+      "kind": "hub-list",
+      "heading": "Levels Of Care",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Residential",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Outpatient",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Aftercare",
+          "text": "",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "clinical-consultation-cta",
+      "kind": "cta",
+      "heading": "Immediate Clinical Consultation & Placement",
+      "subheading": "",
+      "body": [
+        "Don’t navigate the complexities of addiction alone. Whether you are seeking admission for yourself or a loved one, our Des Moines team is ready to provide a confidential clinical assessment and verify your insurance coverage. Your path to stabilization begins with a single conversation."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "affordable-treatment",
+      "kind": "prose",
+      "heading": "Affordable Medical Detox & Addiction Treatment in Des Moines",
+      "subheading": "START YOUR RECOVERY JOURNEY today",
+      "body": [
+        "Choosing the right medical detox center is the most important decision you will make for your long-term sobriety. At our Des Moines drug rehab, we specialize in acute withdrawal management and dual diagnosis care, providing a safe alternative to dangerous at-home detox attempts. Our program is designed to bridge the gap between physical crisis and long-term residential rehab, ensuring every patient receives a personalized stabilization plan backed by 24/7 physician oversight , backed up by more than 10y of experience in the addiction field.",
+        "We believe high-quality addiction treatment should be accessible. Our admissions team works daily with major private insurance providers to secure the maximum coverage for your stay. Whether you are seeking help for alcohol use disorder , opioid dependency, or poly-substance abuse, we provide the clinical expertise and compassionate care necessary to fix the roots of addiction and reclaim your life. Don’t wait for a medical emergency to seek help. Our Des Moines admissions line is open 24/7 to provide confidential guidance, insurance verification, and immediate placement into our stabilization program."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "secure-clinical-assessment",
+      "kind": "contact",
+      "heading": "Secure Your Private Clinical Assessment",
+      "subheading": "START THE PROCESS",
+      "body": [
+        "Ready to move from research to recovery? Fill out the confidential form below to connect directly with our Des Moines admissions team. We provide a comprehensive medical review and insurance verification to ensure your transition into detox, residential or outpatient programs is seamless and immediate."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2385668745-scaled.jpg",
+      "alt": "Man on a scenic mountain summit representing a new vantage point and health after medical detox at Des Moines.",
+      "role": "hero"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/goldseal_national-1-scaled-1-1.png",
+      "alt": "des moines wellness center joint commission accredited",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/legit-script-certified_9eead42e-ecae-4ef3-b52d-82412e0e9e42-1-1.webp",
+      "alt": "des moines wellness center legitscript accredited",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White.png",
+      "alt": "NYSHIP-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white.webp",
+      "alt": "mcr-aetna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White.png",
+      "alt": "UMR-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white.webp",
+      "alt": "mcr-first-health-network-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White.png",
+      "alt": "Surest-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white.webp",
+      "alt": "cigna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white.webp",
+      "alt": "anthem-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white.webp",
+      "alt": "med-mutual-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white.webp",
+      "alt": "mcr-uhc-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp",
+      "alt": "mcr-beacon-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
+      "alt": "Wesley Starlin - Executive Director",
+      "role": "section"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "Verify Your Insurance",
+      "href": "/admissions"
+    },
+    {
+      "label": "Read The Bio",
+      "href": "/welsey-starlin"
+    }
+  ]
+}

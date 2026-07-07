@@ -1,0 +1,328 @@
+{
+  "slug": "admissions",
+  "pageType": "page",
+  "seo": {
+    "title": "Iowa Drug Rehab Admissions - Insurance Verification | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Hassle-free rehab admissions serving West Des Moines. Instant insurance checks for major private networks. 100% confidential 24/7 line."
+  },
+  "hero": {
+    "eyebrow": "Start addiction treatment today",
+    "headline": "Des Moines Wellness Center Admissions",
+    "subhead": "At Des Moines Wellness Center, we don’t make you jump through hoops. Our admissions process is built to be fast, private, and direct. Whether it’s for you or a family member, we can handle the paperwork, verify your insurance, and get you started the same day.",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2757481985-1024x683.jpg",
+      "alt": "woman starting the admissions process to enter our drug rehab in iowa at des moines wellness center"
+    },
+    "primaryCta": {
+      "label": "Call (888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "we-work-with-your-insurance",
+      "kind": "prose",
+      "heading": "We Work With Your Insurance",
+      "subheading": "Making Drug Rehab Affordable in Iowa",
+      "body": [
+        "Rehab shouldn’t break the bank. We work directly with major private providers like Wellmark Blue Cross Blue Shield, NYSHIP, Aetna, and more to keep your out-of-pocket costs as low as possible. We’ll handle the phone calls to the insurance company for you. Call us now or verify your insurance online and a member of our team will reach out shortly."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "fmla-job-protection",
+      "kind": "prose",
+      "heading": "FMLA & Job Protection during addiction treatment in Iowa",
+      "subheading": "Protecting Your Career While You Recover",
+      "body": [
+        "You shouldn’t have to choose between your job and your life. Under the Family and Medical Leave Act (FMLA), addiction is recognized as a serious health condition. This federal law allows eligible employees in Iowa to take up to 12 weeks of unpaid, job-protected leave for medical treatment.",
+        "Our admissions team handles the paperwork required to secure your leave without compromising your reputation. We ensure your position is legally protected so you can return to work once you complete your stabilization roadmap. We provide the necessary clinical documentation to your HR department to maintain your medical privacy, ensuring your employer never receives sensitive details about your diagnosis. If your company offers short-term disability, we also coordinate that clinical paperwork to help you secure a portion of your income while in our care."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "admissions-process",
+      "kind": "steps",
+      "heading": "Your Path to Recovery in 3 Simple Steps",
+      "subheading": "Iowa's Drug Rehab Admissions Process",
+      "body": [
+        "We’ve removed the red tape to make starting treatment as fast as possible. Our Des Moines team typically coordinates everything, from the first call to walking through our doors, within 24 to 48 hours."
+      ],
+      "items": [
+        {
+          "title": "Step 1: The Confidential Consultation",
+          "text": "It starts with a 15-minute phone call. You’ll speak with an admissions coordinator who understands the urgency of your situation. We’ll ask a few questions about your substance use history and medical needs to ensure our facility is the right clinical fit for you.",
+          "icon": ""
+        },
+        {
+          "title": "Step 2: Insurance & Logistics",
+          "text": "Once we know we can help, we take the burden off you. Our team verifies your insurance benefits and handles any necessary FMLA or workplace documentation. We’ll give you a clear, \"no-fluff\" breakdown of your coverage so there are no financial surprises.",
+          "icon": ""
+        },
+        {
+          "title": "Step 3: Clinical Intake",
+          "text": "When you arrive at our Des Moines facility, you’ll meet immediately with our medical staff. We conduct a precision intake assessment to finalize your personalized stabilization roadmap. You aren't just a number; you start your specific treatment plan the same day you arrive.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "help-a-loved-one",
+      "kind": "features",
+      "heading": "How To Help A Loved One Struggling With Substance Abuse?",
+      "subheading": "Getting Them The Support They Need",
+      "body": [
+        "Watching someone you love struggle with addiction is draining, but the “wait and see” approach often leads to crisis. Our Des Moines admissions team specializes in helping families bridge the gap between recognizing a problem and starting clinical treatment. We provide the direct guidance you need to stop the cycle of enabling and start the process of stabilization. We help with:"
+      ],
+      "items": [
+        {
+          "title": "",
+          "text": "We help you recognize the signs of addiction and when treatment is needed.",
+          "icon": ""
+        },
+        {
+          "title": "",
+          "text": "We support you on how to handle rejection and find the right words to help your loved ones.",
+          "icon": ""
+        },
+        {
+          "title": "",
+          "text": "We keep you involved throughout the whole treatment process.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "why-choose-our-facility",
+      "kind": "features",
+      "heading": "High-Level Drug & Alcohol Rehab in Iowa",
+      "subheading": "Why Choose Our Des Moines Facility",
+      "body": [
+        "Choosing the right addiction treatment center is the most critical step in your recovery. At Des Moines Wellness Center, we provide a full continuum of care that moves you directly from medical detox into long-term sobriety. Whether you are seeking an alcohol rehab program or specialized drug rehab for substance use disorders, our facility is engineered for clinical success."
+      ],
+      "items": [
+        {
+          "title": "On-Site Full Continuum Of Care",
+          "text": "We manage every stage of recovery under one roof. Starts with supervised medical detox and moves directly into residential or outpatient programming once stabilized. This integrated approach ensures no gaps in your progress.",
+          "icon": ""
+        },
+        {
+          "title": "Expert Staff For Real Recovery",
+          "text": "You are treated by licensed medical directors and master’s-level clinicians, not just coaches. This professional oversight ensures your stabilization is based on the latest addiction medicine.",
+          "icon": ""
+        },
+        {
+          "title": "Medication-Assisted Treatment (MAT)",
+          "text": "We use FDA-approved medications like Suboxone or Vivitrol to stabilize brain chemistry and stop cravings. This medical tool allows you to focus on therapy without the distraction of physical withdrawal.",
+          "icon": ""
+        },
+        {
+          "title": "Local Central Iowa Support",
+          "text": "We connect our patients with verified support systems in Polk County, Dallas County and beyond to ensure a seamless transition back to the community.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "support-systems",
+      "kind": "prose",
+      "heading": "Navigating Local And National Support Systems",
+      "subheading": "Addiction treatment resources in Iowa and beyond",
+      "body": [
+        "Finding the right help shouldn’t be overwhelming. Whether you are ready for admission or just beginning to research options, we help you stay surrounded by a verified network of care. Our team doesn’t just provide clinical treatment; we serve as your gateway to the most effective recovery resources in Iowa and across the country."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "local-support-resources",
+      "kind": "hub-list",
+      "heading": "Local Support Resources",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Alcoholics Anonymous (AA) Support Group - Des Moines District 7",
+          "text": "https://aadesmoines.org/",
+          "icon": ""
+        },
+        {
+          "title": "Narcotics Anonymous (NA) Support Group - Des Moines Area",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Your Life Iowa (Statewide Support)",
+          "text": "https://yourlifeiowa.org/",
+          "icon": ""
+        },
+        {
+          "title": "Full Circle Recovery Community Center",
+          "text": "https://recoverfullcircle.org/",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "national-resources",
+      "kind": "hub-list",
+      "heading": "National Resources",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "SAMHSA (Substance Abuse and Mental Health Services Administration)",
+          "text": "https://www.samhsa.gov/find-help/helplines/national-helpline",
+          "icon": ""
+        },
+        {
+          "title": "NAMI (National Alliance on Mental Illness)",
+          "text": "https://www.nami.org/",
+          "icon": ""
+        },
+        {
+          "title": "ASAM (American Society of Addiction Medicine)",
+          "text": "https://www.asam.org/",
+          "icon": ""
+        },
+        {
+          "title": "NIDA (National Institute on Drug Abuse)",
+          "text": "https://nida.nih.gov/",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "frequently-asked-questions",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "Does your Des Moines facility accept insurance?",
+          "a": "Yes. We work with most major private insurance providers to cover medical detox, residential, and outpatient programming. Our admissions team provides a free verification of benefits to determine your exact coverage. Call us at (888) 378-2158 for a fast verification of benefits."
+        },
+        {
+          "q": "How do I know if my loved one needs professional rehab?",
+          "a": "Most patients utilize FMLA or short-term disability to protect their employment. Under federal law, addiction is a protected medical condition, allowing for up to 12 weeks of job-protected leave."
+        },
+        {
+          "q": "Can I keep my job while in treatment?",
+          "a": "Absolutely. We specialize in dual diagnosis treatment. Our board-certified clinical team is trained to treat addiction alongside mental health conditions such as depression, anxiety, PTSD, and bipolar disorder in a single, integrated program."
+        },
+        {
+          "q": "What is the difference between detox and residential rehab?",
+          "a": "Medical detox focuses on physical safety and stabilization during withdrawal. Residential rehab focuses on the behavioral therapy and psychological tools needed to prevent relapse and restore brain health."
+        }
+      ],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "stop-managing-the-crisis",
+      "kind": "cta",
+      "heading": "Stop Managing the Crisis. Start Mapping the Recovery.",
+      "subheading": "",
+      "body": [],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "the-best-version-of-your-life",
+      "kind": "cta",
+      "heading": "The Best Version of Your Life is Within Reach",
+      "subheading": "",
+      "body": [
+        "Recovery isn’t just about leaving addiction behind, it’s about moving toward the life you deserve. At Des Moines Wellness Center, we provide the clinical expertise and local community support to help you rediscover your purpose. Let’s build your path forward together, starting right now."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2757481985-1024x683.jpg",
+      "alt": "woman starting the admissions process to enter our drug rehab in iowa at des moines wellness center",
+      "role": "hero"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/goldseal_national-1-scaled-1-1.png",
+      "alt": "",
+      "role": "logo"
+    },
+    {
+      "src": "../wp-content/uploads/2026/04/legit-script-certified_9eead42e-ecae-4ef3-b52d-82412e0e9e42-1-1.webp",
+      "alt": "des moines wellness center legitscript accredited",
+      "role": "logo"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "Call us now",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    }
+  ]
+}

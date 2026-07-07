@@ -1,0 +1,83 @@
+{
+  "slug": "verify-insurance",
+  "pageType": "page",
+  "seo": {
+    "title": "Verify Your Insurance — Free & Confidential | Des Moines Wellness Center",
+    "description": "Check your addiction treatment benefits in minutes. Free, 100% confidential insurance verification with no obligation. Most major private plans accepted."
+  },
+  "hero": {
+    "eyebrow": "Insurance Verification",
+    "headline": "Verify Your Insurance",
+    "subhead": "Find out what your plan covers in minutes — free, 100% confidential, and with no obligation to enroll. Complete the short form below or call us any time and our admissions team will handle the rest.",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2757481985-1024x683.jpg",
+      "alt": "An admissions specialist verifying insurance benefits at Des Moines Wellness Center."
+    },
+    "primaryCta": {
+      "label": "Call (888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Contact Us",
+      "href": "/contact"
+    }
+  },
+  "sections": [
+    {
+      "id": "verify",
+      "kind": "verify-form",
+      "heading": "Check Your Benefits",
+      "subheading": "It takes about a minute. We'll contact you with your coverage details.",
+      "body": [],
+      "items": [],
+      "faqs": [],
+      "image": { "src": "", "alt": "" }
+    },
+    {
+      "id": "accepted-plans",
+      "kind": "insurance",
+      "heading": "Most Major Private Insurance Plans Accepted",
+      "subheading": "",
+      "body": [
+        "We work directly with most major private insurance providers to maximize your benefits and minimize out-of-pocket costs. Don't see your plan? Call us — we'll check it for you."
+      ],
+      "items": [
+        { "title": "NYSHIP", "text": "", "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White.png" },
+        { "title": "Aetna", "text": "", "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white.webp" },
+        { "title": "UMR", "text": "", "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White.png" },
+        { "title": "First Health Network", "text": "", "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white.webp" },
+        { "title": "Surest", "text": "", "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White.png" },
+        { "title": "Cigna", "text": "", "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white.webp" },
+        { "title": "Anthem", "text": "", "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white.webp" },
+        { "title": "Medical Mutual", "text": "", "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white.webp" },
+        { "title": "UnitedHealthcare", "text": "", "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white.webp" },
+        { "title": "Beacon", "text": "", "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp" }
+      ],
+      "faqs": [],
+      "image": { "src": "", "alt": "" }
+    },
+    {
+      "id": "verify-cta",
+      "kind": "cta",
+      "heading": "Prefer to Talk It Through?",
+      "subheading": "",
+      "body": [
+        "Our admissions specialists are available 24/7 to verify your benefits over the phone and answer any questions — confidentially and with no pressure."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": { "src": "", "alt": "" }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2757481985-1024x683.jpg",
+      "alt": "An admissions specialist verifying insurance benefits at Des Moines Wellness Center.",
+      "role": "hero"
+    }
+  ],
+  "ctas": [
+    { "label": "Call (888) 378-2158", "href": "tel:+18883782158" },
+    { "label": "Contact Us", "href": "/contact" }
+  ]
+}

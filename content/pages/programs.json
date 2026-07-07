@@ -1,0 +1,278 @@
+{
+  "slug": "programs",
+  "pageType": "hub-programs",
+  "seo": {
+    "title": "Addiction Rehab Programs - Detox, Inpatient, PHP & IOP in Iowa | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Discover our personalized addiction treatment programs in Des Moines, Iowa, including detox, residential care, PHP, IOP, and dual diagnosis treatment."
+  },
+  "hero": {
+    "eyebrow": "Substance Abuse Recovery Programs Built for Real Life",
+    "headline": "Alcohol & Drug Addiction Treatment Programs in Iowa",
+    "subhead": "We don’t believe in one-size-fits-all checklists. At Des Moines Wellness Center, our programs combine 15 years of clinical expertise with a simple, human approach to helping you get your life back.",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2079248320-scaled.jpg",
+      "alt": "Residential inpatient treatment accommodations at Des Moines Wellness Center, providing a structured healing environment for long-term recovery."
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "human-centered-approach",
+      "kind": "features",
+      "heading": "A Human-Centered Approach to Medical Recovery",
+      "subheading": "ADDICTION TREATMENT THAT WORKS",
+      "body": [
+        "While our foundation is built on 15 years of clinical expertise, our daily focus is entirely on the individual. We believe that effective addiction treatment should be accessible and easy to understand, not hidden behind corporate barriers. Our approach is designed to bridge the gap between high-level medical detox and the personal support needed to navigate the early stages of sobriety.",
+        "In Des Moines, we’ve created a clinical environment where safety and empathy coexist. We don’t just manage symptoms; we support the person. By combining specialized behavioral health protocols with a direct, honest communication style, we ensure that every Iowan who walks through our doors feels empowered rather than processed. Our programs are built on three core pillars:"
+      ],
+      "items": [
+        {
+          "title": "Clinical Safety",
+          "text": "Every program is anchored by medical detox protocols developed over a decade and a half to ensure your physical stability and comfort.",
+          "icon": ""
+        },
+        {
+          "title": "Local Continuity",
+          "text": "We focus on recovery that works in the context of your life here in Central Iowa, keeping you connected to your support systems in Ankeny and West Des Moines.",
+          "icon": ""
+        },
+        {
+          "title": "Straightforward Guidance",
+          "text": "We replace confusing medical jargon with clear, actionable steps, ensuring you and your family always know exactly where you stand in your substance abuse recovery.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2497236443-1024x540.jpg",
+        "alt": "Individual reflecting during recovery journey at Des Moines Wellness Center in Iowa"
+      }
+    },
+    {
+      "id": "treatment-programs",
+      "kind": "cards",
+      "heading": "Addiction Treatment Programs in the Heart of Iowa",
+      "subheading": "Comprehensive Support from Detox to Aftercare",
+      "body": [
+        "Recovery isn’t a straight line, which is why we’ve structured our programs to meet you exactly where you are. From the first days of physical stabilization to the long-term work of staying sober, our Des Moines facility provides the clinical expertise you need in a setting that feels like home."
+      ],
+      "items": [
+        {
+          "title": "Medical Detox",
+          "text": "Safe Withdrawal Management. Navigate withdrawal safely with 24/7 clinical supervision. Our medical detox focuses on physical stability and comfort during the first steps of your recovery.",
+          "icon": ""
+        },
+        {
+          "title": "Residential Inpatient",
+          "text": "24/7 Inpatient Care. Heal in a 24-hour immersive sanctuary. Our residential program removes you from local triggers so you can focus entirely on your physical and mental health.",
+          "icon": ""
+        },
+        {
+          "title": "Partial Hospitalization",
+          "text": "Intensive Day Care. Receive intensive daily therapy while beginning your transition. PHP provides structured, high-level clinical support for those ready for the next phase of treatment.",
+          "icon": ""
+        },
+        {
+          "title": "Intensive Outpatient (IOP)",
+          "text": "Flexible Recovery. Balance treatment with your daily responsibilities. IOP offers clinical accountability and group support while you return to work or family life in Des Moines.",
+          "icon": ""
+        },
+        {
+          "title": "Aftercare & Alumni",
+          "text": "Lifelong Support. Long-term success requires a long-term plan. Our aftercare ensures you stay connected to your local support system and maintain accountability well after treatment.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "https://desmoinesrecovery.com/wp-content/uploads/elementor/thumbs/shutterstock_2722491885-scaled-rmav78h4tj1xh2bjix23mb7rsw2ummic97tr6z50mo.jpg",
+        "alt": "Flexible outpatient recovery setting at Des Moines Wellness Center, showcasing the intensive outpatient program (IOP) for local Des Moines residents."
+      }
+    },
+    {
+      "id": "first-24-hours",
+      "kind": "steps",
+      "heading": "What to Expect During Your First 24 Hours in Treatment",
+      "subheading": "Your Path to Stabilization",
+      "body": [
+        "The hardest part of seeking help is the fear of the unknown. We’ve removed the complexity from the intake process so you can focus entirely on your health. From the moment you arrive at our Des Moines facility, our team handles every detail with dignity and clinical precision."
+      ],
+      "items": [
+        {
+          "title": "Confidential Clinical Assessment",
+          "text": "Upon arrival, you’ll meet with our medical team for a thorough evaluation. We look at your physical health and history to determine the safest level of care, whether that’s immediate medical detox, residential program or outpatient options.",
+          "icon": ""
+        },
+        {
+          "title": "Streamlined Intake & Safety",
+          "text": "We handle the paperwork and logistics quickly so you can settle into your room. Our staff ensures a safe, respectful transition, providing the immediate medical support needed to manage the early physical symptoms of withdrawal.",
+          "icon": ""
+        },
+        {
+          "title": "Personalized Recovery Roadmap",
+          "text": "Within your first day, we’ve already mapped out your stabilization goals. You’ll be introduced to your dedicated care team who will coordinate your transition from detox into the long-term behavioral health support that fits your specific needs.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "insurance",
+      "kind": "insurance",
+      "heading": "We Accept Most Major Insurances",
+      "subheading": "",
+      "body": [
+        "Financial uncertainty shouldn’t be the reason you delay substance abuse recovery. At Des Moines Wellness Center, we believe that high-quality clinical care should be accessible and transparent. Our team handles the heavy lifting of insurance verification so you can focus on your health, not the paperwork. We work with a wide range of private insurance providers to ensure our programs are reachable for families across Central Iowa. Whether you are seeking medical detox or outpatient options, we are committed to helping you understand your benefits and maximizing your coverage."
+      ],
+      "items": [
+        {
+          "title": "NYSHIP",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White.png"
+        },
+        {
+          "title": "Aetna",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white.webp"
+        },
+        {
+          "title": "UMR",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White.png"
+        },
+        {
+          "title": "First Health Network",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white.webp"
+        },
+        {
+          "title": "Surest",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White.png"
+        },
+        {
+          "title": "Cigna",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white.webp"
+        },
+        {
+          "title": "Anthem",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white.webp"
+        },
+        {
+          "title": "Medical Mutual",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white.webp"
+        },
+        {
+          "title": "UHC",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white.webp"
+        },
+        {
+          "title": "Beacon",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2079248320-scaled.jpg",
+      "alt": "Residential inpatient treatment accommodations at Des Moines Wellness Center, providing a structured healing environment for long-term recovery.",
+      "role": "hero"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2497236443-1024x540.jpg",
+      "alt": "Individual reflecting during recovery journey at Des Moines Wellness Center in Iowa",
+      "role": "section"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/elementor/thumbs/shutterstock_2722491885-scaled-rmav78h4tj1xh2bjix23mb7rsw2ummic97tr6z50mo.jpg",
+      "alt": "Flexible outpatient recovery setting at Des Moines Wellness Center, showcasing the intensive outpatient program (IOP) for local Des Moines residents.",
+      "role": "section"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White.png",
+      "alt": "NYSHIP-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white.webp",
+      "alt": "mcr-aetna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White.png",
+      "alt": "UMR-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white.webp",
+      "alt": "mcr-first-health-network-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White.png",
+      "alt": "Surest-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white.webp",
+      "alt": "cigna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white.webp",
+      "alt": "anthem-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white.webp",
+      "alt": "med-mutual-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white.webp",
+      "alt": "mcr-uhc-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp",
+      "alt": "mcr-beacon-white.webp",
+      "role": "logo"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "Detox Program",
+      "href": "/medical-detox"
+    }
+  ]
+}

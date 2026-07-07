@@ -1,0 +1,244 @@
+{
+  "site": {
+    "name": "Des Moines Wellness Center",
+    "shortName": "DMWC",
+    "url": "https://desmoinesrecovery.com",
+    "phone": "888-378-2158",
+    "phoneHref": "tel:+18883782158",
+    "email": "info@desmoinesrecovery.com",
+    "address": {
+      "street": "5820 Winwood Dr",
+      "city": "Johnston",
+      "region": "IA",
+      "postalCode": "50131",
+      "country": "US",
+      "full": "5820 Winwood Dr, Johnston, IA 50131"
+    },
+    "tagline": "Real Recovery. Right Here in Iowa.",
+    "accreditations": [
+      "The Joint Commission (Gold Seal of Approval)",
+      "LegitScript Certified"
+    ],
+    "insurancePartners": ["Surest", "UMR", "NYSHIP"]
+  },
+  "colors": {
+    "primary": "#2D5A3D",
+    "secondary": "#7D9B76",
+    "accent": "#A77C43",
+    "text": "#222222",
+    "primaryDark": "#1E3D29",
+    "primaryLight": "#3D7350",
+    "bg": "#F7F9F6",
+    "surface": "#FFFFFF",
+    "muted": "#5B6B5E",
+    "border": "#E2E8DE"
+  },
+  "fonts": {
+    "heading": "Fraunces",
+    "body": "Inter",
+    "rationale": "Fraunces adds warm, editorial premium character for headings while Inter keeps body copy highly legible and fast for long-form clinical content."
+  },
+  "nav": {
+    "primary": [
+      {
+        "label": "About",
+        "href": "/about",
+        "children": [
+          { "label": "Our Team", "href": "/team" },
+          { "label": "Virtual Tour", "href": "/tour" },
+          { "label": "Therapies", "href": "/therapies" }
+        ]
+      },
+      {
+        "label": "Programs",
+        "href": "/programs",
+        "children": [
+          { "label": "Medical Detox", "href": "/programs/medical-detox-des-moines" },
+          { "label": "Residential Inpatient", "href": "/programs/residential-rehab-des-moines" },
+          { "label": "PHP", "href": "/programs/php-des-moines" },
+          { "label": "IOP", "href": "/programs/iop-des-moines" },
+          { "label": "Outpatient", "href": "/programs/des-moines-outpatient-rehab" },
+          { "label": "Dual Diagnosis", "href": "/programs/dual-diagnosis" },
+          { "label": "Aftercare & Alumni", "href": "/programs/aftercare-and-alumni" }
+        ]
+      },
+      {
+        "label": "What We Treat",
+        "href": "/what-we-treat",
+        "children": [
+          { "label": "Alcohol Rehab", "href": "/what-we-treat/alcohol-rehab-des-moines" },
+          { "label": "Drug Rehab", "href": "/what-we-treat/drug-rehab-des-moines" },
+          { "label": "Benzo Rehab", "href": "/what-we-treat/benzo-rehab-des-moines" },
+          { "label": "Cocaine Rehab", "href": "/what-we-treat/cocaine-rehab-des-moines" },
+          { "label": "Fentanyl Rehab", "href": "/what-we-treat/fentanyl-rehab-des-moines" },
+          { "label": "Meth Rehab", "href": "/what-we-treat/meth-rehab-des-moines" },
+          { "label": "Prescription Drug Rehab", "href": "/what-we-treat/prescription-drug-rehab-des-moines" }
+        ]
+      },
+      {
+        "label": "Areas We Serve",
+        "href": "/areas-we-serve",
+        "children": [
+          { "label": "Ankeny", "href": "/areas-we-serve/ankeny" },
+          { "label": "West Des Moines", "href": "/areas-we-serve/west-des-moines" }
+        ]
+      },
+      { "label": "Admissions", "href": "/admissions" },
+      { "label": "Blog", "href": "/blog" },
+      { "label": "Contact", "href": "/contact" }
+    ]
+  },
+  "footer": {
+    "columns": [
+      {
+        "title": "Programs",
+        "links": [
+          { "label": "Medical Detox", "href": "/programs/medical-detox-des-moines" },
+          { "label": "Residential Inpatient", "href": "/programs/residential-rehab-des-moines" },
+          { "label": "PHP", "href": "/programs/php-des-moines" },
+          { "label": "IOP", "href": "/programs/iop-des-moines" },
+          { "label": "Outpatient", "href": "/programs/des-moines-outpatient-rehab" },
+          { "label": "Dual Diagnosis", "href": "/programs/dual-diagnosis" },
+          { "label": "Aftercare & Alumni", "href": "/programs/aftercare-and-alumni" }
+        ]
+      },
+      {
+        "title": "What We Treat",
+        "links": [
+          { "label": "Alcohol Rehab", "href": "/what-we-treat/alcohol-rehab-des-moines" },
+          { "label": "Drug Rehab", "href": "/what-we-treat/drug-rehab-des-moines" },
+          { "label": "Benzo Rehab", "href": "/what-we-treat/benzo-rehab-des-moines" },
+          { "label": "Cocaine Rehab", "href": "/what-we-treat/cocaine-rehab-des-moines" },
+          { "label": "Fentanyl Rehab", "href": "/what-we-treat/fentanyl-rehab-des-moines" },
+          { "label": "Meth Rehab", "href": "/what-we-treat/meth-rehab-des-moines" },
+          { "label": "Prescription Drug Rehab", "href": "/what-we-treat/prescription-drug-rehab-des-moines" }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          { "label": "About Us", "href": "/about" },
+          { "label": "Our Team", "href": "/team" },
+          { "label": "Virtual Tour", "href": "/tour" },
+          { "label": "Therapies", "href": "/therapies" },
+          { "label": "Admissions", "href": "/admissions" },
+          { "label": "Blog", "href": "/blog" },
+          { "label": "Contact", "href": "/contact" }
+        ]
+      },
+      {
+        "title": "Areas We Serve",
+        "links": [
+          { "label": "Ankeny, IA", "href": "/areas-we-serve/ankeny" },
+          { "label": "West Des Moines, IA", "href": "/areas-we-serve/west-des-moines" },
+          { "label": "Verify Insurance", "href": "/verify-insurance" },
+          { "label": "Privacy Policy", "href": "/privacy-policy" }
+        ]
+      }
+    ],
+    "legal": ["/privacy-policy"],
+    "napHtml": "Des Moines Wellness Center, 5820 Winwood Dr, Johnston, IA 50131 &middot; <a href=\"tel:+18883782158\">888-378-2158</a>"
+  },
+  "routes": [
+    { "slug": "home", "route": "/", "pageType": "home", "title": "Premier Drug Rehab in Des Moines, IA" },
+    { "slug": "about", "route": "/about", "pageType": "page", "title": "About Des Moines Wellness: Our Story, Team & Values" },
+    { "slug": "admissions", "route": "/admissions", "pageType": "page", "title": "Des Moines Wellness Center Admissions" },
+    { "slug": "areas-we-serve/ankeny", "route": "/areas-we-serve/ankeny", "pageType": "area", "title": "Drug and Alcohol Rehab Serving Ankeny, Iowa" },
+    { "slug": "areas-we-serve/west-des-moines", "route": "/areas-we-serve/west-des-moines", "pageType": "area", "title": "Accredited Detox & Rehab Programs Minutes From West Des Moines" },
+    { "slug": "blog", "route": "/blog", "pageType": "blog-index", "title": "Addiction & Mental Health Blog" },
+    { "slug": "contact", "route": "/contact", "pageType": "page", "title": "Contact Us" },
+    { "slug": "how-alcohol-addiction-can-impact-every-area-of-life", "route": "/how-alcohol-addiction-can-impact-every-area-of-life", "pageType": "blog-post", "title": "How Alcohol Addiction Can Impact Every Area of Life" },
+    { "slug": "privacy-policy", "route": "/privacy-policy", "pageType": "legal", "title": "Privacy Policy" },
+    { "slug": "programs", "route": "/programs", "pageType": "hub-programs", "title": "Alcohol & Drug Addiction Treatment Programs in Iowa" },
+    { "slug": "programs/aftercare-and-alumni", "route": "/programs/aftercare-and-alumni", "pageType": "program", "title": "Aftercare & Alumni Support in Des Moines, Iowa" },
+    { "slug": "programs/des-moines-outpatient-rehab", "route": "/programs/des-moines-outpatient-rehab", "pageType": "program", "title": "Premier Outpatient Drug & Alcohol Rehab in Des Moines, IA" },
+    { "slug": "programs/dual-diagnosis", "route": "/programs/dual-diagnosis", "pageType": "program", "title": "Comprehensive Dual Diagnosis Treatment in Des Moines, Iowa" },
+    { "slug": "programs/iop-des-moines", "route": "/programs/iop-des-moines", "pageType": "program", "title": "Intensive Outpatient Program (IOP) in Des Moines, Iowa" },
+    { "slug": "programs/medical-detox-des-moines", "route": "/programs/medical-detox-des-moines", "pageType": "program", "title": "Alcohol & Drug Medical Detox in Des Moines, Iowa" },
+    { "slug": "programs/php-des-moines", "route": "/programs/php-des-moines", "pageType": "program", "title": "Partial Hospitalization Program (PHP) in Des Moines, Iowa" },
+    { "slug": "programs/residential-rehab-des-moines", "route": "/programs/residential-rehab-des-moines", "pageType": "program", "title": "Residential Addiction Treatment in Des Moines, Iowa" },
+    { "slug": "team/alexander-maddux", "route": "/team/alexander-maddux", "pageType": "team", "title": "Alexander \"Alex\" Maddux - Director of Operations" },
+    { "slug": "team/lacey-stielow", "route": "/team/lacey-stielow", "pageType": "team", "title": "Lacey Stielow, MSN, RN - Director of Nursing" },
+    { "slug": "team/parneet-sahota", "route": "/team/parneet-sahota", "pageType": "team", "title": "Parneet “Pam” Sahota, MA, LMHC - Clinical Director" },
+    { "slug": "team/welsey-starlin", "route": "/team/welsey-starlin", "pageType": "team", "title": "Wesley Starlin - Executive Director" },
+    { "slug": "therapies", "route": "/therapies", "pageType": "page", "title": "Evidence-Based Therapies for Real Addiction Treatment" },
+    { "slug": "tour", "route": "/tour", "pageType": "page", "title": "Tour Our Luxury Facility" },
+    { "slug": "what-we-treat", "route": "/what-we-treat", "pageType": "hub-conditions", "title": "Evidence-Based Treatment for Lasting Recovery" },
+    { "slug": "what-we-treat/alcohol-rehab-des-moines", "route": "/what-we-treat/alcohol-rehab-des-moines", "pageType": "condition", "title": "Luxury Alcohol Rehab in Des Moines, Iowa" },
+    { "slug": "what-we-treat/benzo-rehab-des-moines", "route": "/what-we-treat/benzo-rehab-des-moines", "pageType": "condition", "title": "Benzodiazepine Addiction Treatment in Des Moines, IA" },
+    { "slug": "what-we-treat/cocaine-rehab-des-moines", "route": "/what-we-treat/cocaine-rehab-des-moines", "pageType": "condition", "title": "Cocaine Addiction Treatment in Des Moines, IA" },
+    { "slug": "what-we-treat/drug-rehab-des-moines", "route": "/what-we-treat/drug-rehab-des-moines", "pageType": "condition", "title": "Clinical Drug Rehab in Des Moines, Iowa" },
+    { "slug": "what-we-treat/fentanyl-rehab-des-moines", "route": "/what-we-treat/fentanyl-rehab-des-moines", "pageType": "condition", "title": "Fentanyl Addiction Treatment & Detox in Des Moines, Iowa" },
+    { "slug": "what-we-treat/meth-rehab-des-moines", "route": "/what-we-treat/meth-rehab-des-moines", "pageType": "condition", "title": "Targeted Methamphetamine Addiction Treatment in Des Moines, IA" },
+    { "slug": "what-we-treat/prescription-drug-rehab-des-moines", "route": "/what-we-treat/prescription-drug-rehab-des-moines", "pageType": "condition", "title": "Prescription Drug Rehab in Des Moines, Iowa" }
+  ],
+  "collections": {
+    "programs": [
+      "programs/medical-detox-des-moines",
+      "programs/residential-rehab-des-moines",
+      "programs/php-des-moines",
+      "programs/iop-des-moines",
+      "programs/des-moines-outpatient-rehab",
+      "programs/dual-diagnosis",
+      "programs/aftercare-and-alumni"
+    ],
+    "conditions": [
+      "what-we-treat/alcohol-rehab-des-moines",
+      "what-we-treat/drug-rehab-des-moines",
+      "what-we-treat/benzo-rehab-des-moines",
+      "what-we-treat/cocaine-rehab-des-moines",
+      "what-we-treat/fentanyl-rehab-des-moines",
+      "what-we-treat/meth-rehab-des-moines",
+      "what-we-treat/prescription-drug-rehab-des-moines"
+    ],
+    "team": [
+      "team/welsey-starlin",
+      "team/parneet-sahota",
+      "team/lacey-stielow",
+      "team/alexander-maddux"
+    ],
+    "areas": [
+      "areas-we-serve/ankeny",
+      "areas-we-serve/west-des-moines"
+    ]
+  },
+  "componentInventory": [
+    { "name": "SiteHeader", "purpose": "Sticky top nav with logo, dropdown menus, and always-visible call + verify-insurance CTAs." },
+    { "name": "MegaMenu", "purpose": "Dropdown for Programs / What We Treat / About showing child links." },
+    { "name": "MobileNavDrawer", "purpose": "Slide-in accordion navigation for small screens." },
+    { "name": "StickyCallBar", "purpose": "Mobile bottom bar pinning Call Now and Verify Insurance actions." },
+    { "name": "SiteFooter", "purpose": "Multi-column link footer with NAP, accreditations, and legal links." },
+    { "name": "Hero", "purpose": "Page hero with headline, subcopy, primary CTAs, and background/imagery." },
+    { "name": "FeatureGrid", "purpose": "Renders 'features' sections as icon + heading + text cards." },
+    { "name": "CardGrid", "purpose": "Renders 'cards' sections (program/service/level-of-care cards with links)." },
+    { "name": "StepList", "purpose": "Numbered process/steps section (e.g., admissions or treatment flow)." },
+    { "name": "ProseBlock", "purpose": "Rich long-form 'prose' content with typographic rhythm." },
+    { "name": "TestimonialCarousel", "purpose": "Rotating patient/family testimonials." },
+    { "name": "InsuranceStrip", "purpose": "Logos of accepted insurers plus a verify-insurance CTA." },
+    { "name": "VerifyInsuranceForm", "purpose": "Lead-capture form/modal for confidential benefits verification." },
+    { "name": "FaqAccordion", "purpose": "Expandable FAQ section with schema.org FAQ markup." },
+    { "name": "HubList", "purpose": "Grid of related pages (programs, conditions, blog posts, related areas)." },
+    { "name": "TeamBio", "purpose": "Staff profile block with photo, credentials, and bio." },
+    { "name": "Gallery", "purpose": "Facility photo/tour gallery with lightbox." },
+    { "name": "ContactSection", "purpose": "Address, map, phone, email, and inquiry form." },
+    { "name": "CtaBanner", "purpose": "Full-width conversion band with phone + verify insurance." },
+    { "name": "Breadcrumbs", "purpose": "Hierarchical breadcrumb trail with BreadcrumbList schema." },
+    { "name": "AccreditationBadges", "purpose": "Joint Commission and LegitScript trust badges." },
+    { "name": "SeoHead", "purpose": "Per-page meta, Open Graph, canonical, and JSON-LD structured data." },
+    { "name": "BlogCard", "purpose": "Article preview card for the blog index." }
+  ],
+  "buildBrief": "Build a fast, accessible Next.js (App Router) site on a fluid 12-column grid with a max content width around 1200px and generous whitespace driven by an 8px spacing scale (8/16/24/40/64/96). Lead with the forest-green primary (#2D5A3D) for headers, primary buttons, and section anchors; use sage (#7D9B76) for supporting surfaces and the gold accent (#A77C43) sparingly for CTAs, badges, and links so conversion actions always pop. Type sets Fraunces for expressive headings against Inter body copy, keeping line length 60-75 characters and a clear modular scale for calm, editorial hierarchy. Imagery should feel warm and human: soft rounded corners (12-16px), subtle shadows, muted duotone or natural-light treatments of the facility and Iowa landscape, all served as responsive next/image with AVIF/WebP and blur placeholders. Conversion is the priority on every template: a persistent header phone link and Verify Insurance button, a mobile sticky call bar, and CtaBanner + InsuranceStrip repeated at natural scroll depths. Establish reusable section primitives (Hero, FeatureGrid, CardGrid, StepList, FaqAccordion, HubList, TeamBio) so all 31 pages compose from a shared design system with consistent rhythm. Meet WCAG 2.1 AA (4.5:1 contrast, visible focus states, semantic landmarks, keyboard-navigable menus, reduced-motion support) throughout. Target Lighthouse 95+ across Performance/Accessibility/Best-Practices/SEO by shipping mostly static server components, minimal client JS, font-display swap, and preloaded critical assets. Preserve all legacy URL slugs and reach SEO parity or better with per-page metadata, canonical tags, XML sitemap, and JSON-LD for LocalBusiness/MedicalOrganization, BreadcrumbList, and FAQPage.",
+  "warnings": [
+    "areas-we-serve/west-des-moines has copied SEO title and description from the Ankeny page ('Minutes From Ankeny IA') - needs unique West Des Moines metadata.",
+    "what-we-treat/fentanyl-rehab-des-moines has copied SEO title and description from the Benzo page - needs unique fentanyl metadata.",
+    "programs/des-moines-outpatient-rehab shares its SEO title ('Partial Hospitalization Program (PHP)...') and description with programs/php-des-moines - duplicate/mismatched metadata to disambiguate.",
+    "Team slug 'team/welsey-starlin' misspells 'Wesley'; hero and title read 'Wesley Starlin'. Slug preserved for SEO but flag for a 301 redirect to a corrected slug if desired.",
+    "What We Treat hub CTAs link to non-existent 'Marijuana Rehab' and 'Stimulants Rehab' pages and omit the existing Cocaine and Drug rehab pages - align hub links with the 7 real condition pages.",
+    "No index/landing pages exist for /team or /areas-we-serve; nav 'Our Team' points to /about#team and 'Areas We Serve' parent points to a child page. Consider adding real index routes.",
+    "brand.json notes a stale JSON-LD phone (888) 775-4566 that must be ignored; standardize all structured data and tel: links on 888-378-2158.",
+    "Brand name is misspelled 'Des Moins Wellness Center' in some source content and the working directory - ensure 'Des Moines' everywhere in copy and metadata.",
+    "SEO titles are very long with a repeated '| Des Moines Wellness Center | Alcohol & Drug Rehab Iowa' suffix (often >60 chars); trim to reduce SERP truncation.",
+    "programs/php-des-moines lists a 'contact' section twice (mid-page and end) - dedupe when composing the template.",
+    "Domain mismatch to confirm: brand domain and email use desmoinesrecovery.com while the brand name is 'Des Moines Wellness Center' - verify canonical https://desmoinesrecovery.com is correct."
+  ]
+}

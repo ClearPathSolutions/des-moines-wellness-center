@@ -1,0 +1,443 @@
+{
+  "slug": "programs/dual-diagnosis",
+  "pageType": "program",
+  "seo": {
+    "title": "Dual Diagnosis Treatment Des Moines, IA | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Specialized dual diagnosis treatment in Des Moines, IA. We provide integrated care for addiction and mental health. Most insurances accepted."
+  },
+  "hero": {
+    "eyebrow": "",
+    "headline": "Comprehensive Dual Diagnosis Treatment in Des Moines, Iowa",
+    "subhead": "",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/shutterstock_1923965951-scaled.jpg",
+      "alt": "A person celebrating freedom and mental wellness after completing dual diagnosis treatment in Des Moines, Iowa."
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "at-a-glance",
+      "kind": "features",
+      "heading": "Dual Diagnosis at Des Moines Wellness - At a Glance",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Continuum of Care",
+          "text": "Seamless transitions through Detox, Residential, PHP, IOP, and Aftercare.",
+          "icon": ""
+        },
+        {
+          "title": "Specialization",
+          "text": "Simultaneous treatment for addiction and co-occurring disorders like depression, anxiety, or PTSD.",
+          "icon": ""
+        },
+        {
+          "title": "Approach",
+          "text": "Evidence-based therapies tailored to the specific needs of each individual.",
+          "icon": ""
+        },
+        {
+          "title": "Location",
+          "text": "Fully integrated medical and clinical services in our Des Moines, Iowa rehab.",
+          "icon": ""
+        },
+        {
+          "title": "Accreditation",
+          "text": "Recognized by The Joint Commission and licensed by the State of Iowa for excellence.",
+          "icon": ""
+        },
+        {
+          "title": "Accessibility",
+          "text": "Most major insurance plans accepted with same-day admissions available.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "insurance",
+      "kind": "insurance",
+      "heading": "Most Major Private Insurance Plans Accepted",
+      "subheading": "",
+      "body": [
+        "At Des Moines Wellness Center, we believe that financial barriers should never stand in the way of life-saving care. Our admissions team works directly with your provider to maximize your benefits and minimize out-of-pocket costs. We provide a 100% confidential insurance verification process to get you the answers you need in minutes."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "healing-the-intersection",
+      "kind": "prose",
+      "heading": "Healing the Intersection of Mental Health & Addiction",
+      "subheading": "The Foundation of Dual Diagnosis Care",
+      "body": [
+        "Dual diagnosis (also referred to as co-occurring disorders) describes the condition of having both a mental health disorder and a substance use disorder simultaneously. These two issues are often deeply intertwined, with one frequently masking or worsening the symptoms of the other. When a mental health condition and a substance use disorder coexist, they create a complex cycle where one often fuels the other.",
+        "In Iowa, this challenge is a significant public health priority. According to the Substance Abuse and Mental Health Services Administration (SAMHSA), approximately 9.2 million adults in the United States struggle with a co-occurring disorder, yet only a small fraction receive specialized treatment for both conditions simultaneously. Effective recovery demands a dual-track approach that provides the tools to manage psychological triggers.",
+        "At Des Moines Wellness Center, we specialize in identifying these overlapping roots. Whether you are navigating the early stages of medical detox or transitioning into outpatient care, our clinicians ensure that neither your mental health nor your sobriety is treated in a vacuum."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "our-approach",
+      "kind": "features",
+      "heading": "Our Approach to Dual Diagnosis Treatment in Des Moines, Iowa",
+      "subheading": "A Multi-Dimensional Strategy for Lasting Stability",
+      "body": [
+        "Treating co-occurring disorders requires moving beyond traditional addiction counseling. We utilize a comprehensive clinical framework that addresses the biological, psychological, and social factors of your recovery."
+      ],
+      "items": [
+        {
+          "title": "Bio-Psychosocial Assessment",
+          "text": "Every journey begins with a deep-dive intake assessment. Our clinicians evaluate your full medical history, psychiatric background, and substance use patterns to create a truly individualized roadmap for care.",
+          "icon": ""
+        },
+        {
+          "title": "Integrated Psychiatric Management",
+          "text": "Our medical team provides specialized medication management to stabilize mental health symptoms while ensuring all prescriptions are non-habit-forming and safe for those in recovery.",
+          "icon": ""
+        },
+        {
+          "title": "Targeted Therapeutic Modalities",
+          "text": "We utilize evidence-based practices like Cognitive Behavioral Therapy (CBT) and Dialectical Behavior Therapy (DBT) specifically adapted to help patients recognize the links between their emotional triggers and substance use.",
+          "icon": ""
+        },
+        {
+          "title": "Relapse Prevention for Co-Occurring Triggers",
+          "text": "We equip you with a specialized toolkit designed to manage double triggers: scenarios where a mental health symptom (like a panic attack) could lead to a craving, or vice versa.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "integrated-care-continuum",
+      "kind": "steps",
+      "heading": "Integrated Care Across the Continuum",
+      "subheading": "",
+      "body": [
+        "To ensure long-term success, our dual diagnosis protocols are woven into every stage of treatment, after the deep assessment we do for each individual. This prevents the revolving door effect by ensuring your mental health support never pauses as you transition between levels of care."
+      ],
+      "items": [
+        {
+          "title": "Medical Detox",
+          "text": "Physical Stabilization — Focus on physical safety and easing withdrawal while beginning initial psychiatric stabilization.",
+          "icon": ""
+        },
+        {
+          "title": "Residential Inpatient",
+          "text": "Intensive Healing — 24/7 structured support. Daily therapy sessions focus deeply on the root causes of co-occurring disorders.",
+          "icon": ""
+        },
+        {
+          "title": "Partial Hospitalization",
+          "text": "Skill Building — High-intensity day treatment where patients apply coping strategies to real-world stressors with full clinical oversight.",
+          "icon": ""
+        },
+        {
+          "title": "Intensive Outpatient",
+          "text": "Community Integration — Part-time therapeutic support allowing for a return to work or school while refining mental health management tools.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "common-co-occurring-disorders",
+      "kind": "features",
+      "heading": "Common Co-Occurring Disorders We Treat at our Des Moines Rehab",
+      "subheading": "Addressing the Complexities of Mental Health & Addiction",
+      "body": [
+        "At Des Moines Wellness Center, we know that no two dual diagnosis journeys are the same. Our clinical team is trained to identify and treat the specific ways different mental health conditions interact with substance use. By treating both simultaneously, we help break the cycle of self-medication and provide a stable foundation for long-term health. We help with:"
+      ],
+      "items": [
+        {
+          "title": "Depression & Substance Use",
+          "text": "We address the intersection of depressive symptoms and substance use through therapeutic support and non-habit-forming medication management.",
+          "icon": ""
+        },
+        {
+          "title": "Anxiety & Panic Disorders",
+          "text": "We teach proven grounding techniques and DBT skills to help you manage a racing mind or social anxiety without the need for chemicals.",
+          "icon": ""
+        },
+        {
+          "title": "PTSD & Trauma",
+          "text": "Our trauma-informed care addresses root experiences safely, ensuring past pain doesn't derail your future sobriety.",
+          "icon": ""
+        },
+        {
+          "title": "Bipolar Disorder",
+          "text": "Our psychiatric team provides precise medication management to stabilize mood swings while you focus on your recovery program.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "family-healing-support",
+      "kind": "prose",
+      "heading": "Family Healing & Support",
+      "subheading": "Restoring the Family Unit in Des Moines",
+      "body": [
+        "Dual diagnosis affects the entire family, often creating a cycle of stress, confusion, and strained communication. At Des Moines Wellness Center, we offer specialized programming designed to help your loved ones understand the complex intersection of mental health and addiction. Through our family education series and guided workshops, we provide the tools to mend relationships, set healthy boundaries, and create a stable home environment for long-term success.",
+        "The impact of this support is statistically significant. According to research cited by the Recovery Research Institute , treatments that integrate family or significant others are associated with a substantial increase in positive substance use outcomes and a reduction in relapse-related problems compared to individual therapy alone. By involving your inner circle, you build a powerful foundation of accountability and shared understanding that can persist for years post-treatment. While we highly encourage family involvement as a cornerstone of sustainable recovery, participation is not mandatory and we adapt care to each individual’s situation."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "iowa-support-network",
+      "kind": "features",
+      "heading": "Beyond Our Doors: Your Iowa Support Network",
+      "subheading": "Connecting You to the Des Moines Recovery Community",
+      "body": [
+        "Recovery doesn’t happen in isolation. We bridge the gap between clinical treatment and the local Des Moines community to ensure you have a soft landing after program completion."
+      ],
+      "items": [
+        {
+          "title": "Alcoholics Anonymous (AA)",
+          "text": "Access daily meetings and a strong sober fellowship through AA Des Moines Central Office.",
+          "icon": ""
+        },
+        {
+          "title": "NAMI Greater Des Moines",
+          "text": "Connect with local mental health advocacy, education, and support groups at NAMI Greater Des Moines.",
+          "icon": ""
+        },
+        {
+          "title": "Safe Housing",
+          "text": "Coordination with local sober living environments and transitional housing in the Polk County area.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "medically-reviewed-by",
+      "kind": "team-bio",
+      "heading": "Medically Reviewed By Wesley Starlin, LMHC",
+      "subheading": "",
+      "body": [
+        "Wesley Starlin is the Executive Director at Des Moines Wellness Center with over 15 years of experience in behavioral health and addiction treatment."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
+        "alt": "Wesley Starlin - Executive Director"
+      }
+    },
+    {
+      "id": "levels-of-care",
+      "kind": "hub-list",
+      "heading": "Levels Of Care",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Detox",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Residential",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "PHP",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "IOP",
+          "text": "",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "immediate-clinical-consultation",
+      "kind": "cta",
+      "heading": "Immediate Clinical Consultation & Placement",
+      "subheading": "",
+      "body": [
+        "Don’t navigate the complexities of addiction alone. Whether you are seeking admission for yourself or a loved one, our Des Moines team is ready to provide a confidential clinical assessment and verify your insurance coverage. Your path to stabilization begins with a single conversation."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "expert-dual-diagnosis-care",
+      "kind": "prose",
+      "heading": "Expert Dual Diagnosis Care Tailored for the Iowa Community",
+      "subheading": "Your Local Partner for Dual Diagnosis Recovery in Iowa",
+      "body": [
+        "Finding an accredited dual diagnosis treatment center in Des Moines is the most critical step in breaking the cycle of co-occurring disorders. While many facilities treat addiction as a standalone issue, our clinical philosophy is rooted in integrated recovery. We recognize that without addressing the underlying psychiatric triggers, such as depression, anxiety, or PTSD, the risk of relapse remains high. As a proud member of the Quadrant Health Group , our luxury drug rehab brings the clinical expertise of a national network of excellence directly to Polk County. We provide a full continuum of care, from medically supervised detox to outpatient support, using a trauma-informed approach that addresses root causes through integrated psychiatric management and evidence-based therapies.",
+        "Conveniently located for local families, we are easily accessible via I-235 and I-80, and just a short drive from Des Moines International Airport (DSM). We offer same-day assessments and insurance verification to ensure you can start your recovery in a safe, healing environment without delay. Our admissions team is available 24/7 to provide a confidential consultation, verify your insurance, and walk you through our intake process. Whether you need detox in Des Moines or long-term dual diagnosis care, we are ready to help. Call us today."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "secure-your-clinical-assessment",
+      "kind": "contact",
+      "heading": "Secure Your Private Clinical Assessment",
+      "subheading": "START THE PROCESS",
+      "body": [
+        "Ready to move from research to recovery? Fill out the confidential form below to connect directly with our Des Moines admissions team. We provide a comprehensive medical review and insurance verification to ensure your transition into detox, residential or outpatient programs is seamless and immediate."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/shutterstock_1923965951-scaled.jpg",
+      "alt": "A person celebrating freedom and mental wellness after completing dual diagnosis treatment in Des Moines, Iowa.",
+      "role": "hero"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/goldseal_national-1-scaled-1-1.png",
+      "alt": "des moines wellness center joint commission accredited",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/legit-script-certified_9eead42e-ecae-4ef3-b52d-82412e0e9e42-1-1.webp",
+      "alt": "des moines wellness center legitscript accredited",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White.png",
+      "alt": "NYSHIP-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white.webp",
+      "alt": "mcr-aetna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White.png",
+      "alt": "UMR-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white.webp",
+      "alt": "mcr-first-health-network-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White.png",
+      "alt": "Surest-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white.webp",
+      "alt": "cigna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white.webp",
+      "alt": "anthem-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white.webp",
+      "alt": "med-mutual-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white.webp",
+      "alt": "mcr-uhc-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp",
+      "alt": "mcr-beacon-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
+      "alt": "Wesley Starlin - Executive Director",
+      "role": "section"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "Talk To A Specialist Now",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Your Insurance",
+      "href": "/admissions"
+    }
+  ]
+}

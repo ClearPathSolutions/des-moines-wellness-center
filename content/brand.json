@@ -1,0 +1,30 @@
+{
+  "name": "Des Moines Wellness Center",
+  "shortName": "DMWC",
+  "domain": "desmoinesrecovery.com",
+  "tagline": "Real Recovery. Right Here in Iowa.",
+  "phone": "888-378-2158",
+  "phoneRaw": "8883782158",
+  "phoneNote": "888-378-2158 is used in 41 tel: links sitewide (definitive). JSON-LD lists a stale (888) 775-4566 to be ignored.",
+  "address": {
+    "street": "5820 Winwood Dr",
+    "city": "Johnston",
+    "region": "IA",
+    "postalCode": "50131",
+    "full": "5820 Winwood Dr, Johnston, IA 50131"
+  },
+  "accreditations": ["The Joint Commission (Gold Seal of Approval)", "LegitScript Certified"],
+  "insurancePartners": ["Surest", "UMR", "NYSHIP"],
+  "colors": {
+    "primary": "#2D5A3D",
+    "secondary": "#7D9B76",
+    "accent": "#A77C43",
+    "text": "#222222"
+  },
+  "logos": {
+    "colorHorizontal": "wp-content/uploads/2026/04/Logo-Horizontal-DMW2.png",
+    "white": "wp-content/uploads/2026/04/dmwc-logo-white.png"
+  },
+  "careLevels": ["Medical Detox", "Residential Inpatient", "PHP", "IOP", "Outpatient", "Dual Diagnosis", "Aftercare & Alumni"],
+  "knownTypoFixes": {"Des Moins Wellness Center": "Des Moines Wellness Center"}
+}

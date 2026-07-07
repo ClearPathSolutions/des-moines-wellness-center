@@ -1,0 +1,487 @@
+{
+  "slug": "programs/iop-des-moines",
+  "pageType": "program",
+  "seo": {
+    "title": "Intensive Outpatient Program (IOP) in Des Moines, Iowa | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Our accredited Des Moines IOP in Iowa offers flexible morning/evening tracks to fix the roots of addiction while you live at home."
+  },
+  "hero": {
+    "eyebrow": "",
+    "headline": "Intensive Outpatient Program (IOP) in Des Moines, Iowa",
+    "subhead": "",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2540466307-scaled.jpg",
+      "alt": "Two women standing on a cliffside at sunset, symbolizing a supportive journey toward wellness and a new beginning in recovery with des moines wellness center."
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "high-level-support",
+      "kind": "features",
+      "heading": "High-Level Support Without the Overnight Stay",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Clinical Goal",
+          "text": "Continue the deep work of fixing the roots of addiction while integrating back into daily life..",
+          "icon": ""
+        },
+        {
+          "title": "Support System",
+          "text": "Access to master’s-level therapists and peer support groups during high-risk transition periods.",
+          "icon": ""
+        },
+        {
+          "title": "Flexible Schedule",
+          "text": "Structured day or evening sessions designed to work around your job, school, or family.",
+          "icon": ""
+        },
+        {
+          "title": "Frequency",
+          "text": "to 5 days per week, totaling 9 to 15 hours of clinical engagement each week to ensure progress.",
+          "icon": ""
+        },
+        {
+          "title": "Evidence-Based Care",
+          "text": "Ongoing use of CBT and DBT to reinforce healthy behavioral patterns and prevent relapse.",
+          "icon": ""
+        },
+        {
+          "title": "Dual Diagnosis",
+          "text": "Continued psychiatric support for co-occurring mental health disorders like anxiety and depression.",
+          "icon": ""
+        },
+        {
+          "title": "Local Connection",
+          "text": "Luxury Facility located right here in Des Moines, accessible from major roads.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "insurance-accepted",
+      "kind": "insurance",
+      "heading": "Most Major Private Insurance Plans Accepted",
+      "subheading": "",
+      "body": [
+        "At Des Moines Wellness Center, we believe that financial barriers should never stand in the way of life-saving care. Our admissions team works directly with your provider to maximize your benefits and minimize out-of-pocket costs. We provide a 100% confidential insurance verification process to get you the answers you need in minutes."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "iop-overview",
+      "kind": "prose",
+      "heading": "Intensive Outpatient Support for Long-Term Sobriety in Iowa",
+      "subheading": "Sustainable Healing That Fits Your Life",
+      "body": [
+        "Our Intensive Outpatient Program (IOP) is a wellness-focused treatment model designed to provide high-level clinical care without an overnight stay. It serves as a vital bridge, allowing you to transition from intensive stabilization back into your daily routine while maintaining a strong connection to your recovery community. You attend sessions at our Des Moines rehab and return to your own home at night, giving you the space to integrate new, healthy habits into your actual living environment while preventing relapse."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "who-is-it-for",
+      "kind": "features",
+      "heading": "Who is it for?",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "The Step-Down Patient",
+          "text": "Individuals who have completed detox or residential treatment and need a structured transition to prevent relapse.",
+          "icon": ""
+        },
+        {
+          "title": "The Working Professional",
+          "text": "People who require professional clinical help but must maintain their responsibilities at a job or career.",
+          "icon": ""
+        },
+        {
+          "title": "Students & Caregivers",
+          "text": "Those with school commitments or family duties who cannot step away for a 30-day inpatient stay.",
+          "icon": ""
+        },
+        {
+          "title": "Early-Stage Recovery",
+          "text": "Individuals with a stable living environment who are catching a substance use issue before it requires 24/7 medical oversight.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "what-your-day-looks-like",
+      "kind": "features",
+      "heading": "IOP in Des Moines: A Foundation for Your Daily Routine",
+      "subheading": "What your day looks like",
+      "body": [
+        "Our IOP is designed to provide maximum clinical impact without disrupting your life. We offer flexible scheduling to ensure you get the support you need when you need it most."
+      ],
+      "items": [
+        {
+          "title": "Morning or Evening Sessions",
+          "text": "We offer blocks of time that work around your professional or family commitments.",
+          "icon": ""
+        },
+        {
+          "title": "Group Therapy & Peer Connection",
+          "text": "Connect with others walking the same path in a moderated, clinical setting to build your local support network.",
+          "icon": ""
+        },
+        {
+          "title": "One-on-One Clinical Work",
+          "text": "Weekly individual sessions with a master's-level therapist to dive deep into fixing the roots of your addiction.",
+          "icon": ""
+        },
+        {
+          "title": "Life Skills & Wellness Workshops",
+          "text": "Practical sessions focused on nutrition, stress management, and emotional intelligence.",
+          "icon": ""
+        },
+        {
+          "title": "Accountability & Support",
+          "text": "Regular check-ins and a structured environment to keep you focused on your wellness goals while living at home.",
+          "icon": ""
+        },
+        {
+          "title": "Holistic Integration",
+          "text": "We incorporate mindfulness and wellness practices that help you maintain emotional balance as you navigate the complexities of daily life.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "continuum-of-care",
+      "kind": "steps",
+      "heading": "Where IOP Fits in the continuum of care in Iowa",
+      "subheading": "",
+      "body": [
+        "Our Des Moines IOP is the bridge between intensive treatment and daily life. Designed for those who need clinical support while living at home, sessions take place at our premier clinical estate in Des Moines."
+      ],
+      "items": [
+        {
+          "title": "Medical Detox",
+          "text": "Get Rid Of The Substance. The first step focuses on physical safety, clearing substances from your system under 24/7 medical supervision.",
+          "icon": ""
+        },
+        {
+          "title": "Residential Inpatient",
+          "text": "Immersive Stabilization. You move into our private sanctuary for intensive deep work, living on-site to fix the roots of addiction away from daily triggers.",
+          "icon": ""
+        },
+        {
+          "title": "Outpatient Programs",
+          "text": "Back to Real Life. We support your transition back to daily life, providing therapy and peer support to help you stay sober in the real world.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "treatment-tracks",
+      "kind": "prose",
+      "heading": "Our Specialized IOP Treatment Tracks",
+      "subheading": "Personalized Support for Real-World Recovery",
+      "body": [
+        "In our Intensive Outpatient Program, we adapt our clinical focus to the specific substance you are recovering from. Since you are living at home, these tracks emphasize relapse prevention and navigating daily triggers in the Des Moines community.",
+        "Focuses on social pressure management and rebuilding a lifestyle that doesn’t revolve around alcohol while you navigate your normal social circles.",
+        "Prioritizes nervous system regulation and natural anxiety management tools as you handle daily stressors without a prescription.",
+        "Centers on long-term craving management and building a “sober safety net” to protect against the high risk of relapse in the community.",
+        "Focuses on restoring motivation, improving sleep hygiene, and finding healthy ways to manage boredom or stress in your daily routine.",
+        "Emphasizes cognitive repair and dopamine restoration, helping you find natural energy and focus as you return to work or school.",
+        "Aims to break the behavioral loops of pilling for pain or stress, replacing them with sustainable, holistic wellness habits.",
+        "Teaches you to identify environmental cues in your neighborhood or friend groups that trigger cravings, providing immediate tools to stay sober.",
+        "Addresses co-occurring mental health issues like depression or PTSD in real-time, helping you stabilize your mood while managing life’s responsibilities."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "why-choose-us",
+      "kind": "features",
+      "heading": "Why Families Choose Our Des Moines IOP Program",
+      "subheading": "THE DES MOINES WELLNESS DIFFERENCE",
+      "body": [
+        "Selecting an outpatient program is about finding the right balance between professional clinical depth and personal freedom. Our Des Moines facility is designed for those who refuse to compromise on the quality of their care while maintaining their daily lives."
+      ],
+      "items": [
+        {
+          "title": "Master’s-Level Clinicians",
+          "text": "Unlike many outpatient centers, your care is led by high-level therapists who specialize in fixing the roots of addiction, not just managing symptoms.",
+          "icon": ""
+        },
+        {
+          "title": "Flexible Life-First Scheduling",
+          "text": "We offer morning and evening tracks specifically designed for working professionals, students, and parents who need to stay active in their roles.",
+          "icon": ""
+        },
+        {
+          "title": "Seamless Step-Down Transitions",
+          "text": "We provide a stabilized path for those moving out of residential care, ensuring there is no gap in support during the most vulnerable stages of recovery.",
+          "icon": ""
+        },
+        {
+          "title": "Accredited Decade of Expertise",
+          "text": "Backed by the Quadrant Health Network’s 10+ years of experience, we provide gold-standard, accredited care. This ensures your recovery follows the highest national clinical protocols,",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "convenient-access",
+      "kind": "features",
+      "heading": "Convenient Access for Central Iowa",
+      "subheading": "A private, calm space to reset your life",
+      "body": [
+        "Our IOP sessions are held at our premier clinical estate in Johnston, providing a peaceful and private setting for your recovery. We are centrally located to serve the entire Des Moines metro area, including Urbandale, Ankeny, West Des Moines and more. How to reach us:"
+      ],
+      "items": [
+        {
+          "title": "By Car",
+          "text": "Conveniently located just off IA-413 (NW 86th St) and minutes from the I-35/I-80 interchange, making us easily accessible for those commuting from across the region.",
+          "icon": ""
+        },
+        {
+          "title": "Public Transit",
+          "text": "Our facility is serviced by local DART routes, ensuring reliable access for those using public transportation.",
+          "icon": ""
+        },
+        {
+          "title": "Logistics Support",
+          "text": "We understand that transportation can be a hurdle. Our team can assist with local transport logistics to ensure you can attend your sessions without stress.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "medical-reviewer",
+      "kind": "team-bio",
+      "heading": "Medically Reviewed By Wesley Starlin, LMHC",
+      "subheading": "",
+      "body": [
+        "Wesley Starlin is the Executive Director at Des Moines Wellness Center with over 15 years of experience in behavioral health and addiction treatment."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
+        "alt": "Wesley Starlin - Executive Director"
+      }
+    },
+    {
+      "id": "levels-of-care",
+      "kind": "hub-list",
+      "heading": "Levels Of Care",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Detox",
+          "text": "/medical-detox-des-moines/",
+          "icon": ""
+        },
+        {
+          "title": "Residential",
+          "text": "/medical-detox-des-moines/",
+          "icon": ""
+        },
+        {
+          "title": "Outpatient",
+          "text": "/outpatient-program-des-moines",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "clinical-consultation-cta",
+      "kind": "cta",
+      "heading": "Immediate Clinical Consultation & Placement",
+      "subheading": "",
+      "body": [
+        "Don’t navigate the complexities of addiction alone. Whether you are seeking admission for yourself or a loved one, our Des Moines team is ready to provide a confidential clinical assessment and verify your insurance coverage. Your path to stabilization begins with a single conversation."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "leading-treatment-center",
+      "kind": "prose",
+      "heading": "Des Moines' Leading Inpatient Treatment Center",
+      "subheading": "your RECOVERY STARTS HERE",
+      "body": [
+        "Choosing the right residential treatment center is a life-changing decision. At Des Moines Wellness, we provide a high-intensity inpatient program designed to fix the underlying causes of substance use. By combining dual diagnosis care with a complete environmental reset, we help individuals from across Central Iowa and beyond break the cycle of chronic relapse in a safe, physician-led setting.",
+        "Whether you are seeking help for alcoholism, opioid addiction, or prescription drug dependency, our master’s-level clinicians are ready to help. As part of the Quadrant Health Network, we offer a premier clinical sanctuary for those in Des Moines, Ankeny, Polk County and people traveling from all Iowa or out of state. Don’t wait for the perfect time to start your medical stabilization and recovery journey. Call today."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "contact-assessment",
+      "kind": "contact",
+      "heading": "Secure Your Private Clinical Assessment",
+      "subheading": "START THE PROCESS",
+      "body": [
+        "Ready to move from research to recovery? Fill out the confidential form below to connect directly with our Des Moines admissions team. We provide a comprehensive medical review and insurance verification to ensure your transition into detox, residential or outpatient programs is seamless and immediate."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2540466307-scaled.jpg",
+      "alt": "Two women standing on a cliffside at sunset, symbolizing a supportive journey toward wellness and a new beginning in recovery with des moines wellness center.",
+      "role": "hero"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/goldseal_national-1-scaled-1-1.png",
+      "alt": "des moines wellness center joint commission accredited",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/legit-script-certified_9eead42e-ecae-4ef3-b52d-82412e0e9e42-1-1.webp",
+      "alt": "des moines wellness center legitscript accredited",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White.png",
+      "alt": "NYSHIP-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white.webp",
+      "alt": "mcr-aetna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White.png",
+      "alt": "UMR-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white.webp",
+      "alt": "mcr-first-health-network-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White.png",
+      "alt": "Surest-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white.webp",
+      "alt": "cigna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white.webp",
+      "alt": "anthem-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white.webp",
+      "alt": "med-mutual-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white.webp",
+      "alt": "mcr-uhc-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp",
+      "alt": "mcr-beacon-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
+      "alt": "Wesley Starlin - Executive Director",
+      "role": "section"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "Verify Your Insurance",
+      "href": "/admissions"
+    },
+    {
+      "label": "Read The Bio",
+      "href": "/welsey-starlin"
+    }
+  ]
+}

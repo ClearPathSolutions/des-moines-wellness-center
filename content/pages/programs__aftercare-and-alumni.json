@@ -1,0 +1,360 @@
+{
+  "slug": "programs/aftercare-and-alumni",
+  "pageType": "program",
+  "seo": {
+    "title": "Rehab Aftercare & Alumni Support Des Moines, Iowa | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Stay connected with professional aftercare and a thriving alumni network in Des Moines. We offer relapse prevention and sober social events in Des Moines."
+  },
+  "hero": {
+    "eyebrow": "",
+    "headline": "Aftercare & Alumni Support in Des Moines, Iowa",
+    "subhead": "",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2422944385-scaled.jpg",
+      "alt": "Members of our Des Moines alumni network enjoying a sober social event and building community connections in Polk County."
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "aftercare-what-you-need-to-know",
+      "kind": "features",
+      "heading": "Aftercare: What You Need To Know",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Continued Clinical Support",
+          "text": "Scheduled check-ins and relapse prevention workshops to keep your recovery tools sharp.",
+          "icon": ""
+        },
+        {
+          "title": "Active Alumni Network",
+          "text": "Connect with a thriving community of peers for accountability and support.",
+          "icon": ""
+        },
+        {
+          "title": "Sober Social Events",
+          "text": "Regular meetups and outings that prove life in recovery is active, engaging, and purposeful.",
+          "icon": ""
+        },
+        {
+          "title": "Expert Transition Planning",
+          "text": "Professional guidance to help you successfully reintegrate into your career and family life.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "most-major-private-insurance-plans-accepted",
+      "kind": "insurance",
+      "heading": "Most Major Private Insurance Plans Accepted",
+      "subheading": "",
+      "body": [
+        "At Des Moines Wellness Center, we believe that financial barriers should never stand in the way of life-saving care. Our admissions team works directly with your provider to maximize your benefits and minimize out-of-pocket costs. We provide a 100% confidential insurance verification process to get you the answers you need in minutes."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "our-commitment-doesnt-end-at-graduation",
+      "kind": "features",
+      "heading": "Our Commitment Doesn't End at Graduation",
+      "subheading": "Moving beyond detox to fix the root of the problem",
+      "body": [
+        "At our Des Moines rehab, we don’t believe in completing treatment and walking away. True recovery is a lifelong journey, and our responsibility to you continues long after you leave our doors. We remain a permanent partner in your sobriety, providing the professional resources and community connections necessary to navigate the real-world challenges of life.",
+        "Our aftercare framework focuses on two essential pillars that ensure our graduates in don’t just finish a program, but build a sustainable new life."
+      ],
+      "items": [
+        {
+          "title": "Pillar 1: Structured Aftercare Planning",
+          "text": "Before you complete your PHP or IOP track, our clinicians build a personalized transition plan. This roadmap includes scheduled outpatient check-ins, medication management, and direct referrals to local Des Moines support groups to ensure there is never a gap in your care. By professionalizing the transition, we remove the guesswork from early recovery.",
+          "icon": ""
+        },
+        {
+          "title": "Pillar 2: A Thriving Alumni Network",
+          "text": "Sobriety is more sustainable when it’s shared. Our alumni program connects you with a diverse group of individuals in the central Iowa area who have walked the same path. From sober social events to peer mentorship, we provide the social mortar that keeps your foundation strong, ensuring you always have a local community to lean on.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "what-to-expect-in-our-aftercare-program",
+      "kind": "steps",
+      "heading": "What to Expect in Our Aftercare Program",
+      "subheading": "THE ROADMAP TO INDEPENDENCE",
+      "body": [
+        "Leaving treatment is a big step, but you won’t do it alone. Our aftercare program is a simple safety net that helps you move from rehab back to your normal life without losing your progress."
+      ],
+      "items": [
+        {
+          "title": "A Clear Plan for Home",
+          "text": "Before you graduate, we create a custom plan with you. This lists your personal triggers and tells you exactly what to do if things get tough.",
+          "icon": ""
+        },
+        {
+          "title": "Ongoing Therapy Check-ins",
+          "text": "You still have access to our therapists. We schedule regular sessions to see how you are handling work and family stress.",
+          "icon": ""
+        },
+        {
+          "title": "Real Accountability",
+          "text": "We provide regular touchpoints during your first year. Having a professional team to check in with helps you turn your new coping skills into permanent habits.",
+          "icon": ""
+        },
+        {
+          "title": "A Sober Community",
+          "text": "You are instantly invited to our Des Moines alumni events. This gives you a group of sober friends to hang out with so you never feel isolated.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "why-people-chose-our-des-moines-drug-rehab",
+      "kind": "features",
+      "heading": "Why People chose our des moines drug rehab",
+      "subheading": "Real Aftercare IN IOWA",
+      "body": [
+        "We provide a high-end, clinical alternative to traditional treatment centers. By combining the privacy of a boutique estate with top-tier medical expertise, we help you fix the roots of addiction once and for all."
+      ],
+      "items": [
+        {
+          "title": "Expert Clinical Care",
+          "text": "With 10+ years of expertise, our master’s-level team specializes in dual-diagnosis care. We treat the entire person using proven medical and behavioral strategies.",
+          "icon": ""
+        },
+        {
+          "title": "Private & Discreet",
+          "text": "Quiet, professional sanctuary. We prioritize your anonymity and provide a comfortable, high-end environment that makes focusing on recovery easier for professionals and families.",
+          "icon": ""
+        },
+        {
+          "title": "Seamless Support",
+          "text": "We handle the details so you don't have to. From transportation logistics across the Des Moines metro to lifelong aftercare, we are a permanent partner in your sobriety from day one.",
+          "icon": ""
+        },
+        {
+          "title": "Insurance Made Simple",
+          "text": "We work with most private insurance providers and handle the verification process for you. We provide a breakdown of your benefits so you know exactly what is covered.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "medically-reviewed-by-wesley-starlin",
+      "kind": "team-bio",
+      "heading": "Medically Reviewed By Wesley Starlin, LMHC",
+      "subheading": "",
+      "body": [
+        "Wesley Starlin is the Executive Director at Des Moines Wellness Center with over 15 years of experience in behavioral health and addiction treatment."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
+        "alt": "Wesley Starlin - Executive Director"
+      }
+    },
+    {
+      "id": "levels-of-care",
+      "kind": "hub-list",
+      "heading": "Levels Of Care",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "PHP",
+          "text": "https://desmoinesrecovery.com/php-des-moines/",
+          "icon": ""
+        },
+        {
+          "title": "IOP",
+          "text": "https://desmoinesrecovery.com/iop-des-moines/",
+          "icon": ""
+        },
+        {
+          "title": "Inpatient",
+          "text": "https://desmoinesrecovery.com/residential-rehab-des-moines/",
+          "icon": ""
+        },
+        {
+          "title": "Outpatient",
+          "text": "https://desmoinesrecovery.com/outpatient-program-des-moines",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "immediate-clinical-consultation-placement",
+      "kind": "cta",
+      "heading": "Immediate Clinical Consultation & Placement",
+      "subheading": "",
+      "body": [
+        "Don’t navigate the complexities of addiction alone. Whether you are seeking admission for yourself or a loved one, our Des Moines team is ready to provide a confidential clinical assessment and verify your insurance coverage. Your path to stabilization begins with a single conversation."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "long-term-recovery-resources-in-des-moines",
+      "kind": "prose",
+      "heading": "Long-Term Recovery Resources in Des Moines",
+      "subheading": "You can Always Count On Us, no matter when",
+      "body": [
+        "At Des Moines Wellness Center, we are committed to more than just initial treatment; we are dedicated to lifelong sobriety. By providing a structured Continuum of Care, we ensure that every graduate from our inpatient and outpatient tracks has the tools to thrive in the broader Iowa community. Backed by 10+ years of Quadrant Health Group experience, our Aftercare and Alumni programs serve as a permanent safety net for families across Polk County and Dallas County, offering a professional alternative to standard recovery support.",
+        "Our team is here to provide the support you need to maintain your sobriety and stay plugged into the Central Iowa recovery community. Whether you need to verify your benefits or join our next Des Moines alumni event, a single call gets you the answers."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "secure-your-private-clinical-assessment",
+      "kind": "contact",
+      "heading": "Secure Your Private Clinical Assessment",
+      "subheading": "START THE PROCESS",
+      "body": [
+        "Ready to move from research to recovery? Fill out the confidential form below to connect directly with our Des Moines admissions team. We provide a comprehensive medical review and insurance verification to ensure your transition into detox, residential or outpatient programs is seamless and immediate."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2422944385-scaled.jpg",
+      "alt": "Members of our Des Moines alumni network enjoying a sober social event and building community connections in Polk County.",
+      "role": "hero"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/goldseal_national-1-scaled-1-1.png",
+      "alt": "des moines wellness center joint commission accredited",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/legit-script-certified_9eead42e-ecae-4ef3-b52d-82412e0e9e42-1-1.webp",
+      "alt": "des moines wellness center legitscript accredited",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White.png",
+      "alt": "NYSHIP-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white.webp",
+      "alt": "mcr-aetna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White.png",
+      "alt": "UMR-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white.webp",
+      "alt": "mcr-first-health-network-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White.png",
+      "alt": "Surest-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white.webp",
+      "alt": "cigna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white.webp",
+      "alt": "anthem-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white.webp",
+      "alt": "med-mutual-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white.webp",
+      "alt": "mcr-uhc-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp",
+      "alt": "mcr-beacon-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
+      "alt": "Wesley Starlin - Executive Director",
+      "role": "section"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "Verify Your Insurance",
+      "href": "/admissions"
+    },
+    {
+      "label": "Read The Bio",
+      "href": "/welsey-starlin"
+    }
+  ]
+}

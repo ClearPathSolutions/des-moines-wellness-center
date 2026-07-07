@@ -1,0 +1,382 @@
+{
+  "slug": "areas-we-serve/west-des-moines",
+  "pageType": "area",
+  "seo": {
+    "title": "Accredited Detox & Rehab Programs Minutes From West Des Moines | Des Moines Wellness Center",
+    "description": "Getting help shouldn’t be stressful or confusing. We work with major private insurance companies to get you the highest level of coverage possible. Our team …"
+  },
+  "hero": {
+    "eyebrow": "",
+    "headline": "Accredited Detox & Rehab Programs Minutes From West Des Moines",
+    "subhead": "",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/shutterstock_2257930677-scaled.jpg",
+      "alt": "A licensed therapist leading a supportive family counseling and addiction recovery session minutes from West Des Moines at Des Moines Wellness."
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "quick-facts",
+      "kind": "features",
+      "heading": "Rehab & Detox Near West Des Moines, IA - Quick Facts",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "The Commute",
+          "text": "Just minutes away from West Des Moines: fast, private access via the I-235 East corridor or the I-80/I-35 loop.",
+          "icon": ""
+        },
+        {
+          "title": "Levels of Care",
+          "text": "Full continuum from medical drug detox and residential inpatient to high-structure PHP and flexible IOP.",
+          "icon": ""
+        },
+        {
+          "title": "Specialized Tracks",
+          "text": "Dual-diagnosis clinical protocols simultaneously treating addiction alongside anxiety, depression, and trauma.",
+          "icon": ""
+        },
+        {
+          "title": "Immediate Help",
+          "text": "Admissions open 24/7. Most insurances accepted. Call (888) 378-2158 to get started.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "insurance",
+      "kind": "insurance",
+      "heading": "Your Insurance Can Help Pay for Recovery",
+      "subheading": "",
+      "body": [
+        "Getting help shouldn’t be stressful or confusing. We work with major private insurance companies to get you the highest level of coverage possible. Our team deals directly with your insurance provider so you don’t have to worry about the paperwork. Call us today for a free, private check of your benefits. Call us today to verify your benefits. 100% free."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "personalized-treatment",
+      "kind": "prose",
+      "heading": "Personalized Substance Abuse Treatment Close to Home",
+      "subheading": "Knowing When It Is Time for Help",
+      "body": [
+        "Every journey to sobriety is different, which is why we reject rigid, one-size-fits-all clinical templates. We focus on treating the whole person, mapping out custom recovery paths that target both the physical reliance on a substance and the emotional triggers, like chronic anxiety, trauma, or depression that pull you back into old cycles.",
+        "Whether you reside near the active Jordan Creek retail area, down in the established neighborhood communities around Historic Valley Junction, or closer to the Raccoon River, our facility balances top-tier clinical care with everyday convenience. For families searching for accredited detox centers near me or comprehensive substance abuse treatment in the West Des Moines, IA area, our location delivers an uncompromised standard of safety. Clients can complete a medically monitored physical stabilization phase, then smoothly transition into structured daily or evening therapies, ensuring you can access elite care while remaining close to your local support system."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "levels-of-care",
+      "kind": "cards",
+      "heading": "From Detox to Outpatient in One Location: Our levels of care",
+      "subheading": "Full Continuum of Care under one roof",
+      "body": [
+        "We manage your entire recovery journey in one trusted location. Instead of forcing you to bounce around between different clinics, doctors, and locations, you can smoothly step down from intensive medical care to flexible outpatient therapy with the exact same clinical team."
+      ],
+      "items": [
+        {
+          "title": "Medical Drug & Alcohol Detox",
+          "text": "Get Rid Of The Substance — Safe, comfortable physical clearing of your system. Our 24/7 medical team monitors you around the clock and uses safe medications to stop painful withdrawal symptoms.",
+          "icon": ""
+        },
+        {
+          "title": "Residential Inpatient Rehab",
+          "text": "Heal The Root Of Addiction — Immersive, 24/7 healing. You live on-site at our upscale facility and participate in daily therapy sessions to figure out exactly why the addiction started in the first place.",
+          "icon": ""
+        },
+        {
+          "title": "Partial Hospitalization Program (PHP)",
+          "text": "Back To Real Life — High-structure care during the day. You receive several hours of intensive therapy, mental health support, and medical check-ins, but you get to sleep in your own bed at night.",
+          "icon": ""
+        },
+        {
+          "title": "Intensive Outpatient Program (IOP)",
+          "text": "Flexible Programs That Fits — Flexible, part-time support. You attend daytime or evening group therapy blocks that focus on real-world life skills, stress management, and relapse prevention.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "why-choose",
+      "kind": "cards",
+      "heading": "Why West Des Moines Families Choose Our Drug Rehab",
+      "subheading": "THE DES MOINES WELLNESS DIFFERENCE",
+      "body": [
+        "We know you have choices when looking for treatment. Our facility stands out because we combine high-end comfort with real, medical-grade care. Here are six reasons why West Des Moines families choose our center:"
+      ],
+      "items": [
+        {
+          "title": "Evidence-Based Therapy",
+          "text": "Our clinicians use targeted, proven methods like CBT and trauma-focused therapy to help you change negative habits and manage intense cravings safely.",
+          "icon": ""
+        },
+        {
+          "title": "All Care Under One Roof",
+          "text": "Skip the hassle of moving clinics. Go from your initial medical detox to inpatient residential stay and flexible outpatient therapy in one single, familiar location.",
+          "icon": ""
+        },
+        {
+          "title": "Dual-Diagnosis Support",
+          "text": "We treat the whole person by addressing substance use and underlying mental health struggles, like severe anxiety, depression, or stress, at the exact same time.",
+          "icon": ""
+        },
+        {
+          "title": "Practical Relapse Prevention",
+          "text": "We focus on life after treatment, giving you the real-world coping habits and daily stress-management skills needed to keep your sobriety strong in West Des Moines.",
+          "icon": ""
+        },
+        {
+          "title": "Medication-Assisted Treatment (MAT)",
+          "text": "When necessary, we offer medically supervised Medication-Assisted Treatment (MAT) using safe, FDA-approved options to reduce cravings and protect your early sobriety.",
+          "icon": ""
+        },
+        {
+          "title": "Trusted Clinical Backing",
+          "text": "As part of the respected Quadrant Health Group network, our program follows strict national medical standards, giving your family top-tier safety and elite expertise.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "driving-directions",
+      "kind": "steps",
+      "heading": "Easy Driving Directions From West Des Moines",
+      "subheading": "CLOSE TO HOME, SEPARATE FROM TRIGGERS",
+      "body": [
+        "We chose our location to give families the best of both worlds. Being just 15 to 20 minutes north of West Des Moines makes it easy for family members to visit, attend therapy, or drop off personal items. At the same time, stepping slightly outside your immediate neighborhood provides a crucial psychological boundary, giving you a clean break from local triggers and daily stressors so you can focus entirely on healing. To reach us from West Des Moines:"
+      ],
+      "items": [
+        {
+          "title": "Take the Metro Loop (I-35 N / I-80 E)",
+          "text": "Jump on the interstate heading north toward the upper edge of the metro area.",
+          "icon": ""
+        },
+        {
+          "title": "The Merle Hay Exit",
+          "text": "Take the exit for Merle Hay Road and turn left to head north into Johnston.",
+          "icon": ""
+        },
+        {
+          "title": "Turn Left on 62nd Ave",
+          "text": "Follow Merle Hay Road past the local shopping centers, then take a left onto NW 62nd Avenue.",
+          "icon": ""
+        },
+        {
+          "title": "Arrive on Winwood Drive",
+          "text": "Turn right onto Winwood Drive. Our upscale facility sits tucked away in a quiet, peaceful professional park designed for absolute discretion and privacy.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "admissions-process",
+      "kind": "steps",
+      "heading": "Your 3-Step, Hassle-Free Admissions Process",
+      "subheading": "Start addiction treatment near West Des Moines",
+      "body": [],
+      "items": [
+        {
+          "title": "Confidential Call",
+          "text": "Reach out to an intake advocate at (888) 378-2158 for a 100% private consultation. We are available 24 hours a day, 7 days a week, to answer your questions.",
+          "icon": ""
+        },
+        {
+          "title": "Free Benefits Check",
+          "text": "Provide our team with your insurance card information. We will call your provider directly to verify your exact deductibles, co-pays, and length-of-stay coverage for medical detox, inpatient residential rehab, or outpatient tracks.",
+          "icon": ""
+        },
+        {
+          "title": "Scheduled Arrival",
+          "text": "Once your insurance benefits are verified, we handle the clinical logistics. We can arrange immediate intake, secure your private room, and coordinate your seamless travel to our facility from West Des Moines.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "ready-first-step",
+      "kind": "cta",
+      "heading": "Ready to Take Your First Step? We Are Available Now.",
+      "subheading": "",
+      "body": [
+        "If you or someone you love needs professional support, you don’t have to navigate this alone. From medical detox and residential inpatient rehab to flexible outpatient programming, our central Des Moines center provides the expert care you deserve. Call our admissions team right now to get your questions answered and start your recovery journey today."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "explore-facility",
+      "kind": "prose",
+      "heading": "Explore Our Beautiful Central Iowa Facility",
+      "subheading": "",
+      "body": [
+        "Healing is easier when you are surrounded by comfort and peace. Our drug & alcohol rehab is thoughtfully designed with premium furnishings, private clinical settings, and relaxing amenities to give you the perfect space to recover. Take a look inside to see how we blend elite medical detox, inpatient & outpatient care with an upscale, welcoming environment."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "start-recovery",
+      "kind": "cta",
+      "heading": "START Your Recovery Today",
+      "subheading": "",
+      "body": [],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "step-out-of-darkness",
+      "kind": "contact",
+      "heading": "Step Out of the Darkness and Into Lasting Healing",
+      "subheading": "",
+      "body": [
+        "Taking the first step toward recovery shouldn’t feel overwhelming. Whether you are seeking immediate medical detox, a structured inpatient stay, or flexible outpatient care, our admissions team is ready to guide you. Fill out our simple, secure form below, and a confidential intake expert will reach out to you within 15 minutes to answer your questions."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/shutterstock_2257930677-scaled.jpg",
+      "alt": "A licensed therapist leading a supportive family counseling and addiction recovery session minutes from West Des Moines at Des Moines Wellness.",
+      "role": "hero"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/goldseal_national-1-scaled-1-1-1-1024x1024.png",
+      "alt": "",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/legit-script-certified_9eead42e-ecae-4ef3-b52d-82412e0e9e42-1-1-1.webp",
+      "alt": "",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/NYSHIP-Logo-White-1.png",
+      "alt": "NYSHIP-Logo-White-1.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/mcr-aetna-white-2.webp",
+      "alt": "mcr-aetna-white-2.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/UMR-Logo-White-1.png",
+      "alt": "UMR-Logo-White-1.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/mcr-first-health-network-white-2.webp",
+      "alt": "mcr-first-health-network-white-2.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/Surest-Logo-White-1.png",
+      "alt": "Surest-Logo-White-1.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/cigna-white-2.webp",
+      "alt": "cigna-white-2.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/anthem-white-2.webp",
+      "alt": "anthem-white-2.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/med-mutual-white-2.webp",
+      "alt": "med-mutual-white-2.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/mcr-uhc-white-2.webp",
+      "alt": "mcr-uhc-white-2.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/mcr-beacon-white-2.webp",
+      "alt": "mcr-beacon-white-2.webp",
+      "role": "logo"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "Get Started - (888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Tour The Facility",
+      "href": "/tour"
+    }
+  ]
+}

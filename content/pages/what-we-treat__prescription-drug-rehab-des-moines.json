@@ -1,0 +1,450 @@
+{
+  "slug": "what-we-treat/prescription-drug-rehab-des-moines",
+  "pageType": "condition",
+  "seo": {
+    "title": "Prescription Drug Rehab Des Moines - Detox, Inpatient, IOP | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Specialized prescription drug rehab in Des Moines. Offering a full on-site continuum of care: Medical Detox, Residential, & PHP. Most insurances accepted."
+  },
+  "hero": {
+    "eyebrow": "",
+    "headline": "Prescription Drug Rehab in Des Moines, Iowa",
+    "subhead": "",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/shutterstock_645867346-scaled.jpg",
+      "alt": "An empowered woman standing on a mountain peak symbolizing the victory of overcoming prescription drug dependency through clinical recovery in Des Moines wellness."
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "program-essentials",
+      "kind": "features",
+      "heading": "Program Essentials - Prescription Drug Rehab",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Medical Detox",
+          "text": "High-level clinical stabilization for opioids, benzodiazepines, and stimulants.",
+          "icon": ""
+        },
+        {
+          "title": "Residential Care",
+          "text": "24/7 structured environment focused on neuro-restoration and therapy.",
+          "icon": ""
+        },
+        {
+          "title": "Partial Hospitalization (PHP)",
+          "text": "Intensive daytime clinical support while practicing real-world coping.",
+          "icon": ""
+        },
+        {
+          "title": "Intensive Outpatient (IOP)",
+          "text": "Flexible treatment to support your transition back to family and work.",
+          "icon": ""
+        },
+        {
+          "title": "Dual Diagnosis",
+          "text": "Integrated care for chronic pain and underlying mental health conditions.",
+          "icon": ""
+        },
+        {
+          "title": "",
+          "text": "Most insurance accepted with fast, same-day admissions available",
+          "icon": ""
+        },
+        {
+          "title": "",
+          "text": "Located in the heart of Des Moines, IA",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "insurance-support",
+      "kind": "insurance",
+      "heading": "Let Your Insurance Support Your Recovery",
+      "subheading": "",
+      "body": [
+        "The cost of treatment should never be a barrier to the care you deserve. We are here to help you navigate your coverage so you can focus entirely on your recovery. Our team specializes in maximizing private insurance benefits to ensure your clinical stay at our Des Moines drug rehab is fully supported. Call us today to verify your benefits. 100% free."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "breaking-the-cycle",
+      "kind": "prose",
+      "heading": "Breaking the Cycle of Clinical Dependency in Des Moines, Iowa",
+      "subheading": "Identifying the Warning Signs of Misuse",
+      "body": [
+        "The misuse of clinical medications often involves powerful substances that fall into three primary categories: opioid pain relievers like oxycodone and hydrocodone , central nervous system depressants such as Xanax and Valium, and stimulants like Adderall or Ritalin. Dependency often begins with a legitimate prescription for pain or anxiety, making the transition to misuse difficult to recognize until the body has fully adapted to the substance. Unlike other forms of addiction, prescription dependency is heavily tied to this physiological adaptation, which makes unassisted withdrawal dangerous and often ineffective."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "signs-of-dependency",
+      "kind": "features",
+      "heading": "Signs of Prescription Drug Dependency",
+      "subheading": "",
+      "body": [
+        "Identifying the early indicators of misuse is vital for successful intervention. If you or a loved one are experiencing these symptoms, our Polk County clinical team can provide a confidential assessment to determine the appropriate level of care."
+      ],
+      "items": [
+        {
+          "title": "Doctor Shopping",
+          "text": "Attempting to obtain multiple prescriptions from various physicians or pharmacies.",
+          "icon": ""
+        },
+        {
+          "title": "Dose Escalation",
+          "text": "Consuming higher doses or more frequent refills than originally prescribed by a doctor.",
+          "icon": ""
+        },
+        {
+          "title": "Physical Withdrawal",
+          "text": "Experiencing tremors, sweating, or nausea when the medication wears off.",
+          "icon": ""
+        },
+        {
+          "title": "Cognitive Impairment",
+          "text": "Persistent confusion, slurred speech, or poor coordination during daily tasks.",
+          "icon": ""
+        },
+        {
+          "title": "Mood Fluctuations",
+          "text": "Intense irritability, anxiety, or unexplained mood swings between doses.",
+          "icon": ""
+        },
+        {
+          "title": "Social Isolation",
+          "text": "Withdrawing from family responsibilities or professional obligations to use the substance.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "safe-medical-detox",
+      "kind": "prose",
+      "heading": "Safe, Medical Prescription Drug Detox in Des Moines",
+      "subheading": "How We Manage Prescription Drug Withdrawal",
+      "body": [
+        "Withdrawal from certain prescription medications carries life-threatening risks that require immediate medical intervention. Benzodiazepine withdrawal, in particular, can trigger grand mal seizures, hallucinations, and delirium tremens if not managed through a professional tapering schedule. While opioid withdrawal is rarely fatal on its own, the intense physical pain and dehydration it causes often lead to immediate relapse. In a clinical setting, we utilize specialized medications to mitigate these symptoms, significantly reducing the risk of a medical emergency and preventing the heightened danger of overdose that occurs when tolerance drops during a failed detox attempt."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "withdrawal-management-steps",
+      "kind": "steps",
+      "heading": "Managing Prescription Drug Withdrawal Symptoms Safely:",
+      "subheading": "",
+      "body": [
+        "The transition away from prescription dependency requires a precise clinical strategy to protect your physical and neurological health. At Des Moines Wellness Center, we utilize a multi-stage medical detox protocol designed to mitigate the risks associated with high-acuity withdrawal. Our process is overseen by experienced medical professionals who ensure that your stabilization is safe and provides a solid foundation for the therapeutic work to follow."
+      ],
+      "items": [
+        {
+          "title": "1. Comprehensive Clinical Evaluation",
+          "text": "We conduct a comprehensive medical assessment to create a personalized detox strategy based on your specific prescription history and physical health needs.",
+          "icon": ""
+        },
+        {
+          "title": "2. Medical Supervision",
+          "text": "Our team provides 24/7 monitoring and utilizes tapering protocols to prevent dangerous complications like seizures while significantly reducing physical withdrawal pain.",
+          "icon": ""
+        },
+        {
+          "title": "3. Physiological Restoration",
+          "text": "We focus on rebalancing the body through targeted hydration and nutritional support to combat the intense exhaustion and fog common in early recovery.",
+          "icon": ""
+        },
+        {
+          "title": "4. Integrated Transition",
+          "text": "Once stable, you move seamlessly into our on-site Residential or PHP programs, ensuring a continuous path to healing without leaving our Des Moines campus.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "continuum-of-care",
+      "kind": "cards",
+      "heading": "Sustaining Recovery Through Every Stage in Des Moines, Iowa",
+      "subheading": "",
+      "body": [
+        "After detox, the work of true neurological and behavioral healing begins, and our multi-phase approach ensures you have the structure needed to prevent relapse during this vulnerable transition. We provide a full on-site continuum of care, ensuring you never have to navigate a transition alone. By staying on-site, you benefit from a consistent clinical team that tracks your progress from the first day of stabilization to your return to daily life."
+      ],
+      "items": [
+        {
+          "title": "Residential Inpatient",
+          "text": "Immersive Stabilization. Immediately after detox, this 24/7 clinical phase focuses on neuro-restoration and addressing root causes like chronic pain or anxiety in a safe, structured environment.",
+          "icon": ""
+        },
+        {
+          "title": "Outpatient (PHP & IOP)",
+          "text": "Back to Real Life. These levels provide intensive therapy during the day while allowing you to live at home. It is the ideal bridge for reintegrating into your Polk County routine with professional support.",
+          "icon": ""
+        },
+        {
+          "title": "Clinical Aftercare & Alumni",
+          "text": "Staying Sober Long-Term. Post-treatment stability is reinforced through structured relapse prevention and a local Des Moines peer network, ensuring you remain connected to a supportive recovery community.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "clinical-modalities",
+      "kind": "prose",
+      "heading": "Evidence-Based Clinical Modalities for Drug Rehab",
+      "subheading": "",
+      "body": [
+        "Our therapeutic approach targets the psychological roots of dependency through a blend of science-backed treatments. At our Des Moines drug rehab, these modalities are integrated into every level of care to ensure comprehensive healing.",
+        "Identifies and restructures negative thought patterns to build proactive coping skills for high-stress triggers.",
+        "Focuses on emotional regulation and mindfulness to manage cravings without relying on sedative medications.",
+        "Addresses underlying trauma and PTSD, which are frequent drivers of prescription drug self-medication.",
+        "Utilizes FDA-approved medications to stabilize brain chemistry and reduce the physical intensity of cravings.",
+        "Repairs communication and establishes healthy boundaries within the household to strengthen your home support system.",
+        "Provides a concrete toolkit for identifying high-risk situations and maintaining long-term sobriety in Polk County."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "dual-diagnosis",
+      "kind": "prose",
+      "heading": "Dual Diagnosis: Treating the Root of Dependency",
+      "subheading": "Addressing Co-Occurring Disorders in Prescription Recovery",
+      "body": [
+        "Many individuals begin misusing medication to self-manage underlying mental health conditions or physical symptoms. We specialize in Dual Diagnosis care, treating the addiction and the co-occurring disorder simultaneously to ensure long-term stability.",
+        "Our clinical team addresses the complex relationship between chronic pain and opioids, anxiety and benzodiazepines, or ADHD and stimulants. By treating both the psychological ‘why’ and the physical ‘what’ of your addiction, we significantly reduce the risk of relapse.",
+        "Our drug rehab psychiatric experts provide evidence-based trauma-informed care and medication management under one roof, ensuring that as you move through our Des Moines campus, your mental health is prioritized alongside your physical sobriety for a more resilient recovery."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "community-resources",
+      "kind": "features",
+      "heading": "Recovery Resources in Des Moines and Across Iowa",
+      "subheading": "COMMUNITY SUPPORT",
+      "body": [
+        "Recovery doesn’t happen in isolation. Beyond our clinical walls, Des Moines offers several essential resources to help you manage prescription safety and find immediate support within Iowa."
+      ],
+      "items": [
+        {
+          "title": "Prescription Drug Take-Back Locations",
+          "text": "Safely disposing of unused medication is a critical step in preventing misuse. The Polk County Sheriff’s Office (6023 NE 14th Street) and many local Medicap Pharmacies offer secure drop-off boxes for pharmaceutical disposal.",
+          "icon": ""
+        },
+        {
+          "title": "Iowa Prescription Monitoring Program (PMP)",
+          "text": "A clinical tool used by Iowa healthcare providers to ensure patient safety and prevent the dangerous doctor shopping often associated with prescription dependency.",
+          "icon": ""
+        },
+        {
+          "title": "Narcotics Anonymous (NA) Support",
+          "text": "Connect with a supportive peer community through local Des Moines meetings to help you maintain long-term sobriety.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "medically-reviewed",
+      "kind": "team-bio",
+      "heading": "Medically Reviewed By Wesley Starlin, LMHC",
+      "subheading": "",
+      "body": [
+        "Wesley Starlin is the Executive Director at Des Moines Wellness Center with over 15 years of experience in behavioral health and addiction treatment."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
+        "alt": "Wesley Starlin - Executive Director"
+      }
+    },
+    {
+      "id": "were-here-to-listen",
+      "kind": "cta",
+      "heading": "We’re Here to Listen When You’re Ready",
+      "subheading": "",
+      "body": [
+        "Taking the first step is often the hardest, but you don’t have to do it by yourself. Whether you have a quick question about our Des Moines rehab or just need to hear a supportive voice, our team is available 24/7. We provide a safe, confidential space to discuss your options, verify your private insurance, and help you find the right path forward."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "clinical-excellence",
+      "kind": "prose",
+      "heading": "Prescription Drug Addiction Treatment in Des Moines",
+      "subheading": "Clinical Excellence in Iowa",
+      "body": [
+        "Overcoming prescription drug dependency requires a medically precise approach that addresses both physical chemistry and psychological triggers. As a Quadrant Health Group facility , Des Moines Wellness Center provides a high-acuity clinical environment in Polk County specifically engineered for the complexities of opioid, benzodiazepine, and stimulant recovery. The cornerstone of our success is our full on-site continuum of care. We offer every stage of recovery, from medical detox and residential treatment to PHP and IOP within a single, integrated Des Moines campus. This seamless structure eliminates the risks associated with facility transfers, ensuring your clinical team and treatment plan remain consistent as you progress.",
+        "Our commitment to clinical excellence is further reinforced by our specialized focus on medication-assisted treatment (MAT) and dual-diagnosis integration. Our Quadrant Health Group experts address the intricate relationship between physical dependency and co-occurring mental health conditions, ensuring that underlying issues like chronic pain or treatment-resistant anxiety are addressed simultaneously. For those seeking the highest standard of prescription drug rehab in Des Moines, we offer a medically rigorous, insurance-accessible path to recovery that prioritizes sustainable sobriety. We are in-network with most major providers. Our Des Moines admissions team is available 24/7 for confidential insurance verification and same-day clinical assessments."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "start-your-recovery",
+      "kind": "cta",
+      "heading": "Let’s Build a Life You Don’t Need to Escape",
+      "subheading": "START Your Recovery Today",
+      "body": [
+        "Don’t let the weight of addiction decide your future. Whether you are seeking help for yourself or a loved one, our Des Moines admissions team is ready to provide the direct answers you need to move forward. We conduct a professional clinical assessment to find the best program for your needs while securing your private insurance benefits and job protection. Fill out the form below to get started, and a member of the team will reach out shortly."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/shutterstock_645867346-scaled.jpg",
+      "alt": "An empowered woman standing on a mountain peak symbolizing the victory of overcoming prescription drug dependency through clinical recovery in Des Moines wellness.",
+      "role": "hero"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/goldseal_national-1-scaled-1-1-1-1024x1024.png",
+      "alt": "",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/legit-script-certified_9eead42e-ecae-4ef3-b52d-82412e0e9e42-1-1-1.webp",
+      "alt": "",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White-1.png",
+      "alt": "NYSHIP-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white-2.webp",
+      "alt": "mcr-aetna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White-1.png",
+      "alt": "UMR-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white-2.webp",
+      "alt": "mcr-first-health-network-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White-1.png",
+      "alt": "Surest-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white-2.webp",
+      "alt": "cigna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white-2.webp",
+      "alt": "anthem-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white-2.webp",
+      "alt": "med-mutual-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white-2.webp",
+      "alt": "mcr-uhc-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white-2.webp",
+      "alt": "mcr-beacon-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
+      "alt": "Wesley Starlin - Executive Director",
+      "role": "section"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "Verify Your Insurance",
+      "href": "/admissions"
+    }
+  ]
+}

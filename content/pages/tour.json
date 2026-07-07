@@ -1,0 +1,144 @@
+{
+  "slug": "tour",
+  "pageType": "page",
+  "seo": {
+    "title": "Tour Des Moines Wellness Center - Addiction Rehab in Iowa | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Explore Des Moines Wellness Center in Des Moines, Iowa. Tour our detox, residential treatment, and recovery spaces designed to support lasting healing."
+  },
+  "hero": {
+    "eyebrow": "A Clinical Space Designed For Healing",
+    "headline": "Tour Our Luxury Facility",
+    "subhead": "Recovery starts with a safe, structured environment. Our Des Moines facility is engineered to provide the physical comfort and medical security necessary for your transition from crisis to health. Take a virtual look at the high-level setting where your recovery journey begins.",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2503767347-scaled.jpg",
+      "alt": "Patients celebrating recovery milestones and clinical progress at our Des Moines facility."
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "the-des-moines-experience",
+      "kind": "features",
+      "heading": "THE DES MOINES EXPERIENCE",
+      "subheading": "Getting Them The Support They Need",
+      "body": [
+        "Our Des Moines facility redefines the clinical experience, blending high-level medical oversight with the refined comfort of a premium recovery retreat."
+      ],
+      "items": [
+        {
+          "title": "Executive Private Suites",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Dedicated Medical Detox Suite",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Professional Clinical Offices",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Premium Wellness & Movement Center",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Expansive Outdoor Recovery Spaces",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Gourmet Culinary Experience",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Group Therapy & Education Hubs",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Private Intake & Evaluation Wing",
+          "text": "",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "we-work-with-your-insurance",
+      "kind": "insurance",
+      "heading": "We Work With Your Insurance",
+      "subheading": "Making Drug Rehab Affordable in Iowa",
+      "body": [
+        "Rehab shouldn’t break the bank. We work directly with major private providers like Wellmark Blue Cross Blue Shield, NYSHIP, Aetna, and more to keep your out-of-pocket costs as low as possible. We’ll handle the phone calls to the insurance company for you. Call us now or fill out the form below and a member of our team will reach out shortly."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "start-mapping-the-recovery",
+      "kind": "cta",
+      "heading": "Stop Managing the Crisis. Start Mapping the Recovery.",
+      "subheading": "The Best Version of Your Life is Within Reach",
+      "body": [
+        "Recovery isn’t just about leaving addiction behind, it’s about moving toward the life you deserve. At Des Moines Wellness Center, we provide the clinical expertise and local community support to help you rediscover your purpose. Let’s build your path forward together, starting right now."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2503767347-scaled.jpg",
+      "alt": "Patients celebrating recovery milestones and clinical progress at our Des Moines facility.",
+      "role": "hero"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/goldseal_national-1-scaled-1-1.png",
+      "alt": "",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/legit-script-certified_9eead42e-ecae-4ef3-b52d-82412e0e9e42-1-1.webp",
+      "alt": "des moines wellness center legitscript accredited",
+      "role": "logo"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "Call us now",
+      "href": "tel:+18883782158"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "slug": "therapies",
+  "pageType": "page",
+  "seo": {
+    "title": "Our Therapies for Addiction & Mental Health | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Explore our evidence-based therapies for addiction in Des Moines, including CBT, DBT, trauma-informed care, family therapy, and dual diagnosis treatment."
+  },
+  "hero": {
+    "eyebrow": "ADDICTION THERAPY IN DES MOINES",
+    "headline": "Evidence-Based Therapies for Real Addiction Treatment",
+    "subhead": "At Des Moines Wellness Center, our clinical therapies are engineered by our medical staff to reach long-lasting sobriety. We provide a range of staff-led, science-backed protocols designed for patients ready to achieve permanent recovery in Iowa.",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2477298137-1024x618.jpg",
+      "alt": "Group of people in drug rehab at des moines rediscovering happiness"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "the-des-moines-wellness-approach",
+      "kind": "features",
+      "heading": "Science-Backed Therapy for Modern Recovery",
+      "subheading": "THE DES MOINES WELLNESS APPROACH",
+      "body": [
+        "While medical detox manages the physical symptoms of withdrawal, our behavioral health programs address the psychological triggers of addiction. Our medical staff integrates a range of evidence-based modalities designed to rewire habitual responses and restore executive function. By utilizing these specific clinical tools, we ensure that every patient in Central Iowa is equipped with a verified roadmap for maintaining sobriety after they leave our facility. We guarantee:"
+      ],
+      "items": [
+        {
+          "title": "100% Staff-Led Sessions And Planning",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Real-Time Protocol Adjustments",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Integrated Dual Diagnosis Support To Treat the Root Causes",
+          "text": "",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "our-addiction-therapies",
+      "kind": "cards",
+      "heading": "Clinical Modalities for Emotional & Behavioral Stability",
+      "subheading": "Our Addiction Therapies",
+      "body": [
+        "Our medical staff utilizes these six core modalities to create a custom therapeutic roadmap for every patient. The specific blend and frequency of these sessions are never fixed; they are determined by our clinicians based on your unique history, current symptoms, and clinical needs. By adjusting the intensity of your care in real-time, we ensure that your treatment evolves alongside your progress here in Des Moines."
+      ],
+      "items": [
+        {
+          "title": "Individual Therapy",
+          "text": "Private sessions with board-certified counselors to process personal history, set goals, and develop individualized relapse prevention strategies.",
+          "icon": ""
+        },
+        {
+          "title": "Group Therapy",
+          "text": "Peer-supported recovery. These facilitated sessions reduce isolation by connecting you with others facing similar challenges, providing a safe environment to practice social skills and emotional accountability.",
+          "icon": ""
+        },
+        {
+          "title": "Family Therapy",
+          "text": "Systemic restoration. We facilitate dedicated sessions to repair communication and educate your support system on the science of addiction, ensuring a stable environment for your return home.",
+          "icon": ""
+        },
+        {
+          "title": "Cognitive Behavioral Therapy (CBT)",
+          "text": "Pattern recognition. Our staff utilizes CBT to identify the automatic negative thoughts and environmental triggers that lead to substance use, replacing them with practical, proactive coping mechanisms.",
+          "icon": ""
+        },
+        {
+          "title": "Dialectical Behavior Therapy (DBT)",
+          "text": "Emotional regulation. Specifically designed for dual-diagnosis care, DBT provides the tools needed for distress tolerance and interpersonal effectiveness, helping you manage intense emotions without drugs or alcohol.",
+          "icon": ""
+        },
+        {
+          "title": "Trauma-Informed Care",
+          "text": "Safety-first processing. We recognize the impact of past trauma on addiction. Our clinicians use specialized protocols to process these experiences and reduce hyper-vigilance without causing re-traumatization.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "a-trusted-clinical-partner-for-recovery-in-iowa",
+      "kind": "prose",
+      "heading": "A Trusted Clinical Partner for Recovery in Iowa",
+      "subheading": "Real Recovery. Real Results.",
+      "body": [],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2503767347-1024x683.jpg",
+        "alt": "Patients celebrating recovery milestones and clinical progress at our Des Moines facility."
+      }
+    },
+    {
+      "id": "our-3-step-clinical-framework",
+      "kind": "steps",
+      "heading": "Our 3-Step Clinical Framework",
+      "subheading": "Adapting Care To Your Progress",
+      "body": [
+        "We don’t believe in static treatment plans. At Des Moines Wellness Center, your therapy evolves as you do. Our staff utilizes a dynamic 3-step framework that prioritizes real-time adjustments based on your specific clinical milestones and recovery speed."
+      ],
+      "items": [
+        {
+          "title": "1. Precision Intake & Programming",
+          "text": "We conduct a deep-dive assessment to identify your specific behavioral triggers and neurochemical needs. We build an initial therapeutic blend designed for your Day 1 requirements.",
+          "icon": ""
+        },
+        {
+          "title": "2. Active Pivots",
+          "text": "As you progress, our team monitors your response to specific modalities like CBT or DBT. If a therapy isn’t producing results, we pivot the protocol immediately, adjusting intensity and frequency in real-time to optimize your stability.",
+          "icon": ""
+        },
+        {
+          "title": "3. Recovery Integration",
+          "text": "Once you reach your stabilization milestones, we scale your care toward long-term maintenance. We customize your discharge roadmap to include verified support systems in Central Iowa, ensuring a seamless transition home to Ankeny, West Des Moines and beyond.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "use-your-insurance-for-addiction-rehab",
+      "kind": "insurance",
+      "heading": "Use Your Insurance for Addiction Rehab",
+      "subheading": "",
+      "body": [
+        "work with most major private insurance providers, including Wellmark Blue Cross Blue Shield, to make expert clinical care accessible. Our team offers a 100% confidential verification to help you understand your coverage and minimize out-of-pocket costs before you start."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2477298137-1024x618.jpg",
+      "alt": "Group of people in drug rehab at des moines rediscovering happiness",
+      "role": "hero"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2503767347-1024x683.jpg",
+      "alt": "Patients celebrating recovery milestones and clinical progress at our Des Moines facility.",
+      "role": "section"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White.png",
+      "alt": "NYSHIP-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white.webp",
+      "alt": "mcr-aetna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White.png",
+      "alt": "UMR-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white.webp",
+      "alt": "mcr-first-health-network-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White.png",
+      "alt": "Surest-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white.webp",
+      "alt": "cigna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white.webp",
+      "alt": "anthem-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white.webp",
+      "alt": "med-mutual-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white.webp",
+      "alt": "mcr-uhc-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp",
+      "alt": "mcr-beacon-white.webp",
+      "role": "logo"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "Get Started Today",
+      "href": "tel:+18883782158"
+    }
+  ]
+}

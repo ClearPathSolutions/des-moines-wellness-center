@@ -1,0 +1,627 @@
+{
+  "slug": "home",
+  "pageType": "home",
+  "seo": {
+    "title": "Luxury Detox & Drug Rehab In Des Moines, Iowa | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Start healing at Des Moines Wellness Center. Our Iowa facility offers 24/7 medical detox, inpatient residential rehab, PHP, IOP, and dual diagnosis care."
+  },
+  "hero": {
+    "eyebrow": "Real Recovery. Right Here in Iowa.",
+    "headline": "Premier Drug Rehab in Des Moines, IA",
+    "subhead": "Des Moines Wellness Center provides a full continuum of care including medical detox, inpatient residential treatment, and flexible PHP/IOP programs. We specialize in dual-diagnosis care, treating addiction and co-occurring mental health disorders simultaneously in a trauma-informed environment.",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/07/69-506_5820_Winwood_Dr-scaled.jpg",
+      "alt": "Des Moines Wellness Center"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "highlights",
+      "kind": "features",
+      "heading": "",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Care Levels",
+          "text": "Medical Detox, Residential Inpatient, PHP, and IOP.",
+          "icon": ""
+        },
+        {
+          "title": "Specialty",
+          "text": "Alcohol, Drug Addiction & Dual Diagnosis for co-occurring disorders.",
+          "icon": ""
+        },
+        {
+          "title": "Location",
+          "text": "Located in Des Moines, IA, serving Polk County and broader Iowa",
+          "icon": ""
+        },
+        {
+          "title": "Admissions",
+          "text": "24/7 confidential assessments with same-day intake available.",
+          "icon": ""
+        },
+        {
+          "title": "Accreditation",
+          "text": "Joint Commission Gold Seal and LegitScript Certified facility.",
+          "icon": ""
+        },
+        {
+          "title": "Insurance",
+          "text": "Most major private insurance plans accepted and verified.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "accreditation",
+      "kind": "prose",
+      "heading": "Accredited Drug & Alcohol Addiction Rehab in Iowa",
+      "subheading": "",
+      "body": [],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/goldseal_national-1-scaled-1.png",
+        "alt": ""
+      }
+    },
+    {
+      "id": "welcome",
+      "kind": "prose",
+      "heading": "Iowa's Trusted Destination for Quality Addiction Treatment",
+      "subheading": "Welcome to Des Moines Wellness Center",
+      "body": [
+        "As a premier rehab center in Des Moines, Iowa, our facility provides a clinical sanctuary for individuals and families navigating the complexities of addiction and mental health. We bridge the gap between crisis and long-term stability by offering a full continuum of care, from medically supervised detox to intensive residential treatment and flexible outpatient programs (PHP/IOP).",
+        "Our approach is rooted in evidence-based clinical modalities and trauma-informed support, ensuring every patient receives a personalized recovery plan. Headquartered in the heart of Des Moines, we proudly serve the recovery needs of Polk County and the surrounding communities, including West Des Moines and Ankeny. Whether you are searching for local Iowa drug rehab services or specialized dual-diagnosis care, our board-certified team is dedicated to healing the root causes of substance use disorders in a safe, modern environment."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "programs",
+      "kind": "cards",
+      "heading": "Personalized Rehab Programs in the Heart of Iowa",
+      "subheading": "The Right Support for Every Step of Your Journey",
+      "body": [
+        "Our Des Moines facility offers a full spectrum of addiction treatment services designed to meet you exactly where you are in your journey. Our evidence-based programs provide the structure and support necessary for lasting sobriety. We offer:"
+      ],
+      "items": [
+        {
+          "title": "Medical Detox",
+          "text": "Safe Withdrawal Management — Begin your journey with a focus on safety. Our 24/7 clinical monitoring ensures a comfortable and medically managed withdrawal process from alcohol and drugs.",
+          "icon": ""
+        },
+        {
+          "title": "Residential Inpatient",
+          "text": "24/7 Inpatient Care — Immerse yourself in a healing environment. Our inpatient residential rehab offers intensive, around-the-clock therapy and support for those needing a structured recovery setting.",
+          "icon": ""
+        },
+        {
+          "title": "Partial Hospitalization",
+          "text": "Intensive Day Care — Receive high-level clinical support during the day while maintaining evening flexibility. PHP is the ideal bridge between residential care and community reintegration.",
+          "icon": ""
+        },
+        {
+          "title": "Intensive Outpatient (IOP)",
+          "text": "Flexible Recovery — Balance life, work, and wellness. Our Des Moines IOP provides structured group and individual therapy sessions tailored to fit into your daily routine.",
+          "icon": ""
+        },
+        {
+          "title": "Aftercare & Alumni",
+          "text": "Lifelong Support — Recovery is a lifelong commitment. We provide comprehensive discharge planning, support groups, and alumni resources to ensure lasting success after treatment.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "insurance",
+      "kind": "insurance",
+      "heading": "Most Major Private Insurance Plans Accepted",
+      "subheading": "",
+      "body": [
+        "At Des Moines Wellness Center, we believe that financial barriers should never stand in the way of life-saving care. Our admissions team works directly with your provider to maximize your benefits and minimize out-of-pocket costs. We provide a 100% confidential insurance verification process to get you the answers you need in minutes."
+      ],
+      "items": [
+        {
+          "title": "NYSHIP",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White.png"
+        },
+        {
+          "title": "Aetna",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white.webp"
+        },
+        {
+          "title": "UMR",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White.png"
+        },
+        {
+          "title": "First Health Network",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white.webp"
+        },
+        {
+          "title": "Surest",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White.png"
+        },
+        {
+          "title": "Cigna",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white.webp"
+        },
+        {
+          "title": "Anthem",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white.webp"
+        },
+        {
+          "title": "Medical Mutual",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white.webp"
+        },
+        {
+          "title": "UnitedHealthcare",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white.webp"
+        },
+        {
+          "title": "Beacon",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "substances",
+      "kind": "cards",
+      "heading": "Expert Care for Complex Substance Use Disorders in Iowa",
+      "subheading": "Addressing the Root Causes of Addiction",
+      "body": [
+        "We provide targeted clinical interventions for a wide range of dependencies. Our multidisciplinary team specializes in the unique withdrawal protocols and therapeutic needs associated with various substances, ensuring a safe and effective path to sobriety for every patient. We treat:"
+      ],
+      "items": [
+        {
+          "title": "Alcohol",
+          "text": "Alcohol withdrawal requires precise medical management. Our Des Moines program provides a safe, clinical environment to navigate detox, followed by intensive therapy to address the root causes of Alcohol Use Disorder (AUD) and prevent chronic relapse.",
+          "icon": ""
+        },
+        {
+          "title": "Benzodiazepines",
+          "text": "Withdrawing from benzodiazepines like Xanax or Valium is a complex process that demands a specialized, safe taper. We provide 24/7 medical supervision to manage anxiety and physical symptoms, ensuring a stabilized transition to long-term recovery.",
+          "icon": ""
+        },
+        {
+          "title": "Fentanyl",
+          "text": "Given the extreme potency of synthetic opioids, fentanyl recovery requires high-acuity medical intervention. Our Des Moines team specializes in the specific detox requirements for fentanyl, followed by intensive residential and outpatient support.",
+          "icon": ""
+        },
+        {
+          "title": "Marijuana",
+          "text": "While often overlooked, marijuana dependence can impact motivation, mental health, and daily functioning. We help clients address underlying patterns, improve focus, and develop healthier habits for long-term stability.",
+          "icon": ""
+        },
+        {
+          "title": "Meth",
+          "text": "Meth addiction can take a serious toll on both mental and physical health. Our evidence-based approach focuses on stabilizing the brain, reducing cravings, and helping clients rebuild structure, clarity, and long-term coping skills.",
+          "icon": ""
+        },
+        {
+          "title": "Prescription Drugs",
+          "text": "Misuse of prescription medications can quickly lead to dependence and serious health risks. Our treatment approach focuses on safe stabilization, managing withdrawal, and building the tools needed for lasting recovery.",
+          "icon": ""
+        },
+        {
+          "title": "Cocaine",
+          "text": "Cocaine and stimulant use can lead to intense cravings and long-term neurological effects. Our treatment focuses on restoring balance, managing triggers, and building the coping skills needed for sustained recovery.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2766389405-1024x683.jpg",
+        "alt": "Compassionate peer support group at Des Moines Wellness Center, highlighting our community-based approach to fentanyl and cocaine addiction recovery."
+      }
+    },
+    {
+      "id": "dual-diagnosis",
+      "kind": "prose",
+      "heading": "Specialized Dual Diagnosis Treatment in Des Moines, Iowa",
+      "subheading": "INTEGRATED BEHAVIORAL HEALTHCARE",
+      "body": [
+        "Successful recovery requires an integrated approach that addresses the complex intersection of addiction and mental health. Our dual diagnosis program in Des Moines is specifically designed for individuals navigating the cycle of self-medication often associated with Depression, Anxiety Disorders, and PTSD. Rather than treating symptoms in isolation, our board-certified clinical team provides a unified treatment plan that bridges the gap between psychiatric stability and long-term sobriety.",
+        "By incorporating specialized modalities for conditions like Bipolar Disorder, ADHD, and Borderline Personality Disorder (BPD), we help our clients heal the root causes of their substance use. This trauma-informed framework ensures that every patient at our Des Moines rehab receives the medication management and therapeutic support necessary to manage co-occurring disorders safely. We believe that by treating the mind and the addiction simultaneously, we empower our Iowa community to achieve a level of wellness that lasts long after they leave our doors."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "virtual-tour",
+      "kind": "prose",
+      "heading": "Take a Virtual Tour of Des Moines Wellness Center",
+      "subheading": "A SANCTUARY MADE FOR HEALING",
+      "body": [
+        "We believe that a serene environment is essential to the recovery process. Our Des Moines facility is designed to provide a perfect balance of clinical safety and home-like comfort. Every inch of our center is dedicated to your well-being. Explore our campus and see firsthand where your journey to lasting sobriety begins."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "ready-first-step",
+      "kind": "cta",
+      "heading": "Ready to Take the First Step?",
+      "subheading": "",
+      "body": [
+        "Your recovery journey starts with a simple, confidential conversation. Whether you’re seeking a bed for detox today or just exploring outpatient options in Des Moines, our intake specialists are available 24/7 to verify your insurance and guide you through the process."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "therapies",
+      "kind": "cards",
+      "heading": "Specialized Therapeutic Approaches for Lasting Change",
+      "subheading": "CLINICAL EXCELLENCE & MODALITIES",
+      "body": [
+        "At Des Moines Wellness Center, we utilize a multidisciplinary approach to treat the root causes of addiction. Our clinical team is trained in the latest evidence-based modalities, ensuring that each patient receives a customized blend of individual, peer, and behavioral therapies tailored to their unique recovery goals."
+      ],
+      "items": [
+        {
+          "title": "Individual Therapy",
+          "text": "Private sessions with board-certified counselors to process personal history, set goals, and develop individualized relapse prevention strategies.",
+          "icon": ""
+        },
+        {
+          "title": "Group Therapy",
+          "text": "Facilitated group sessions that foster connection, reduce isolation, and allow patients to share experiences in a safe, supportive environment.",
+          "icon": ""
+        },
+        {
+          "title": "Family Therapy",
+          "text": "Dedicated sessions designed to heal relationships, improve communication, and educate family members on the complexities of the recovery process.",
+          "icon": ""
+        },
+        {
+          "title": "Cognitive Behavioral Therapy (CBT)",
+          "text": "A goal-oriented approach that identifies and changes negative thought patterns and behaviors, providing practical tools for managing cravings and stress.",
+          "icon": ""
+        },
+        {
+          "title": "Dialectical Behavior Therapy (DBT)",
+          "text": "Specialized therapy focusing on distress tolerance, emotional regulation, and interpersonal effectiveness, essential for dual-diagnosis recovery.",
+          "icon": ""
+        },
+        {
+          "title": "Trauma-Informed Care",
+          "text": "A safety-first approach that recognizes the impact of past trauma on addiction, utilizing specialized modalities to process experiences without re-traumatization.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "service-areas",
+      "kind": "features",
+      "heading": "Addiction Recovery for Des Moines & Beyond",
+      "subheading": "Helping Iowa Communities",
+      "body": [
+        "Located in the capital city, Des Moines Wellness Center is the primary resource for comprehensive addiction treatment in Central Iowa. We provide a sanctuary for recovery that is easily accessible to residents throughout the metro area and neighboring counties, ensuring that life-saving care is never out of reach.",
+        "We proudly provide addiction treatment for:"
+      ],
+      "items": [
+        {
+          "title": "Des Moines",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "West Des Moines",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Ankeny",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Urbandale",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Waukee",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Polk County",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Dallas County",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "And more...",
+          "text": "",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "why-choose-us",
+      "kind": "features",
+      "heading": "TOP-RATED DRUG & ALCOHOL REHAB IN DES MOINES, IA",
+      "subheading": "Why Choose Us?",
+      "body": [
+        "Choosing the right Iowa addiction treatment center is the most critical step toward lasting sobriety. At Des Moines Wellness Center, we provide the highest level of accredited drug and alcohol rehab in Central Iowa. Our facility combines medical expertise with compassionate support to deliver superior outcomes for those seeking a local Iowa recovery center. We guarantee:"
+      ],
+      "items": [
+        {
+          "title": "Dual Diagnosis Treatment",
+          "text": "We are a leading Des Moines dual diagnosis rehab, specializing in the integrated treatment of addiction and mental health. Our board-certified clinicians address the root causes of co-occurring disorders to ensure long-term stability.",
+          "icon": ""
+        },
+        {
+          "title": "Accredited Clinical Programs",
+          "text": "Our facility holds the Joint Commission Gold Seal of Approval, guaranteeing that our evidence-based addiction therapies meet the strictest national safety and quality-of-care standards for Des Moines healthcare.",
+          "icon": ""
+        },
+        {
+          "title": "Polk County Recovery Resources",
+          "text": "We are deeply embedded in the Polk County recovery community. Our local focus allows us to provide specialized aftercare and alumni support that helps our Iowa neighbors maintain sobriety right here in Central Iowa.",
+          "icon": ""
+        },
+        {
+          "title": "Expert-Led Clinical Team",
+          "text": "Our programs are led by board-certified clinicians with over 10 years of experience in addiction medicine. You benefit from a decade of proven expertise in complex addiction care, ensuring the highest standard of professional healthcare.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "steps",
+      "kind": "steps",
+      "heading": "3 Simple Steps to Start Your Recovery",
+      "subheading": "Your Journey to Sobriety Starts With a Single Call",
+      "body": [
+        "Taking the first step toward sobriety should be seamless. Our Des Moines intake team is available 24/7 to guide you through a confidential and stress-free admissions process. From the initial call to your first day of treatment, we handle the logistics so you can focus on healing."
+      ],
+      "items": [
+        {
+          "title": "Confidential Consultation",
+          "text": "Call our 24/7 Des Moines helpline to speak with a compassionate intake specialist. We’ll conduct a brief, confidential assessment to understand your unique needs and determine the appropriate level of care.",
+          "icon": ""
+        },
+        {
+          "title": "Insurance Verification",
+          "text": "Our team performs a fast, 100% free insurance verification. We work with all major private providers to maximize your benefits and ensure there are no financial surprises before you arrive.",
+          "icon": ""
+        },
+        {
+          "title": "Arrive & Begin Treatment",
+          "text": "Once cleared, we schedule your intake. Whether you need immediate detox or residential care, our Des Moines facility provides a warm welcome and a personalized treatment plan from day one.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "ANSWERS & RESOURCES",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "How long is the addiction treatment program?",
+          "a": "Treatment duration is personalized based on clinical needs. Our continuum of care ranges from short-term medical detox (3–7 days) to comprehensive residential programs (30, 60, or 90 days), followed by flexible outpatient support to ensure long-term success."
+        },
+        {
+          "q": "Can I start the detox process today?",
+          "a": "In many cases, yes, we do offer same-day admissions. Our Des Moines intake team is available 24/7 at (888) 378-2158. Once your insurance is verified and a clinical assessment is completed, we prioritize immediate placement for those in need of high-acuity medical detox services."
+        },
+        {
+          "q": "Do you treat co-occurring mental health disorders?",
+          "a": "Absolutely. We specialize in dual diagnosis treatment. Our board-certified clinical team is trained to treat addiction alongside mental health conditions such as depression, anxiety, PTSD, and bipolar disorder in a single, integrated program."
+        },
+        {
+          "q": "Can I protect my job while in residential treatment?",
+          "a": "Under federal laws like the Family and Medical Leave Act (FMLA) and the Americans with Disabilities Act (ADA), many employees are entitled to job-protected leave for substance use treatment. If you are eligible, FMLA allows for up to 12 weeks of unpaid leave for a serious health condition without the risk of termination. Additionally, in Iowa, employers are generally prohibited from discriminating against individuals who are seeking help for a disability, which includes addiction recovery. Our Des Moines admissions team can help you understand these protections and provide the documentation needed to secure your leave confidentially."
+        },
+        {
+          "q": "Do you accept private health insurance?",
+          "a": "Yes. At Des Moines Wellness Center, we work with most major private insurance providers, including Wellmark Blue Cross Blue Shield, Aetna, Cigna, and UnitedHealthcare. We offer a 100% confidential insurance verification to help you understand your coverage levels before admission. Call us at (888) 378-2158 to get started."
+        }
+      ],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "closing-cta",
+      "kind": "cta",
+      "heading": "The Best Version of Your Life is Within Reach",
+      "subheading": "Stop Managing the Crisis. Start Mapping the Recovery.",
+      "body": [
+        "Recovery isn’t just about leaving addiction behind, it’s about moving toward the life you deserve. At Des Moines Wellness Center, we provide the clinical expertise and local community support to help you rediscover your purpose. Let’s build your path forward together, starting right now."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2668174279-1024x683.jpg",
+        "alt": "A wide-open Iowa horizon and sunlit field, symbolizing the bright future and new beginnings for patients in rehab at our Des Moines facility."
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/07/69-506_5820_Winwood_Dr-scaled.jpg",
+      "alt": "Des Moines Wellness Center",
+      "role": "hero"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/goldseal_national-1-scaled-1.png",
+      "alt": "",
+      "role": "logo"
+    },
+    {
+      "src": "wp-content/uploads/2026/04/legit-script-certified_9eead42e-ecae-4ef3-b52d-82412e0e9e42-1.webp",
+      "alt": "",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/elementor/thumbs/shutterstock_2573301753-scaled-rmav5jdmhaqaiesafoncm8mt6ufzqarsctf6zznlv4.jpg",
+      "alt": "A diverse group of individuals in recovery smiling and supporting one another at Des Moines Wellness Center, representing successful addiction rehab outcomes in Des Moines, Iowa.",
+      "role": "section"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White.png",
+      "alt": "NYSHIP-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white.webp",
+      "alt": "mcr-aetna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White.png",
+      "alt": "UMR-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white.webp",
+      "alt": "mcr-first-health-network-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White.png",
+      "alt": "Surest-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white.webp",
+      "alt": "cigna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white.webp",
+      "alt": "anthem-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white.webp",
+      "alt": "med-mutual-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white.webp",
+      "alt": "mcr-uhc-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp",
+      "alt": "mcr-beacon-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2766389405-1024x683.jpg",
+      "alt": "Compassionate peer support group at Des Moines Wellness Center, highlighting our community-based approach to fentanyl and cocaine addiction recovery.",
+      "role": "section"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2668174279-1024x683.jpg",
+      "alt": "A wide-open Iowa horizon and sunlit field, symbolizing the bright future and new beginnings for patients in rehab at our Des Moines facility.",
+      "role": "section"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "Take The Virtual Tour",
+      "href": "/tour"
+    },
+    {
+      "label": "See More About Us",
+      "href": "/about-us"
+    },
+    {
+      "label": "See Our Therapies",
+      "href": "/therapies"
+    }
+  ]
+}

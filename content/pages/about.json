@@ -1,0 +1,311 @@
+{
+  "slug": "about",
+  "pageType": "page",
+  "seo": {
+    "title": "About Des Moines Wellness Center - Accredited Rehab Iowa | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Learn about our expert medical team and clinical approach to recovery. Backed by the Quadrant Health Group network, we provide premier addiction care."
+  },
+  "hero": {
+    "eyebrow": "Accredited Care in the Heart of Iowa",
+    "headline": "About Des Moines Wellness: Our Story, Team & Values",
+    "subhead": "We believe recovery starts with being treated like a person, not a patient. At Des Moines Wellness Center, we provide a safe, honest environment for Iowans to reclaim their health.",
+    "image": {
+      "src": "../wp-content/uploads/elementor/thumbs/shutterstock_2573301753-scaled-rmav5jdmhaqaiesafoncm8mt6ufzqarsctf6zznlv4.jpg",
+      "alt": "A diverse group of individuals in recovery smiling and supporting one another at Des Moines Wellness Center, representing successful addiction rehab outcomes in Des Moines, Iowa."
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "our-story",
+      "kind": "prose",
+      "heading": "Bringing 15 Years of Compassionate Care to Iowa",
+      "subheading": "Because Des Moines Deserves Better, More Human Care",
+      "body": [
+        "We decided to come to Des Moines because we saw how much this community was hurting and realized we could help. After 15 years of refining our approach to substance abuse recovery through the Quadrant Health Group , it was a real wish for us to bring that expertise here in Iowa. We saw too many of our neighbors in Iowa struggling to find a rehab center that felt both professional and personal, and we knew we had to bridge that gap.",
+        "Our approach to treatment isn’t about corporate checklists. We’ve spent over a decade learning that even the most advanced medical detox, residential programs and long-term recovery planning only work when a person feels safe and heard. We created this space to be a sanctuary where starting the journey toward sobriety feels like a relief.",
+        "By planting roots here, we’re making a promise to the families in Ankeny, West Des Moines, Polk County and across the state. We provide high-end addiction care for chemical dependency that stays grounded in empathy. We’re here because we believe our neighbors deserve a world-class place to turn for substance use disorder without having to leave their support system behind."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "team",
+      "kind": "team-bio",
+      "heading": "The Faces Behind Your Care",
+      "subheading": "Expert Leadership, Local Heart",
+      "body": [
+        "While Des Moines Wellness Center is the newest chapter in our story, the hands steering the ship have been doing this for a long time. Our leadership team brings the collective 15 years of experience from the Quadrant Health Group directly to our local clinical floor. Learn more about our dedicated professionals, who are deeply invested in the Des Moines community."
+      ],
+      "items": [
+        {
+          "title": "Wesley Starlin",
+          "text": "Executive Director",
+          "icon": ""
+        },
+        {
+          "title": "Parneet Sahota, MA, LMHC",
+          "text": "Clinical Director",
+          "icon": ""
+        },
+        {
+          "title": "Lacey Stielow, MSN, RN",
+          "text": "Director of Nursing",
+          "icon": ""
+        },
+        {
+          "title": "Alexander Maddux",
+          "text": "Director of Operations",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "our-values",
+      "kind": "features",
+      "heading": "The Values That Guide Our Care",
+      "subheading": "CLINICAL EXCELLENCE & MODALITIES",
+      "body": [
+        "Our approach to addiction treatment isn’t based on what’s easiest for us; it’s based on what actually works for our neighbors here in Iowa. We’ve built the Des Moines Wellness Center on four core pillars that define how we show up for you every day:"
+      ],
+      "items": [
+        {
+          "title": "People Over Protocols",
+          "text": "We prioritize human connection over corporate checklists. Recovery happens when you’re treated like a person, not a patient.",
+          "icon": ""
+        },
+        {
+          "title": "Radical Transparency",
+          "text": "No jargon and no fluff. Whether we’re discussing medical detox or insurance, you’ll always get a straight, honest answer.",
+          "icon": ""
+        },
+        {
+          "title": "Deep Local Roots",
+          "text": "We aren't just a facility in Des Moines; we’re part of it. We are a long-term resource for families in West Des Moines, Ankeny, and beyond.",
+          "icon": ""
+        },
+        {
+          "title": "15 Years of Expertise",
+          "text": "Our center is new, but our foundation is solid. We’ve brought a decade and a half of experience in substance abuse recovery to ensure your safety and peace of mind.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "insurance",
+      "kind": "insurance",
+      "heading": "We Accept Most Major Insurances",
+      "subheading": "",
+      "body": [
+        "At Des Moines Wellness Center, we believe that financial barriers should never stand in the way of life-saving care. Our admissions team works directly with your provider to maximize your benefits and minimize out-of-pocket costs. We provide a 100% confidential insurance verification process to get you the answers you need in minutes."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "recovery-cta",
+      "kind": "cta",
+      "heading": "Stop Managing the Crisis. Start Mapping the Recovery.",
+      "subheading": "",
+      "body": [],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "serving-des-moines",
+      "kind": "prose",
+      "heading": "Serving the Greater Des Moines Area",
+      "subheading": "",
+      "body": [
+        "We didn’t just pick a location; we chose a home. Des Moines Wellness Center was designed to be a quiet, safe sanctuary where you can step away from the noise of addiction and focus on what matters.",
+        "Located conveniently for families in West Des Moines, Ankeny, Urbandale, and Johnston, we offer a level of substance abuse treatment that respects your privacy. We are proud to be a local fixture, providing high-quality alcohol and drug detox right here in our own backyard so you don’t have to leave your support system behind to get well. We’re located minutes from:"
+      ],
+      "items": [
+        {
+          "title": "Des Moines",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "West Des Moines",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Ankeny",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Urbandale",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Waukee",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Polk County",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "Dallas County",
+          "text": "",
+          "icon": ""
+        },
+        {
+          "title": "And more...",
+          "text": "",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "facility-tour",
+      "kind": "prose",
+      "heading": "Take a Look Inside Our Des Moines Sanctuary",
+      "subheading": "A SANCTUARY MADE FOR HEALING",
+      "body": [
+        "We believe that the environment where you recover is just as important as the treatment itself. We’ve designed our facility to be a calm, dignified space that feels more like a home than a hospital."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "../wp-content/uploads/elementor/thumbs/shutterstock_2573301753-scaled-rmav5jdmhaqaiesafoncm8mt6ufzqarsctf6zznlv4.jpg",
+      "alt": "A diverse group of individuals in recovery smiling and supporting one another at Des Moines Wellness Center, representing successful addiction rehab outcomes in Des Moines, Iowa.",
+      "role": "hero"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
+      "alt": "Wesley Starlin - Executive Director",
+      "role": "section"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/Pam-Sahota-Clinical-Director.png",
+      "alt": "Parneet “Pam” Sahota, MA, LMHC, IADC, CCMHC - Clinical Director",
+      "role": "section"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/Lacey-Stielow-scaled.jpeg",
+      "alt": "Lacey Stielow, MSN, RN - Director of Nursing",
+      "role": "section"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/Alexander-Maddux-Director-of-Operations.png",
+      "alt": "Alexander \"Alex\" Maddux, Director of Operations",
+      "role": "section"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White.png",
+      "alt": "NYSHIP-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white.webp",
+      "alt": "mcr-aetna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White.png",
+      "alt": "UMR-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white.webp",
+      "alt": "mcr-first-health-network-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White.png",
+      "alt": "Surest-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white.webp",
+      "alt": "cigna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white.webp",
+      "alt": "anthem-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white.webp",
+      "alt": "med-mutual-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white.webp",
+      "alt": "mcr-uhc-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp",
+      "alt": "mcr-beacon-white.webp",
+      "role": "logo"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "See How We Help",
+      "href": "/programs"
+    },
+    {
+      "label": "Take The Virtual Tour",
+      "href": "/tour"
+    }
+  ]
+}

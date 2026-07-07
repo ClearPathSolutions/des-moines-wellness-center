@@ -1,0 +1,216 @@
+{
+  "slug": "what-we-treat",
+  "pageType": "hub-conditions",
+  "seo": {
+    "title": "What We Treat - Substance Abuse Disorders & Dual Diagnosis | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Evidence-based treatment for alcohol, opioid, and prescription drug dependency co-occurring with anxiety, depression, or PTSD. Most insurance accepted."
+  },
+  "hero": {
+    "eyebrow": "What We Treat",
+    "headline": "Evidence-Based Treatment for Lasting Recovery",
+    "subhead": "We provide substance-specific protocols designed to address the unique impacts of each drug. With 15 years of clinical expertise, our team provides the high-level medical oversight needed to get and stay sober.",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/elementor/thumbs/shutterstock_2573301753-scaled-rmav5jdmhaqaiesafoncm8mt6ufzqarsctf6zznlv4.jpg",
+      "alt": "A diverse group of individuals in recovery smiling and supporting one another at Des Moines Wellness Center, representing successful addiction rehab outcomes in Des Moines, Iowa."
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "des-moines-wellness-approach",
+      "kind": "features",
+      "heading": "Targeted Solutions for Complex Conditions",
+      "subheading": "THE DES MOINES WELLNESS APPROACH",
+      "body": [
+        "Generic treatment often leads to generic results. Our approach is built on the reality that a struggle with alcohol requires a different clinical roadmap than a struggle with fentanyl or methamphetamine. By focusing on the specific neurochemical and behavioral patterns of each substance, we provide a more direct path to healing. We offer:"
+      ],
+      "items": [
+        {
+          "title": "Substance-Specific Detox",
+          "text": "We provide tailored medical monitoring based on the specific withdrawal risks associated with each substance.",
+          "icon": ""
+        },
+        {
+          "title": "Customized Recovery Planning",
+          "text": "Once stabilized we continue to use substance-specific behavioral health strategies to address the exact triggers and neurochemical changes associated with your history.",
+          "icon": ""
+        },
+        {
+          "title": "Integrated Behavioral Health",
+          "text": "We address the co-occurring mental health triggers, such as anxiety or depression that often fuel dependency.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "trusted-clinical-partner",
+      "kind": "prose",
+      "heading": "A Trusted Clinical Partner for Recovery in Iowa",
+      "subheading": "Real Recovery. Real Results.",
+      "body": [],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "integrated-behavioral-health",
+      "kind": "prose",
+      "heading": "Treating the Mental Health Triggers Behind Addiction",
+      "subheading": "INTEGRATED BEHAVIORAL HEALTH",
+      "body": [
+        "At the Des Moines Wellness Center, our medical staff recognizes that substance use rarely exists in a vacuum. To ensure long-term stabilization, every rehab program we provide is built to address the co-occurring mental health disorders that often fuel dependency. By treating the clinical root causes alongside the physical addiction, our team provides a more comprehensive path to recovery for patients coming from Central Iowa and beyond.",
+        "Our staff-led protocols are designed to manage the complexities of Major Depressive Disorder, Generalized Anxiety, and Post-Traumatic Stress Disorder (PTSD). Whether a patient is struggling with the hyper-vigilance of trauma or the paralyzing effects of untreated bipolar disorder, our clinicians integrate psychiatric care and evidence-based therapy into the daily recovery schedule. This unified approach ensures that as the body heals from substance use, the mind is simultaneously stabilized, reducing the risk of relapse and restoring mental clarity."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2534296087-1024x512.jpg",
+        "alt": "A supportive couple embracing during dual diagnosis treatment in Des Moines."
+      }
+    },
+    {
+      "id": "use-your-insurance",
+      "kind": "insurance",
+      "heading": "Use Your Insurance for Addiction Rehab",
+      "subheading": "",
+      "body": [
+        "We work with most major private insurance providers, including Wellmark Blue Cross Blue Shield, to make expert clinical care accessible. Our team offers a 100% confidential verification to help you understand your coverage and minimize out-of-pocket costs before you start."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/elementor/thumbs/shutterstock_2573301753-scaled-rmav5jdmhaqaiesafoncm8mt6ufzqarsctf6zznlv4.jpg",
+      "alt": "A diverse group of individuals in recovery smiling and supporting one another at Des Moines Wellness Center, representing successful addiction rehab outcomes in Des Moines, Iowa.",
+      "role": "hero"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/goldseal_national-1-scaled-1-1.png",
+      "alt": "",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/legit-script-certified_9eead42e-ecae-4ef3-b52d-82412e0e9e42-1-1.webp",
+      "alt": "des moines wellness center legitscript accredited",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2534296087-1024x512.jpg",
+      "alt": "A supportive couple embracing during dual diagnosis treatment in Des Moines.",
+      "role": "section"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White.png",
+      "alt": "NYSHIP-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white.webp",
+      "alt": "mcr-aetna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White.png",
+      "alt": "UMR-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white.webp",
+      "alt": "mcr-first-health-network-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White.png",
+      "alt": "Surest-Logo-White.png",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white.webp",
+      "alt": "cigna-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white.webp",
+      "alt": "anthem-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white.webp",
+      "alt": "med-mutual-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white.webp",
+      "alt": "mcr-uhc-white.webp",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp",
+      "alt": "mcr-beacon-white.webp",
+      "role": "logo"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "Alcohol Rehab",
+      "href": "/alcohol-rehab-des-moines"
+    },
+    {
+      "label": "Benzo Rehab",
+      "href": "/benzo-rehab-des-moines"
+    },
+    {
+      "label": "Fentanyl Rehab",
+      "href": "/fentanyl-rehab-des-moines"
+    },
+    {
+      "label": "Marijuana Rehab",
+      "href": "/marijuana-rehab-des-moines"
+    },
+    {
+      "label": "Meth Rehab",
+      "href": "/meth-rehab-des-moines"
+    },
+    {
+      "label": "Prescription Drug Rehab",
+      "href": "/prescription-drug-rehab-des-moines"
+    },
+    {
+      "label": "Stimulants Rehab",
+      "href": "/stimulants-rehab-des-moines"
+    },
+    {
+      "label": "See More About Our Dual Diagnosis Program",
+      "href": "/dual-diagnosis"
+    }
+  ]
+}

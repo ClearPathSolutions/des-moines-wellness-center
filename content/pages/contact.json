@@ -1,0 +1,130 @@
+{
+  "slug": "contact",
+  "pageType": "page",
+  "seo": {
+    "title": "Contact Des Moines Wellness- 24/7 Admissions | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Get help now at Des Moines Wellness. Our intake team is available 24/7 for confidential addiction assessments and insurance verification."
+  },
+  "hero": {
+    "eyebrow": "Get in Touch With Our Team",
+    "headline": "Contact Us",
+    "subhead": "Have questions about treatment, insurance, or admissions? Our team is here to help you find the right path forward. Reach out today to learn more about our programs and recovery services.",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/05/shutterstock_645867346-scaled.jpg",
+      "alt": "Reach out to Des Moines Wellness Center's 24/7 admissions team"
+    },
+    "primaryCta": {
+      "label": "Call Us Today",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "contact-details",
+      "kind": "contact",
+      "heading": "",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Call Us Today",
+          "text": "(888) 378-2158",
+          "icon": ""
+        },
+        {
+          "title": "Email Us",
+          "text": "info@desmoinesrecovery.com",
+          "icon": ""
+        },
+        {
+          "title": "Find Us At",
+          "text": "5820 Winwood Dr, Johnston, IA 50131",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "contact-us-today",
+      "kind": "cta",
+      "heading": "Contact Us Today",
+      "subheading": "Take the First Step",
+      "body": [
+        "Recovery starts with a conversation. Whether you’re looking for help for yourself or a loved one, our team is here to answer your questions, verify insurance, and help you find the right level of care.",
+        "Des Moines Wellness Center offers medical detox, residential treatment, PHP, IOP, and dual diagnosis services for individuals throughout Iowa. Contact us today to learn more about our programs and begin the admissions process. Call now or complete the form below to speak with an admissions specialist."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "personalized-care",
+      "kind": "prose",
+      "heading": "Personalized Care. Proven Support. Lasting Recovery.",
+      "subheading": "",
+      "body": [],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "get-your-life-back",
+      "kind": "cta",
+      "heading": "Get Your Life Back With Des Moines Wellness Center",
+      "subheading": "",
+      "body": [
+        "At Des Moines Wellness Center, we provide personalized addiction and mental health treatment backed by evidence-based care, experienced clinicians, and a full continuum of services. From medical detox and residential treatment to PHP, IOP, and dual diagnosis care, our team is committed to helping individuals throughout Iowa build a strong foundation for lasting recovery. Don’t wait any more, get started."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/goldseal_national-1-scaled-1-1.png",
+      "alt": "",
+      "role": "logo"
+    },
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/legit-script-certified_9eead42e-ecae-4ef3-b52d-82412e0e9e42-1-1.webp",
+      "alt": "des moines wellness center legitscript accredited",
+      "role": "logo"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "Call Us Today",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "Email Us",
+      "href": "mailto:info@desmoinesrecovery.com"
+    }
+  ]
+}

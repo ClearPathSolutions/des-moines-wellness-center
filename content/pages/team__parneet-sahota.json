@@ -1,0 +1,91 @@
+{
+  "slug": "team/parneet-sahota",
+  "pageType": "team",
+  "seo": {
+    "title": "Parneet “Pam” Sahota, MA, LMHC - Clinical Director | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Meet Parneet “Pam” Sahota, Clinical Director at Des Moines Wellness Center, specializing in trauma-informed care and addiction recovery."
+  },
+  "hero": {
+    "eyebrow": "",
+    "headline": "Parneet “Pam” Sahota, MA, LMHC, IADC, CCMHC",
+    "subhead": "",
+    "image": {
+      "src": "../../wp-content/uploads/2026/06/Pam-Sahota-Clinical-Director-913x1024.png",
+      "alt": "Parneet “Pam” Sahota, MA, LMHC, IADC, CCMHC - Clinical Director"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "about",
+      "kind": "team-bio",
+      "heading": "About:",
+      "subheading": "",
+      "body": [
+        "Parneet “Pam” Sahota, serves as the Clinical Director of Des Moines Wellness Center, where she oversees clinical programming and ensures the delivery of high-quality, evidence-based behavioral healthcare. With extensive experience treating individuals, couples, adolescents, and families, Pam specializes in helping clients navigate co-occurring mental health and substance use disorders through compassionate, trauma-informed care.",
+        "Pam earned her Master of Arts in Clinical Mental Health Counseling and is currently pursuing a Ph.D. in Traumatology. As a Licensed Mental Health Counselor (LMHC), International Alcohol and Drug Counselor (IADC), Certified Clinical Mental Health Counselor (CCMHC), and Substance Abuse Professional (SAP), she brings a diverse clinical skill set to her work. She is also EMDR-trained and DBT-certified, integrating evidence-based approaches that promote healing, resilience, and long-term recovery.",
+        "Throughout her career, Pam has worked with diverse populations in both mental health and addiction treatment settings, addressing trauma, anxiety, depression, substance use disorders, emotional regulation challenges, and relationship concerns. Her treatment philosophy centers on meeting individuals where they are, creating a supportive and nonjudgmental environment, and empowering clients to achieve meaningful, lasting change."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "ready-to-take-the-first-step",
+      "kind": "cta",
+      "heading": "Ready to Take the First Step?",
+      "subheading": "",
+      "body": [
+        "Recovery is built on relationships. If you’re looking for help with addiction or mental health challenges, our team is here to guide you every step of the way. Contact Des Moines Wellness Center to learn more about our programs and admissions process."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "start-your-recovery-today",
+      "kind": "cta",
+      "heading": "Recovery Starts With the Right People",
+      "subheading": "START Your Recovery Today",
+      "body": [
+        "At Des Moines Wellness Center, our team is committed to providing compassionate, evidence-based care for addiction and co-occurring mental health conditions. Whether you’re looking for medical detox, residential treatment, PHP, IOP, or ongoing recovery support, we’re here to help you find the right path forward. Contact our admissions team today to learn more about treatment options, verify insurance, and take the first step toward lasting recovery."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "../../wp-content/uploads/2026/06/Pam-Sahota-Clinical-Director-913x1024.png",
+      "alt": "Parneet “Pam” Sahota, MA, LMHC, IADC, CCMHC - Clinical Director",
+      "role": "hero"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  ]
+}

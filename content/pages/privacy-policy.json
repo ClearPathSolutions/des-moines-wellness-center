@@ -1,0 +1,304 @@
+{
+  "slug": "privacy-policy",
+  "pageType": "legal",
+  "seo": {
+    "title": "Privacy Policy | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Learn how Des Moines Wellness Center collects, uses, and protects personal information, treatment inquiries, insurance details, and website data."
+  },
+  "hero": {
+    "eyebrow": "Des Moines Wellness Center – Iowa",
+    "headline": "Privacy Policy",
+    "subhead": "Effective Date: June 3, 2026",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "introduction",
+      "kind": "prose",
+      "heading": "",
+      "subheading": "",
+      "body": [
+        "Des Moines Wellness Center (“Des Moines Wellness Center,” “we,” “our,” or “us”) respects your privacy and is committed to protecting the information you provide through our website located at https://desmoinesrecovery.com/ .",
+        "This Privacy Policy explains how we collect, use, disclose, and safeguard information obtained through our website and related communications."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "information-we-collect",
+      "kind": "prose",
+      "heading": "Information We Collect",
+      "subheading": "",
+      "body": [
+        "We may collect information that you voluntarily provide, including:",
+        "Name",
+        "Phone number",
+        "Email address",
+        "Insurance information",
+        "Information regarding treatment needs",
+        "Information submitted through contact forms",
+        "Information provided through phone calls, text messages, or email communications",
+        "We may also automatically collect certain information through analytics and tracking technologies, including:",
+        "IP address",
+        "Browser type",
+        "Device information",
+        "Pages visited",
+        "Referral sources",
+        "Website usage data"
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "how-we-use-information",
+      "kind": "prose",
+      "heading": "How We Use Information",
+      "subheading": "",
+      "body": [
+        "We may use information we collect to:",
+        "Respond to inquiries",
+        "Verify insurance benefits",
+        "Provide information regarding treatment services",
+        "Communicate regarding admissions and care options",
+        "Improve website functionality and user experience",
+        "Monitor website performance and security",
+        "Comply with legal and regulatory obligations"
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "protected-health-information",
+      "kind": "prose",
+      "heading": "Protected Health Information",
+      "subheading": "",
+      "body": [
+        "Information submitted through our admissions forms or during treatment-related communications may constitute Protected Health Information (“PHI”) under applicable federal and state laws.",
+        "Any PHI collected or maintained by Des Moines Wellness Center is handled in accordance with applicable healthcare privacy laws, including the Health Insurance Portability and Accountability Act (“HIPAA”), where applicable.",
+        "Please note that standard website browsing activity generally does not constitute PHI."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "cookies-and-analytics",
+      "kind": "prose",
+      "heading": "Cookies and Analytics",
+      "subheading": "",
+      "body": [
+        "Our website may use cookies, analytics tools, and similar technologies to improve functionality and understand how visitors use our website.",
+        "These technologies may collect information regarding:",
+        "Website usage patterns",
+        "Browser information",
+        "Session activity",
+        "We use services such as Google Analytics and other website performance tools to better understand visitor interactions and improve our website.",
+        "You may adjust your browser settings to refuse certain cookies, although some website features may not function properly."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "text-messaging-communications",
+      "kind": "prose",
+      "heading": "Text Messaging Communications",
+      "subheading": "",
+      "body": [
+        "If you provide your mobile phone number, you may receive communications related to treatment inquiries, admissions, scheduling, or other requested services.",
+        "Message frequency may vary.",
+        "Message and data rates may apply.",
+        "Consent to receive text messages is not required as a condition of receiving treatment services.",
+        "You may opt out of text communications at any time by replying STOP."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "call-tracking-and-telephone-communications",
+      "kind": "prose",
+      "heading": "Call Tracking and Telephone Communications",
+      "subheading": "",
+      "body": [
+        "Telephone calls to and from Des Moines Wellness Center may be monitored or recorded for quality assurance, training, compliance, and patient service purposes where permitted by law.",
+        "We may use call tracking technologies to better understand how individuals find and interact with our services."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "information-sharing",
+      "kind": "prose",
+      "heading": "Information Sharing",
+      "subheading": "",
+      "body": [
+        "We do not sell personal information.",
+        "We may share information with:",
+        "Service providers assisting with website operations",
+        "Insurance verification providers",
+        "Technology vendors",
+        "Healthcare providers involved in treatment coordination",
+        "Regulatory agencies when required by law",
+        "Law enforcement when legally required",
+        "Any disclosures are made in accordance with applicable laws and regulations."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "data-security",
+      "kind": "prose",
+      "heading": "Data Security",
+      "subheading": "",
+      "body": [
+        "We maintain administrative, technical, and physical safeguards designed to protect information against unauthorized access, disclosure, alteration, or destruction.",
+        "However, no method of internet transmission or electronic storage can be guaranteed to be completely secure."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "third-party-websites",
+      "kind": "prose",
+      "heading": "Third-Party Websites",
+      "subheading": "",
+      "body": [
+        "Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of external websites.",
+        "Users should review the privacy policies of any third-party sites they visit."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "childrens-privacy",
+      "kind": "prose",
+      "heading": "Children’s Privacy",
+      "subheading": "",
+      "body": [
+        "Our website is not intended for children under the age of 13.",
+        "We do not knowingly collect personal information from children under 13 through our website."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "your-privacy-rights",
+      "kind": "prose",
+      "heading": "Your Privacy Rights",
+      "subheading": "",
+      "body": [
+        "Depending on your state of residence, you may have rights regarding access to, correction of, or deletion of certain personal information.",
+        "To submit a privacy-related request, please contact us using the information below."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "changes-to-this-policy",
+      "kind": "prose",
+      "heading": "Changes to This Policy",
+      "subheading": "",
+      "body": [
+        "We may update this Privacy Policy from time to time.",
+        "Any changes will be posted on this page along with the revised effective date."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "contact-information",
+      "kind": "contact",
+      "heading": "Contact Information",
+      "subheading": "",
+      "body": [
+        "Des Moines Wellness Center",
+        "5820 Winwood Dr Johnston, IA 50131",
+        "Email: info@desmoinesrecovery.com",
+        "Website: https://desmoinesrecovery.com/",
+        "If you have questions regarding this Privacy Policy or our privacy practices, please contact us using the information above."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "info@desmoinesrecovery.com",
+      "href": "mailto:info@desmoinesrecovery.com"
+    }
+  ]
+}

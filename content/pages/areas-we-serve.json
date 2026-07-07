@@ -1,0 +1,75 @@
+{
+  "slug": "areas-we-serve",
+  "pageType": "hub-areas",
+  "seo": {
+    "title": "Areas We Serve — Addiction Treatment Across Central Iowa | Des Moines Wellness Center",
+    "description": "Des Moines Wellness Center provides accredited detox and rehab for communities across Central Iowa, including Ankeny, West Des Moines, and the greater Des Moines metro."
+  },
+  "hero": {
+    "eyebrow": "Serving Central Iowa",
+    "headline": "Areas We Serve",
+    "subhead": "Located in Johnston and serving the greater Des Moines metro, our accredited programs are within easy reach of communities across Polk and Dallas counties. Explore the areas we serve below.",
+    "image": {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2668174279-1024x683.jpg",
+      "alt": "A wide-open Iowa horizon symbolizing new beginnings for patients across Central Iowa."
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "areas-intro",
+      "kind": "prose",
+      "heading": "Accessible Recovery for the Des Moines Metro & Beyond",
+      "subheading": "CENTRAL IOWA COVERAGE",
+      "body": [
+        "As Central Iowa's trusted destination for addiction treatment, Des Moines Wellness Center provides a full continuum of care that's easily accessible to residents throughout the metro and neighboring counties. We proudly serve Des Moines, West Des Moines, Ankeny, Urbandale, Waukee, and the broader Polk and Dallas county communities.",
+        "Select an area below to learn more about the recovery services available near you."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "areas-cta",
+      "kind": "cta",
+      "heading": "Help Is Closer Than You Think",
+      "subheading": "",
+      "body": [
+        "No matter where you are in Central Iowa, life-saving care is within reach. Call our 24/7 admissions team to verify your insurance and start the confidential intake process today."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/shutterstock_2668174279-1024x683.jpg",
+      "alt": "A wide-open Iowa horizon symbolizing new beginnings for patients across Central Iowa.",
+      "role": "hero"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  ]
+}

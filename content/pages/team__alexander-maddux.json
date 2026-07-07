@@ -1,0 +1,104 @@
+{
+  "slug": "team/alexander-maddux",
+  "pageType": "team",
+  "seo": {
+    "title": "Alexander \"Alex\" Maddux - Director of Operations | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+    "description": "Meet Alexander Maddux, a dedicated leader committed to creating safe, supportive environments that help individuals achieve long-term success."
+  },
+  "hero": {
+    "eyebrow": "",
+    "headline": "Alexander \"Alex\" Maddux",
+    "subhead": "Director of Operations",
+    "image": {
+      "src": "../../wp-content/uploads/2026/06/Alexander-Maddux-Director-of-Operations-768x1024.png",
+      "alt": "Alexander \"Alex\" Maddux, Director of Operations"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "about",
+      "kind": "team-bio",
+      "heading": "About:",
+      "subheading": "",
+      "body": [
+        "Alexander Maddux serves as Director of Operations, bringing more than a decade of experience across behavioral health, rehabilitation, case management, corrections, and security operations. Throughout his career, he has dedicated himself to supporting individuals facing mental health challenges, substance use disorders, and complex life circumstances, helping them access resources, navigate barriers, and build pathways toward lasting stability.",
+        "Prior to joining the organization, Alex held leadership roles in community behavioral health, where he coordinated care for individuals with serious mental illness, managed crisis situations, and collaborated with multidisciplinary teams to promote recovery and long-term success. His diverse professional background also includes experience in juvenile corrections, correctional healthcare, and security supervision, providing him with extensive expertise in crisis intervention, de-escalation, risk assessment, investigations, and maintaining safe, structured environments.",
+        "Known for his strong leadership, professionalism, and commitment to client-centered care, Alex combines operational excellence with a compassionate, recovery-oriented approach. As Director of Operations, he is focused on fostering a culture of accountability, safety, and high-quality care while supporting both staff and clients in achieving positive outcomes."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "../../wp-content/uploads/2026/06/Alexander-Maddux-Director-of-Operations-768x1024.png",
+        "alt": "Alexander \"Alex\" Maddux, Director of Operations"
+      }
+    },
+    {
+      "id": "ready-to-take-the-first-step",
+      "kind": "cta",
+      "heading": "Ready to Take the First Step?",
+      "subheading": "",
+      "body": [
+        "Recovery is built on relationships. If you’re looking for help with addiction or mental health challenges, our team is here to guide you every step of the way. Contact Des Moines Wellness Center to learn more about our programs and admissions process."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "start-your-recovery-today",
+      "kind": "cta",
+      "heading": "START Your Recovery Today",
+      "subheading": "",
+      "body": [],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "recovery-starts-with-the-right-people",
+      "kind": "cta",
+      "heading": "Recovery Starts With the Right People",
+      "subheading": "",
+      "body": [
+        "At Des Moines Wellness Center, our team is committed to providing compassionate, evidence-based care for addiction and co-occurring mental health conditions. Whether you’re looking for medical detox, residential treatment, PHP, IOP, or ongoing recovery support, we’re here to help you find the right path forward. Contact our admissions team today to learn more about treatment options, verify insurance, and take the first step toward lasting recovery."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "../../wp-content/uploads/2026/06/Alexander-Maddux-Director-of-Operations-768x1024.png",
+      "alt": "Alexander \"Alex\" Maddux, Director of Operations",
+      "role": "hero"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  ]
+}

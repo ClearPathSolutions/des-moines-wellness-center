@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-heading: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-cream text-ink font-sans antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+  h1, h2, h3, h4 {
+    @apply font-heading font-semibold tracking-tight text-brand-dark;
+    text-wrap: balance;
+  }
+  h1 { @apply text-4xl sm:text-5xl lg:text-6xl leading-[1.05]; }
+  h2 { @apply text-3xl sm:text-4xl leading-tight; }
+  h3 { @apply text-xl sm:text-2xl; }
+  p { text-wrap: pretty; }
+  a { @apply transition-colors; }
+  :focus-visible { @apply outline-2 outline-offset-2 outline-gold; }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-content px-5 sm:px-8;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-all focus-visible:outline-2 focus-visible:outline-offset-2;
+  }
+  .btn-primary {
+    @apply btn bg-brand text-white shadow-soft hover:bg-brand-dark hover:-translate-y-0.5;
+  }
+  .btn-gold {
+    @apply btn bg-gold text-white shadow-soft hover:bg-gold-dark hover:-translate-y-0.5;
+  }
+  .btn-outline {
+    @apply btn border-2 border-brand text-brand hover:bg-brand hover:text-white;
+  }
+  .btn-white {
+    @apply btn bg-white text-brand-dark shadow-soft hover:bg-cream;
+  }
+  .prose-brand {
+    @apply text-[17px] leading-relaxed text-muted;
+  }
+  .prose-brand p { @apply mb-4; }
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.14em] text-gold;
+  }
+  .section {
+    @apply py-16 sm:py-24;
+  }
+}
