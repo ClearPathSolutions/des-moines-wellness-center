@@ -19,3 +19,17 @@ export function resolveImage(src?: string): Entry | null {
   const key = canonicalKey(src)
   return MAP[key] ?? null
 }
+
+export type Orientation = 'portrait' | 'landscape' | 'square'
+
+/** Classify a mirrored image by its intrinsic aspect ratio so callers can pick a
+ *  frame that matches the source instead of cropping a portrait into a landscape
+ *  box (the cause of "heads cut off" on team photos). */
+export function orientation(src?: string): Orientation | null {
+  const img = resolveImage(src)
+  if (!img) return null
+  const ratio = img.width / img.height
+  if (ratio <= 0.92) return 'portrait'
+  if (ratio >= 1.1) return 'landscape'
+  return 'square'
+}
