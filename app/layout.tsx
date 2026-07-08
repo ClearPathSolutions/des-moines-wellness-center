@@ -70,6 +70,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           data-position="right"
           strategy="afterInteractive"
         />
+        <Script
+          src="https://www.clarionlabs.ai/forms-capture.v1.js"
+          data-site-key="cpx__fSy1X8JikCR2mQQMFTF81zFCiT5KP33"
+          data-api="https://api.clarionlabs.ai"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )
