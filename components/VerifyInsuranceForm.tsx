@@ -63,9 +63,10 @@ export default function VerifyInsuranceForm() {
     return (
       <div className="mx-auto max-w-xl rounded-2xl border border-line bg-white p-8 text-center shadow-card">
         <CheckCircle2 className="mx-auto h-12 w-12 text-brand" />
-        <h3 className="mt-4">Thank you — we&rsquo;ve received your request.</h3>
+        <h3 className="mt-4">Thank you for submitting your insurance details.</h3>
         <p className="prose-brand mt-3">
-          Our admissions team will reach out shortly with your coverage details. Prefer to talk now?
+          We&rsquo;re now running a verification of your coverage. An admissions specialist will
+          reach out to you shortly to review your benefits and next steps. Prefer to talk now?
         </p>
         <a href={`tel:+1${PHONE.replace(/\D/g, '')}`} className="btn-primary mt-6">
           <Phone className="h-4 w-4" />
