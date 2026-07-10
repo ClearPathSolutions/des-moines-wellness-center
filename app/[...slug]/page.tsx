@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import PageRenderer from '@/components/PageRenderer'
 import CollectionGrid from '@/components/CollectionGrid'
+import ClarionBlog from '@/components/ClarionBlog'
 import { getAllPages, getPage, getSiteConfig } from '@/lib/content'
 import type { PageModel } from '@/lib/types'
 
@@ -48,7 +49,16 @@ export default async function CatchAllPage({
   const byType = (t: string) => all.filter((p) => p.pageType === t)
 
   let afterHero: React.ReactNode = null
-  if (page.pageType === 'hub-programs') {
+  let renderPage = page
+  if (page.pageType === 'blog-index') {
+    // Clarion Labs manages blog content, rendered into its own mount point.
+    // Drop the static placeholder post list so it isn't shown alongside.
+    afterHero = <ClarionBlog />
+    renderPage = {
+      ...page,
+      sections: (page.sections ?? []).filter((s) => s.kind !== 'hub-list'),
+    }
+  } else if (page.pageType === 'hub-programs') {
     afterHero = (
       <CollectionGrid
         heading="Our Levels of Care"
@@ -92,7 +102,7 @@ export default async function CatchAllPage({
   ]
   return (
     <PageRenderer
-      page={page}
+      page={renderPage}
       config={config}
       showAccreditations={['program', 'condition', 'area', 'page'].includes(page.pageType)}
       showReviews={reviewsTypes.includes(page.pageType)}
