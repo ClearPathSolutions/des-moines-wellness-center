@@ -1,17 +1,17 @@
 {
- "slug": "team/welsey-starlin",
+ "slug": "team/bethany-hamilton",
  "pageType": "team",
  "seo": {
-  "title": "Wesley Starlin - Executive Director | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
-  "description": "Learn more about Wesley Starlin, Executive Director at Des Moines Wellness Center. Wesley brings 15+ years of experience in behavioral health."
+  "title": "Bethany Hamilton, RCS, CMA - Case Manager | Des Moines Wellness Center | Alcohol & Drug Rehab Iowa",
+  "description": "Meet Bethany Hamilton, RCS, CMA, Case Manager at Des Moines Wellness Center."
  },
  "hero": {
-  "eyebrow": "Executive Director",
-  "headline": "Wesley Starlin",
+  "eyebrow": "",
+  "headline": "Bethany Hamilton, RCS, CMA",
   "subhead": "",
   "image": {
-   "src": "../../wp-content/uploads/2026/06/wes-1-768x1024.png",
-   "alt": "Wesley Starlin - Executive Director"
+   "src": "",
+   "alt": ""
   },
   "primaryCta": {
    "label": "(888) 378-2158",
@@ -29,15 +29,15 @@
    "heading": "About:",
    "subheading": "",
    "body": [
-    "Wesley Starlin is a licensed mental health counselor with over 15 years of experience leading clinical programs across inpatient, outpatient, and community-based behavioral health settings.",
-    "His background blends hands-on clinical work with executive leadership in operations, program development, and team management.",
-    "Known for a practical, person-centered approach, Wesley focuses on building strong teams and delivering high-quality care that makes a meaningful impact in the communities and people he serves."
+    "Bethany Hamilton serves as a Case Manager at Des Moines Wellness Center, where she is committed to helping individuals build a strong foundation for lasting recovery and long-term wellness. Bethany works closely with each client to develop personalized discharge and aftercare plans that support continued success beyond treatment.",
+    "She is passionate about ensuring every individual has access to the resources, guidance, and encouragement they need as they transition into the next stage of their recovery journey. Known for her compassionate and client-centered approach, Bethany strives to create an environment where every person feels heard, supported, empowered, and hopeful.",
+    "She is honored to be part of each client's journey and is dedicated to helping them achieve lasting healing and a brighter future."
    ],
    "items": [],
    "faqs": [],
    "image": {
-    "src": "../../wp-content/uploads/2026/06/wes-1-768x1024.png",
-    "alt": "Wesley Starlin - Executive Director"
+    "src": "",
+    "alt": ""
    }
   },
   {
@@ -86,8 +86,8 @@
  ],
  "images": [
   {
-   "src": "../../wp-content/uploads/2026/06/wes-1-768x1024.png",
-   "alt": "Wesley Starlin - Executive Director",
+   "src": "../../wp-content/uploads/2026/06/Alexander-Maddux-Director-of-Operations-768x1024.png",
+   "alt": "Alexander \"Alex\" Maddux, Director of Operations",
    "role": "hero"
   }
  ],

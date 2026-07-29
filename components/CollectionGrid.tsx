@@ -16,6 +16,19 @@ type Props = {
   alt?: boolean
 }
 
+/** Initials for a card with no image, e.g. "Bethany Hamilton, RCS, CMA" -> "BH". */
+function initialsFor(label: string): string {
+  return label
+    .replace(/,.*$/, '')
+    .replace(/^(Dr|Mr|Mrs|Ms)\.?\s+/i, '')
+    .replace(/[“”"']/g, '')
+    .split(/\s+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((w) => w[0]!.toUpperCase())
+    .join('')
+}
+
 export default function CollectionGrid({ heading, subheading, pages, alt }: Props) {
   // Team members are portrait headshots; a 16/10 card frame slices their faces off.
   // If the collection is portrait-dominant, give every card a matching portrait frame.
@@ -52,7 +65,18 @@ export default function CollectionGrid({ heading, subheading, pages, alt }: Prop
                       }`}
                     />
                   </div>
-                ) : null}
+                ) : (
+                  /* No headshot yet: keep the card frame so heights stay even
+                     across the row instead of collapsing to a text-only card. */
+                  <div
+                    aria-hidden="true"
+                    className={`relative ${cardAspect} flex items-center justify-center bg-cream`}
+                  >
+                    <span className="text-4xl font-semibold text-brand/40">
+                      {initialsFor(p.hero?.headline ?? p.seo.title)}
+                    </span>
+                  </div>
+                )}
                 <div className="flex flex-1 flex-col p-6">
                   <h3 className="text-lg">{p.hero?.headline ?? p.seo.title}</h3>
                   {p.hero?.subhead ? (
