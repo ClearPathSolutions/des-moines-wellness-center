@@ -8,6 +8,9 @@ export type Faq = { q: string; a: string }
 
 export type SectionKind =
   | 'prose'
+  // Real <ul> bullet list. Migrated article copy interleaves paragraphs and
+  // list items; rendering those as paragraphs loses the list semantics.
+  | 'list'
   | 'features'
   | 'cards'
   | 'steps'

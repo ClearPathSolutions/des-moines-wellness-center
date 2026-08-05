@@ -380,6 +380,37 @@
         "src": "",
         "alt": ""
       }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "ANSWERS & RESOURCES",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "What makes fentanyl more dangerous than other opioids?",
+          "a": "Fentanyl is a synthetic opioid that is significantly more potent than drugs like heroin or morphine. Even small amounts can slow or stop breathing, which increases the risk of overdose, especially when it is unknowingly mixed into other substances."
+        },
+        {
+          "q": "How long does fentanyl withdrawal last?",
+          "a": "Withdrawal symptoms can begin within 6–12 hours after the last use. The most intense symptoms typically occur within the first 1–3 days, with physical symptoms improving over the first week. Some psychological symptoms, like anxiety and cravings, can last for several weeks."
+        },
+        {
+          "q": "What are the early warning signs of a fentanyl overdose?",
+          "a": "Signs may include slowed or stopped breathing, blue lips or fingertips, unconsciousness, choking sounds, or inability to wake up. Fentanyl overdoses can happen quickly and require immediate emergency attention."
+        },
+        {
+          "q": "Can family members be involved in the recovery process?",
+          "a": "Yes. Family involvement can improve outcomes by providing support, education, and healthier communication patterns during and after treatment."
+        },
+        {
+          "q": "Does insurance cover fentanyl addiction treatment at Des Moines Wellness Center?",
+          "a": "In many cases, yes. We work with a range of insurance providers that may cover services such as medical detox, residential treatment, and outpatient care. Coverage varies by plan, including length of stay and out-of-pocket costs. Our admissions team can quickly verify your benefits and explain exactly what is covered so you can move forward with treatment with clarity and confidence. Call us at (888) 378-2158 to find out."
+        }
+      ],
+      "image": null
     }
   ],
   "images": [

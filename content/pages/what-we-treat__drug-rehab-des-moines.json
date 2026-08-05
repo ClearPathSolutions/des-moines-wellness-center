@@ -510,6 +510,37 @@
       }
     },
     {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "ANSWERS & RESOURCES",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "How do I know if I need drug rehab?",
+          "a": "If drug use is affecting your health, relationships, work, or daily life, and you’re unable to stop on your own, it may be time to seek professional treatment. Common signs include loss of control, cravings, withdrawal symptoms, and continued use despite negative consequences. Call us anytime at (888) 378-2158 for a quick, confidential assessment."
+        },
+        {
+          "q": "How long does drug rehab last?",
+          "a": "The length of treatment varies based on your needs, but most programs range from a few weeks to several months. Many people start with detox or residential care and then continue with outpatient programs and aftercare for ongoing support."
+        },
+        {
+          "q": "What happens after drug rehab is completed?",
+          "a": "After completing drug rehab, ongoing support is essential to maintain recovery. This often includes aftercare programs, outpatient therapy, support groups, and relapse prevention planning. Continued structure and accountability help you stay on track and navigate real-life challenges without returning to substance use."
+        },
+        {
+          "q": "Can I go to rehab without losing my job?",
+          "a": "In most cases, yes. Under the Family and Medical Leave Act (FMLA), eligible employees may take job-protected leave for substance use treatment. This allows you to focus on recovery and return to work afterward. At Des Moines Wellness, we help you figure this out and take care of all necessary administrative work."
+        },
+        {
+          "q": "Does insurance cover drug rehab in Des Moines?",
+          "a": "Many insurance plans cover some or all of the cost of drug rehab, including detox, inpatient, and outpatient programs. Coverage depends on your provider and plan, and our admission team can help verify your benefits quickly. Call us at (888) 378-2158 to get a fast answer."
+        }
+      ],
+      "image": null
+    },
+    {
       "id": "lets-build-a-life",
       "kind": "cta",
       "heading": "Let’s Build a Life You Don’t Need to Escape",

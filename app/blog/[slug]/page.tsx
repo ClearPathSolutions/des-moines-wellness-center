@@ -3,22 +3,42 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import { ArrowLeft, CalendarDays, Phone } from 'lucide-react'
-import { getSiteConfig } from '@/lib/content'
+import PageRenderer from '@/components/PageRenderer'
+import { getAllPages, getPage, getSiteConfig } from '@/lib/content'
 import { formatPostDate, getBlogPost, getBlogPosts } from '@/lib/blog'
-import { ArticleJsonLd, BreadcrumbJsonLd } from '@/components/JsonLd'
+import { ArticleJsonLd, BreadcrumbJsonLd, FaqJsonLd } from '@/components/JsonLd'
 import { canonicalPath, canonicalUrl } from '@/lib/urls'
 
 // Must be a literal (Next statically analyses it); keep in step with
 // BLOG_REVALIDATE_SECONDS in lib/blog.ts.
 export const revalidate = 3600
 
-// Posts published after the last build should still resolve, so unknown slugs
-// are rendered on demand rather than 404'd outright.
+// Posts published in Clarion after the last build should still resolve, so
+// unknown slugs are rendered on demand rather than 404'd outright.
 export const dynamicParams = true
 
+/**
+ * Posts come from two places and both live under /blog/<slug> (T-17):
+ *
+ *  - Migrated WordPress articles, stored as content pages with
+ *    pageType 'blog-post'. Kept as full section models rather than flattened to
+ *    HTML so nothing is lost in translation.
+ *  - Posts authored in Clarion's CMS, fetched server-side.
+ *
+ * Local pages win on slug collision: they are ours and versioned in the repo.
+ */
+function localPost(slug: string) {
+  return getAllPages().find(
+    (p) => p.pageType === 'blog-post' && p.slug === `blog/${slug}`
+  )
+}
+
 export async function generateStaticParams() {
-  const posts = await getBlogPosts()
-  return posts.map((p) => ({ slug: p.slug }))
+  const remote = await getBlogPosts()
+  const local = getAllPages()
+    .filter((p) => p.pageType === 'blog-post')
+    .map((p) => p.slug.replace(/^blog\//, ''))
+  return [...new Set([...local, ...remote.map((p) => p.slug)])].map((slug) => ({ slug }))
 }
 
 export async function generateMetadata({
@@ -27,6 +47,23 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>
 }): Promise<Metadata> {
   const { slug } = await params
+  const path = canonicalPath(`/blog/${slug}`)
+
+  const local = localPost(slug)
+  if (local) {
+    return {
+      title: { absolute: local.seo.title },
+      description: local.seo.description,
+      alternates: { canonical: path },
+      openGraph: {
+        type: 'article',
+        title: local.seo.title,
+        description: local.seo.description,
+        url: path,
+      },
+    }
+  }
+
   const post = await getBlogPost(slug)
   if (!post) return {}
   const title = post.seo.title ?? post.title
@@ -34,12 +71,12 @@ export async function generateMetadata({
   return {
     title: { absolute: title },
     description,
-    alternates: { canonical: canonicalPath(`/blog/${post.slug}`) },
+    alternates: { canonical: path },
     openGraph: {
       type: 'article',
       title,
       description,
-      url: canonicalPath(`/blog/${post.slug}`),
+      url: path,
       publishedTime: post.publishedAt ?? undefined,
       ...(post.coverImageUrl ? { images: [{ url: post.coverImageUrl }] } : {}),
     },
@@ -52,10 +89,40 @@ export default async function BlogPostPage({
   params: Promise<{ slug: string }>
 }) {
   const { slug } = await params
+  const config = getSiteConfig()
+  const { site } = config
+  const url = canonicalUrl(site.url, `/blog/${slug}`)
+
+  // --- Migrated local article ---------------------------------------------
+  const local = localPost(slug)
+  if (local) {
+    const faqs = (local.sections ?? []).flatMap((s) => s.faqs ?? [])
+    return (
+      <>
+        <PageRenderer page={local} config={config} showReviews={false} />
+        <ArticleJsonLd
+          headline={local.hero.headline}
+          description={local.seo.description}
+          url={url}
+          siteName={site.name}
+          siteUrl={site.url}
+        />
+        <BreadcrumbJsonLd
+          siteUrl={site.url}
+          trail={[
+            { name: 'Blog', path: '/blog' },
+            { name: local.hero.headline, path: `/blog/${slug}` },
+          ]}
+        />
+        <FaqJsonLd faqs={faqs} />
+      </>
+    )
+  }
+
+  // --- Clarion-authored post ----------------------------------------------
   const post = await getBlogPost(slug)
   if (!post) notFound()
 
-  const { site } = getSiteConfig()
   const date = formatPostDate(post.publishedAt)
 
   return (
@@ -134,7 +201,7 @@ export default async function BlogPostPage({
         image={post.coverImageUrl}
         datePublished={post.publishedAt}
         authorName={post.authorName}
-        url={canonicalUrl(site.url, `/blog/${post.slug}`)}
+        url={url}
         siteName={site.name}
         siteUrl={site.url}
       />
@@ -142,7 +209,7 @@ export default async function BlogPostPage({
         siteUrl={site.url}
         trail={[
           { name: 'Blog', path: '/blog' },
-          { name: post.title, path: `/blog/${post.slug}` },
+          { name: post.title, path: `/blog/${slug}` },
         ]}
       />
     </>

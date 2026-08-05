@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import PageRenderer from '@/components/PageRenderer'
 import BlogPostList from '@/components/BlogPostList'
-import { getPage, getSiteConfig } from '@/lib/content'
+import { getAllPages, getPage, getSiteConfig } from '@/lib/content'
 import { getBlogPosts } from '@/lib/blog'
 import { canonicalPath } from '@/lib/urls'
 
@@ -34,7 +34,24 @@ export default async function BlogIndexPage() {
   if (!page) notFound()
 
   const config = getSiteConfig()
-  const posts = await getBlogPosts()
+
+  // Two sources, one index (T-17/T-24): articles migrated from WordPress live as
+  // content pages with pageType 'blog-post'; newer posts are authored in
+  // Clarion. Local ones win on slug collision.
+  const remote = await getBlogPosts()
+  const local = getAllPages()
+    .filter((p) => p.pageType === 'blog-post')
+    .map((p) => ({
+      slug: p.slug.replace(/^blog\//, ''),
+      title: p.hero.headline,
+      excerpt: p.seo.description || null,
+      coverImageUrl: null,
+      authorName: null,
+      publishedAt: null,
+      seo: { title: p.seo.title, description: p.seo.description },
+    }))
+  const localSlugs = new Set(local.map((p) => p.slug))
+  const posts = [...local, ...remote.filter((p) => !localSlugs.has(p.slug))]
 
   // The JSON still carries the migrated placeholder post list ("hub-list"),
   // which would duplicate the real feed below it.

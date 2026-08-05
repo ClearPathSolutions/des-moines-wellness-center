@@ -348,6 +348,37 @@
         "src": "",
         "alt": ""
       }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "ANSWERS & RESOURCES",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "How do I know if I need dual diagnosis treatment?",
+          "a": "If you find yourself using drugs or alcohol to cope with emotional pain, racing thoughts, or past trauma, you likely benefit from a dual diagnosis program. During our comprehensive intake assessment, our clinical team will help identify any underlying conditions that may be impacting your sobriety."
+        },
+        {
+          "q": "Can I be admitted the same day I call?",
+          "a": "Yes. At Des Moines Wellness Center, we understand that the window of opportunity for seeking help can be brief. We offer same-day admissions and can often coordinate transportation to our facility to ensure you begin your stabilization process immediately."
+        },
+        {
+          "q": "How long does the program last?",
+          "a": "Treatment is highly individualized. While most patients transition through our continuum of care (Detox, Residential, PHP, and IOP) over 30 to 90 days, your specific timeline will depend on your unique progress and clinical needs identified during your stay."
+        },
+        {
+          "q": "Are these programs available for local Des Moines residents?",
+          "a": "Yes. While we serve individuals from across the region, we are deeply rooted in the Des Moines community. We coordinate closely with local resources like NAMI Greater Des Moines and local peer support groups to ensure you have a strong support system once you complete your program."
+        },
+        {
+          "q": "Do you accept insurance for dual diagnosis care?",
+          "a": "We accept most major private insurance plans. Our admissions team provides a free, no-obligation insurance verification to help you understand your coverage and minimize out-of-pocket costs before you even arrive. Call us at (888) 378-2158 to get a fast answer."
+        }
+      ],
+      "image": null
     }
   ],
   "images": [

@@ -367,6 +367,41 @@
         "src": "",
         "alt": ""
       }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "ANSWERS & RESOURCES",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "How long do the outpatient programs last?",
+          "a": "The duration of our PHP and IOP tracks depends on your clinical progress. Typically, our high-intensity PHP lasts 3–4 weeks before transitioning into a more flexible IOP schedule. We ensure your step-down is timed perfectly for your stability."
+        },
+        {
+          "q": "Can I work or go to school while in treatment?",
+          "a": "Our Intensive Outpatient Program (IOP) is specifically designed for this. We offer flexible schedules for residents in Polk County and Dallas County so you can maintain your professional or academic responsibilities while attending clinical sessions."
+        },
+        {
+          "q": "Is transportation provided to the Des Moines facility?",
+          "a": "Yes. We coordinate transport for patients across the Des Moines metro, including Ankeny, Urbandale, and West Des Moines. Whether you are taking the bus or need a private ride, we help you get to our facility safely."
+        },
+        {
+          "q": "What is the difference between PHP and IOP?",
+          "a": "PHP is a full-day commitment (30+ hours/week) providing residential-level care, whereas IOP is a part-day track (9–15 hours/week) focused on long-term integration. Both tracks offer dual-diagnosis support for alcohol, meth, and benzo recovery."
+        },
+        {
+          "q": "What is the difference between outpatient and residential rehab?",
+          "a": "The primary difference is where you sleep. In Residential treatment, you live at the facility 24/7. In our Des Moines outpatient programs, you receive the same high-level clinical care, including dual-diagnosis therapy and medication management, during the day but return to your own home or sober living environment in the evening. This allows you to stay connected to your life while you heal."
+        },
+        {
+          "q": "Do you accept private health insurance?",
+          "a": "Yes. We work with most major private insurance providers. Our admissions team offers free, confidential coverage verification and will handle the transportation logistics once your intake is approved. Call us at (888) 378-2158 to get a quick verification of your benefits."
+        }
+      ],
+      "image": null
     }
   ],
   "images": [

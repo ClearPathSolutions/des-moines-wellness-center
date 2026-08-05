@@ -418,6 +418,41 @@
         "src": "",
         "alt": ""
       }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "ANSWERS & RESOURCES",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "Do I need to detox before starting PHP?",
+          "a": "It depends on the substance and the severity of use. Many patients begin in PHP after completing a medically supervised detox, but we can assess your needs during your initial call to determine the safest starting point."
+        },
+        {
+          "q": "How long does the program last?",
+          "a": "While every recovery journey is different, most individuals stay in our Des Moines PHP for 4 to 6 weeks before stepping down to a less intensive level of care like IOP."
+        },
+        {
+          "q": "Is lunch provided during the day?",
+          "a": "Yes. We provide healthy, catered wellness lunches daily at our clinical estate to ensure you stay nourished and focused on your recovery work."
+        },
+        {
+          "q": "Can I still see my own doctor or psychiatrist?",
+          "a": "Absolutely. While we provide psychiatric oversight and medication management on-site, we are happy to coordinate with your existing local providers to ensure your care is seamless."
+        },
+        {
+          "q": "What happens if I relapse while in PHP?",
+          "a": "Relapse is a sign that your treatment plan needs adjustment, not a reason for shame. We use these moments as clinical data to strengthen your coping skills and potentially increase your support levels."
+        },
+        {
+          "q": "Is PHP covered by my insurance?",
+          "a": "Yes, most major insurance providers cover Partial Hospitalization as a medically necessary level of care. We are in-network with many providers and can verify your specific benefits for you in minutes. Call us at (888) 378-2158 to get a quick verification of your benefits."
+        }
+      ],
+      "image": null
     }
   ],
   "images": [

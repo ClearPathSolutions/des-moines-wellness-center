@@ -415,6 +415,41 @@
         "src": "",
         "alt": ""
       }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "ANSWERS & RESOURCES",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "Can I have my phone or laptop?",
+          "a": "To help you achieve a true environmental reset, we limit the use of personal electronics during the early stages of treatment. This allows you to disconnect from outside triggers and focus entirely on your clinical progress. Scheduled phone time is provided as you move through the program."
+        },
+        {
+          "q": "What should I bring with me?",
+          "a": "Bring about a week’s worth of comfortable, modest clothing, personal toiletries (alcohol-free), and any current medications in their original bottles. We provide a peaceful, sanctuary-like environment, so leave valuables and electronics at home to keep your focus on recovery."
+        },
+        {
+          "q": "Are visitors allowed during my stay?",
+          "a": "Yes, but we prioritize your clinical stability first. Family involvement is a key part of fixing the roots of addiction, so we schedule specific family days and supervised visits once our clinical team determines it is beneficial for your recovery process."
+        },
+        {
+          "q": "What is the average length of stay?",
+          "a": "Most patients stay between 30 to 45 days, but the exact duration depends on your personal progress. We focus on hitting specific clinical milestones rather than watching the clock, ensuring you are fully stabilized before transitioning to the next phase of care."
+        },
+        {
+          "q": "Will I have a private room?",
+          "a": "We offer both private and semi-private rooms designed to feel like a clinical sanctuary rather than a hospital. Every space is structured to provide the privacy and comfort you need to rest and process your therapy sessions without the noise of a traditional medical setting."
+        },
+        {
+          "q": "Do you accept my insurance?",
+          "a": "We work with most major private insurance providers as part of the Quadrant Health Network. Because every plan is different, we offer a free, confidential insurance verification before you arrive so you know exactly what is covered. Call us at (888) 378-2158 to get a fast answer."
+        }
+      ],
+      "image": null
     }
   ],
   "images": [

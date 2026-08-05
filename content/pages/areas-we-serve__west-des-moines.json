@@ -292,6 +292,37 @@
         "src": "",
         "alt": ""
       }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "ANSWERS & RESOURCES",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "How long is the commute from West Des Moines for outpatient rehab?",
+          "a": "Our facility is located just 15 to 20 minutes north of West Des Moines. Because we sit right off the major metro loop, clients commuting from neighborhoods near Jordan Creek or Historic Valley Junction can easily access our daytime PHP or evening IOP sessions via I-35 North without disrupting their daily work or family routines."
+        },
+        {
+          "q": "Can I complete medical detox and rehab in the same location?",
+          "a": "Yes. We offer a full continuum of care under one roof. You can safely complete a 24/7 medically supervised drug or alcohol detox, transition directly into our residential inpatient rehab program, and step down into part-time outpatient therapy without ever having to switch facilities or change clinical teams."
+        },
+        {
+          "q": "Do you offer support programs for families in West Des Moines?",
+          "a": "Yes. Addiction impacts the entire household, which is why family involvement is a core piece of our treatment process. Because our center is located just 15 to 20 minutes away, it is incredibly easy for family members to commute from West Des Moines to participate in our dedicated family therapy sessions, educational workshops, and weekend support groups."
+        },
+        {
+          "q": "Can I use FMLA to protect my job while I am in rehab?",
+          "a": "Absolutely. Your career security shouldn’t stand in the way of your health. Under the Family and Medical Leave Act (FMLA), substance abuse treatment is recognized as a serious health condition, allowing eligible employees up to 12 weeks of job-protected, unpaid leave. Our administrative team works quickly and discreetly to help complete all necessary clinical documentation for your HR department."
+        },
+        {
+          "q": "What insurance do you accept for West Des Moines residents?",
+          "a": "We accept most private insurance plans and major commercial health policies. Our intake team regularly verifies and maximizes benefits for top Iowa networks, including Wellmark Blue Cross Blue Shield, Surest, UMR, Cigna, NYSHIP, Aetna and more. We handle all the upfront phone calls and authorization paperwork so you can focus entirely on getting better. Call us at (888) 378-2158 to get a fast answer."
+        }
+      ],
+      "image": null
     }
   ],
   "images": [

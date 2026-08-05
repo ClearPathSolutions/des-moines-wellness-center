@@ -321,6 +321,37 @@
       }
     },
     {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "ANSWERS & RESOURCES",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "Can I take time off work for cocaine rehab without losing my job?",
+          "a": "In many cases, yes. The Family and Medical Leave Act (FMLA) may allow you to take protected time off for addiction treatment. Our team can help guide you through the process and provide the necessary documentation when eligible."
+        },
+        {
+          "q": "What if I’ve relapsed multiple times on cocaine?",
+          "a": "Relapse is common with stimulant addiction due to strong cravings and the crash cycle. Our structured treatment helps identify triggers and reduce the risk of repeated relapse."
+        },
+        {
+          "q": "Can I continue working or going to school during treatment?",
+          "a": "Yes, depending on the level of care. Outpatient programs like PHP and IOP are designed to provide treatment while allowing you to maintain certain daily responsibilities."
+        },
+        {
+          "q": "How quickly can I start treatment?",
+          "a": "In many cases, admissions can be arranged the same day. Once you complete a brief assessment and insurance verification, our team works to get you into detox or treatment as quickly as possible."
+        },
+        {
+          "q": "How much does cocaine rehab cost with insurance?",
+          "a": "Costs vary depending on your insurance plan and level of care. Many plans cover a significant portion of treatment, including detox, residential and outpatient. Our admissions team can verify your benefits and explain any out-of-pocket costs before you start. Call us at (888) 378-2158 to get a fast answer."
+        }
+      ],
+      "image": null
+    },
+    {
       "id": "start-recovery",
       "kind": "cta",
       "heading": "Let’s Build a Life You Don’t Need to Escape",

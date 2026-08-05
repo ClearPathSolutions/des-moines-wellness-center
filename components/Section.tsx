@@ -85,6 +85,27 @@ export default function Section({ section, alt, slug, phone, phoneHref, heroSrc 
   const callHref = phoneHref ?? 'tel:+18883782158'
 
   switch (kind) {
+    // Real bullet lists. Migrated article copy interleaves paragraphs and
+    // <li> runs; rendering those as paragraphs would lose the list semantics
+    // (and the accessibility tree) that the source page had.
+    case 'list': {
+      if (!body.length) return null
+      return (
+        <section className={`section ${bg}`}>
+          <div className="container-page">
+            <div className="mx-auto max-w-3xl">
+              <SectionHeader heading={section.heading} subheading={section.subheading} />
+              <ul className="prose-brand list-disc space-y-2 pl-6">
+                {body.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+      )
+    }
+
     case 'prose': {
       const src = section.image?.src
       const hasImage = !!src

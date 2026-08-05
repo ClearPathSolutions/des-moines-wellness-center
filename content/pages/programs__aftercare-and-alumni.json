@@ -265,6 +265,41 @@
         "src": "",
         "alt": ""
       }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "ANSWERS & RESOURCES",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "What is the difference between Aftercare and Alumni support?",
+          "a": "Aftercare is a clinical step-down plan that includes scheduled check-ins and therapy to keep your recovery on track. Alumni support is the social side, a community of graduates who meet for events and peer mentorship in Des Moines."
+        },
+        {
+          "q": "How long should I stay involved in aftercare?",
+          "a": "Most medical experts recommend staying active in aftercare for at least one year after graduating from PHP or IOP. The first 90 days are the most critical, so we intensify our support during that window."
+        },
+        {
+          "q": "Is there a cost to join the Alumni program?",
+          "a": "No. Once you graduate from a Des Moines Wellness Center program, you are a member for life. Our social events and alumni meetings in Polk County are free resources designed to keep our community strong."
+        },
+        {
+          "q": "Can my family be involved in my aftercare?",
+          "a": "Absolutely. We offer family support sessions to help your loved ones understand how to support your sobriety at home. We provide the tools they need to help you stay successful in Central Iowa."
+        },
+        {
+          "q": "What happens if I experience a setback or relapse?",
+          "a": "Setbacks are handled with clinical urgency, not judgment. Because you are already plugged into our network, we can quickly adjust your treatment plan or get you back into a higher level of care without delay."
+        },
+        {
+          "q": "How do I join the next alumni event?",
+          "a": "We post our monthly calendar of Des Moines events in our private alumni portal. You can also call our admissions team to get added to the text and email alert list for upcoming meetups. Call us at (888) 378-2158 to get a fast answer."
+        }
+      ],
+      "image": null
     }
   ],
   "images": [

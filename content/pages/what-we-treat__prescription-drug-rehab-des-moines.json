@@ -346,6 +346,37 @@
       }
     },
     {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "ANSWERS & RESOURCES",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "How long does prescription drug treatment last?",
+          "a": "The duration of treatment is individualized based on your clinical needs. While Medical Detox typically lasts 5–10 days, most patients benefit from a 30-to-90-day progression through our Residential, PHP, and IOP programs to ensure long-term stability."
+        },
+        {
+          "q": "Can I recover while still working or attending school?",
+          "a": "Yes. Our Intensive Outpatient Program (IOP) is specifically designed to provide high-level clinical support with flexible scheduling, allowing you to maintain your professional and personal commitments in Polk County while staying active in your recovery."
+        },
+        {
+          "q": "What is the difference between physical dependence and addiction?",
+          "a": "Physical dependence is the body’s physiological adaptation to a medication, leading to withdrawal symptoms. Addiction (Substance Use Disorder) involves a compulsive need to use the drug despite negative consequences. Our Dual Diagnosis approach addresses both the physical and behavioral components of this cycle."
+        },
+        {
+          "q": "Are families involved in the recovery process?",
+          "a": "Absolutely. Family support is a cornerstone of lasting sobriety. We offer family therapy sessions and educational resources to help your loved ones understand the mechanics of dependency and learn how to provide healthy support during your transition home."
+        },
+        {
+          "q": "Will insurance cover the cost of my treatment?",
+          "a": "In most cases, yes. We are in-network with many major providers. Our admissions team provides a free, no-obligation insurance verification to help you understand your specific coverage and minimize out-of-pocket costs. Call us at (888) 378-2158 to get a fast answer."
+        }
+      ],
+      "image": null
+    },
+    {
       "id": "start-your-recovery",
       "kind": "cta",
       "heading": "Let’s Build a Life You Don’t Need to Escape",

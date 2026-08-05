@@ -402,6 +402,37 @@
         "src": "",
         "alt": ""
       }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "ANSWERS & RESOURCES",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "How long does alcohol rehab last?",
+          "a": "Treatment length is based on your individual progress rather than a set calendar. Most of our Des Moines clients begin with a 7 to 10-day medical detox, followed by 30 to 90 days of structured care across our residential and outpatient programs (such as IOP and PHP). We focus on ensuring you feel stable and confident before transitioning to the next phase of your recovery."
+        },
+        {
+          "q": "Will my employer find out I’m in rehab?",
+          "a": "Privacy is protected by federal law under HIPAA. Furthermore, the Family and Medical Leave Act (FMLA) allows many employees in Iowa to take up to 12 weeks of job-protected leave for substance abuse treatment. Our admissions team can help you navigate this paperwork discreetly so you can focus on healing without risking your career."
+        },
+        {
+          "q": "What is a dual diagnosis and do I need it?",
+          "a": "A dual diagnosis means you are dealing with both an alcohol use disorder and a mental health challenge like anxiety, depression, or PTSD. Since these often fuel one another, our Central Iowa clinical team treats both simultaneously. Addressing the underlying mental health why is the most effective way to ensure long-term sobriety."
+        },
+        {
+          "q": "Can my family visit me during treatment?",
+          "a": "Yes. We believe that family support is essential for a successful recovery. We offer structured family therapy sessions and weekend visitation once a client has reached a stable point in their clinical program. This helps rebuild the trust and communication needed for a healthy home environment in Polk County."
+        },
+        {
+          "q": "Does insurance cover alcohol treatment in Iowa?",
+          "a": "Most private insurance plans are required by law to cover addiction treatment services. We provide a free, confidential insurance verification for Iowa residents to help you understand your coverage for detox, residential stay, and outpatient therapy. We work directly with your provider to minimize your out-of-pocket costs. Call us at (888) 378-2158 to get a fast answer."
+        }
+      ],
+      "image": null
     }
   ],
   "images": [

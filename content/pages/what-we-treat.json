@@ -97,6 +97,37 @@
         "src": "",
         "alt": ""
       }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "ANSWERS & RESOURCES",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "How does the medical staff determine which program I need?",
+          "a": "Our clinical team conducts a comprehensive intake assessment upon arrival. We don’t just look at the substance used; we evaluate your physical health, mental health history, and long-term goals to place you in the specific rehab track built for your condition."
+        },
+        {
+          "q": "What if I am struggling with more than one substance?",
+          "a": "This is common. Because our medical staff has built specialized protocols for a range of addictions, we can integrate multiple tracks, such as Alcohol and Benzodiazepines, into a single, safe clinical plan that addresses all dependencies simultaneously."
+        },
+        {
+          "q": "Do these programs include treatment for depression or anxiety?",
+          "a": "Yes. Every substance-specific program we provide is designed to address co-occurring disorders. Our staff recognizes that mental health is a primary driver of addiction, so we treat both the substance use and the underlying condition at the same time."
+        },
+        {
+          "q": "How long are the rehab programs developed by your team?",
+          "a": "While our staff has developed standard clinical roadmaps, the duration is flexible based on your progress. We focus on medical stabilization and psychological readiness rather than a generic 30-day clock."
+        },
+        {
+          "q": "Does my insurance cover all the substances listed on this page?",
+          "a": "Most private insurance providers cover treatment for the full range of substances we treat. Our admissions team can provide a free, confidential verification to confirm your specific benefits for our Des Moines facility. Call us anytime at (888) 378-2158."
+        }
+      ],
+      "image": null
     }
   ],
   "images": [

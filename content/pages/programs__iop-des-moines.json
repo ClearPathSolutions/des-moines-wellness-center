@@ -392,6 +392,41 @@
         "src": "",
         "alt": ""
       }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "ANSWERS & RESOURCES",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "Can I continue working or going to school?",
+          "a": "Yes. Our program is specifically designed to be flexible. With morning and evening session options, you can maintain your professional or academic commitments while receiving high-level clinical support."
+        },
+        {
+          "q": "How many hours a week is the program?",
+          "a": "Typically, IOP involves 9 to 15 hours of clinical programming per week. This usually consists of three-hour sessions, three to five days a week, allowing for a structured “step-down” as you gain more stability in your recovery."
+        },
+        {
+          "q": "Do I have to complete residential treatment first?",
+          "a": "Not necessarily. While many people use IOP as a transition from inpatient care, it is also an effective starting point for those with a stable home environment who need more than traditional weekly therapy to fix the roots of their addiction."
+        },
+        {
+          "q": "What is the difference between IOP and standard outpatient therapy?",
+          "a": "Standard outpatient therapy usually involves one hour-long session per week. Our IOP is much more intensive, providing 9 to 15 hours of clinical engagement weekly. This higher dosage of care is designed to create a breakthrough in your recovery while providing a much stronger support network than traditional therapy alone."
+        },
+        {
+          "q": "Can my family be involved in my treatment?",
+          "a": "Absolutely. We believe that family support is a cornerstone of long-term wellness. We offer family therapy sessions and educational resources to help your loved ones understand the recovery process, heal together, and create a supportive environment at home as you navigate your IOP journey."
+        },
+        {
+          "q": "Is IOP covered by insurance?",
+          "a": "Most major private insurance plans cover Intensive Outpatient Programming. We offer a free, confidential insurance verification to help you understand your coverage and any potential out-of-pocket costs before you start. Call us at (888) 378-2158 to get a fast answer."
+        }
+      ],
+      "image": null
     }
   ],
   "images": [

@@ -419,6 +419,37 @@
       }
     },
     {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "ANSWERS & RESOURCES",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "Can I stop taking Xanax or other benzodiazepines suddenly?",
+          "a": "No. Stopping benzodiazepines like Xanax, Ativan, or Valium abruptly can be dangerous and may lead to severe withdrawal symptoms, including seizures. A medically supervised taper is typically recommended."
+        },
+        {
+          "q": "How long does benzo withdrawal last?",
+          "a": "Benzo withdrawal timelines vary, but symptoms can begin within hours to days and last for several weeks. In some cases, symptoms may persist longer depending on the level of dependence."
+        },
+        {
+          "q": "Do I need medical detox for benzo addiction?",
+          "a": "In most cases, yes. Because benzodiazepine withdrawal can be severe, medical detox with supervised tapering is often the safest way to begin treatment."
+        },
+        {
+          "q": "What therapies are used in benzo rehab?",
+          "a": "Treatment often includes evidence-based therapies such as CBT, DBT, individual therapy, and group therapy to address both addiction and mental health."
+        },
+        {
+          "q": "Is benzo addiction treatment covered by insurance?",
+          "a": "At Des Moines Wellness, many insurance plans cover benzodiazepine addiction treatment, including detox and rehab. Coverage varies, and our admissions team can help verify your benefits. Call us at (888) 378-2158 to get a fast answer."
+        }
+      ],
+      "image": null
+    },
+    {
       "id": "start-recovery",
       "kind": "cta",
       "heading": "Let’s Build a Life You Don’t Need to Escape",

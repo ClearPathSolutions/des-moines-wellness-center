@@ -158,6 +158,41 @@
         "src": "",
         "alt": ""
       }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "ANSWERS & RESOURCES",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "Who decides which therapies I will receive?",
+          "a": "Our on-site medical staff and licensed clinicians determine your therapeutic blend. During your initial precision intake, we evaluate your history and current symptoms to select the modalities (such as CBT, DBT, or Trauma-Informed care) that will be most effective for your specific stabilization."
+        },
+        {
+          "q": "Can my therapy plan change once I start?",
+          "a": "Yes. We guarantee active clinical pivots. If our team monitors your progress and determines a specific modality isn’t producing the expected results, we adjust your frequency and intensity in real-time to ensure your treatment remains optimized."
+        },
+        {
+          "q": "What is the difference between CBT and DBT?",
+          "a": "In simple terms: CBT (Cognitive Behavioral Therapy) focuses on identifying and changing the negative thought patterns that lead to substance use. DBT (Dialectical Behavior Therapy) is a specialized form of CBT that focuses more on emotional regulation and distress tolerance, which is essential for managing intense dual-diagnosis triggers."
+        },
+        {
+          "q": "Is family therapy mandatory?",
+          "a": "While we highly recommend family integration to help restore support systems in the Des Moines area, we prioritize clinical safety. Our staff evaluates each family situation and only facilitates sessions when it is therapeutically beneficial for the patient’s recovery."
+        },
+        {
+          "q": "How often will I have one-on-one sessions?",
+          "a": "Frequency is based entirely on your clinical need. Some patients require daily individual stabilization in the early phases, while others may shift toward more peer-supported group sessions as they reach their recovery milestones."
+        },
+        {
+          "q": "Is therapy covered by my insurance provider?",
+          "a": "Most private insurance plans cover evidence-based therapies when they are part of a medically supervised stabilization plan. Because our programs are staff-led and clinically monitored, our admissions team can typically secure coverage for the specific modalities, such as CBT or DBT, required for your recovery. We provide a 100% confidential verification to confirm your benefits before you begin treatment. Call us anytime at (888) 378-2158."
+        }
+      ],
+      "image": null
     }
   ],
   "images": [

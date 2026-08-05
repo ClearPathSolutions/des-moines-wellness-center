@@ -274,6 +274,37 @@
         "src": "",
         "alt": ""
       }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "ANSWERS & RESOURCES",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "Why should I choose a rehab center in Des Moines instead of a local option in Ankeny?",
+          "a": "Choosing a treatment facility slightly outside your immediate residential neighborhood offers an essential layer of personal privacy and medical discretion. Commuting 15 minutes down the interstate allows you to break away from everyday social circles, environmental stressors, and familiar triggers that fuel chemical dependency. This distance provides a safe, clinical sanctuary to focus entirely on physical and mental renewal while remaining close enough for family involvement and convenient outpatient commuting."
+        },
+        {
+          "q": "What types of addiction treatment programs do you offer?",
+          "a": "Our central facility provides a comprehensive, multi-tiered continuum of care. This includes medically monitored drug detox and alcohol detox for safe physical stabilization, residential inpatient drug rehab, high-structure Partial Hospitalization Programs (PHP), and flexible Intensive Outpatient Programs (IOP). This complete pipeline ensures you can seamlessly transition through every phase of recovery under the supervision of the same trusted medical and clinical teams."
+        },
+        {
+          "q": "Where can I get a court-ordered substance abuse evaluation in Ankeny?",
+          "a": "If you require a legal or court-ordered substance abuse evaluation due to a DUI/OWI or legal referral in Ankeny, you do not have to complete it in your immediate town. Our central facility provides comprehensive, fully accredited clinical evaluations. Our licensed team maps out your assessment quickly and securely, ensuring all documentation meets Iowa legal benchmarks and court requirements."
+        },
+        {
+          "q": "How long do your inpatient rehab and medical detox programs take?",
+          "a": "The duration of treatment depends entirely on personal medical acuity and clinical needs:Medical Detoxification: Typically lasts between 3 to 7 days to ensure full, safe physical stabilization.Residential Inpatient Rehab: Programs commonly run on a 30-day, 60-day, or 90-day structure depending on your recovery milestones and dual-diagnosis needs.PHP & IOP Tracks: These outpatient timelines are flexible and scale back in weekly hourly commitments as you build stable lifestyle patterns back home in Ankeny."
+        },
+        {
+          "q": "Does commercial insurance cover my rehab or detox stay?",
+          "a": "Yes, most private health plans cover treatment. Because we are a premium provider serving Central Iowa, our intake team regularly coordinates with major commercial insurers, including Wellmark Blue Cross Blue Shield, NYSHIP, Surest, Cigna, UMR, and Aetna/Meritain, to maximize your benefits for medical detox, inpatient rehab, PHP, or IOP tracks.To guarantee total financial clarity before you arrive, we provide a free, 100% confidential insurance benefits check that maps out your exact coverage, deductibles, and co-pays. Call us at (888) 378-2158 to get a fast answer."
+        }
+      ],
+      "image": null
     }
   ],
   "images": [

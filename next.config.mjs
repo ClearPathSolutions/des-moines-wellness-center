@@ -81,16 +81,42 @@ const nextConfig = {
       },
     ]
   },
+  // Sources AND destinations are written in slashed form. With
+  // trailingSlash: true, Next normalises to the slashed URL before matching,
+  // so a slashless source never matches the indexed URL, and a slashless
+  // destination adds a second hop. Both sides slashed = one hop, which is
+  // what T-13's "no redirect chains" criterion requires.
   async redirects() {
     return [
       // The team slug preserves the original site's misspelling ("welsey") to
       // keep its indexed URL. Anyone typing or linking the correct spelling —
       // including our own page title, which reads "Wesley Starlin" — hit a 404.
       {
-        source: '/team/wesley-starlin',
-        destination: '/team/welsey-starlin',
+        source: '/team/wesley-starlin/',
+        destination: '/team/welsey-starlin/',
         permanent: true,
       },
+
+      // T-17: blog posts move off root-level slugs onto /blog/<slug>. Root-level
+      // post URLs share a namespace with page slugs, which is a collision risk
+      // as pages are added. Both of these are live and indexed on production, so
+      // each needs a permanent redirect at cutover.
+      {
+        source: '/how-long-does-percocet-stay-in-your-system/',
+        destination: '/blog/how-long-does-percocet-stay-in-your-system/',
+        permanent: true,
+      },
+      {
+        source: '/how-alcohol-addiction-can-impact-every-area-of-life/',
+        destination: '/blog/how-alcohol-addiction-can-impact-every-area-of-life/',
+        permanent: true,
+      },
+
+      // Two WordPress taxonomy templates, deliberately not rebuilt: both are
+      // thin, indexable pages with no unique content (T-04/T-13). Sent to the
+      // blog rather than 410'd so any inbound link lands somewhere useful.
+      { source: '/author/cpts/', destination: '/blog/', permanent: true },
+      { source: '/category/uncategorized/', destination: '/blog/', permanent: true },
     ]
   },
 }

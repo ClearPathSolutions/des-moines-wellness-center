@@ -15,13 +15,16 @@ import type { Faq, PageModel } from '@/lib/types'
 
 export const dynamicParams = false
 
-// `/blog` and `/blog/[slug]` have dedicated routes because they revalidate
-// against Clarion's feed; everything here stays fully static.
-const OWN_ROUTE_SLUGS = new Set(['home', 'blog'])
+// `/` and everything under `/blog/` have dedicated routes — the blog reads from
+// Clarion's feed and revalidates, and migrated articles are served by
+// app/blog/[slug]. Everything here stays fully static.
+function hasOwnRoute(slug: string) {
+  return slug === 'home' || slug === 'blog' || slug.startsWith('blog/')
+}
 
 export function generateStaticParams() {
   return getAllPages()
-    .filter((p) => !OWN_ROUTE_SLUGS.has(p.slug))
+    .filter((p) => !hasOwnRoute(p.slug))
     .map((p) => ({ slug: p.slug.split('/') }))
 }
 
