@@ -51,6 +51,20 @@ function SectionHeader({ heading, subheading, center }: { heading?: string; subh
   )
 }
 
+/** Card/step titles nest under their section's own h2. Sections without a
+ *  heading emit no h2, so a fixed h3 there would skip a level straight from the
+ *  page's h1 — which is what happened on the home and contact pages. */
+function ItemHeading({
+  hasSectionHeading,
+  children,
+}: {
+  hasSectionHeading: boolean
+  children: React.ReactNode
+}) {
+  const Tag = hasSectionHeading ? 'h3' : 'h2'
+  return <Tag className="text-lg">{children}</Tag>
+}
+
 type SectionProps = {
   section: SectionType
   alt?: boolean
@@ -144,7 +158,7 @@ export default function Section({ section, alt, slug, phone, phoneHref, heroSrc 
                     <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-brand-50 text-brand">
                       <Icon className="h-6 w-6" />
                     </div>
-                    {it.title ? <h3 className="text-lg">{it.title}</h3> : null}
+                    {it.title ? <ItemHeading hasSectionHeading={!!section.heading}>{it.title}</ItemHeading> : null}
                     {it.text ? <p className="prose-brand mt-2 text-base">{it.text}</p> : null}
                   </div>
                 )
@@ -167,7 +181,7 @@ export default function Section({ section, alt, slug, phone, phoneHref, heroSrc 
                     {i + 1}
                   </span>
                   <div>
-                    {it.title ? <h3 className="text-lg">{it.title}</h3> : null}
+                    {it.title ? <ItemHeading hasSectionHeading={!!section.heading}>{it.title}</ItemHeading> : null}
                     {it.text ? <p className="prose-brand mt-1 text-base">{it.text}</p> : null}
                   </div>
                 </li>
@@ -309,7 +323,8 @@ export default function Section({ section, alt, slug, phone, phoneHref, heroSrc 
                   <SmartImage src={src!} alt={section.image!.alt} fill sizes="96px" className="object-cover object-top" />
                 </div>
                 <div>
-                  {section.heading ? <h3 className="text-lg">{section.heading}</h3> : null}
+                  {/* This *is* the section's heading, so h2 — not h3. */}
+                  {section.heading ? <h2 className="text-lg">{section.heading}</h2> : null}
                   <div className="prose-brand mt-2 text-base">
                     {body.map((p, i) => (
                       <p key={i}>{p}</p>
@@ -370,7 +385,7 @@ export default function Section({ section, alt, slug, phone, phoneHref, heroSrc 
                     <div className="mx-auto mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-brand-50 text-brand">
                       <Icon className="h-6 w-6" />
                     </div>
-                    {it.title ? <h3 className="text-lg">{it.title}</h3> : null}
+                    {it.title ? <ItemHeading hasSectionHeading={!!section.heading}>{it.title}</ItemHeading> : null}
                     {text ? <p className="prose-brand mt-1 text-base">{text}</p> : null}
                   </>
                 )
@@ -410,7 +425,7 @@ export default function Section({ section, alt, slug, phone, phoneHref, heroSrc 
             <div className={GRID_WRAP}>
               {items.map((it, i) => (
                 <div key={i} className={`${gridItem(items.length)} rounded-2xl border border-line bg-white p-6 shadow-card`}>
-                  {it.title ? <h3 className="text-lg">{it.title}</h3> : null}
+                  {it.title ? <ItemHeading hasSectionHeading={!!section.heading}>{it.title}</ItemHeading> : null}
                   {it.text ? <p className="prose-brand mt-2 text-base">{it.text}</p> : null}
                 </div>
               ))}

@@ -22,8 +22,9 @@ decision before (or shortly after) launch. Nothing here blocks deployment.
    Fentanyl had Benzo's; Outpatient shared PHP's. Auto-fixed from each page's headline —
    review and refine for best SEO wording.
 3. **Wesley vs. "Welsey"** — the team URL is `/team/welsey-starlin` (misspelled on the old
-   site). Kept as-is to preserve SEO. Recommend renaming to `/team/wesley-starlin` with a
-   301 redirect. Say the word and I'll set it up.
+   site). Kept as-is to preserve SEO. ✅ A permanent redirect from the correct spelling
+   (`/team/wesley-starlin`) now exists in `next.config.mjs`, so the correct URL no longer
+   404s. Renaming the canonical slug is still open — see the slug-policy decision.
 4. **Google Maps** — the old page embedded a Maps API key in the HTML. The rebuild doesn't
    reuse it. If you want a live map on Contact, create a restricted key and I'll wire it in.
 5. **NYSHIP insurance** — listed among accepted plans (it's a New York state plan) on an

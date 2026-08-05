@@ -29,7 +29,9 @@ export default function Footer({ config }: { config: SiteConfig }) {
 
         {footer.columns.map((col) => (
           <div key={col.title}>
-            <h4 className="font-heading text-base font-semibold text-cream">{col.title}</h4>
+            {/* h2, not h4: these follow the page's own h2 sections, and an h4
+                there skips two heading levels on every page of the site. */}
+            <h2 className="font-heading text-base font-semibold text-cream">{col.title}</h2>
             <ul className="mt-4 space-y-2 text-sm">
               {col.links.map((l) => (
                 <li key={l.href}>

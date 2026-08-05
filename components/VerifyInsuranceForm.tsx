@@ -1,10 +1,12 @@
 'use client'
 
 import { useState } from 'react'
-import { ShieldCheck, Lock, CheckCircle2, Phone } from 'lucide-react'
+import Link from 'next/link'
+import { ShieldCheck, Lock, CheckCircle2, Phone, AlertTriangle, Loader2 } from 'lucide-react'
 import ProviderCombobox from './ProviderCombobox'
 
 const PHONE = '888-378-2158'
+const PHONE_HREF = `tel:+1${PHONE.replace(/\D/g, '')}`
 
 type Fields = {
   name: string
@@ -18,48 +20,69 @@ type Fields = {
 
 const EMPTY: Fields = { name: '', phone: '', email: '', dob: '', provider: '', memberId: '', message: '' }
 
-const CLARION_FORM_KEY = 'insurance_verification'
+type Status = 'idle' | 'submitting' | 'sent' | 'error'
 
-declare global {
-  interface Window {
-    ClarionForms?: {
-      submit: (opts: { form_key?: string; data?: Record<string, string> }) => Promise<unknown>
-      scan: () => void
-    }
+/** Attribution the vendor's own capture script used to collect. Read here so it
+ *  still reaches the CRM now that the submit goes through our own endpoint. */
+function attribution() {
+  if (typeof window === 'undefined') return {}
+  const params = new URLSearchParams(window.location.search)
+  const utm: Record<string, string> = {}
+  for (const key of ['source', 'medium', 'campaign', 'term', 'content']) {
+    const value = params.get(`utm_${key}`)
+    if (value) utm[key] = value
+  }
+  const referrer = document.referrer
+  return {
+    page_url: window.location.href,
+    landing_page_url: window.location.href,
+    referrer: referrer && !referrer.startsWith(window.location.origin) ? referrer : null,
+    utm: Object.keys(utm).length ? utm : null,
+    gclid: params.get('gclid'),
   }
 }
 
 export default function VerifyInsuranceForm() {
   const [f, setF] = useState<Fields>(EMPTY)
-  const [sent, setSent] = useState(false)
+  const [status, setStatus] = useState<Status>('idle')
+  const [consented, setConsented] = useState(false)
 
   const set = (k: keyof Fields) => (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) =>
     setF((prev) => ({ ...prev, [k]: e.target.value }))
 
-  const onSubmit = (e: React.FormEvent) => {
+  const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    if (status === 'submitting') return
+    setStatus('submitting')
 
-    // Submit the lead to Clarion Labs.
-    window.ClarionForms?.submit({
-      form_key: CLARION_FORM_KEY,
-      data: {
-        name: f.name,
-        phone: f.phone,
-        email: f.email,
-        date_of_birth: f.dob,
-        provider: f.provider,
-        member_id: f.memberId,
-        message: f.message,
-      },
-    })
-
-    setSent(true)
+    try {
+      const res = await fetch('/api/verify-insurance', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: f.name,
+          phone: f.phone,
+          email: f.email,
+          date_of_birth: f.dob,
+          provider: f.provider,
+          member_id: f.memberId,
+          message: f.message,
+          ...attribution(),
+        }),
+      })
+      // Only claim success when the lead was actually accepted. The previous
+      // version showed the confirmation unconditionally, so a failed submission
+      // looked identical to a successful one and the lead was lost silently.
+      setStatus(res.ok ? 'sent' : 'error')
+    } catch {
+      setStatus('error')
+    }
   }
 
   const field =
     'w-full rounded-xl border border-line bg-white px-4 py-3 text-ink placeholder:text-muted/70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold'
 
-  if (sent) {
+  if (status === 'sent') {
     return (
       <div className="mx-auto max-w-xl rounded-2xl border border-line bg-white p-8 text-center shadow-card">
         <CheckCircle2 className="mx-auto h-12 w-12 text-brand" />
@@ -68,7 +91,7 @@ export default function VerifyInsuranceForm() {
           We&rsquo;re now running a verification of your coverage. An admissions specialist will
           reach out to you shortly to review your benefits and next steps. Prefer to talk now?
         </p>
-        <a href={`tel:+1${PHONE.replace(/\D/g, '')}`} className="btn-primary mt-6">
+        <a href={PHONE_HREF} className="btn-primary mt-6">
           <Phone className="h-4 w-4" />
           Call {PHONE}
         </a>
@@ -76,12 +99,34 @@ export default function VerifyInsuranceForm() {
     )
   }
 
+  const submitting = status === 'submitting'
+
   return (
     <form
       onSubmit={onSubmit}
-      data-clarion-form={CLARION_FORM_KEY}
       className="mx-auto max-w-2xl rounded-2xl border border-line bg-white p-6 shadow-card sm:p-8"
     >
+      {status === 'error' ? (
+        // A failed submission must never look like a successful one. Give the
+        // visitor the phone number so the enquiry isn't simply lost.
+        <div
+          role="alert"
+          className="mb-6 flex gap-3 rounded-xl border border-gold bg-cream p-4 text-sm"
+        >
+          <AlertTriangle className="mt-0.5 h-5 w-5 shrink-0 text-gold-dark" />
+          <div>
+            <p className="font-semibold text-brand-dark">We couldn&rsquo;t submit your details.</p>
+            <p className="mt-1 text-muted">
+              Nothing was sent. Please try again, or call us at{' '}
+              <a href={PHONE_HREF} className="font-semibold text-brand underline">
+                {PHONE}
+              </a>{' '}
+              and we&rsquo;ll verify your benefits over the phone right now.
+            </p>
+          </div>
+        </div>
+      ) : null}
+
       <div className="grid gap-4 sm:grid-cols-2">
         <label className="block text-sm font-medium text-brand-dark">
           Full name<span className="text-gold"> *</span>
@@ -120,14 +165,43 @@ export default function VerifyInsuranceForm() {
         </label>
       </div>
 
-      <button type="submit" className="btn-gold mt-6 w-full">
-        <ShieldCheck className="h-4 w-4" />
-        Verify My Insurance
+      {/* Explicit consent. The form collects health information and a phone
+          number we will call back, so the visitor should be agreeing to both. */}
+      <label className="mt-6 flex gap-3 text-sm text-muted">
+        <input
+          type="checkbox"
+          required
+          checked={consented}
+          onChange={(e) => setConsented(e.target.checked)}
+          className="mt-0.5 h-4 w-4 shrink-0 rounded border-line text-brand focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+        />
+        <span>
+          I agree that Des Moines Wellness Center may use the information above to verify my
+          insurance benefits and contact me by phone, text, or email about treatment. See our{' '}
+          <Link href="/privacy-policy" className="font-semibold text-brand underline">
+            Privacy Policy
+          </Link>
+          .<span className="text-gold"> *</span>
+        </span>
+      </label>
+
+      <button type="submit" className="btn-gold mt-6 w-full" disabled={submitting}>
+        {submitting ? (
+          <>
+            <Loader2 className="h-4 w-4 animate-spin" />
+            Verifying&hellip;
+          </>
+        ) : (
+          <>
+            <ShieldCheck className="h-4 w-4" />
+            Verify My Insurance
+          </>
+        )}
       </button>
 
       <p className="mt-4 flex items-center justify-center gap-1.5 text-xs text-muted">
         <Lock className="h-3.5 w-3.5" />
-        100% confidential. Verifying your benefits carries no obligation to enroll.
+        Your details are sent securely and reviewed only by our admissions team.
       </p>
     </form>
   )

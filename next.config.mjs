@@ -1,17 +1,90 @@
 /** @type {import('next').NextConfig} */
+
+// Third-party origins the site legitimately talks to. Kept in one place so the
+// CSP below and any future review have a single list to check.
+const VENDORS = {
+  callTracking: 'https://264810.tctm.co',
+  clarionScripts: 'https://www.clarionlabs.ai',
+  clarionApi: 'https://api.clarionlabs.ai',
+  clarionSocket: 'wss://*.clarionlabs.ai',
+  trustindex: 'https://cdn.trustindex.io',
+}
+
+// Reported, not enforced. The site loads four third-party scripts (call
+// tracking, Clarion chat + form capture, Trustindex reviews) that inject their
+// own styles and sub-resources; enforcing a policy before we have report data
+// risks silently breaking the chat widget or the reviews carousel. Collect
+// violations first, tighten, then promote to `Content-Security-Policy`.
+const cspReportOnly = [
+  `default-src 'self'`,
+  `script-src 'self' 'unsafe-inline' 'unsafe-eval' ${VENDORS.callTracking} ${VENDORS.clarionScripts} ${VENDORS.trustindex}`,
+  `style-src 'self' 'unsafe-inline' ${VENDORS.trustindex}`,
+  `img-src 'self' data: blob: https:`,
+  `font-src 'self' data:`,
+  `connect-src 'self' ${VENDORS.clarionApi} ${VENDORS.clarionSocket} ${VENDORS.callTracking} ${VENDORS.trustindex}`,
+  `frame-src 'self' ${VENDORS.trustindex}`,
+  `object-src 'none'`,
+  `base-uri 'self'`,
+  `form-action 'self'`,
+  `frame-ancestors 'self'`,
+].join('; ')
+
+// Applied to every route. `Referrer-Policy` is the load-bearing one here: on a
+// substance-use-treatment site the URL itself is sensitive (a path like
+// /what-we-treat/fentanyl-rehab-des-moines implies a condition), and without
+// this header the full URL is sent to every third-party script in the Referer.
+const securityHeaders = [
+  { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+  { key: 'X-Content-Type-Options', value: 'nosniff' },
+  { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+  {
+    key: 'Permissions-Policy',
+    value: 'camera=(), microphone=(), geolocation=(), payment=(), usb=()',
+  },
+  {
+    key: 'Strict-Transport-Security',
+    value: 'max-age=63072000; includeSubDomains; preload',
+  },
+  { key: 'Content-Security-Policy-Report-Only', value: cspReportOnly },
+]
+
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   images: {
     formats: ['image/avif', 'image/webp'],
+    remotePatterns: [
+      // Blog cover images come from Clarion's CMS, which currently serves them
+      // from Unsplash. Routing them through next/image keeps them optimized and
+      // avoids a raw hotlink.
+      { protocol: 'https', hostname: 'images.unsplash.com' },
+      { protocol: 'https', hostname: 'www.clarionlabs.ai' },
+      { protocol: 'https', hostname: 'api.clarionlabs.ai' },
+    ],
   },
   async headers() {
     return [
+      {
+        source: '/:path*',
+        headers: securityHeaders,
+      },
       {
         source: '/:all*(svg|jpg|jpeg|png|webp|avif|woff2)',
         headers: [
           { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
         ],
+      },
+    ]
+  },
+  async redirects() {
+    return [
+      // The team slug preserves the original site's misspelling ("welsey") to
+      // keep its indexed URL. Anyone typing or linking the correct spelling —
+      // including our own page title, which reads "Wesley Starlin" — hit a 404.
+      {
+        source: '/team/wesley-starlin',
+        destination: '/team/welsey-starlin',
+        permanent: true,
       },
     ]
   },

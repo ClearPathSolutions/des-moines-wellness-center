@@ -10,7 +10,25 @@ extracted from the original site; the code is brand-new, optimized, and Vercel-r
 - **Tailwind CSS** design system (forest-green / sage / gold brand palette)
 - **next/font** (Fraunces + Inter) — self-hosted, zero layout shift
 - **next/image** — all imagery served as optimized AVIF/WebP
-- Fully **static** (SSG) — every page pre-rendered
+- **Static (SSG)** for all 34 content pages. Two exceptions: `/blog` and
+  `/blog/[slug]` revalidate hourly against the Clarion feed, and
+  `/api/verify-insurance` is a server route (see below).
+
+## Blog and the insurance form
+
+Both talk to Clarion Labs **from the server**, not the browser. Clarion pins this
+site key to an origin allowlist that does not include `desmoinesrecovery.com`, so
+browser requests are rejected (`403 origin not allowed for this site`) and the
+JSON form POST additionally needs a CORS preflight that the endpoint doesn't
+answer. Server-to-server requests send no `Origin` header, so neither applies.
+
+- `lib/blog.ts` fetches the feed and posts server-side; `/blog` renders real,
+  crawlable markup and posts appear in the sitemap.
+- `app/api/verify-insurance/route.ts` relays leads and returns a real
+  success/failure the form can act on.
+
+If the allowlist is ever corrected on Clarion's side, these still work as-is —
+they just stop being a workaround.
 
 ## Content model
 

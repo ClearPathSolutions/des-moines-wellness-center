@@ -63,6 +63,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main">{children}</main>
         <Footer config={config} />
         <LocalBusinessJsonLd config={config} />
+        {/* Chat widget. `lazyOnload` because it is purely interactive — nothing
+            above the fold depends on it, and it competes with our own JS for
+            bandwidth during hydration. */}
         <Script
           src="https://www.clarionlabs.ai/widget.v1.js"
           data-site-key="cpx__fSy1X8JikCR2mQQMFTF81zFCiT5KP33"
@@ -72,14 +75,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           data-title="Chat with our team"
           data-font="var(--font-body), system-ui, sans-serif"
           data-position="right"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script
-          src="https://www.clarionlabs.ai/forms-capture.v1.js"
-          data-site-key="cpx__fSy1X8JikCR2mQQMFTF81zFCiT5KP33"
-          data-api="https://api.clarionlabs.ai"
-          strategy="afterInteractive"
-        />
+        {/* forms-capture.v1.js was removed: the insurance form now submits
+            through /api/verify-insurance, so the capture script had no form to
+            attach to. While both were active every submission was sent twice. */}
       </body>
     </html>
   )
