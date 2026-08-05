@@ -54,6 +54,25 @@ export type PageModel = {
 
 export type NavItem = { label: string; href: string; children?: NavItem[] }
 
+/**
+ * An accreditation or certification the facility claims. T-02.
+ *
+ * Only `status: 'verified'` entries render. An unsubstantiated certification
+ * claim on an addiction-treatment site is a paid-search eligibility risk and a
+ * regulatory one, so the data model makes withholding the default rather than
+ * something a reviewer has to notice.
+ */
+export type Accreditation = {
+  label: string
+  status: 'verified' | 'pending-verification'
+  /** Public record backing the claim. Rendered as a link when present. */
+  verificationUrl?: string
+  certificateId?: string
+  /** Required when status is not 'verified', so the next person understands
+   *  what evidence is missing instead of just flipping the flag. */
+  withheldReason?: string
+}
+
 export type SiteConfig = {
   site: {
     name: string
@@ -64,7 +83,7 @@ export type SiteConfig = {
     email: string
     address: { street: string; city: string; region: string; postalCode: string; full: string }
     tagline: string
-    accreditations: string[]
+    accreditations: Accreditation[]
     insurancePartners: string[]
   }
   colors: Record<string, string>

@@ -25,6 +25,18 @@ jobs:
       - name: Internal link integrity
         run: npm run check:links
 
+      # T-05 guard: no condition page may name a different substance in a
+      # heading. The migration copy-pasted template blocks between condition
+      # pages, which on a clinical site is an accuracy defect, not a typo.
+      - name: Condition-page substance accuracy
+        run: npm run check:substances
+
+      # T-02 guard: no page copy may assert an accreditation that isn't marked
+      # verified in site.config.json. Unsubstantiated certification claims on an
+      # addiction-treatment site are a paid-search eligibility risk.
+      - name: Accreditation claims substantiated
+        run: npm run check:claims
+
       # Covers TypeScript and ESLint as well — `next build` runs both.
       - name: Build
         run: npm run build

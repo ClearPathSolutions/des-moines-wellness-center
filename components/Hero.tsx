@@ -1,12 +1,12 @@
 import Link from 'next/link'
 import { Phone, ShieldCheck, ArrowRight } from 'lucide-react'
-import type { Hero as HeroType } from '@/lib/types'
+import type { Accreditation, Hero as HeroType } from '@/lib/types'
 import { orientation } from '@/lib/images'
 import SmartImage from './SmartImage'
 
 type Props = {
   hero: HeroType
-  accreditations?: string[]
+  accreditations?: Accreditation[]
   compact?: boolean
 }
 
@@ -45,9 +45,20 @@ export default function Hero({ hero, accreditations, compact }: Props) {
           {accreditations?.length ? (
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted">
               {accreditations.map((a) => (
-                <span key={a} className="inline-flex items-center gap-1.5">
+                <span key={a.label} className="inline-flex items-center gap-1.5">
                   <ShieldCheck className="h-4 w-4 text-brand" />
-                  {a}
+                  {a.verificationUrl ? (
+                    <a
+                      href={a.verificationUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline hover:text-brand"
+                    >
+                      {a.label}
+                    </a>
+                  ) : (
+                    a.label
+                  )}
                 </span>
               ))}
             </div>

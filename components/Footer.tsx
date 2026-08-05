@@ -2,9 +2,12 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Phone, MapPin, ShieldCheck } from 'lucide-react'
 import type { SiteConfig } from '@/lib/types'
+import { verifiedAccreditations } from '@/lib/content'
 
 export default function Footer({ config }: { config: SiteConfig }) {
   const { site, footer } = config
+  // T-02: only substantiated claims render.
+  const accreditations = verifiedAccreditations(config)
   return (
     <footer className="bg-brand-dark text-cream/80">
       <div className="container-page grid gap-10 py-16 md:grid-cols-2 lg:grid-cols-[1.4fr_repeat(3,1fr)]">
@@ -45,13 +48,24 @@ export default function Footer({ config }: { config: SiteConfig }) {
         ))}
       </div>
 
-      {site.accreditations?.length ? (
+      {accreditations.length ? (
         <div className="border-t border-white/10">
           <div className="container-page flex flex-wrap items-center justify-center gap-x-8 gap-y-2 py-5 text-xs text-cream/70">
-            {site.accreditations.map((a) => (
-              <span key={a} className="inline-flex items-center gap-1.5">
+            {accreditations.map((a) => (
+              <span key={a.label} className="inline-flex items-center gap-1.5">
                 <ShieldCheck className="h-4 w-4 text-gold-light" />
-                {a}
+                {a.verificationUrl ? (
+                  <a
+                    href={a.verificationUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline hover:text-gold-light"
+                  >
+                    {a.label}
+                  </a>
+                ) : (
+                  a.label
+                )}
               </span>
             ))}
           </div>

@@ -51,6 +51,11 @@ const securityHeaders = [
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  // T-03. Production is slash-canonical (`/about` 301s to `/about/`), and that
+  // is what is indexed and linked today. Matching it means existing inbound
+  // links stay direct hits instead of becoming redirects. See lib/urls.ts —
+  // canonical, og:url and sitemap must all use the same form.
+  trailingSlash: true,
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [

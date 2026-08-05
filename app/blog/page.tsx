@@ -4,6 +4,7 @@ import PageRenderer from '@/components/PageRenderer'
 import BlogPostList from '@/components/BlogPostList'
 import { getPage, getSiteConfig } from '@/lib/content'
 import { getBlogPosts } from '@/lib/blog'
+import { canonicalPath } from '@/lib/urls'
 
 // A dedicated route rather than the [...slug] catch-all so that only the blog
 // revalidates against Clarion's feed — the other 34 pages stay fully static.
@@ -19,11 +20,11 @@ export function generateMetadata(): Metadata {
   return {
     title: { absolute: page.seo.title },
     description: page.seo.description,
-    alternates: { canonical: '/blog' },
+    alternates: { canonical: canonicalPath('/blog') },
     openGraph: {
       title: page.seo.title,
       description: page.seo.description,
-      url: '/blog',
+      url: canonicalPath('/blog'),
     },
   }
 }

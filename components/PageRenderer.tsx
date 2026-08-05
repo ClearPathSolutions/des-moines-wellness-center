@@ -2,6 +2,7 @@ import Hero from './Hero'
 import Section from './Section'
 import TrustindexReviews from './TrustindexReviews'
 import type { PageModel, SiteConfig, Section as SectionType } from '@/lib/types'
+import { verifiedAccreditations } from '@/lib/content'
 
 /** A heading-only prose/team-bio block renders as a lonely title — drop it so the
  *  page rhythm stays even and the alternating backgrounds don't collide. */
@@ -42,7 +43,12 @@ export default function PageRenderer({ page, config, showAccreditations, showRev
 
   return (
     <>
-      <Hero hero={page.hero} accreditations={showAccreditations ? config.site.accreditations : undefined} />
+      {/* T-02: verifiedAccreditations(), never config.site.accreditations —
+          unsubstantiated certification claims must not reach the page. */}
+      <Hero
+        hero={page.hero}
+        accreditations={showAccreditations ? verifiedAccreditations(config) : undefined}
+      />
       {afterHero}
       {sections.flatMap((s, i) => {
         const nodes = []

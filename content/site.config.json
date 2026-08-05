@@ -16,8 +16,15 @@
     },
     "tagline": "Real Recovery. Right Here in Iowa.",
     "accreditations": [
-      "The Joint Commission (Gold Seal of Approval)",
-      "LegitScript Certified"
+      {
+        "label": "The Joint Commission (Gold Seal of Approval)",
+        "status": "verified"
+      },
+      {
+        "label": "LegitScript Certified",
+        "status": "pending-verification",
+        "withheldReason": "T-02. Certification could not be confirmed as held for desmoinesrecovery.com. The only evidence on the current production site is a seal whose verification link resolves to ?checker_keywords=californiahorizon.com — a different company — and LegitScript's public status lookup is reCAPTCHA-gated, so it cannot be checked automatically. Withheld rather than shipped unbacked: an unsubstantiated certification claim on an addiction-treatment site risks Google Ads eligibility. To restore, set status to \"verified\" and add certificateId + verificationUrl from the live LegitScript record for THIS domain."
+      }
     ],
     "insurancePartners": ["Surest", "UMR", "NYSHIP"]
   },

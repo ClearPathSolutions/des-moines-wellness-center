@@ -1,4 +1,5 @@
 import type { Faq, SiteConfig } from '@/lib/types'
+import { canonicalUrl } from '@/lib/urls'
 
 /** Stable identifier for the organization entity, so page-level schema can
  *  reference the same business rather than describing a new one each time. */
@@ -91,7 +92,8 @@ export function BreadcrumbJsonLd({
       '@type': 'ListItem',
       position: i + 1,
       name: item.name,
-      item: item.path === '/' ? siteUrl : `${siteUrl}${item.path}`,
+      // Same slash-canonical form as the page's own canonical (T-03).
+      item: canonicalUrl(siteUrl, item.path),
     })),
   }
   return <JsonLdScript data={data} />

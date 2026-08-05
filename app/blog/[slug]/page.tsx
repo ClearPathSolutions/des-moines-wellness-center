@@ -6,6 +6,7 @@ import { ArrowLeft, CalendarDays, Phone } from 'lucide-react'
 import { getSiteConfig } from '@/lib/content'
 import { formatPostDate, getBlogPost, getBlogPosts } from '@/lib/blog'
 import { ArticleJsonLd, BreadcrumbJsonLd } from '@/components/JsonLd'
+import { canonicalPath, canonicalUrl } from '@/lib/urls'
 
 // Must be a literal (Next statically analyses it); keep in step with
 // BLOG_REVALIDATE_SECONDS in lib/blog.ts.
@@ -33,12 +34,12 @@ export async function generateMetadata({
   return {
     title: { absolute: title },
     description,
-    alternates: { canonical: `/blog/${post.slug}` },
+    alternates: { canonical: canonicalPath(`/blog/${post.slug}`) },
     openGraph: {
       type: 'article',
       title,
       description,
-      url: `/blog/${post.slug}`,
+      url: canonicalPath(`/blog/${post.slug}`),
       publishedTime: post.publishedAt ?? undefined,
       ...(post.coverImageUrl ? { images: [{ url: post.coverImageUrl }] } : {}),
     },
@@ -133,7 +134,7 @@ export default async function BlogPostPage({
         image={post.coverImageUrl}
         datePublished={post.publishedAt}
         authorName={post.authorName}
-        url={`${site.url}/blog/${post.slug}`}
+        url={canonicalUrl(site.url, `/blog/${post.slug}`)}
         siteName={site.name}
         siteUrl={site.url}
       />

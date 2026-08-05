@@ -1,6 +1,6 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import type { PageModel, SiteConfig } from './types'
+import type { Accreditation, PageModel, SiteConfig } from './types'
 
 const CONTENT_DIR = path.join(process.cwd(), 'content')
 const PAGES_DIR = path.join(CONTENT_DIR, 'pages')
@@ -29,4 +29,15 @@ export function getAllPages(): PageModel[] {
 
 export function getPagesByType(pageType: string): PageModel[] {
   return getAllPages().filter((p) => p.pageType === pageType)
+}
+
+/**
+ * The only accreditations that may be displayed. T-02.
+ *
+ * Anything not explicitly marked `verified` is withheld — the site must never
+ * assert a certification it cannot substantiate. Call this rather than reading
+ * `config.site.accreditations` directly.
+ */
+export function verifiedAccreditations(config: SiteConfig): Accreditation[] {
+  return (config.site.accreditations ?? []).filter((a) => a.status === 'verified')
 }

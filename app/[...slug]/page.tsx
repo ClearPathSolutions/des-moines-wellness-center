@@ -9,6 +9,7 @@ import {
   PersonJsonLd,
 } from '@/components/JsonLd'
 import { getAllPages, getPage, getSiteConfig } from '@/lib/content'
+import { canonicalPath, canonicalUrl } from '@/lib/urls'
 import { resolveImage } from '@/lib/images'
 import type { Faq, PageModel } from '@/lib/types'
 
@@ -36,7 +37,8 @@ export async function generateMetadata({
   const { slug } = await params
   const page = loadPage(slug)
   if (!page) return {}
-  const path = '/' + slug.join('/')
+  // Slash-canonical, matching what the server actually serves (T-03).
+  const path = canonicalPath('/' + slug.join('/'))
   return {
     title: { absolute: page.seo.title },
     description: page.seo.description,
@@ -85,8 +87,7 @@ export default async function CatchAllPage({
   const { site } = config
   const all = getAllPages()
   const byType = (t: string) => all.filter((p) => p.pageType === t)
-  const path = '/' + slug.join('/')
-  const url = `${site.url}${path}`
+  const url = canonicalUrl(site.url, '/' + slug.join('/'))
 
   let afterHero: React.ReactNode = null
   if (page.pageType === 'hub-programs') {

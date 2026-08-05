@@ -13,7 +13,8 @@
     "postalCode": "50131",
     "full": "5820 Winwood Dr, Johnston, IA 50131"
   },
-  "accreditations": ["The Joint Commission (Gold Seal of Approval)", "LegitScript Certified"],
+  "_accreditationsNote": "Reference doc only — no code reads this file. The authoritative, status-gated list is site.config.json → site.accreditations. LegitScript is withheld pending certificate confirmation for desmoinesrecovery.com (T-02); do not re-add it here or anywhere else without that evidence.",
+  "accreditations": ["The Joint Commission (Gold Seal of Approval)"],
   "insurancePartners": ["Surest", "UMR", "NYSHIP"],
   "colors": {
     "primary": "#2D5A3D",
