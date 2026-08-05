@@ -321,7 +321,8 @@
         {
           "title": "Clinical Aftercare & Alumni",
           "text": "Staying Sober Long-Term. We connect you with a group of sober friends and local support. It’s an extra layer of protection to make sure you never have to do this alone again.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/aftercare-and-alumni"
         }
       ],
       "faqs": [],
@@ -412,35 +413,6 @@
       "image": {
         "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
         "alt": "Wesley Starlin - Executive Director"
-      }
-    },
-    {
-      "id": "levels-of-care",
-      "kind": "hub-list",
-      "heading": "Levels Of Care",
-      "subheading": "",
-      "body": [],
-      "items": [
-        {
-          "title": "Residential",
-          "text": "",
-          "icon": ""
-        },
-        {
-          "title": "Outpatient",
-          "text": "",
-          "icon": ""
-        },
-        {
-          "title": "Aftercare",
-          "text": "",
-          "icon": ""
-        }
-      ],
-      "faqs": [],
-      "image": {
-        "src": "",
-        "alt": ""
       }
     },
     {

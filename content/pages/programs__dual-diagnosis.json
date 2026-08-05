@@ -147,12 +147,14 @@
         {
           "title": "Medical Detox",
           "text": "Physical Stabilization — Focus on physical safety and easing withdrawal while beginning initial psychiatric stabilization.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/medical-detox-des-moines"
         },
         {
           "title": "Residential Inpatient",
           "text": "Intensive Healing — 24/7 structured support. Daily therapy sessions focus deeply on the root causes of co-occurring disorders.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
         },
         {
           "title": "Partial Hospitalization",
@@ -267,40 +269,6 @@
       "image": {
         "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
         "alt": "Wesley Starlin - Executive Director"
-      }
-    },
-    {
-      "id": "levels-of-care",
-      "kind": "hub-list",
-      "heading": "Levels Of Care",
-      "subheading": "",
-      "body": [],
-      "items": [
-        {
-          "title": "Detox",
-          "text": "",
-          "icon": ""
-        },
-        {
-          "title": "Residential",
-          "text": "",
-          "icon": ""
-        },
-        {
-          "title": "PHP",
-          "text": "",
-          "icon": ""
-        },
-        {
-          "title": "IOP",
-          "text": "",
-          "icon": ""
-        }
-      ],
-      "faqs": [],
-      "image": {
-        "src": "",
-        "alt": ""
       }
     },
     {

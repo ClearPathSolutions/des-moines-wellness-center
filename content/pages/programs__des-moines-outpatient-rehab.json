@@ -307,17 +307,20 @@
         {
           "title": "Detox",
           "text": "Medically supervised withdrawal with 24/7 clinical monitoring.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/medical-detox-des-moines"
         },
         {
           "title": "Residential",
           "text": "Full-time inpatient care in a structured, private setting.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
         },
         {
           "title": "Outpatient",
           "text": "our outpatient program",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/des-moines-outpatient-rehab"
         }
       ],
       "faqs": [],

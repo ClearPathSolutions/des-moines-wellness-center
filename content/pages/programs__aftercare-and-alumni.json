@@ -202,12 +202,14 @@
         {
           "title": "PHP",
           "text": "Full-day clinical programming without an overnight stay.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/php-des-moines"
         },
         {
           "title": "IOP",
           "text": "Structured therapy on a schedule that fits work or school.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/iop-des-moines"
         },
         {
           "title": "Inpatient",
@@ -218,7 +220,8 @@
         {
           "title": "Outpatient",
           "text": "our outpatient program",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/des-moines-outpatient-rehab"
         }
       ],
       "faqs": [],

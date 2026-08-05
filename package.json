@@ -11,7 +11,9 @@
     "check:links": "node scripts/check-links.mjs",
     "check:substances": "node scripts/check-substances.mjs",
     "check": "npm run check:links && npm run check:substances && npm run check:claims",
-    "check:claims": "node scripts/check-claims.mjs"
+    "check:claims": "node scripts/check-claims.mjs",
+    "cutover:check": "node scripts/cutover-check.mjs",
+    "verify:lead": "node scripts/verify-lead.mjs"
   },
   "//overrides": "postcss and sharp are pulled in transitively by next at versions with published high-severity advisories (postcss sourceMappingURL file disclosure; sharp/libvips CVE-2026-33327 et al). Both are patch/minor bumps within the same major. Re-check on each next upgrade and drop the pin once next ships the patched ranges itself.",
   "overrides": {

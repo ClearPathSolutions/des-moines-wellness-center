@@ -195,17 +195,20 @@
         {
           "title": "Medical Detox",
           "text": "Get Rid Of The Substance. The first step focuses on physical safety, clearing substances from your system under 24/7 medical supervision.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/medical-detox-des-moines"
         },
         {
           "title": "Residential Inpatient",
           "text": "Immersive Stabilization. You move into our private sanctuary for intensive deep work, living on-site to fix the roots of addiction away from daily triggers.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
         },
         {
           "title": "Outpatient Programs",
           "text": "Back to Real Life. We support your transition back to daily life, providing therapy and peer support to help you stay sober in the real world.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/des-moines-outpatient-rehab"
         }
       ],
       "faqs": [],
@@ -317,35 +320,6 @@
       "image": {
         "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
         "alt": "Wesley Starlin - Executive Director"
-      }
-    },
-    {
-      "id": "levels-of-care",
-      "kind": "hub-list",
-      "heading": "Levels Of Care",
-      "subheading": "",
-      "body": [],
-      "items": [
-        {
-          "title": "Detox",
-          "text": "/medical-detox-des-moines/",
-          "icon": ""
-        },
-        {
-          "title": "Residential",
-          "text": "/medical-detox-des-moines/",
-          "icon": ""
-        },
-        {
-          "title": "Outpatient",
-          "text": "/outpatient-program-des-moines",
-          "icon": ""
-        }
-      ],
-      "faqs": [],
-      "image": {
-        "src": "",
-        "alt": ""
       }
     },
     {

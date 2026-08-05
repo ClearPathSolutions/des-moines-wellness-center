@@ -1,0 +1,48 @@
+{
+  "$comment": "T-13 cutover redirect map. Machine-readable so scripts/cutover-check.mjs can verify every entry is a single hop to a 200. Keep in step with next.config.mjs redirects().",
+  "reviewed": "2026-08-05",
+  "convention": "Slash-canonical, matching production. Sources AND destinations carry the trailing slash: with trailingSlash: true Next normalises before matching, so a slashless source never matches the indexed URL and a slashless destination adds a second hop.",
+  "redirects": {
+    "/how-long-does-percocet-stay-in-your-system/": "/blog/how-long-does-percocet-stay-in-your-system/",
+    "/how-alcohol-addiction-can-impact-every-area-of-life/": "/blog/how-alcohol-addiction-can-impact-every-area-of-life/",
+    "/author/cpts/": "/blog/",
+    "/category/uncategorized/": "/blog/",
+    "/team/wesley-starlin/": "/team/welsey-starlin/"
+  },
+  "intentionalDrops": [
+    {
+      "path": "/author/cpts/",
+      "reason": "WordPress author archive — thin, indexable template with no unique content. Redirected to /blog rather than 410'd so inbound links land somewhere useful."
+    },
+    {
+      "path": "/category/uncategorized/",
+      "reason": "WordPress category archive — same rationale as the author archive."
+    }
+  ],
+  "newUrlsForSearchConsole": [
+    { "path": "/verify-insurance/", "note": "404s on production. New page — submit, no redirect needed." },
+    { "path": "/areas-we-serve/", "note": "404s on production. New hub." },
+    { "path": "/team/", "note": "404s on production. New hub." },
+    { "path": "/team/bethany-hamilton/", "note": "404s on production. Legitimate new team member (T-26); photo still outstanding." },
+    { "path": "/areas-we-serve/urbandale/", "note": "New service-area page (T-06)." },
+    { "path": "/areas-we-serve/waukee/", "note": "New service-area page (T-06)." },
+    { "path": "/areas-we-serve/polk-county/", "note": "New service-area page (T-06)." },
+    { "path": "/areas-we-serve/dallas-county/", "note": "New service-area page (T-06)." },
+    { "path": "/blog/how-long-does-percocet-stay-in-your-system/", "note": "Migrated post, moved off its root-level slug (T-17)." },
+    { "path": "/blog/how-alcohol-addiction-can-impact-every-area-of-life/", "note": "Moved off its root-level slug (T-17)." }
+  ],
+  "notExecutedPendingDecision": [
+    {
+      "scope": "11 geo-suffixed service slugs",
+      "task": "T-14",
+      "recommendation": "keep",
+      "reason": "All 11 are live and indexed. Renaming costs 11 redirects on ranking URLs for no measured benefit, and V0052 already closed the identical pattern elsewhere as by-design. If overturned, every slug needs an entry here."
+    },
+    {
+      "scope": "/programs/* -> /treatment/*",
+      "task": "T-15, T-16",
+      "recommendation": "defer",
+      "reason": "Moves 8 indexed URLs and is coupled to T-14. The register also flags the reference build for this standard as itself suspect (V0109: 106 canonicals pointing at the homepage)."
+    }
+  ]
+}

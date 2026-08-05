@@ -22,11 +22,27 @@ type Props = {
   showReviews?: boolean
   /** T-12: render the location map. Once per page, never twice. */
   showMap?: boolean
-  /** Extra content injected after the hero (e.g. collection grids on hub pages) */
+  /** Extra content injected after the hero (e.g. the blog post list) */
   afterHero?: React.ReactNode
+  /** T-18(c) rows 486 + 495: on hub pages the collection grid must sit BELOW
+   *  the page's own intro section — /team's intro says "select any team member
+   *  below", and /what-we-treat's "Targeted Solutions" is meant to lead. */
+  afterFirstSection?: React.ReactNode
+  /** T-18(c) row 604: index after which the reviews block renders. Defaults to
+   *  just before a trailing CTA. */
+  reviewsAfter?: number
 }
 
-export default function PageRenderer({ page, config, showAccreditations, showReviews, showMap, afterHero }: Props) {
+export default function PageRenderer({
+  page,
+  config,
+  showAccreditations,
+  showReviews,
+  showMap,
+  afterHero,
+  afterFirstSection,
+  reviewsAfter,
+}: Props) {
   const renderable = (page.sections ?? []).filter(isRenderable)
   // Collapse runs of back-to-back CTA sections into the single richest one — stacked
   // dark CTA boxes (some pages had three in a row) read as repetitive and unbalanced.
@@ -42,7 +58,12 @@ export default function PageRenderer({ page, config, showAccreditations, showRev
   }, [])
   // Insert reviews before a trailing CTA so the closing call-to-action stays last.
   const lastIsCta = sections.length > 0 && sections[sections.length - 1].kind === 'cta'
-  const reviewsAt = showReviews ? (lastIsCta ? sections.length - 1 : sections.length) : -1
+  const defaultReviewsAt = lastIsCta ? sections.length - 1 : sections.length
+  const reviewsAt = showReviews
+    ? reviewsAfter !== undefined
+      ? reviewsAfter + 1
+      : defaultReviewsAt
+    : -1
 
   return (
     <>
@@ -66,6 +87,9 @@ export default function PageRenderer({ page, config, showAccreditations, showRev
             phoneHref={config.site.phoneHref}
             heroSrc={page.hero?.image?.src}
           />
+        )
+        if (i === 0 && afterFirstSection) nodes.push(
+          <div key="after-first">{afterFirstSection}</div>
         )
         return nodes
       })}

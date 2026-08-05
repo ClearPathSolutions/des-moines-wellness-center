@@ -68,19 +68,6 @@
       }
     },
     {
-      "id": "accreditation",
-      "kind": "prose",
-      "heading": "Accredited Drug & Alcohol Addiction Rehab in Iowa",
-      "subheading": "",
-      "body": [],
-      "items": [],
-      "faqs": [],
-      "image": {
-        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/goldseal_national-1-scaled-1.png",
-        "alt": ""
-      }
-    },
-    {
       "id": "welcome",
       "kind": "prose",
       "heading": "Iowa's Trusted Destination for Quality Addiction Treatment",
@@ -519,6 +506,19 @@
       ],
       "image": {
         "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "accreditation",
+      "kind": "prose",
+      "heading": "Accredited Drug & Alcohol Addiction Rehab in Iowa",
+      "subheading": "",
+      "body": [],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/goldseal_national-1-scaled-1.png",
         "alt": ""
       }
     },

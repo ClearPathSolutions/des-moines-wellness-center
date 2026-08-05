@@ -182,17 +182,20 @@
         {
           "title": "Medical Detox",
           "text": "Get Rid Of The Substance\nThe essential first step where we provide medical oversight to safely manage withdrawal symptoms and clear the body of substances.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/medical-detox-des-moines"
         },
         {
           "title": "Residential Inpatient",
           "text": "Immersive Stabilization\nA 24/7 immersive environment where you live onsite to focus entirely on intensive healing and breaking the cycle of addiction.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
         },
         {
           "title": "Outpatient Programs",
           "text": "Back to Real Life\nThis is where you transition back to daily life. Our PHP offers full-day clinical intensity while you sleep at home. IOP allow to work or go to school.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/des-moines-outpatient-rehab"
         }
       ],
       "faqs": [],
@@ -344,40 +347,6 @@
       "image": {
         "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
         "alt": "Wesley Starlin - Executive Director"
-      }
-    },
-    {
-      "id": "levels-of-care",
-      "kind": "hub-list",
-      "heading": "Levels Of Care",
-      "subheading": "",
-      "body": [],
-      "items": [
-        {
-          "title": "Detox",
-          "text": "Medically supervised withdrawal with 24/7 clinical monitoring.",
-          "icon": ""
-        },
-        {
-          "title": "Residential",
-          "text": "Full-time inpatient care in a structured, private setting.",
-          "icon": ""
-        },
-        {
-          "title": "IOP (Intensive Outpatient)",
-          "text": "Structured therapy on a schedule that fits work or school.",
-          "icon": ""
-        },
-        {
-          "title": "Outpatient",
-          "text": "our outpatient program",
-          "icon": ""
-        }
-      ],
-      "faqs": [],
-      "image": {
-        "src": "",
-        "alt": ""
       }
     },
     {

@@ -104,22 +104,22 @@ Fixing issues in this repo and redeploying would **reintroduce 12 broken links t
 | [T-01](#t-01) | Reconcile this repo with the deployed build | **P0** | *(new)* | 12 links | [x] **done 2026-08-05** — not a blocker, see resolution |
 | [T-02](#t-02) | LegitScript certification claim | **P0** | V0070 | 35 pages | [~] **gated 2026-08-05** — claim withheld, cert unverifiable (reCAPTCHA) |
 | [T-03](#t-03) | Trailing-slash convention + sitemap host | **P0** | V0102 | 34 URLs | [x] **done 2026-08-05** |
-| [T-04](#t-04) | Content freeze / re-sync before cutover | **P0** | V0124 | 1 post | [~] **post migrated 2026-08-05** — freeze/re-sync needs an owner |
+| [T-04](#t-04) | Content freeze / re-sync before cutover | **P0** | V0124 | 1 post | [~] **re-sync gate implemented 2026-08-05** — `npm run cutover:check`; run <24h before go-live |
 | [T-05](#t-05) | Wrong-substance copy on condition pages | **P0** | Visual ×5 (+2 found) | 7 blocks | [x] **done 2026-08-05** — all 7 + typo + CI guard |
 | [T-29](#t-29) | Medical reviewer attribution on YMYL content | P1 | *bios doc* | 15 pages | [!] **BLOCKED** — needs Compliance sign-off |
 | [T-06](#t-06) | Build 5 missing service-area pages | P1 | V0069 | 5 pages | [x] **done 2026-08-05** — 4 built, Des Moines skipped by decision |
 | [T-07](#t-07) | FAQ rebuild + restore FAQPage schema | P1 | V0099, Visual ×15 | 15 rows | [x] **done 2026-08-05** — 98 pairs restored, schema on 21 pages |
 | [T-08](#t-08) | Restore missing body copy | P1 | Visual ×40 | 40 rows | [x] **done 2026-08-05** — premise corrected, see resolution |
-| [T-09](#t-09) | Insurance module parity | P1 | Visual ×29 | 29 rows | [~] **module on 22 pages 2026-08-05** — live lead test outstanding |
+| [T-09](#t-09) | Insurance module parity | P1 | Visual ×29 | 29 rows | [~] **module on 22 pages + test harness 2026-08-05** — one human run left |
 | [T-10](#t-10) | Widget & card linking | P1 | Visual ×30 | 30 rows | [x] **done 2026-08-05** — 52 cards linked |
 | [T-11](#t-11) | Buttons & CTAs | P1 | Visual ×23 | 23 rows | [x] **done 2026-08-05** — 11 call CTAs, 9 dual-dx links |
 | [T-12](#t-12) | Google map embeds (+ fix production's wrong map) | P1 | Visual ×18 | 18 rows | [x] **done 2026-08-05** — keyless embed, correct coords |
-| [T-13](#t-13) | Cutover redirect map | P1 | *(new)* | 7 URLs | [~] **map built + verified single-hop** — Search Console at cutover |
+| [T-13](#t-13) | Cutover redirect map | P1 | *(new)* | 7 URLs | [~] **map committed + all 5 verified single-hop** — Search Console at cutover |
 | [T-14](#t-14) | Geo-suffix slug policy | P2 | V0072, V0118, Visual ×10 | 11 slugs | [!] **decision recorded: keep slugs** — needs portfolio sign-off |
 | [T-15](#t-15) | `/programs` → `/treatment` hub | P2 | V0094 | 1 hub | [!] **decision recorded: defer** — coupled to T-14 |
 | [T-16](#t-16) | Aftercare slug standard | P2 | V0095 | 1 page | [!] **decision recorded: defer** — coupled to T-15 |
 | [T-17](#t-17) | Blog URL pattern | P2 | V0101 | 2 posts | [x] **done 2026-08-05** — both posts at /blog/<slug> |
-| [T-18](#t-18) | Section order / merge / remove | P2 | Visual ×20 | 20 rows | [ ] |
+| [T-18](#t-18) | Section order / merge / remove | P2 | Visual ×20 | 20 rows | [~] **(b) 5 dupes merged, (c) all 3 reorders done 2026-08-05** — (a) blocked on T-29 |
 | [T-19](#t-19) | Des Moines vs Johnston locality claims | P2 | V0071 | 9 mentions | [x] **done 2026-08-05** — 12 claims fixed (not 2), NAP untouched |
 | [T-20](#t-20) | Text casing | P3 | Visual ×10 | 10 rows | [x] **done 2026-08-05** |
 | [T-21](#t-21) | Imagery & team photos | P3 | Visual ×6 | 6 rows | [~] **portraits already render on 4 of 5** — Bethany photo outstanding |
@@ -129,7 +129,7 @@ Fixing issues in this repo and redeploying would **reintroduce 12 broken links t
 | [T-25](#t-25) | Raw URLs exposed | P3 | Visual ×1 | 1 row | [x] **done 2026-08-05** — 10 raw URLs became real links |
 | [T-26](#t-26) | Credentials, job titles, staff verification | P3 | Visual ×1 (+1 found) | 2 items | [~] **titles + credentials done** — Bethany photo outstanding |
 | [T-27](#t-27) | Resource links | P3 | Visual ×3 | 3 rows | [x] **done 2026-08-05** — 43 resources restored on 13 pages |
-| [T-28](#t-28) | QHG parent: our location page & referral link | P2 | V0090, V0091, Visual ×3 | 5 rows | [!] **BLOCKED** — parent-site team, not this repo |
+| [T-28](#t-28) | QHG parent: our location page & referral link | P2 | V0090, V0091, Visual ×3 | 5 rows | [~] **content package prepared 2026-08-05** — still needs a parent-site owner |
 
 > Visual rows can carry more than one theme, so the per-task counts sum above 206. **Appendix A is the authoritative 206-row checklist.**
 
@@ -1537,3 +1537,23 @@ Per the ground rule on counts, these are stated rather than quietly absorbed.
   guidance for the big content tasks was to work from a production↔build diff
   rather than row-by-row, which is what was done; the rows those tasks cover are
   addressed in aggregate above.
+
+### Addendum — second pass on the 12 outstanding
+
+T-18 is now closed apart from its blocked half, and five of the remaining
+blockers got as far as they can without a person:
+
+| Task | Delivered this pass | What is still human-only |
+|---|---|---|
+| **T-18** | (b) 5 duplicate "Levels Of Care" sections merged into the adjacent continuum section, with 18 level items linked. (c) all 3 reorders: `/team` intro above the member grid, "Targeted Solutions" first on `/what-we-treat`, homepage accreditation block swapped with the reviews block. | (a) byline positioning — blocked on T-29, as the register requires |
+| **T-04** | `npm run cutover:check` — a blocking gate that diffs production's sitemap index against the build, verifies every sitemap URL is 200 with no redirect, and verifies every documented redirect is exactly one hop. Passes today: 34 production URLs all accounted for, 41/41 sitemap URLs clean, 5/5 redirects single-hop. This is the "or stand up a re-sync step" branch of the AC. | Run it <24h before go-live; or agree a publishing freeze instead |
+| **T-13** | `audit/cutover/redirect-map.json` — committed, machine-readable, and verified by the gate above. Also records the 10 new URLs for Search Console and the two slug decisions that would add entries if overturned. | Submit the 10 new URLs at cutover |
+| **T-09** | `npm run verify:lead -- --dry-run` proves the endpoint is wired and that bad input is rejected *without* contacting the vendor — the regression guard against the original "success message on a dropped lead" bug. A real-submission mode exists but refuses to run without `--i-will-delete-this`. | One real submission on the production origin, confirmed in the CRM, then deleted |
+| **T-28** | `audit/cutover/qhg-parent-content-package.md` — NAP, phone, coordinates, programme deep links (slash-canonical), suggested copy, the website-button snippet, and the Iowa team grouping with authoritative titles. Includes the four things not to repeat: the stale phone number, the Missouri coordinates, the withheld LegitScript claim, and the LMHC-as-medical-reviewer attribution. | An owner named on the parent-site team |
+| **T-14/15/16** | Impact analysis recorded in `redirect-map.json` under `notExecutedPendingDecision`, so whoever signs off can see the redirect cost before deciding. | Portfolio-level sign-off |
+
+Deliberately not attempted again: **T-02** (LegitScript's lookup is
+reCAPTCHA-gated — there is no route to the certificate from here), **T-21/T-26**
+(Bethany's photo is in neither the repo, production, nor the bios `.docx`, which
+contains no images at all), **T-19's GBP check** and **production's Missouri
+map** (both need credentials).

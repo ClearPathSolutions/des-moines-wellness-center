@@ -92,9 +92,11 @@ export default async function CatchAllPage({
   const byType = (t: string) => all.filter((p) => p.pageType === t)
   const url = canonicalUrl(site.url, '/' + slug.join('/'))
 
-  let afterHero: React.ReactNode = null
+  // T-18(c) rows 486/495: hub collection grids render BELOW the page's own
+  // opening section, not above it.
+  let collection: React.ReactNode = null
   if (page.pageType === 'hub-programs') {
-    afterHero = (
+    collection = (
       <CollectionGrid
         heading="Our Levels of Care"
         subheading="A full continuum of addiction treatment, tailored to where you are in recovery."
@@ -103,7 +105,7 @@ export default async function CatchAllPage({
       />
     )
   } else if (page.pageType === 'hub-conditions') {
-    afterHero = (
+    collection = (
       <CollectionGrid
         heading="Conditions We Treat"
         subheading="Specialized, evidence-based care for substance use and co-occurring disorders."
@@ -112,7 +114,7 @@ export default async function CatchAllPage({
       />
     )
   } else if (page.pageType === 'hub-team') {
-    afterHero = (
+    collection = (
       <CollectionGrid
         heading="Our Team"
         subheading="Board-certified clinicians and leadership guiding your recovery."
@@ -121,7 +123,7 @@ export default async function CatchAllPage({
       />
     )
   } else if (page.pageType === 'hub-areas') {
-    afterHero = (
+    collection = (
       <CollectionGrid
         heading="Communities We Serve"
         subheading="Accredited detox and rehab within reach of Central Iowa."
@@ -150,7 +152,7 @@ export default async function CatchAllPage({
         // T-12: the location map belongs on every page a prospective patient
         // might use to work out where we are. Excludes legal and blog pages.
         showMap={['program', 'condition', 'area', 'page', 'hub-programs', 'hub-conditions', 'hub-areas'].includes(page.pageType)}
-        afterHero={afterHero}
+        afterFirstSection={collection}
       />
 
       <FaqJsonLd faqs={faqs} />
