@@ -60,10 +60,35 @@ function collect(dir) {
 const all = collect(CONTENT)
 const broken = []
 
+/** True for a genuinely external URL. A scheme alone is not enough: the
+ *  migration produced values like "http://tour", which parse as a URL whose
+ *  host is the bare word "tour" — a broken link that looks external. */
+function isRealExternal(href) {
+  if (!/^https?:\/\//i.test(href)) return false
+  try {
+    const { hostname } = new URL(href)
+    // Real hosts have a dot (example.com) or are explicitly localhost.
+    return hostname.includes('.') || hostname === 'localhost'
+  } catch {
+    return false
+  }
+}
+
+function isOutOfScope(href) {
+  if (/^(tel:|mailto:|#)/i.test(href)) return true
+  return isRealExternal(href)
+}
+
 for (const item of all) {
   const { href } = item
-  // External, phone, mail and in-page anchors are out of scope.
-  if (/^(https?:|tel:|mailto:|#)/.test(href)) continue
+  if (isOutOfScope(href)) continue
+
+  if (/^https?:\/\//i.test(href)) {
+    // Reached only when the scheme is present but the host is not a real
+    // domain — i.e. a malformed link masquerading as external.
+    broken.push({ ...item, reason: 'malformed absolute URL (host is not a domain)' })
+    continue
+  }
   if (!href.startsWith('/')) {
     broken.push({ ...item, reason: 'not an absolute internal path' })
     continue
@@ -72,7 +97,7 @@ for (const item of all) {
   if (!known.has(clean)) broken.push({ ...item, reason: 'no such page' })
 }
 
-const internalCount = all.filter((i) => !/^(https?:|tel:|mailto:|#)/.test(i.href)).length
+const internalCount = all.filter((i) => !isOutOfScope(i.href)).length
 
 if (broken.length) {
   console.error(`\n✗ ${broken.length} unresolvable internal href(s) in content/:\n`)

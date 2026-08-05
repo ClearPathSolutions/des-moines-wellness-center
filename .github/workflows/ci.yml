@@ -1,0 +1,66 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      # T-01 guard: no internal href in content/ may point at a route that
+      # doesn't exist. The migration left 12 of these (including "http://tour",
+      # which looks external but isn't), so this must not be allowed to regress.
+      - name: Internal link integrity
+        run: npm run check:links
+
+      # Covers TypeScript and ESLint as well — `next build` runs both.
+      - name: Build
+        run: npm run build
+
+      # The sitemap is the cutover contract: every URL in it must return 200
+      # with no redirect hop. Catches a page being renamed but left in the
+      # sitemap, which is the failure mode T-03/T-13 care about.
+      - name: Sitemap URLs all resolve
+        run: |
+          npx next start -p 3000 &
+          SERVER_PID=$!
+          for i in $(seq 1 30); do
+            curl -sf -o /dev/null http://localhost:3000/ && break
+            sleep 1
+          done
+
+          failures=0
+          # Compare by path so this works regardless of the configured host.
+          paths=$(curl -sS http://localhost:3000/sitemap.xml \
+            | grep -o '<loc>[^<]*</loc>' \
+            | sed -e 's|<loc>||' -e 's|</loc>||' \
+            | sed -E 's|https?://[^/]+||' \
+            | sed -e 's|^$|/|')
+
+          echo "Checking $(echo "$paths" | wc -l | tr -d ' ') sitemap URLs..."
+          for p in $paths; do
+            code=$(curl -sS -o /dev/null -w '%{http_code}' "http://localhost:3000${p}")
+            if [ "$code" != "200" ]; then
+              echo "::error::sitemap URL ${p} returned ${code} (expected 200, no redirect)"
+              failures=$((failures + 1))
+            fi
+          done
+
+          kill $SERVER_PID 2>/dev/null || true
+          if [ "$failures" -ne 0 ]; then
+            echo "$failures sitemap URL(s) did not return 200"
+            exit 1
+          fi
+          echo "all sitemap URLs returned 200"
