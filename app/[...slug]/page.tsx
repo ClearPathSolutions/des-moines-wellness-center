@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import PageRenderer from '@/components/PageRenderer'
 import CollectionGrid from '@/components/CollectionGrid'
+import FacilityGallery from '@/components/FacilityGallery'
+import FacilityVideo from '@/components/FacilityVideo'
+import TeamFaces from '@/components/TeamFaces'
 import {
   BreadcrumbJsonLd,
   FaqJsonLd,
@@ -131,6 +134,22 @@ export default async function CatchAllPage({
         alt
       />
     )
+  }
+
+  // T-21/T-22: the virtual tour. Video first (it answers "what is this place
+  // like" fastest), then the room-by-room photo tour.
+  if (page.slug === 'tour') {
+    collection = (
+      <>
+        <FacilityVideo phone={site.phone} phoneHref={site.phoneHref} />
+        <FacilityGallery />
+      </>
+    )
+  }
+
+  // T-21 row 409: real staff portraits on /about, linking to each bio.
+  if (page.slug === 'about') {
+    collection = <TeamFaces team={byType('team')} />
   }
 
   const reviewsTypes = [

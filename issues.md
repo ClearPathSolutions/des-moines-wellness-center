@@ -1557,3 +1557,52 @@ reCAPTCHA-gated — there is no route to the certificate from here), **T-21/T-26
 (Bethany's photo is in neither the repo, production, nor the bios `.docx`, which
 contains no images at all), **T-19's GBP check** and **production's Missouri
 map** (both need credentials).
+
+### Addendum 2 — real facility photography (2026-08-05)
+
+The owner supplied `~/Downloads/Des Moines Wellness Center`: 75 photographs of
+5820 Winwood Dr at 6000x4000, two walkthrough videos, and the official logo set.
+That closes the imagery half of **T-21** and **T-22**.
+
+Filenames carried no meaning (`01-105_5820_Winwood_Dr.jpg`), so all 75 were
+reviewed on labelled contact sheets and catalogued by room before placement.
+
+| Row | Task | Done |
+|---|---|---|
+| 414 | `/about` should use a real facility photo, not stock | ✅ reception/lobby |
+| 409 | Build "Faces Behind Your Care" with staff photos | ✅ new `TeamFaces`, links to each bio; Bethany falls back to initials rather than a stock face |
+| 487, 490 | `/team` staff photos | ✅ portraits already rendered on 4 of 5 — see the correction in Addendum 1 |
+| 494 | `/tour` virtual-tour section with facility video | ✅ `FacilityVideo` + a 55-image `FacilityGallery` grouped by zone |
+
+**55 images placed, 31 heroes and 11 section slots — 35 of them replacing stock.**
+No page renders Shutterstock imagery any more (verified across all 41 routes).
+
+Placement follows page intent rather than filling slots: the nursing station on
+medical detox, a bedroom on residential, the dining room on PHP, group rooms on
+IOP, therapy rooms on the behavioural conditions, and the aerial that shows the
+Des Moines skyline on the horizon for the area pages — which is the "minutes from
+Des Moines" claim in one image.
+
+Judgement calls worth recording:
+
+- **Two videos shipped as one.** Frame-sampling both files showed they are two
+  cuts of the *same* walkthrough, near-identical at every timestamp. Shipping both
+  would have read as a bug and cost 14 MB.
+- **The video is vertical** (1080x1920, filmed on a phone), so it renders in a
+  portrait 9:16 frame rather than letterboxed into a landscape player.
+- **Marijuana/stimulant imagery** — no such pages exist, consistent with T-01.
+- **Bethany Hamilton's photo is still outstanding.** It is not in the supplied
+  folder, not on production, and not in the bios `.docx` (which contains no
+  images at all). Her card shows initials.
+
+Two regressions found and fixed during this pass, both mine:
+
+1. Adding the T-23 header CTA plus `whitespace-nowrap` made flexbox compress the
+   logo to **1px wide** — it reported as loaded and visible while being invisible.
+   Fixed with `shrink-0`.
+2. The header genuinely cannot hold logo + seven nav labels + two CTAs in a
+   1200px container. Measured across six breakpoints rather than eyeballed: the
+   bar CTA now appears from `xl` (1280px) where the number fits, and
+   **T-23 row 413's desktop Verify Insurance button is withdrawn** — it is in the
+   hero, the mobile menu and the footer instead. Recorded as a deliberate
+   deviation from the row.

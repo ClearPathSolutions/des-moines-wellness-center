@@ -15,7 +15,7 @@ export default function Footer({ config }: { config: SiteConfig }) {
           <Image
             src="/images/logo-white.png"
             alt={site.name}
-            width={220}
+            width={283}
             height={56}
             className="h-12 w-auto"
           />

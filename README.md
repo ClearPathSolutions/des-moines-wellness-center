@@ -37,7 +37,13 @@ Page content lives as data, not markup, so it's easy to edit:
 - `content/pages/*.json` — one file per page (hero, sections, FAQs, CTAs, images)
 - `content/site.config.json` — nav, footer, brand, colors, fonts, collections
 - `content/image-map.json` — maps original image paths → optimized local assets
-- `public/images/` — 76 optimized images + logos (4.2 MB total, down from ~103 MB)
+- `public/images/` — migrated WordPress imagery + logos
+- `public/images/facility/` — **real photography of 5820 Winwood Dr** (55 images,
+  optimized from 24MP originals). This replaced the Shutterstock imagery the
+  migration inherited; no page renders stock photography any more.
+- `public/video/facility-tour.mp4` — the walkthrough on `/tour`. Shot vertically
+  (1080x1920), so it renders in a 9:16 frame; `preload="none"` plus a poster
+  means the 7 MB is only fetched if someone presses play.
 
 Components in `components/` render these models. To edit copy, change the JSON.
 

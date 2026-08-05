@@ -35,11 +35,18 @@ export default function Header({ nav, phone, phoneHref, siteName }: Props) {
     <>
     <header className="sticky top-0 z-50 border-b border-line/70 bg-cream/90 backdrop-blur-md">
       <div className="container-page flex h-20 items-center justify-between gap-4">
-        <Link href="/" className="flex items-center gap-3" aria-label={`${siteName} home`}>
+        {/* shrink-0 is load-bearing: the nav items are whitespace-nowrap, so
+            without it flexbox compresses the logo to 1px wide and it disappears
+            entirely while still reporting as loaded and visible. */}
+        <Link
+          href="/"
+          className="flex shrink-0 items-center gap-3"
+          aria-label={`${siteName} home`}
+        >
           <Image
             src="/images/logo-horizontal.png"
             alt={siteName}
-            width={220}
+            width={283}
             height={56}
             priority
             className="h-11 w-auto"
@@ -47,13 +54,13 @@ export default function Header({ nav, phone, phoneHref, siteName }: Props) {
         </Link>
 
         {/* Desktop nav — submenus reveal on hover AND keyboard focus (group-focus-within) */}
-        <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary">
+        <nav className="hidden min-w-0 items-center gap-0.5 lg:flex" aria-label="Primary">
           {nav.map((item) =>
             item.children?.length ? (
               <div key={item.label} className="group relative">
                 <Link
                   href={item.href}
-                  className="flex items-center gap-1 rounded-full px-3.5 py-2 text-sm font-medium text-ink/80 hover:bg-brand-50 hover:text-brand group-focus-within:bg-brand-50 group-focus-within:text-brand"
+                  className="flex items-center gap-1 whitespace-nowrap rounded-full px-2.5 py-2 text-sm font-medium text-ink/80 hover:bg-brand-50 hover:text-brand group-focus-within:bg-brand-50 group-focus-within:text-brand"
                   aria-haspopup="true"
                 >
                   {item.label}
@@ -78,7 +85,7 @@ export default function Header({ nav, phone, phoneHref, siteName }: Props) {
               <Link
                 key={item.label}
                 href={item.href}
-                className="rounded-full px-3.5 py-2 text-sm font-medium text-ink/80 hover:bg-brand-50 hover:text-brand"
+                className="whitespace-nowrap rounded-full px-2.5 py-2 text-sm font-medium text-ink/80 hover:bg-brand-50 hover:text-brand"
               >
                 {item.label}
               </Link>
@@ -86,16 +93,14 @@ export default function Header({ nav, phone, phoneHref, siteName }: Props) {
           )}
         </nav>
 
-        <div className="hidden items-center gap-3 lg:flex">
-          <a href={phoneHref} className="btn-primary">
+        <div className="hidden shrink-0 items-center gap-2 xl:flex">
+          {/* Shown from xl (1280px). Below that the bar has room for the
+              logo and the seven nav labels but not a CTA as well, and the
+              number is already in the hero, the mobile menu and the footer. */}
+          <a href={phoneHref} className="btn-primary whitespace-nowrap">
             <Phone className="h-4 w-4" />
             {phone}
           </a>
-          {/* T-23 row 413: the insurance check is the site's primary non-phone
-              conversion path, so it belongs in the header on every page. */}
-          <Link href="/verify-insurance" className="btn-outline">
-            Verify Insurance
-          </Link>
         </div>
 
         {/* Mobile toggle */}
