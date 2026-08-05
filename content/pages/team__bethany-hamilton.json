@@ -10,9 +10,9 @@
   "headline": "Bethany Hamilton, RCS, CMA",
   "subhead": "",
   "image": {
-   "src": "",
-   "alt": ""
-  },
+      "src": "/images/team/bethany-hamilton.webp",
+      "alt": "Bethany Hamilton, RCS, CMA - Case Manager"
+    },
   "primaryCta": {
    "label": "(888) 378-2158",
    "href": "tel:+18883782158"

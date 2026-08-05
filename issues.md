@@ -122,12 +122,12 @@ Fixing issues in this repo and redeploying would **reintroduce 12 broken links t
 | [T-18](#t-18) | Section order / merge / remove | P2 | Visual ×20 | 20 rows | [~] **(b) 5 dupes merged, (c) all 3 reorders done 2026-08-05** — (a) blocked on T-29 |
 | [T-19](#t-19) | Des Moines vs Johnston locality claims | P2 | V0071 | 9 mentions | [x] **done 2026-08-05** — 12 claims fixed (not 2), NAP untouched |
 | [T-20](#t-20) | Text casing | P3 | Visual ×10 | 10 rows | [x] **done 2026-08-05** |
-| [T-21](#t-21) | Imagery & team photos | P3 | Visual ×6 | 6 rows | [~] **portraits already render on 4 of 5** — Bethany photo outstanding |
+| [T-21](#t-21) | Imagery & team photos | P3 | Visual ×6 | 6 rows | [x] **done 2026-08-05** — all 5 portraits, incl. Bethany |
 | [T-22](#t-22) | Tour link & facility video | P3 | Visual ×5 | 5 rows | [x] **done 2026-08-05** — http://tour removed |
 | [T-23](#t-23) | Header & footer corrections | P3 | Visual ×3 | 3 rows | [x] **done 2026-08-05** — footer regrouped, header CTA added |
 | [T-24](#t-24) | Blog content gap | P3 | Visual ×1 | 1 row | [x] **done 2026-08-05** — both posts present |
 | [T-25](#t-25) | Raw URLs exposed | P3 | Visual ×1 | 1 row | [x] **done 2026-08-05** — 10 raw URLs became real links |
-| [T-26](#t-26) | Credentials, job titles, staff verification | P3 | Visual ×1 (+1 found) | 2 items | [~] **titles + credentials done** — Bethany photo outstanding |
+| [T-26](#t-26) | Credentials, job titles, staff verification | P3 | Visual ×1 (+1 found) | 2 items | [x] **done 2026-08-05** — titles, credentials and photo |
 | [T-27](#t-27) | Resource links | P3 | Visual ×3 | 3 rows | [x] **done 2026-08-05** — 43 resources restored on 13 pages |
 | [T-28](#t-28) | QHG parent: our location page & referral link | P2 | V0090, V0091, Visual ×3 | 5 rows | [~] **content package prepared 2026-08-05** — still needs a parent-site owner |
 
@@ -1606,3 +1606,39 @@ Two regressions found and fixed during this pass, both mine:
    **T-23 row 413's desktop Verify Insurance button is withdrawn** — it is in the
    hero, the mobile menu and the footer instead. Recorded as a deliberate
    deviation from the row.
+
+### Addendum 3 — staff headshots (2026-08-05)
+
+The owner supplied `~/Downloads/Staff Headshots`, organised by state. **T-21 and
+T-26 are now fully closed.**
+
+Only the `Iowa/` folder was used. The other folders hold other QHG facilities'
+staff, and putting one of them on this site would be exactly the wrong-person
+defect V0054 records elsewhere in the portfolio.
+
+| Person | Outcome |
+|---|---|
+| **Bethany Hamilton, RCS, CMA** — Case Manager | ✅ **the outstanding photo**, placed. Her page had no image at all and her `/about` card fell back to initials. |
+| Wesley Starlin — Executive Director | ✅ upgraded |
+| Parneet "Pam" Sahota — Clinical Director | ✅ upgraded |
+| Lacey Stielow, MSN, RN — Director of Nursing | ✅ upgraded |
+| Alexander "Alex" Maddux — Director of Operations | ✅ upgraded |
+
+The four existing portraits were upgraded, not just left alone: their aspect
+ratios (0.75, 0.84, 0.89, 0.75) match the supplied originals exactly, so the repo
+copies were downscales. Re-encoding from the 1000–2300px originals is a straight
+resolution win at retina sizes, for 53–87 KB each.
+
+Alt text keeps the `"Name, CREDS - Job Title"` shape deliberately —
+`jobTitleFrom()` in the catch-all route and `TeamFaces` both parse the role out of
+it for `Person` schema and the `/about` grid. Verified after the change:
+`"jobTitle":"Case Manager"` and `"jobTitle":"Clinical Director"` still emit.
+
+**Relevant to T-29, which stays blocked.** The folder also contains
+`Quadrant/Dr. Pamela Tambini.png` — the physician the register identifies as the
+correct medical reviewer for the 15 YMYL pages, board-certified in Internal
+Medicine and Addiction Medicine and currently absent from the site entirely — and
+`Quadrant/ Stephanie Hakim.png`, the Director of Compliance whose sign-off T-29
+needs. Neither is placed: T-29 is an attribution decision, not an asset gap. But
+step 3 of T-29 ("add the reviewer to `/team` with a bio") no longer has a missing
+photo standing in its way once the model is chosen.

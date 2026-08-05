@@ -10,9 +10,9 @@
   "headline": "Wesley Starlin",
   "subhead": "",
   "image": {
-   "src": "../../wp-content/uploads/2026/06/wes-1-768x1024.png",
-   "alt": "Wesley Starlin - Executive Director"
-  },
+      "src": "/images/team/welsey-starlin.webp",
+      "alt": "Wesley Starlin - Executive Director"
+    },
   "primaryCta": {
    "label": "(888) 378-2158",
    "href": "tel:+18883782158"

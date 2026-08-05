@@ -10,9 +10,9 @@
   "headline": "Alexander \"Alex\" Maddux",
   "subhead": "Director of Operations",
   "image": {
-   "src": "../../wp-content/uploads/2026/06/Alexander-Maddux-Director-of-Operations-768x1024.png",
-   "alt": "Alexander \"Alex\" Maddux, Director of Operations"
-  },
+      "src": "/images/team/alexander-maddux.webp",
+      "alt": "Alexander \"Alex\" Maddux, Director of Operations"
+    },
   "primaryCta": {
    "label": "(888) 378-2158",
    "href": "tel:+18883782158"

@@ -658,5 +658,30 @@
   "out": "/images/facility/facility-tour-poster.webp",
   "width": 720,
   "height": 1280
+ },
+ "images/team/welsey-starlin.webp": {
+  "out": "/images/team/welsey-starlin.webp",
+  "width": 1000,
+  "height": 1333
+ },
+ "images/team/parneet-sahota.webp": {
+  "out": "/images/team/parneet-sahota.webp",
+  "width": 1000,
+  "height": 1122
+ },
+ "images/team/lacey-stielow.webp": {
+  "out": "/images/team/lacey-stielow.webp",
+  "width": 1000,
+  "height": 1189
+ },
+ "images/team/alexander-maddux.webp": {
+  "out": "/images/team/alexander-maddux.webp",
+  "width": 1000,
+  "height": 1333
+ },
+ "images/team/bethany-hamilton.webp": {
+  "out": "/images/team/bethany-hamilton.webp",
+  "width": 1000,
+  "height": 1413
  }
 }
