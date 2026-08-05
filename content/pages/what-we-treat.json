@@ -55,6 +55,58 @@
       }
     },
     {
+      "id": "substance-specific-treatment",
+      "kind": "cards",
+      "heading": "Leading Substance-Specific Treatment in Central Iowa",
+      "subheading": "",
+      "body": [
+        "At Des Moines Wellness Center, we offer treatment for a range of addictions and co-occurring disorders. Every rehab program we provide was built by our own medical staff using 15 years of clinical experience. We focus on how each specific substance affects the body to ensure everyone in our care gets a precise path to recovery. Discover the rehab protocols our team developed for each condition:"
+      ],
+      "items": [
+        {
+          "title": "Alcohol Use Disorder",
+          "text": "Alcohol withdrawal requires precise medical management. Our Des Moines program provides a safe, clinical environment to navigate detox, followed by intensive therapy to address the root causes of Alcohol Use Disorder (AUD) and prevent chronic relapse.",
+          "icon": "",
+          "href": "/what-we-treat/alcohol-rehab-des-moines"
+        },
+        {
+          "title": "Benzo Addiction",
+          "text": "Withdrawing from benzodiazepines like Xanax or Valium is a complex process that demands a specialized, safe taper. We provide 24/7 medical supervision to manage anxiety and physical symptoms, ensuring a stabilized transition to long-term recovery.",
+          "icon": "",
+          "href": "/what-we-treat/benzo-rehab-des-moines"
+        },
+        {
+          "title": "Fentanyl Addiction",
+          "text": "Given the extreme potency of synthetic opioids, fentanyl recovery requires high-acuity medical intervention. Our Des Moines team specializes in the specific detox requirements for fentanyl, followed by intensive residential and outpatient support.",
+          "icon": "",
+          "href": "/what-we-treat/fentanyl-rehab-des-moines"
+        },
+        {
+          "title": "Meth Addiction",
+          "text": "Meth addiction can take a serious toll on both mental and physical health. Our evidence-based approach focuses on stabilizing the brain, reducing cravings, and helping clients rebuild structure, clarity, and long-term coping skills.",
+          "icon": "",
+          "href": "/what-we-treat/meth-rehab-des-moines"
+        },
+        {
+          "title": "Prescription Drug Addiction",
+          "text": "Misuse of prescription medications can quickly lead to dependence and serious health risks. Our treatment approach focuses on safe stabilization, managing withdrawal, and building the tools needed for lasting recovery.",
+          "icon": "",
+          "href": "/what-we-treat/prescription-drug-rehab-des-moines"
+        },
+        {
+          "title": "Cocaine & Stimulants Addiction",
+          "text": "Cocaine and stimulant use can lead to intense cravings and long-term neurological effects. Our treatment focuses on restoring balance, managing triggers, and building the coping skills needed for sustained recovery.",
+          "icon": "",
+          "href": "/what-we-treat/cocaine-rehab-des-moines"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
       "id": "trusted-clinical-partner",
       "kind": "prose",
       "heading": "A Trusted Clinical Partner for Recovery in Iowa",
@@ -102,7 +154,7 @@
       "id": "faq",
       "kind": "faq",
       "heading": "Frequently Asked Questions",
-      "subheading": "ANSWERS & RESOURCES",
+      "subheading": "Answers & Resources",
       "body": [],
       "items": [],
       "faqs": [

@@ -59,6 +59,12 @@
           "title": "Practical Tools",
           "text": "We teach you simple ways to handle stress and triggers so you stay sober back at home.",
           "icon": ""
+        },
+        {
+          "title": "Dual Diagnosis Treatment",
+          "text": "Integrated care for addiction and co-occurring mental health conditions, treated together rather than in sequence.",
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
         }
       ],
       "faqs": [],
@@ -196,7 +202,8 @@
         {
           "title": "Residential Inpatient",
           "text": "Immersive Stabilization. Live at our private Des Moines estate while you focus 100% on healing. This full-time program helps you escape daily triggers so you can uncover the why behind your drinking in a safe setting.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
         },
         {
           "title": "Outpatient (PHP & IOP)",
@@ -234,7 +241,7 @@
       "id": "our-approach",
       "kind": "features",
       "heading": "Our Approach to Alcohol Recovery in Des Moines, Iowa",
-      "subheading": "THE WAY WE HEAL alcohol addiction",
+      "subheading": "The Way We Heal alcohol addiction",
       "body": [
         "At our Des Moines center, we use a structured clinical strategy designed to treat the individual, not just the addiction. Our approach combines a variety of evidence-based therapies and modern techniques to help you move past alcohol for good. By pairing personalized treatment plans with a team of highly experienced professionals, we ensure you have the expert guidance and the practical tools needed to build a sustainable, sober life."
       ],
@@ -290,6 +297,10 @@
       "image": {
         "src": "",
         "alt": ""
+      },
+      "primaryCta": {
+        "label": "(888) 378-2158",
+        "href": "tel:+18883782158"
       }
     },
     {
@@ -340,6 +351,10 @@
       "image": {
         "src": "",
         "alt": ""
+      },
+      "primaryCta": {
+        "label": "(888) 378-2158",
+        "href": "tel:+18883782158"
       }
     },
     {
@@ -401,13 +416,17 @@
       "image": {
         "src": "",
         "alt": ""
+      },
+      "primaryCta": {
+        "label": "(888) 378-2158",
+        "href": "tel:+18883782158"
       }
     },
     {
       "id": "faq",
       "kind": "faq",
       "heading": "Frequently Asked Questions",
-      "subheading": "ANSWERS & RESOURCES",
+      "subheading": "Answers & Resources",
       "body": [],
       "items": [],
       "faqs": [

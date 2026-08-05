@@ -1,0 +1,125 @@
+{
+  "slug": "areas-we-serve/urbandale",
+  "pageType": "area",
+  "seo": {
+    "title": "Drug & Alcohol Rehab Serving Urbandale, Iowa | Des Moines Wellness Center",
+    "description": "Accredited detox, residential and outpatient addiction treatment about 10 minutes from Urbandale, IA. Insurance accepted, 24/7 admissions."
+  },
+  "hero": {
+    "eyebrow": "Areas We Serve",
+    "headline": "Drug & Alcohol Rehab Serving Urbandale, Iowa",
+    "subhead": "Accredited detox, residential and outpatient addiction treatment about 10 minutes from Urbandale.",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "serving",
+      "kind": "prose",
+      "heading": "Treatment for Urbandale, from our Johnston campus",
+      "subheading": "",
+      "body": [
+        "Our Johnston campus sits just north of Urbandale, close enough that many clients keep the same commute they already know. That proximity matters more than it sounds: it means family can attend evening therapy sessions without a long drive, and it means stepping down from residential care into outpatient does not require moving your life around.",
+        "Urbandale residents most often come to us for alcohol and prescription-medication treatment, frequently alongside anxiety or depression that has gone unaddressed for years. We treat both together rather than in sequence."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "levels-of-care",
+      "kind": "cards",
+      "heading": "Every Level of Care in One Place",
+      "subheading": "Urbandale clients can move between levels without changing providers.",
+      "body": [],
+      "items": [
+        {
+          "title": "Medical Detox",
+          "text": "Medically supervised withdrawal with 24/7 clinical monitoring.",
+          "icon": "",
+          "href": "/programs/medical-detox-des-moines"
+        },
+        {
+          "title": "Residential Inpatient",
+          "text": "Full-time inpatient care in a structured, private setting.",
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
+        },
+        {
+          "title": "Partial Hospitalization",
+          "text": "Full-day clinical programming without an overnight stay.",
+          "icon": "",
+          "href": "/programs/php-des-moines"
+        },
+        {
+          "title": "Intensive Outpatient",
+          "text": "Structured therapy on a schedule that fits work or school.",
+          "icon": "",
+          "href": "/programs/iop-des-moines"
+        },
+        {
+          "title": "Dual Diagnosis Treatment",
+          "text": "Integrated care for addiction and co-occurring mental health conditions.",
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
+        },
+        {
+          "title": "Aftercare & Alumni",
+          "text": "Alumni support and relapse-prevention planning after treatment.",
+          "icon": "",
+          "href": "/programs/aftercare-and-alumni"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "getting-here",
+      "kind": "prose",
+      "heading": "Getting here from Urbandale",
+      "subheading": "",
+      "body": [
+        "We are at 5820 Winwood Dr, Johnston, IA 50131 — about 10 minutes from Urbandale, with easy access from I-35, I-80 and I-235. Familiar landmarks nearby include Hyperion Field Club, Walker Johnston Park and the Urbandale Public Library."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "heading": "Start treatment near Urbandale today",
+      "subheading": "",
+      "body": [
+        "Admissions specialists are available 24/7. Calls are free, confidential, and carry no obligation to enrol."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [],
+  "ctas": []
+}

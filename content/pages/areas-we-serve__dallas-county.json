@@ -1,0 +1,125 @@
+{
+  "slug": "areas-we-serve/dallas-county",
+  "pageType": "area",
+  "seo": {
+    "title": "Dallas County Addiction Treatment | Des Moines Wellness Center",
+    "description": "Detox, residential and outpatient addiction treatment a short drive from Dallas County, IA. Dual-diagnosis care and insurance verification."
+  },
+  "hero": {
+    "eyebrow": "Areas We Serve",
+    "headline": "Dallas County Addiction Treatment",
+    "subhead": "Accredited detox, residential and outpatient addiction treatment a short drive east from Dallas County.",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "serving",
+      "kind": "prose",
+      "heading": "Treatment for Dallas County, from our Johnston campus",
+      "subheading": "",
+      "body": [
+        "Dallas County is one of the fastest-growing counties in Iowa, and for many residents the nearest accredited detox is still east of the county line. Our Johnston campus is a short drive from Waukee, Adel, Perry and Dallas Center, close enough for family involvement and for a genuine step-down through PHP and IOP rather than a discharge straight home.",
+        "We frequently work with Dallas County clients who have tried outpatient counselling alone and relapsed. Starting with medical stabilisation and then moving through levels of care in one place, with one clinical team, is usually what changes the outcome."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "levels-of-care",
+      "kind": "cards",
+      "heading": "Every Level of Care in One Place",
+      "subheading": "Dallas County clients can move between levels without changing providers.",
+      "body": [],
+      "items": [
+        {
+          "title": "Medical Detox",
+          "text": "Medically supervised withdrawal with 24/7 clinical monitoring.",
+          "icon": "",
+          "href": "/programs/medical-detox-des-moines"
+        },
+        {
+          "title": "Residential Inpatient",
+          "text": "Full-time inpatient care in a structured, private setting.",
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
+        },
+        {
+          "title": "Partial Hospitalization",
+          "text": "Full-day clinical programming without an overnight stay.",
+          "icon": "",
+          "href": "/programs/php-des-moines"
+        },
+        {
+          "title": "Intensive Outpatient",
+          "text": "Structured therapy on a schedule that fits work or school.",
+          "icon": "",
+          "href": "/programs/iop-des-moines"
+        },
+        {
+          "title": "Dual Diagnosis Treatment",
+          "text": "Integrated care for addiction and co-occurring mental health conditions.",
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
+        },
+        {
+          "title": "Aftercare & Alumni",
+          "text": "Alumni support and relapse-prevention planning after treatment.",
+          "icon": "",
+          "href": "/programs/aftercare-and-alumni"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "getting-here",
+      "kind": "prose",
+      "heading": "Getting here from Dallas County",
+      "subheading": "",
+      "body": [
+        "We are at 5820 Winwood Dr, Johnston, IA 50131 — a short drive east from Dallas County, with easy access from I-35, I-80 and I-235. Familiar landmarks nearby include Waukee, Adel, Perry, Van Meter and Dallas Center."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "heading": "Start treatment near Dallas County today",
+      "subheading": "",
+      "body": [
+        "Admissions specialists are available 24/7. Calls are free, confidential, and carry no obligation to enrol."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [],
+  "ctas": []
+}

@@ -52,13 +52,19 @@
         },
         {
           "title": "Location",
-          "text": "Rehab situated in the heart of Des Moines, with immediate access to Central Iowa’s recovery network.",
+          "text": "Rehab in Johnston, minutes from Des Moines, with immediate access to Central Iowa’s recovery network.",
           "icon": ""
         },
         {
           "title": "The Next Step",
           "text": "No-gap transition directly into our Des Moines residential or outpatient programming once stabilized.",
           "icon": ""
+        },
+        {
+          "title": "Dual Diagnosis Treatment",
+          "text": "Integrated care for addiction and co-occurring mental health conditions, treated together rather than in sequence.",
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
         }
       ],
       "faqs": [],
@@ -211,17 +217,20 @@
         {
           "title": "Alcohol Rehab",
           "text": "Alcohol withdrawal requires precise medical management. Our Des Moines program provides a safe, clinical environment to navigate detox, followed by intensive therapy to address the root causes of Alcohol Use Disorder (AUD) and prevent chronic relapse.",
-          "icon": ""
+          "icon": "",
+          "href": "/what-we-treat/alcohol-rehab-des-moines"
         },
         {
           "title": "Benzo Rehab",
           "text": "Withdrawing from benzodiazepines like Xanax or Valium is a complex process that demands a specialized, safe taper. We provide 24/7 medical supervision to manage anxiety and physical symptoms, ensuring a stabilized transition to long-term recovery.",
-          "icon": ""
+          "icon": "",
+          "href": "/what-we-treat/benzo-rehab-des-moines"
         },
         {
           "title": "Fentanyl Rehab",
           "text": "Given the extreme potency of synthetic opioids, fentanyl recovery requires high-acuity medical intervention. Our Des Moines team specializes in the specific detox requirements for fentanyl, followed by intensive residential and outpatient support.",
-          "icon": ""
+          "icon": "",
+          "href": "/what-we-treat/fentanyl-rehab-des-moines"
         },
         {
           "title": "Marijuana Rehab",
@@ -231,12 +240,14 @@
         {
           "title": "Meth Rehab",
           "text": "Meth addiction can take a serious toll on both mental and physical health. Our evidence-based approach focuses on stabilizing the brain, reducing cravings, and helping clients rebuild structure, clarity, and long-term coping skills.",
-          "icon": ""
+          "icon": "",
+          "href": "/what-we-treat/meth-rehab-des-moines"
         },
         {
           "title": "Prescription Drug Rehab",
           "text": "Misuse of prescription medications can quickly lead to dependence and serious health risks. Our treatment approach focuses on safe stabilization, managing withdrawal, and building the tools needed for lasting recovery.",
-          "icon": ""
+          "icon": "",
+          "href": "/what-we-treat/prescription-drug-rehab-des-moines"
         },
         {
           "title": "Stimulants Rehab",
@@ -298,12 +309,14 @@
         {
           "title": "Residential Inpatient",
           "text": "Immersive Stabilization. You stay at our facility to focus entirely on why you started using in the first place. We help you find the root problems and teach you new ways to handle stress without a substance.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
         },
         {
           "title": "Outpatient Programs",
           "text": "Back to Real Life. You live at home but come to us for a few hours a day for support. This helps you stay sober while you start working or taking care of your family again in Des Moines.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/des-moines-outpatient-rehab"
         },
         {
           "title": "Clinical Aftercare & Alumni",

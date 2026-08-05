@@ -8,6 +8,8 @@ const VENDORS = {
   clarionApi: 'https://api.clarionlabs.ai',
   clarionSocket: 'wss://*.clarionlabs.ai',
   trustindex: 'https://cdn.trustindex.io',
+  // Keyless Google Maps embed (T-12).
+  maps: 'https://www.google.com',
 }
 
 // Reported, not enforced. The site loads four third-party scripts (call
@@ -22,7 +24,7 @@ const cspReportOnly = [
   `img-src 'self' data: blob: https:`,
   `font-src 'self' data:`,
   `connect-src 'self' ${VENDORS.clarionApi} ${VENDORS.clarionSocket} ${VENDORS.callTracking} ${VENDORS.trustindex}`,
-  `frame-src 'self' ${VENDORS.trustindex}`,
+  `frame-src 'self' ${VENDORS.trustindex} ${VENDORS.maps}`,
   `object-src 'none'`,
   `base-uri 'self'`,
   `form-action 'self'`,

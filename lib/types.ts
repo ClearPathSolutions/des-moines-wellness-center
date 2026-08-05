@@ -2,7 +2,10 @@ export type Cta = { label: string; href: string }
 
 export type ImageRef = { src: string; alt: string; role?: string }
 
-export type SectionItem = { title?: string; text?: string; icon?: string }
+/** `href` makes a card link to the page it describes. Hub pages previously
+ *  described their children as plain text, so crawl equity never flowed to
+ *  them and readers hit dead ends (T-10). */
+export type SectionItem = { title?: string; text?: string; icon?: string; href?: string }
 
 export type Faq = { q: string; a: string }
 
@@ -34,6 +37,9 @@ export type Section = {
   items?: SectionItem[]
   faqs?: Faq[]
   image?: ImageRef
+  /** T-11: an inline phone CTA for high-intent sections (job protection,
+   *  FMLA, closing sections). Rendered under the section body. */
+  primaryCta?: Cta
 }
 
 export type Hero = {

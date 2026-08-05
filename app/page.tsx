@@ -10,7 +10,7 @@ export default function HomePage() {
   const faqs = (page.sections ?? []).flatMap((s) => s.faqs ?? [])
   return (
     <>
-      <PageRenderer page={page} config={config} showAccreditations showReviews />
+      <PageRenderer page={page} config={config} showAccreditations showReviews showMap />
       <FaqJsonLd faqs={faqs} />
     </>
   )

@@ -52,6 +52,10 @@
       "image": {
         "src": "",
         "alt": ""
+      },
+      "primaryCta": {
+        "label": "(888) 378-2158",
+        "href": "tel:+18883782158"
       }
     },
     {
@@ -108,6 +112,12 @@
           "title": "",
           "text": "We keep you involved throughout the whole treatment process.",
           "icon": ""
+        },
+        {
+          "title": "Dual Diagnosis Treatment",
+          "text": "Integrated care for addiction and co-occurring mental health conditions, treated together rather than in sequence.",
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
         }
       ],
       "faqs": [],

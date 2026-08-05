@@ -62,8 +62,14 @@
         },
         {
           "title": "Prime Location",
-          "text": "Rehab located in Des Moines, minutes from I-35/I-80 for easy metro access.",
+          "text": "Located in Johnston, minutes from I-35/I-80 for easy Des Moines metro access.",
           "icon": ""
+        },
+        {
+          "title": "Dual Diagnosis Treatment",
+          "text": "Integrated care for addiction and co-occurring mental health conditions, treated together rather than in sequence.",
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
         }
       ],
       "faqs": [],
@@ -154,7 +160,8 @@
         {
           "title": "IOP (Intensive Outpatient)",
           "text": "Best For: Stabilized recovery & transition\nClinical Goal: Maintenance & real-world integration\nFrequency: 3–5 Days Per Week\nWeekly Hours: 9–15 Hours\nSchedule: Part-time (Morning or Evening)\nDaily Life: Balance of recovery, work, or school",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/iop-des-moines"
         }
       ],
       "faqs": [],
@@ -348,22 +355,22 @@
       "items": [
         {
           "title": "Detox",
-          "text": "https://desmoinesrecovery.com/medical-detox-des-moines/",
+          "text": "Medically supervised withdrawal with 24/7 clinical monitoring.",
           "icon": ""
         },
         {
           "title": "Residential",
-          "text": "https://desmoinesrecovery.com/medical-detox-des-moines/",
+          "text": "Full-time inpatient care in a structured, private setting.",
           "icon": ""
         },
         {
           "title": "IOP (Intensive Outpatient)",
-          "text": "https://desmoinesrecovery.com/iop-des-moines/",
+          "text": "Structured therapy on a schedule that fits work or school.",
           "icon": ""
         },
         {
           "title": "Outpatient",
-          "text": "https://desmoinesrecovery.com/outpatient-program-des-moines",
+          "text": "our outpatient program",
           "icon": ""
         }
       ],
@@ -423,7 +430,7 @@
       "id": "faq",
       "kind": "faq",
       "heading": "Frequently Asked Questions",
-      "subheading": "ANSWERS & RESOURCES",
+      "subheading": "Answers & Resources",
       "body": [],
       "items": [],
       "faqs": [

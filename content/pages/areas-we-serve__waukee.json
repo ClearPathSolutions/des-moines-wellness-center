@@ -1,0 +1,125 @@
+{
+  "slug": "areas-we-serve/waukee",
+  "pageType": "area",
+  "seo": {
+    "title": "Addiction Treatment Serving Waukee, Iowa | Des Moines Wellness Center",
+    "description": "Medical detox, inpatient rehab and flexible PHP/IOP about 20 minutes from Waukee, IA. Dual-diagnosis care, most insurance accepted."
+  },
+  "hero": {
+    "eyebrow": "Areas We Serve",
+    "headline": "Addiction Treatment Serving Waukee, Iowa",
+    "subhead": "Accredited detox, residential and outpatient addiction treatment about 20 minutes from Waukee.",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "serving",
+      "kind": "prose",
+      "heading": "Treatment for Waukee, from our Johnston campus",
+      "subheading": "",
+      "body": [
+        "Waukee has grown fast, and local treatment options have not kept pace. Our Johnston campus is a straight run east along Hickman Road or the I-80 corridor, which puts a full continuum of care — detox through aftercare — inside a manageable drive rather than a relocation.",
+        "We see a lot of working parents and commuters from Waukee, which is why our intensive outpatient programme runs morning and evening tracks. You can keep a job and a school pickup schedule and still get 9 to 15 hours of clinical care a week."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "levels-of-care",
+      "kind": "cards",
+      "heading": "Every Level of Care in One Place",
+      "subheading": "Waukee clients can move between levels without changing providers.",
+      "body": [],
+      "items": [
+        {
+          "title": "Medical Detox",
+          "text": "Medically supervised withdrawal with 24/7 clinical monitoring.",
+          "icon": "",
+          "href": "/programs/medical-detox-des-moines"
+        },
+        {
+          "title": "Residential Inpatient",
+          "text": "Full-time inpatient care in a structured, private setting.",
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
+        },
+        {
+          "title": "Partial Hospitalization",
+          "text": "Full-day clinical programming without an overnight stay.",
+          "icon": "",
+          "href": "/programs/php-des-moines"
+        },
+        {
+          "title": "Intensive Outpatient",
+          "text": "Structured therapy on a schedule that fits work or school.",
+          "icon": "",
+          "href": "/programs/iop-des-moines"
+        },
+        {
+          "title": "Dual Diagnosis Treatment",
+          "text": "Integrated care for addiction and co-occurring mental health conditions.",
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
+        },
+        {
+          "title": "Aftercare & Alumni",
+          "text": "Alumni support and relapse-prevention planning after treatment.",
+          "icon": "",
+          "href": "/programs/aftercare-and-alumni"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "getting-here",
+      "kind": "prose",
+      "heading": "Getting here from Waukee",
+      "subheading": "",
+      "body": [
+        "We are at 5820 Winwood Dr, Johnston, IA 50131 — about 20 minutes from Waukee, with easy access from I-35, I-80 and I-235. Familiar landmarks nearby include Centennial Park, the Raccoon River Valley Trail and Waukee Landing."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "heading": "Start treatment near Waukee today",
+      "subheading": "",
+      "body": [
+        "Admissions specialists are available 24/7. Calls are free, confidential, and carry no obligation to enrol."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [],
+  "ctas": []
+}

@@ -53,11 +53,12 @@
         {
           "title": "Dual Diagnosis",
           "text": "Specialized care for co-occurring mental health disorders like depression, anxiety, and PTSD.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
         },
         {
           "title": "Location",
-          "text": "A premier clinical estate in Des Moines, offering immediate access to Central Iowa’s premier recovery network.",
+          "text": "A premier clinical campus in Johnston, minutes from Des Moines, offering immediate access to Central Iowa’s premier recovery network.",
           "icon": ""
         }
       ],
@@ -312,7 +313,7 @@
         },
         {
           "title": "Central Iowa’s Recovery Leader",
-          "text": "Located in the heart of Des Moines, we offer a premier clinical environment with a full continuum of care from detox to long-term sobriety.",
+          "text": "Minutes from downtown Des Moines, in Johnston, we offer a premier clinical environment with a full continuum of care from detox to long-term sobriety.",
           "icon": ""
         }
       ],
@@ -420,7 +421,7 @@
       "id": "faq",
       "kind": "faq",
       "heading": "Frequently Asked Questions",
-      "subheading": "ANSWERS & RESOURCES",
+      "subheading": "Answers & Resources",
       "body": [],
       "items": [],
       "faqs": [

@@ -1,0 +1,125 @@
+{
+  "slug": "areas-we-serve/polk-county",
+  "pageType": "area",
+  "seo": {
+    "title": "Polk County Drug & Alcohol Rehab | Des Moines Wellness Center",
+    "description": "Accredited addiction treatment for Polk County, Iowa — medical detox, residential rehab, PHP, IOP and dual-diagnosis care. 24/7 admissions."
+  },
+  "hero": {
+    "eyebrow": "Areas We Serve",
+    "headline": "Polk County Drug & Alcohol Rehab",
+    "subhead": "Accredited detox, residential and outpatient addiction treatment centrally located from Polk County.",
+    "image": {
+      "src": "",
+      "alt": ""
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "serving",
+      "kind": "prose",
+      "heading": "Treatment for Polk County, from our Johnston campus",
+      "subheading": "",
+      "body": [
+        "We are a Polk County facility treating Polk County residents. Our Johnston campus is central to the county, which means we work with the same hospitals, courts, employers and referral networks our clients already deal with — and that familiarity removes friction at exactly the moment someone is deciding whether to start treatment.",
+        "Because Polk County covers both dense urban neighbourhoods and quieter suburbs, the pressures people arrive with vary widely. Our assessment looks at your environment as much as your substance use, because the plan that works has to survive the place you go home to."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "levels-of-care",
+      "kind": "cards",
+      "heading": "Every Level of Care in One Place",
+      "subheading": "Polk County clients can move between levels without changing providers.",
+      "body": [],
+      "items": [
+        {
+          "title": "Medical Detox",
+          "text": "Medically supervised withdrawal with 24/7 clinical monitoring.",
+          "icon": "",
+          "href": "/programs/medical-detox-des-moines"
+        },
+        {
+          "title": "Residential Inpatient",
+          "text": "Full-time inpatient care in a structured, private setting.",
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
+        },
+        {
+          "title": "Partial Hospitalization",
+          "text": "Full-day clinical programming without an overnight stay.",
+          "icon": "",
+          "href": "/programs/php-des-moines"
+        },
+        {
+          "title": "Intensive Outpatient",
+          "text": "Structured therapy on a schedule that fits work or school.",
+          "icon": "",
+          "href": "/programs/iop-des-moines"
+        },
+        {
+          "title": "Dual Diagnosis Treatment",
+          "text": "Integrated care for addiction and co-occurring mental health conditions.",
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
+        },
+        {
+          "title": "Aftercare & Alumni",
+          "text": "Alumni support and relapse-prevention planning after treatment.",
+          "icon": "",
+          "href": "/programs/aftercare-and-alumni"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "getting-here",
+      "kind": "prose",
+      "heading": "Getting here from Polk County",
+      "subheading": "",
+      "body": [
+        "We are at 5820 Winwood Dr, Johnston, IA 50131 — centrally located from Polk County, with easy access from I-35, I-80 and I-235. Familiar landmarks nearby include Des Moines, Johnston, Ankeny, Urbandale, Altoona and Pleasant Hill."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "heading": "Start treatment near Polk County today",
+      "subheading": "",
+      "body": [
+        "Admissions specialists are available 24/7. Calls are free, confidential, and carry no obligation to enrol."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [],
+  "ctas": []
+}

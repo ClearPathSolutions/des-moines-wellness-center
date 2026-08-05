@@ -32,7 +32,7 @@
       "items": [
         {
           "title": "Location",
-          "text": "Comprehensive meth addiction services in the heart of Des Moines, Iowa.",
+          "text": "Comprehensive meth addiction services in Johnston, minutes from Des Moines, Iowa.",
           "icon": ""
         },
         {
@@ -54,6 +54,12 @@
           "title": "",
           "text": "Most insurance accepted and same-day admissions available.",
           "icon": ""
+        },
+        {
+          "title": "Dual Diagnosis Treatment",
+          "text": "Integrated care for addiction and co-occurring mental health conditions, treated together rather than in sequence.",
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
         }
       ],
       "faqs": [],
@@ -173,17 +179,20 @@
         {
           "title": "Residential Inpatient",
           "text": "Immersive Stabilization. Transition from detox into 24/7 structured care focused on intensive therapy and neuro-restoration.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
         },
         {
           "title": "Partial Hospitalization",
           "text": "Back to Real Life. High-level clinical support during the day while you begin practicing real-world coping skills.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/php-des-moines"
         },
         {
           "title": "Intensive Outpatient",
           "text": "Staying Sober Long-Term. Flexible sessions that support your return to the workforce or family life while maintaining your sober network.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/iop-des-moines"
         }
       ],
       "faqs": [],
@@ -380,6 +389,10 @@
       "image": {
         "src": "",
         "alt": ""
+      },
+      "primaryCta": {
+        "label": "(888) 378-2158",
+        "href": "tel:+18883782158"
       }
     }
   ],

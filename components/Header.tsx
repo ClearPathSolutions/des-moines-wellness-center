@@ -91,6 +91,11 @@ export default function Header({ nav, phone, phoneHref, siteName }: Props) {
             <Phone className="h-4 w-4" />
             {phone}
           </a>
+          {/* T-23 row 413: the insurance check is the site's primary non-phone
+              conversion path, so it belongs in the header on every page. */}
+          <Link href="/verify-insurance" className="btn-outline">
+            Verify Insurance
+          </Link>
         </div>
 
         {/* Mobile toggle */}
@@ -149,6 +154,13 @@ export default function Header({ nav, phone, phoneHref, siteName }: Props) {
               <Phone className="h-4 w-4" />
               {phone}
             </a>
+            <Link
+              href="/verify-insurance"
+              className="btn-outline mt-3 w-full"
+              onClick={() => setOpen(false)}
+            >
+              Verify Insurance
+            </Link>
           </div>
         </div>
       )}

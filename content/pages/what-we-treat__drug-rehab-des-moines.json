@@ -61,7 +61,7 @@
           "icon": ""
         },
         {
-          "title": "Located in Des Moines, serving Central Iowa and beyond",
+          "title": "Serving Des Moines and Central Iowa from our Johnston campus",
           "text": "",
           "icon": ""
         }
@@ -274,17 +274,20 @@
         {
           "title": "Residential Inpatient",
           "text": "24/7 Structure and Support. Live on-site in a fully structured environment with around-the-clock care. Provides intensive therapy, focused setting to build a strong foundation.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
         },
         {
           "title": "Partial Hospitalization (PHP)",
           "text": "Full-Day Treatment. PHP offers full-day care while allowing for more independence. You’ll participate in therapy and recovery work during the day and sleep in your home.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/php-des-moines"
         },
         {
           "title": "Intensive Outpatient (IOP)",
           "text": "Real-Life Integration. Structured therapy multiple days per week while allowing you to maintain work and responsibilities. Focus on applying recovery tools in real-world situations.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/iop-des-moines"
         },
         {
           "title": "Clinical Aftercare & Alumni",
@@ -392,7 +395,8 @@
         {
           "title": "Dual Diagnosis Treatment",
           "text": "We treat substance use and underlying mental health conditions together to improve stability and support long-term recovery.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
         },
         {
           "title": "Accredited, Evidence-Based Care",
@@ -406,7 +410,7 @@
         },
         {
           "title": "Premier Central Iowa Location",
-          "text": "Located in Des Moines, we serve Central Iowa with accessible, local drug addiction treatment.",
+          "text": "Based in Johnston, we serve Des Moines and Central Iowa with accessible, local drug addiction treatment.",
           "icon": ""
         }
       ],
@@ -430,6 +434,10 @@
       "image": {
         "src": "",
         "alt": ""
+      },
+      "primaryCta": {
+        "label": "(888) 378-2158",
+        "href": "tel:+18883782158"
       }
     },
     {
@@ -500,7 +508,7 @@
       "subheading": "Full-spectrum drug addiction treatment backed by experience and real support",
       "body": [
         "If you’re searching for drug rehab in Des Moines, finding the right level of care can make all the difference. At Des Moines Wellness Center, we provide a full continuum of addiction treatment, including medical detox, residential inpatient care, PHP, IOP, and aftercare, so you can start and continue recovery in one place. As part of Quadrant Health Group , our programs are backed by over 10 years of experience in addiction treatment, combining clinical expertise with structured, evidence-based care. From safely managing withdrawal during detox to building long-term recovery strategies in outpatient programs, our team is focused on helping you move forward with stability and support.",
-        "Located in Des Moines, we serve individuals across Central Iowa who are looking for effective, local drug rehab without the need to travel far from home. Whether you’re dealing with opioids, stimulants, prescription drugs, or co-occurring mental health conditions, treatment is personalized to your situation. Starting treatment can feel overwhelming, but you don’t have to figure it out alone. Our admissions team can help you understand your options, verify your insurance, and guide you toward the right program. Get started today."
+        "Based in Johnston, we serve Des Moines and Central Iowa who are looking for effective, local drug rehab without the need to travel far from home. Whether you’re dealing with opioids, stimulants, prescription drugs, or co-occurring mental health conditions, treatment is personalized to your situation. Starting treatment can feel overwhelming, but you don’t have to figure it out alone. Our admissions team can help you understand your options, verify your insurance, and guide you toward the right program. Get started today."
       ],
       "items": [],
       "faqs": [],
@@ -513,7 +521,7 @@
       "id": "faq",
       "kind": "faq",
       "heading": "Frequently Asked Questions",
-      "subheading": "ANSWERS & RESOURCES",
+      "subheading": "Answers & Resources",
       "body": [],
       "items": [],
       "faqs": [
@@ -553,6 +561,10 @@
       "image": {
         "src": "",
         "alt": ""
+      },
+      "primaryCta": {
+        "label": "(888) 378-2158",
+        "href": "tel:+18883782158"
       }
     }
   ],

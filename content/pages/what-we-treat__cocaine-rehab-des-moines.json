@@ -61,9 +61,15 @@
           "icon": ""
         },
         {
-          "title": "Located in the heart of Des Moines, IA",
+          "title": "In Johnston, minutes from downtown Des Moines, IA",
           "text": "",
           "icon": ""
+        },
+        {
+          "title": "Dual Diagnosis Treatment",
+          "text": "Integrated care for addiction and co-occurring mental health conditions, treated together rather than in sequence.",
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
         }
       ],
       "faqs": [],
@@ -239,7 +245,8 @@
         {
           "title": "Residential Inpatient",
           "text": "Immersive Stabilization\nStep into a structured, 24/7 environment where you can focus fully on recovery. This level of care helps you break the cycle of cocaine use and build a strong foundation away from daily triggers.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
         },
         {
           "title": "Outpatient (PHP & IOP)",
@@ -324,7 +331,7 @@
       "id": "faq",
       "kind": "faq",
       "heading": "Frequently Asked Questions",
-      "subheading": "ANSWERS & RESOURCES",
+      "subheading": "Answers & Resources",
       "body": [],
       "items": [],
       "faqs": [
@@ -364,6 +371,10 @@
       "image": {
         "src": "",
         "alt": ""
+      },
+      "primaryCta": {
+        "label": "(888) 378-2158",
+        "href": "tel:+18883782158"
       }
     }
   ],

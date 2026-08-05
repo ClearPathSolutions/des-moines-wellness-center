@@ -1,6 +1,7 @@
 import Hero from './Hero'
 import Section from './Section'
 import TrustindexReviews from './TrustindexReviews'
+import LocationMap from './LocationMap'
 import type { PageModel, SiteConfig, Section as SectionType } from '@/lib/types'
 import { verifiedAccreditations } from '@/lib/content'
 
@@ -19,11 +20,13 @@ type Props = {
   showAccreditations?: boolean
   /** Show the live Google Reviews widget (as on most of the original pages) */
   showReviews?: boolean
+  /** T-12: render the location map. Once per page, never twice. */
+  showMap?: boolean
   /** Extra content injected after the hero (e.g. collection grids on hub pages) */
   afterHero?: React.ReactNode
 }
 
-export default function PageRenderer({ page, config, showAccreditations, showReviews, afterHero }: Props) {
+export default function PageRenderer({ page, config, showAccreditations, showReviews, showMap, afterHero }: Props) {
   const renderable = (page.sections ?? []).filter(isRenderable)
   // Collapse runs of back-to-back CTA sections into the single richest one — stacked
   // dark CTA boxes (some pages had three in a row) read as repetitive and unbalanced.
@@ -67,6 +70,15 @@ export default function PageRenderer({ page, config, showAccreditations, showRev
         return nodes
       })}
       {reviewsAt === sections.length ? <TrustindexReviews /> : null}
+      {/* T-12: rendered once, after the page's own sections, so the pin is the
+          last thing a reader sees before the footer CTA. */}
+      {showMap ? (
+        <LocationMap
+          address={config.site.address.full}
+          phone={config.site.phone}
+          phoneHref={config.site.phoneHref}
+        />
+      ) : null}
     </>
   )
 }

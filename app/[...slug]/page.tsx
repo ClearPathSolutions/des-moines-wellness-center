@@ -147,6 +147,9 @@ export default async function CatchAllPage({
         config={config}
         showAccreditations={['program', 'condition', 'area', 'page'].includes(page.pageType)}
         showReviews={reviewsTypes.includes(page.pageType)}
+        // T-12: the location map belongs on every page a prospective patient
+        // might use to work out where we are. Excludes legal and blog pages.
+        showMap={['program', 'condition', 'area', 'page', 'hub-programs', 'hub-conditions', 'hub-areas'].includes(page.pageType)}
         afterHero={afterHero}
       />
 

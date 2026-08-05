@@ -65,6 +65,21 @@ function ItemHeading({
   return <Tag className="text-lg">{children}</Tag>
 }
 
+/** T-11: inline phone CTA for high-intent sections. The register flags "missing
+ *  call button" on job-protection and FMLA sections specifically — that reader is
+ *  deep in consideration, and making them scroll to find a number is the most
+ *  costly omission on the page. */
+function SectionCta({ cta }: { cta?: { label: string; href: string } }) {
+  if (!cta?.href) return null
+  const isPhone = cta.href.startsWith('tel:')
+  return (
+    <a href={cta.href} className={`${isPhone ? 'btn-primary' : 'btn-outline'} mt-6`}>
+      {isPhone ? <Phone className="h-4 w-4" /> : null}
+      {cta.label}
+    </a>
+  )
+}
+
 type SectionProps = {
   section: SectionType
   alt?: boolean
@@ -100,6 +115,7 @@ export default function Section({ section, alt, slug, phone, phoneHref, heroSrc 
                   <li key={i}>{item}</li>
                 ))}
               </ul>
+              <SectionCta cta={section.primaryCta} />
             </div>
           </div>
         </section>
@@ -144,6 +160,7 @@ export default function Section({ section, alt, slug, phone, phoneHref, heroSrc 
                   <p key={i}>{p}</p>
                 ))}
               </div>
+              <SectionCta cta={section.primaryCta} />
             </div>
             {hasImage ? (
               badge ? (
@@ -179,12 +196,38 @@ export default function Section({ section, alt, slug, phone, phoneHref, heroSrc 
                     <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-brand-50 text-brand">
                       <Icon className="h-6 w-6" />
                     </div>
-                    {it.title ? <ItemHeading hasSectionHeading={!!section.heading}>{it.title}</ItemHeading> : null}
+                    {it.title ? (
+                      <ItemHeading hasSectionHeading={!!section.heading}>
+                        {/* T-10: a card that names a page should link to it. */}
+                        {it.href ? (
+                          <Link href={it.href} className="text-brand-dark hover:text-brand">
+                            {it.title}
+                          </Link>
+                        ) : (
+                          it.title
+                        )}
+                      </ItemHeading>
+                    ) : null}
                     {it.text ? <p className="prose-brand mt-2 text-base">{it.text}</p> : null}
+                    {it.href ? (
+                      <Link
+                        href={it.href}
+                        className="mt-4 inline-block text-sm font-semibold text-brand hover:text-brand-dark"
+                      >
+                        Learn more
+                        {it.title ? <span className="sr-only"> about {it.title}</span> : null}
+                        <span aria-hidden="true"> &rarr;</span>
+                      </Link>
+                    ) : null}
                   </div>
                 )
               })}
             </div>
+            {section.primaryCta ? (
+              <div className="text-center">
+                <SectionCta cta={section.primaryCta} />
+              </div>
+            ) : null}
           </div>
         </section>
       )

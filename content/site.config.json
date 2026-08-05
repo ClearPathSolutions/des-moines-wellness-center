@@ -87,7 +87,11 @@
         "href": "/areas-we-serve",
         "children": [
           { "label": "Ankeny", "href": "/areas-we-serve/ankeny" },
-          { "label": "West Des Moines", "href": "/areas-we-serve/west-des-moines" }
+          { "label": "West Des Moines", "href": "/areas-we-serve/west-des-moines" },
+          { "label": "Urbandale", "href": "/areas-we-serve/urbandale" },
+          { "label": "Waukee", "href": "/areas-we-serve/waukee" },
+          { "label": "Polk County", "href": "/areas-we-serve/polk-county" },
+          { "label": "Dallas County", "href": "/areas-we-serve/dallas-county" }
         ]
       },
       { "label": "Admissions", "href": "/admissions" },
@@ -129,6 +133,7 @@
           { "label": "Virtual Tour", "href": "/tour" },
           { "label": "Therapies", "href": "/therapies" },
           { "label": "Admissions", "href": "/admissions" },
+          { "label": "Verify Insurance", "href": "/verify-insurance" },
           { "label": "Blog", "href": "/blog" },
           { "label": "Contact", "href": "/contact" }
         ]
@@ -138,8 +143,10 @@
         "links": [
           { "label": "Ankeny, IA", "href": "/areas-we-serve/ankeny" },
           { "label": "West Des Moines, IA", "href": "/areas-we-serve/west-des-moines" },
-          { "label": "Verify Insurance", "href": "/verify-insurance" },
-          { "label": "Privacy Policy", "href": "/privacy-policy" }
+          { "label": "Urbandale, IA", "href": "/areas-we-serve/urbandale" },
+          { "label": "Waukee, IA", "href": "/areas-we-serve/waukee" },
+          { "label": "Polk County, IA", "href": "/areas-we-serve/polk-county" },
+          { "label": "Dallas County, IA", "href": "/areas-we-serve/dallas-county" }
         ]
       }
     ],

@@ -61,9 +61,15 @@
           "icon": ""
         },
         {
-          "title": "Located in Des Moines with easy access across Central Iowa.",
+          "title": "In Johnston, minutes from Des Moines, with easy access across Central Iowa.",
           "text": "",
           "icon": ""
+        },
+        {
+          "title": "Dual Diagnosis Treatment",
+          "text": "Integrated care for addiction and co-occurring mental health conditions, treated together rather than in sequence.",
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
         }
       ],
       "faqs": [],
@@ -258,7 +264,8 @@
         {
           "title": "Residential Inpatient",
           "text": "Immersive Stabilization — Live at our private Des Moines facility while focusing fully on recovery. This structured program helps you step away from daily triggers, stabilize after detox, and begin addressing the underlying causes of benzodiazepine use.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
         },
         {
           "title": "Outpatient (PHP & IOP)",
@@ -297,7 +304,7 @@
       "id": "our-approach",
       "kind": "features",
       "heading": "Our Approach to Benzo Rehab in Des Moines, Iowa",
-      "subheading": "THE WAY WE HEAL benzo addiction",
+      "subheading": "The Way We Heal benzo addiction",
       "body": [
         "At our Des Moines center, we use a structured clinical approach designed to treat both benzodiazepine dependence and the underlying mental health conditions that drive it. Our programs combine safe gradual tapering and evidence-based therapies to help you stabilize and build long-term recovery. We offer:"
       ],
@@ -353,6 +360,10 @@
       "image": {
         "src": "",
         "alt": ""
+      },
+      "primaryCta": {
+        "label": "(888) 378-2158",
+        "href": "tel:+18883782158"
       }
     },
     {
@@ -409,7 +420,7 @@
       "body": [
         "If you’re searching for benzo rehab in Des Moines or broader Iowa, finding the right level of care is critical. Benzodiazepine dependence requires a structured, medically supervised approach, especially during withdrawal, when symptoms can become severe without proper support. At Des Moines Wellness Center, we provide medical detox and full-spectrum benzo rehab in Des Moines, IA, helping individuals safely taper off benzodiazepines and transition into ongoing treatment. From initial stabilization through residential care, outpatient programs, and aftercare planning, our programs are designed to support long-term recovery at every stage.",
         "As part of Quadrant Health Group , our care is backed by over 10 years of experience in addiction treatment across multiple facilities in the United States. This allows us to combine proven clinical standards, structured programming, and experienced staff with a personalized approach to care in Des Moines. Our team specializes in treating addiction to medications like Xanax, Ativan, Valium, and Klonopin, with a strong focus on dual diagnosis care for anxiety and related mental health conditions.",
-        "Located in Des Moines and serving communities across Iowa, our facility offers accessible care with easy access from I-35, I-80, and I-235, and close to Des Moines International Airport, making admissions and travel more convenient for both local and out-of-state clients. We accept most insurances and offer same-day admissions when necessary. If you or a loved one needs benzodiazepine addiction treatment in Des Moines, our team is here to help. Call now to speak with an admissions specialist or verify your insurance to get started."
+        "Based in Johnston and serving communities across Iowa, our facility offers accessible care with easy access from I-35, I-80, and I-235, and close to Des Moines International Airport, making admissions and travel more convenient for both local and out-of-state clients. We accept most insurances and offer same-day admissions when necessary. If you or a loved one needs benzodiazepine addiction treatment in Des Moines, our team is here to help. Call now to speak with an admissions specialist or verify your insurance to get started."
       ],
       "items": [],
       "faqs": [],
@@ -422,7 +433,7 @@
       "id": "faq",
       "kind": "faq",
       "heading": "Frequently Asked Questions",
-      "subheading": "ANSWERS & RESOURCES",
+      "subheading": "Answers & Resources",
       "body": [],
       "items": [],
       "faqs": [
@@ -462,6 +473,10 @@
       "image": {
         "src": "",
         "alt": ""
+      },
+      "primaryCta": {
+        "label": "(888) 378-2158",
+        "href": "tel:+18883782158"
       }
     }
   ],

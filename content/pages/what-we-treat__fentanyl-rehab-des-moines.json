@@ -62,8 +62,14 @@
         },
         {
           "title": "",
-          "text": "Located in Des Moines with easy access across Central Iowa.",
+          "text": "In Johnston, minutes from Des Moines, with easy access across Central Iowa.",
           "icon": ""
+        },
+        {
+          "title": "Dual Diagnosis Treatment",
+          "text": "Integrated care for addiction and co-occurring mental health conditions, treated together rather than in sequence.",
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
         }
       ],
       "faqs": [],
@@ -192,7 +198,8 @@
         {
           "title": "Residential Inpatient",
           "text": "Immersive Stabilization — 24/7 structured care focused on therapy, and relapse prevention in a supportive environment.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
         },
         {
           "title": "Outpatient (PHP & IOP)",
@@ -231,7 +238,7 @@
       "id": "our-approach",
       "kind": "cards",
       "heading": "Our Approach to Fentanyl Addiction Recovery in Iowa",
-      "subheading": "THE WAY WE HEAL fentanyl addiction",
+      "subheading": "The Way We Heal fentanyl addiction",
       "body": [
         "Fentanyl addiction requires a highly structured and clinically driven approach due to the intensity of withdrawal, cravings, and relapse risk. At Des Moines Wellness Center, treatment is designed to stabilize the body, address underlying factors, and build a clear path toward long-term recovery through every stage of care."
       ],
@@ -287,6 +294,10 @@
       "image": {
         "src": "",
         "alt": ""
+      },
+      "primaryCta": {
+        "label": "(888) 378-2158",
+        "href": "tel:+18883782158"
       }
     },
     {
@@ -357,7 +368,7 @@
       "subheading": "Get safe, physician-led treatment for fentanyl addiction",
       "body": [
         "Des Moines Wellness Center provides fentanyl addiction treatment in Des Moines with a full continuum of care, including medical detox, residential treatment, partial hospitalization (PHP) , and intensive outpatient programs (IOP) . Care is structured to address opioid dependence, withdrawal management, relapse prevention, and co-occurring mental health disorders.",
-        "As part of Quadrant Health Group , our programs are built on years of clinical experience and evidence-based practices, allowing clients to move through each level of care in one place without gaps in treatment. Located in Des Moines and serving communities across Iowa, our fentanyl rehab provides accessible fentanyl addiction treatment with convenient access from I-35, I-80, and I-235, and close proximity to Des Moines International Airport. We accept most insurance plans and offer same-day admissions when appropriate. If you or a loved one needs fentanyl addiction treatment in Des Moines, our team is available to help you take the first step. Don’t wait any more."
+        "As part of Quadrant Health Group , our programs are built on years of clinical experience and evidence-based practices, allowing clients to move through each level of care in one place without gaps in treatment. Based in Johnston and serving communities across Iowa, our fentanyl rehab provides accessible fentanyl addiction treatment with convenient access from I-35, I-80, and I-235, and close proximity to Des Moines International Airport. We accept most insurance plans and offer same-day admissions when appropriate. If you or a loved one needs fentanyl addiction treatment in Des Moines, our team is available to help you take the first step. Don’t wait any more."
       ],
       "items": [],
       "faqs": [],
@@ -379,13 +390,17 @@
       "image": {
         "src": "",
         "alt": ""
+      },
+      "primaryCta": {
+        "label": "(888) 378-2158",
+        "href": "tel:+18883782158"
       }
     },
     {
       "id": "faq",
       "kind": "faq",
       "heading": "Frequently Asked Questions",
-      "subheading": "ANSWERS & RESOURCES",
+      "subheading": "Answers & Resources",
       "body": [],
       "items": [],
       "faqs": [

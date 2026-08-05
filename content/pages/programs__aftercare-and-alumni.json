@@ -49,6 +49,12 @@
           "title": "Expert Transition Planning",
           "text": "Professional guidance to help you successfully reintegrate into your career and family life.",
           "icon": ""
+        },
+        {
+          "title": "Dual Diagnosis Treatment",
+          "text": "Integrated care for addiction and co-occurring mental health conditions, treated together rather than in sequence.",
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
         }
       ],
       "faqs": [],
@@ -195,22 +201,23 @@
       "items": [
         {
           "title": "PHP",
-          "text": "https://desmoinesrecovery.com/php-des-moines/",
+          "text": "Full-day clinical programming without an overnight stay.",
           "icon": ""
         },
         {
           "title": "IOP",
-          "text": "https://desmoinesrecovery.com/iop-des-moines/",
+          "text": "Structured therapy on a schedule that fits work or school.",
           "icon": ""
         },
         {
           "title": "Inpatient",
-          "text": "https://desmoinesrecovery.com/residential-rehab-des-moines/",
-          "icon": ""
+          "text": "Full-time inpatient care in a structured, private setting.",
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
         },
         {
           "title": "Outpatient",
-          "text": "https://desmoinesrecovery.com/outpatient-program-des-moines",
+          "text": "our outpatient program",
           "icon": ""
         }
       ],
@@ -270,7 +277,7 @@
       "id": "faq",
       "kind": "faq",
       "heading": "Frequently Asked Questions",
-      "subheading": "ANSWERS & RESOURCES",
+      "subheading": "Answers & Resources",
       "body": [],
       "items": [],
       "faqs": [

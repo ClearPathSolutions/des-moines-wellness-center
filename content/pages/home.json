@@ -42,7 +42,7 @@
         },
         {
           "title": "Location",
-          "text": "Located in Des Moines, IA, serving Polk County and broader Iowa",
+          "text": "Just outside Des Moines in Johnston, IA — serving Polk County and central Iowa",
           "icon": ""
         },
         {
@@ -87,7 +87,7 @@
       "subheading": "Welcome to Des Moines Wellness Center",
       "body": [
         "As a premier rehab center in Des Moines, Iowa, our facility provides a clinical sanctuary for individuals and families navigating the complexities of addiction and mental health. We bridge the gap between crisis and long-term stability by offering a full continuum of care, from medically supervised detox to intensive residential treatment and flexible outpatient programs (PHP/IOP).",
-        "Our approach is rooted in evidence-based clinical modalities and trauma-informed support, ensuring every patient receives a personalized recovery plan. Headquartered in the heart of Des Moines, we proudly serve the recovery needs of Polk County and the surrounding communities, including West Des Moines and Ankeny. Whether you are searching for local Iowa drug rehab services or specialized dual-diagnosis care, our board-certified team is dedicated to healing the root causes of substance use disorders in a safe, modern environment."
+        "Our approach is rooted in evidence-based clinical modalities and trauma-informed support, ensuring every patient receives a personalized recovery plan. Based in Johnston, minutes from downtown Des Moines, we proudly serve the recovery needs of Polk County and the surrounding communities, including West Des Moines and Ankeny. Whether you are searching for local Iowa drug rehab services or specialized dual-diagnosis care, our board-certified team is dedicated to healing the root causes of substance use disorders in a safe, modern environment."
       ],
       "items": [],
       "faqs": [],
@@ -108,27 +108,32 @@
         {
           "title": "Medical Detox",
           "text": "Safe Withdrawal Management — Begin your journey with a focus on safety. Our 24/7 clinical monitoring ensures a comfortable and medically managed withdrawal process from alcohol and drugs.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/medical-detox-des-moines"
         },
         {
           "title": "Residential Inpatient",
           "text": "24/7 Inpatient Care — Immerse yourself in a healing environment. Our inpatient residential rehab offers intensive, around-the-clock therapy and support for those needing a structured recovery setting.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
         },
         {
           "title": "Partial Hospitalization",
           "text": "Intensive Day Care — Receive high-level clinical support during the day while maintaining evening flexibility. PHP is the ideal bridge between residential care and community reintegration.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/php-des-moines"
         },
         {
           "title": "Intensive Outpatient (IOP)",
           "text": "Flexible Recovery — Balance life, work, and wellness. Our Des Moines IOP provides structured group and individual therapy sessions tailored to fit into your daily routine.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/iop-des-moines"
         },
         {
           "title": "Aftercare & Alumni",
           "text": "Lifelong Support — Recovery is a lifelong commitment. We provide comprehensive discharge planning, support groups, and alumni resources to ensure lasting success after treatment.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/aftercare-and-alumni"
         }
       ],
       "faqs": [],
@@ -215,17 +220,20 @@
         {
           "title": "Alcohol",
           "text": "Alcohol withdrawal requires precise medical management. Our Des Moines program provides a safe, clinical environment to navigate detox, followed by intensive therapy to address the root causes of Alcohol Use Disorder (AUD) and prevent chronic relapse.",
-          "icon": ""
+          "icon": "",
+          "href": "/what-we-treat/alcohol-rehab-des-moines"
         },
         {
           "title": "Benzodiazepines",
           "text": "Withdrawing from benzodiazepines like Xanax or Valium is a complex process that demands a specialized, safe taper. We provide 24/7 medical supervision to manage anxiety and physical symptoms, ensuring a stabilized transition to long-term recovery.",
-          "icon": ""
+          "icon": "",
+          "href": "/what-we-treat/benzo-rehab-des-moines"
         },
         {
           "title": "Fentanyl",
           "text": "Given the extreme potency of synthetic opioids, fentanyl recovery requires high-acuity medical intervention. Our Des Moines team specializes in the specific detox requirements for fentanyl, followed by intensive residential and outpatient support.",
-          "icon": ""
+          "icon": "",
+          "href": "/what-we-treat/fentanyl-rehab-des-moines"
         },
         {
           "title": "Marijuana",
@@ -235,17 +243,20 @@
         {
           "title": "Meth",
           "text": "Meth addiction can take a serious toll on both mental and physical health. Our evidence-based approach focuses on stabilizing the brain, reducing cravings, and helping clients rebuild structure, clarity, and long-term coping skills.",
-          "icon": ""
+          "icon": "",
+          "href": "/what-we-treat/meth-rehab-des-moines"
         },
         {
           "title": "Prescription Drugs",
           "text": "Misuse of prescription medications can quickly lead to dependence and serious health risks. Our treatment approach focuses on safe stabilization, managing withdrawal, and building the tools needed for lasting recovery.",
-          "icon": ""
+          "icon": "",
+          "href": "/what-we-treat/prescription-drug-rehab-des-moines"
         },
         {
           "title": "Cocaine",
           "text": "Cocaine and stimulant use can lead to intense cravings and long-term neurological effects. Our treatment focuses on restoring balance, managing triggers, and building the coping skills needed for sustained recovery.",
-          "icon": ""
+          "icon": "",
+          "href": "/what-we-treat/cocaine-rehab-des-moines"
         }
       ],
       "faqs": [],
@@ -364,32 +375,38 @@
         {
           "title": "West Des Moines",
           "text": "",
-          "icon": ""
+          "icon": "",
+          "href": "/areas-we-serve/west-des-moines"
         },
         {
           "title": "Ankeny",
           "text": "",
-          "icon": ""
+          "icon": "",
+          "href": "/areas-we-serve/ankeny"
         },
         {
           "title": "Urbandale",
           "text": "",
-          "icon": ""
+          "icon": "",
+          "href": "/areas-we-serve/urbandale"
         },
         {
           "title": "Waukee",
           "text": "",
-          "icon": ""
+          "icon": "",
+          "href": "/areas-we-serve/waukee"
         },
         {
           "title": "Polk County",
           "text": "",
-          "icon": ""
+          "icon": "",
+          "href": "/areas-we-serve/polk-county"
         },
         {
           "title": "Dallas County",
           "text": "",
-          "icon": ""
+          "icon": "",
+          "href": "/areas-we-serve/dallas-county"
         },
         {
           "title": "And more...",
@@ -415,7 +432,8 @@
         {
           "title": "Dual Diagnosis Treatment",
           "text": "We are a leading Des Moines dual diagnosis rehab, specializing in the integrated treatment of addiction and mental health. Our board-certified clinicians address the root causes of co-occurring disorders to ensure long-term stability.",
-          "icon": ""
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
         },
         {
           "title": "Accredited Clinical Programs",
@@ -474,7 +492,7 @@
       "id": "faq",
       "kind": "faq",
       "heading": "Frequently Asked Questions",
-      "subheading": "ANSWERS & RESOURCES",
+      "subheading": "Answers & Resources",
       "body": [],
       "items": [],
       "faqs": [
