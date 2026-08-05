@@ -329,6 +329,32 @@
         }
       ],
       "image": null
+    },
+    {
+      "id": "support-resources",
+      "kind": "cards",
+      "heading": "Local & National Support Resources",
+      "subheading": "Independent organizations offering information, helplines and community support.",
+      "body": [],
+      "items": [
+        {
+          "title": "Trusted Clinical Backing",
+          "text": "",
+          "icon": "",
+          "href": "https://quadranthealthgroup.com/"
+        },
+        {
+          "title": "Family and Medical Leave Act (FMLA)",
+          "text": "",
+          "icon": "",
+          "href": "https://www.dol.gov/agencies/whd/fmla"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
     }
   ],
   "images": [

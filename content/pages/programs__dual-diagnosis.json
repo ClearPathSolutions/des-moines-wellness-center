@@ -379,6 +379,50 @@
         }
       ],
       "image": null
+    },
+    {
+      "id": "support-resources",
+      "kind": "cards",
+      "heading": "Local & National Support Resources",
+      "subheading": "Independent organizations offering information, helplines and community support.",
+      "body": [],
+      "items": [
+        {
+          "title": "Dual diagnosis",
+          "text": "",
+          "icon": "",
+          "href": "https://pmc.ncbi.nlm.nih.gov/search/?term=dual+diagnosis+addiction&sort=relevance&size=10&display_snippets=show"
+        },
+        {
+          "title": "Substance Abuse and Mental Health Services Administration",
+          "text": "",
+          "icon": "",
+          "href": "https://www.samhsa.gov/"
+        },
+        {
+          "title": "Recovery Research Institute",
+          "text": "",
+          "icon": "",
+          "href": "https://www.recoveryanswers.org/"
+        },
+        {
+          "title": "Alcoholics Anonymous (AA)",
+          "text": "Access daily meetings and a strong sober fellowship through AA Des Moines Central Office.",
+          "icon": "",
+          "href": "https://aadesmoines.org/meetings/"
+        },
+        {
+          "title": "Quadrant Health Group",
+          "text": "",
+          "icon": "",
+          "href": "https://quadranthealthgroup.com/"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
     }
   ],
   "images": [

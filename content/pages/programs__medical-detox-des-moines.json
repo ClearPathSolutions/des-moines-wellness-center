@@ -488,6 +488,32 @@
         "src": "",
         "alt": ""
       }
+    },
+    {
+      "id": "support-resources",
+      "kind": "cards",
+      "heading": "Local & National Support Resources",
+      "subheading": "Independent organizations offering information, helplines and community support.",
+      "body": [],
+      "items": [
+        {
+          "title": "Multi-Dimensional Clinical Assessment",
+          "text": "",
+          "icon": "",
+          "href": "https://www.asam.org/asam-criteria"
+        },
+        {
+          "title": "Stabilization & 24/7 Monitoring",
+          "text": "",
+          "icon": "",
+          "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5597013/"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
     }
   ],
   "images": [

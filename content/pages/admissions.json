@@ -302,6 +302,74 @@
         "src": "",
         "alt": ""
       }
+    },
+    {
+      "id": "support-resources",
+      "kind": "cards",
+      "heading": "Local & National Support Resources",
+      "subheading": "Independent organizations offering information, helplines and community support.",
+      "body": [],
+      "items": [
+        {
+          "title": "Family and Medical Leave Act (FMLA)",
+          "text": "",
+          "icon": "",
+          "href": "https://www.dol.gov/agencies/whd/fmla"
+        },
+        {
+          "title": "short-term disability",
+          "text": "",
+          "icon": "",
+          "href": "https://www.adp.com/resources/articles-and-insights/articles/s/short-term-disability.aspx"
+        },
+        {
+          "title": "Alcoholics Anonymous (AA) Support Group - Des Moines District 7",
+          "text": "",
+          "icon": "",
+          "href": "https://aadesmoines.org/"
+        },
+        {
+          "title": "Your Life Iowa (Statewide Support)",
+          "text": "",
+          "icon": "",
+          "href": "https://yourlifeiowa.org/"
+        },
+        {
+          "title": "Full Circle Recovery Community Center",
+          "text": "",
+          "icon": "",
+          "href": "https://recoverfullcircle.org/"
+        },
+        {
+          "title": "SAMHSA (Substance Abuse and Mental Health Services Administration)",
+          "text": "",
+          "icon": "",
+          "href": "https://www.samhsa.gov/find-help/helplines/national-helpline"
+        },
+        {
+          "title": "NAMI (National Alliance on Mental Illness)",
+          "text": "",
+          "icon": "",
+          "href": "https://www.nami.org/"
+        },
+        {
+          "title": "ASAM (American Society of Addiction Medicine)",
+          "text": "",
+          "icon": "",
+          "href": "https://www.asam.org/"
+        },
+        {
+          "title": "NIDA (National Institute on Drug Abuse)",
+          "text": "",
+          "icon": "",
+          "href": "https://nida.nih.gov/"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
     }
   ],
   "images": [

@@ -311,6 +311,32 @@
         }
       ],
       "image": null
+    },
+    {
+      "id": "support-resources",
+      "kind": "cards",
+      "heading": "Local & National Support Resources",
+      "subheading": "Independent organizations offering information, helplines and community support.",
+      "body": [],
+      "items": [
+        {
+          "title": "Decade-Plus of Elite Network Expertise",
+          "text": "",
+          "icon": "",
+          "href": "https://quadranthealthgroup.com/"
+        },
+        {
+          "title": "family therapy sessions",
+          "text": "",
+          "icon": "",
+          "href": "https://www.ncbi.nlm.nih.gov/books/NBK571088/"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
     }
   ],
   "images": [

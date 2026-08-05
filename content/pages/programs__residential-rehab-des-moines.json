@@ -451,6 +451,32 @@
         }
       ],
       "image": null
+    },
+    {
+      "id": "support-resources",
+      "kind": "cards",
+      "heading": "Local & National Support Resources",
+      "subheading": "Independent organizations offering information, helplines and community support.",
+      "body": [],
+      "items": [
+        {
+          "title": "Quadrant Health Network",
+          "text": "",
+          "icon": "",
+          "href": "https://quadranthealthgroup.com/"
+        },
+        {
+          "title": "Physician-Led Clinical Care",
+          "text": "",
+          "icon": "",
+          "href": "https://www.asam.org/asam-criteria"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
     }
   ],
   "images": [

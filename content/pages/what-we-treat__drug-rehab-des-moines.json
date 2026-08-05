@@ -566,6 +566,50 @@
         "label": "(888) 378-2158",
         "href": "tel:+18883782158"
       }
+    },
+    {
+      "id": "support-resources",
+      "kind": "cards",
+      "heading": "Local & National Support Resources",
+      "subheading": "Independent organizations offering information, helplines and community support.",
+      "body": [],
+      "items": [
+        {
+          "title": "Substance Abuse and Mental Health Services Administration",
+          "text": "",
+          "icon": "",
+          "href": "https://www.samhsa.gov/"
+        },
+        {
+          "title": "Medication-Assisted Treatment (MAT)",
+          "text": "",
+          "icon": "",
+          "href": "https://oasas.ny.gov/providers/medication-addiction-treatment"
+        },
+        {
+          "title": "dual diagnosis",
+          "text": "",
+          "icon": "",
+          "href": "https://www.nami.org/blog/understanding-dual-diagnosis/"
+        },
+        {
+          "title": "National Institute on Drug Abuse (NIDA)",
+          "text": "Research-based information on drug addiction, treatment options, and recovery",
+          "icon": "",
+          "href": "https://nida.nih.gov/"
+        },
+        {
+          "title": "Quadrant Health Group",
+          "text": "",
+          "icon": "",
+          "href": "https://quadranthealthgroup.com/"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
     }
   ],
   "images": [

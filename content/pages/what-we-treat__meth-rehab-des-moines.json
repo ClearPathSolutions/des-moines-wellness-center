@@ -394,6 +394,56 @@
         "label": "(888) 378-2158",
         "href": "tel:+18883782158"
       }
+    },
+    {
+      "id": "support-resources",
+      "kind": "cards",
+      "heading": "Local & National Support Resources",
+      "subheading": "Independent organizations offering information, helplines and community support.",
+      "body": [],
+      "items": [
+        {
+          "title": "Current state reports",
+          "text": "",
+          "icon": "",
+          "href": "https://hhs.iowa.gov/media/15916/download?inline"
+        },
+        {
+          "title": "The Matrix Model",
+          "text": "",
+          "icon": "",
+          "href": "https://americanaddictioncenters.org/stimulants/meth/rehab-treatment"
+        },
+        {
+          "title": "Crystal Meth Anonymous (CMA) Iowa",
+          "text": "Peer-led fellowship focused on stimulant recovery.",
+          "icon": "",
+          "href": "https://www.crystalmeth.org/meetings/des-moines-cma-1st-and-3rd-sunday-of-the-month?region=usa-iowa&search=des+moines"
+        },
+        {
+          "title": "NAMI Iowa",
+          "text": "Education and support for families dealing with co-occurring challenges.",
+          "icon": "",
+          "href": "https://namiiowa.org/"
+        },
+        {
+          "title": "Iowa Narcotics Anonymous (NA)",
+          "text": "Local meetings in Ankeny, Urbandale, and West Des Moines.",
+          "icon": "",
+          "href": "https://www.narcotics.com/na-meetings/iowa/des-moines/"
+        },
+        {
+          "title": "Quadrant Health Group",
+          "text": "",
+          "icon": "",
+          "href": "https://quadranthealthgroup.com/"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
     }
   ],
   "images": [

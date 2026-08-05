@@ -452,6 +452,44 @@
         }
       ],
       "image": null
+    },
+    {
+      "id": "support-resources",
+      "kind": "cards",
+      "heading": "Local & National Support Resources",
+      "subheading": "Independent organizations offering information, helplines and community support.",
+      "body": [],
+      "items": [
+        {
+          "title": "Expert Clinical Staff",
+          "text": "",
+          "icon": "",
+          "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5597013/"
+        },
+        {
+          "title": "Family and Medical Leave Act (FMLA)",
+          "text": "",
+          "icon": "",
+          "href": "https://www.dol.gov/agencies/whd/fmla"
+        },
+        {
+          "title": "short-term disability",
+          "text": "",
+          "icon": "",
+          "href": "https://www.adp.com/resources/articles-and-insights/articles/s/short-term-disability.aspx"
+        },
+        {
+          "title": "Quadrant Health Group",
+          "text": "",
+          "icon": "",
+          "href": "https://quadranthealthgroup.com/"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
     }
   ],
   "images": [

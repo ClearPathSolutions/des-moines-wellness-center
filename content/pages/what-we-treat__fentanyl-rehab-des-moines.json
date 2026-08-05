@@ -426,6 +426,44 @@
         }
       ],
       "image": null
+    },
+    {
+      "id": "support-resources",
+      "kind": "cards",
+      "heading": "Local & National Support Resources",
+      "subheading": "Independent organizations offering information, helplines and community support.",
+      "body": [],
+      "items": [
+        {
+          "title": "Centers for Disease Control and Prevention",
+          "text": "",
+          "icon": "",
+          "href": "https://www.cdc.gov/"
+        },
+        {
+          "title": "Dual diagnosis",
+          "text": "",
+          "icon": "",
+          "href": "https://pmc.ncbi.nlm.nih.gov/search/?term=dual+diagnosis+addiction&sort=relevance&size=10&display_snippets=show"
+        },
+        {
+          "title": "SAMHSA",
+          "text": "24/7 confidential helpline (1-800-662-HELP) offering education, and support across the U.S.",
+          "icon": "",
+          "href": "https://www.samhsa.gov/"
+        },
+        {
+          "title": "Quadrant Health Group",
+          "text": "",
+          "icon": "",
+          "href": "https://quadranthealthgroup.com/"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
     }
   ],
   "images": [

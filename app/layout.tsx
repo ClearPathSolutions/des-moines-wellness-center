@@ -34,6 +34,10 @@ export const metadata: Metadata = {
     type: 'website',
     siteName: config.site.name,
     locale: 'en_US',
+    // Appendix D regression guard: seven other facilities are being corrected
+    // against this build's og:url, so it must equal the page's own canonical on
+    // every page — including the homepage, which inherits from here.
+    url: '/',
     images: [{ url: '/og.jpg', width: 1200, height: 630, alt: config.site.name }],
   },
   twitter: {

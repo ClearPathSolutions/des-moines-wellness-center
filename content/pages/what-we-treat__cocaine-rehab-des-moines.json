@@ -376,6 +376,44 @@
         "label": "(888) 378-2158",
         "href": "tel:+18883782158"
       }
+    },
+    {
+      "id": "support-resources",
+      "kind": "cards",
+      "heading": "Local & National Support Resources",
+      "subheading": "Independent organizations offering information, helplines and community support.",
+      "body": [],
+      "items": [
+        {
+          "title": "Cocaine addiction",
+          "text": "",
+          "icon": "",
+          "href": "https://nida.nih.gov/research-topics/cocaine"
+        },
+        {
+          "title": "dual diagnosis",
+          "text": "",
+          "icon": "",
+          "href": "https://www.nami.org/blog/understanding-dual-diagnosis/"
+        },
+        {
+          "title": "Family and Medical Leave Act (FMLA)",
+          "text": "",
+          "icon": "",
+          "href": "https://www.dol.gov/agencies/whd/fmla"
+        },
+        {
+          "title": "Quadrant Health Group",
+          "text": "",
+          "icon": "",
+          "href": "https://quadranthealthgroup.com/"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
     }
   ],
   "images": [

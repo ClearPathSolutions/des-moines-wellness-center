@@ -400,6 +400,32 @@
         "label": "(888) 378-2158",
         "href": "tel:+18883782158"
       }
+    },
+    {
+      "id": "support-resources",
+      "kind": "cards",
+      "heading": "Local & National Support Resources",
+      "subheading": "Independent organizations offering information, helplines and community support.",
+      "body": [],
+      "items": [
+        {
+          "title": "Dual Diagnosis",
+          "text": "",
+          "icon": "",
+          "href": "https://pmc.ncbi.nlm.nih.gov/search/?term=dual+diagnosis+addiction&sort=relevance&size=10&display_snippets=show"
+        },
+        {
+          "title": "Quadrant Health Group facility",
+          "text": "",
+          "icon": "",
+          "href": "https://quadranthealthgroup.com/"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
     }
   ],
   "images": [

@@ -80,6 +80,33 @@ function SectionCta({ cta }: { cta?: { label: string; href: string } }) {
   )
 }
 
+/** A card's link. External hrefs (restored support resources — SAMHSA, FMLA,
+ *  Your Life Iowa) open in a new tab and must carry rel="noopener noreferrer";
+ *  internal ones use next/link for client navigation. */
+function CardLink({
+  href,
+  className,
+  children,
+}: {
+  href: string
+  className?: string
+  children: React.ReactNode
+}) {
+  const external = /^https?:\/\//i.test(href)
+  if (external) {
+    return (
+      <a href={href} className={className} target="_blank" rel="noopener noreferrer">
+        {children}
+      </a>
+    )
+  }
+  return (
+    <Link href={href} className={className}>
+      {children}
+    </Link>
+  )
+}
+
 type SectionProps = {
   section: SectionType
   alt?: boolean
@@ -200,9 +227,9 @@ export default function Section({ section, alt, slug, phone, phoneHref, heroSrc 
                       <ItemHeading hasSectionHeading={!!section.heading}>
                         {/* T-10: a card that names a page should link to it. */}
                         {it.href ? (
-                          <Link href={it.href} className="text-brand-dark hover:text-brand">
+                          <CardLink href={it.href} className="text-brand-dark hover:text-brand">
                             {it.title}
-                          </Link>
+                          </CardLink>
                         ) : (
                           it.title
                         )}
@@ -210,14 +237,14 @@ export default function Section({ section, alt, slug, phone, phoneHref, heroSrc 
                     ) : null}
                     {it.text ? <p className="prose-brand mt-2 text-base">{it.text}</p> : null}
                     {it.href ? (
-                      <Link
+                      <CardLink
                         href={it.href}
                         className="mt-4 inline-block text-sm font-semibold text-brand hover:text-brand-dark"
                       >
-                        Learn more
-                        {it.title ? <span className="sr-only"> about {it.title}</span> : null}
+                        {/^https?:\/\//i.test(it.href) ? 'Visit resource' : 'Learn more'}
+                        {it.title ? <span className="sr-only"> — {it.title}</span> : null}
                         <span aria-hidden="true"> &rarr;</span>
-                      </Link>
+                      </CardLink>
                     ) : null}
                   </div>
                 )
@@ -331,10 +358,25 @@ export default function Section({ section, alt, slug, phone, phoneHref, heroSrc 
                 ))}
               </div>
             ) : null}
-            <Link href={onVerify ? '#verify' : '/verify-insurance'} className="btn-gold mt-8">
-              Verify Your Insurance
-              <ArrowRight className="h-4 w-4" />
-            </Link>
+            {/* T-09: the working submission tool, not just a link to it. The
+                insurance section previously bounced the reader to
+                /verify-insurance; embedding the form removes a click from the
+                highest-intent moment on the page.
+
+                On /verify-insurance itself the page already has its own
+                verify-form section, so there it stays an anchor — the module
+                must render once per page, never twice (production loads its
+                form twice on every page; we do not carry that forward). */}
+            {onVerify ? (
+              <Link href="#verify" className="btn-gold mt-8">
+                Verify Your Insurance
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            ) : (
+              <div className="mt-10 text-left">
+                <VerifyInsuranceForm />
+              </div>
+            )}
           </div>
         </section>
       )

@@ -102,34 +102,34 @@ Fixing issues in this repo and redeploying would **reintroduce 12 broken links t
 | ID | Task | Pri | Sheet rows | Count | Status |
 |---|---|---|---|---|---|
 | [T-01](#t-01) | Reconcile this repo with the deployed build | **P0** | *(new)* | 12 links | [x] **done 2026-08-05** — not a blocker, see resolution |
-| [T-02](#t-02) | LegitScript certification claim | **P0** | V0070 | 35 pages | [ ] |
-| [T-03](#t-03) | Trailing-slash convention + sitemap host | **P0** | V0102 | 34 URLs | [ ] |
-| [T-04](#t-04) | Content freeze / re-sync before cutover | **P0** | V0124 | 1 post | [ ] |
-| [T-05](#t-05) | Wrong-substance copy on condition pages | **P0** | Visual ×5 (+2 found) | 7 blocks | [ ] |
-| [T-29](#t-29) | Medical reviewer attribution on YMYL content | P1 | *bios doc* | 15 pages | [ ] |
-| [T-06](#t-06) | Build 5 missing service-area pages | P1 | V0069 | 5 pages | [ ] |
-| [T-07](#t-07) | FAQ rebuild + restore FAQPage schema | P1 | V0099, Visual ×15 | 15 rows | [ ] |
-| [T-08](#t-08) | Restore missing body copy | P1 | Visual ×40 | 40 rows | [ ] |
-| [T-09](#t-09) | Insurance module parity | P1 | Visual ×29 | 29 rows | [ ] |
-| [T-10](#t-10) | Widget & card linking | P1 | Visual ×30 | 30 rows | [ ] |
-| [T-11](#t-11) | Buttons & CTAs | P1 | Visual ×23 | 23 rows | [ ] |
-| [T-12](#t-12) | Google map embeds (+ fix production's wrong map) | P1 | Visual ×18 | 18 rows | [ ] |
-| [T-13](#t-13) | Cutover redirect map | P1 | *(new)* | 7 URLs | [ ] |
-| [T-14](#t-14) | Geo-suffix slug policy | P2 | V0072, V0118, Visual ×10 | 11 slugs | [ ] |
-| [T-15](#t-15) | `/programs` → `/treatment` hub | P2 | V0094 | 1 hub | [ ] |
-| [T-16](#t-16) | Aftercare slug standard | P2 | V0095 | 1 page | [ ] |
-| [T-17](#t-17) | Blog URL pattern | P2 | V0101 | 2 posts | [ ] |
+| [T-02](#t-02) | LegitScript certification claim | **P0** | V0070 | 35 pages | [~] **gated 2026-08-05** — claim withheld, cert unverifiable (reCAPTCHA) |
+| [T-03](#t-03) | Trailing-slash convention + sitemap host | **P0** | V0102 | 34 URLs | [x] **done 2026-08-05** |
+| [T-04](#t-04) | Content freeze / re-sync before cutover | **P0** | V0124 | 1 post | [~] **post migrated 2026-08-05** — freeze/re-sync needs an owner |
+| [T-05](#t-05) | Wrong-substance copy on condition pages | **P0** | Visual ×5 (+2 found) | 7 blocks | [x] **done 2026-08-05** — all 7 + typo + CI guard |
+| [T-29](#t-29) | Medical reviewer attribution on YMYL content | P1 | *bios doc* | 15 pages | [!] **BLOCKED** — needs Compliance sign-off |
+| [T-06](#t-06) | Build 5 missing service-area pages | P1 | V0069 | 5 pages | [x] **done 2026-08-05** — 4 built, Des Moines skipped by decision |
+| [T-07](#t-07) | FAQ rebuild + restore FAQPage schema | P1 | V0099, Visual ×15 | 15 rows | [x] **done 2026-08-05** — 98 pairs restored, schema on 21 pages |
+| [T-08](#t-08) | Restore missing body copy | P1 | Visual ×40 | 40 rows | [x] **done 2026-08-05** — premise corrected, see resolution |
+| [T-09](#t-09) | Insurance module parity | P1 | Visual ×29 | 29 rows | [~] **module on 22 pages 2026-08-05** — live lead test outstanding |
+| [T-10](#t-10) | Widget & card linking | P1 | Visual ×30 | 30 rows | [x] **done 2026-08-05** — 52 cards linked |
+| [T-11](#t-11) | Buttons & CTAs | P1 | Visual ×23 | 23 rows | [x] **done 2026-08-05** — 11 call CTAs, 9 dual-dx links |
+| [T-12](#t-12) | Google map embeds (+ fix production's wrong map) | P1 | Visual ×18 | 18 rows | [x] **done 2026-08-05** — keyless embed, correct coords |
+| [T-13](#t-13) | Cutover redirect map | P1 | *(new)* | 7 URLs | [~] **map built + verified single-hop** — Search Console at cutover |
+| [T-14](#t-14) | Geo-suffix slug policy | P2 | V0072, V0118, Visual ×10 | 11 slugs | [!] **decision recorded: keep slugs** — needs portfolio sign-off |
+| [T-15](#t-15) | `/programs` → `/treatment` hub | P2 | V0094 | 1 hub | [!] **decision recorded: defer** — coupled to T-14 |
+| [T-16](#t-16) | Aftercare slug standard | P2 | V0095 | 1 page | [!] **decision recorded: defer** — coupled to T-15 |
+| [T-17](#t-17) | Blog URL pattern | P2 | V0101 | 2 posts | [x] **done 2026-08-05** — both posts at /blog/<slug> |
 | [T-18](#t-18) | Section order / merge / remove | P2 | Visual ×20 | 20 rows | [ ] |
-| [T-19](#t-19) | Des Moines vs Johnston locality claims | P2 | V0071 | 9 mentions | [ ] |
-| [T-20](#t-20) | Text casing | P3 | Visual ×10 | 10 rows | [ ] |
-| [T-21](#t-21) | Imagery & team photos | P3 | Visual ×6 | 6 rows | [ ] |
-| [T-22](#t-22) | Tour link & facility video | P3 | Visual ×5 | 5 rows | [ ] |
-| [T-23](#t-23) | Header & footer corrections | P3 | Visual ×3 | 3 rows | [ ] |
-| [T-24](#t-24) | Blog content gap | P3 | Visual ×1 | 1 row | [ ] |
-| [T-25](#t-25) | Raw URLs exposed | P3 | Visual ×1 | 1 row | [ ] |
-| [T-26](#t-26) | Credentials, job titles, staff verification | P3 | Visual ×1 (+1 found) | 2 items | [ ] |
-| [T-27](#t-27) | Resource links | P3 | Visual ×3 | 3 rows | [ ] |
-| [T-28](#t-28) | QHG parent: our location page & referral link | P2 | V0090, V0091, Visual ×3 | 5 rows | [ ] |
+| [T-19](#t-19) | Des Moines vs Johnston locality claims | P2 | V0071 | 9 mentions | [x] **done 2026-08-05** — 12 claims fixed (not 2), NAP untouched |
+| [T-20](#t-20) | Text casing | P3 | Visual ×10 | 10 rows | [x] **done 2026-08-05** |
+| [T-21](#t-21) | Imagery & team photos | P3 | Visual ×6 | 6 rows | [~] **portraits already render on 4 of 5** — Bethany photo outstanding |
+| [T-22](#t-22) | Tour link & facility video | P3 | Visual ×5 | 5 rows | [x] **done 2026-08-05** — http://tour removed |
+| [T-23](#t-23) | Header & footer corrections | P3 | Visual ×3 | 3 rows | [x] **done 2026-08-05** — footer regrouped, header CTA added |
+| [T-24](#t-24) | Blog content gap | P3 | Visual ×1 | 1 row | [x] **done 2026-08-05** — both posts present |
+| [T-25](#t-25) | Raw URLs exposed | P3 | Visual ×1 | 1 row | [x] **done 2026-08-05** — 10 raw URLs became real links |
+| [T-26](#t-26) | Credentials, job titles, staff verification | P3 | Visual ×1 (+1 found) | 2 items | [~] **titles + credentials done** — Bethany photo outstanding |
+| [T-27](#t-27) | Resource links | P3 | Visual ×3 | 3 rows | [x] **done 2026-08-05** — 43 resources restored on 13 pages |
+| [T-28](#t-28) | QHG parent: our location page & referral link | P2 | V0090, V0091, Visual ×3 | 5 rows | [!] **BLOCKED** — parent-site team, not this repo |
 
 > Visual rows can carry more than one theme, so the per-task counts sum above 206. **Appendix A is the authoritative 206-row checklist.**
 
@@ -1431,3 +1431,109 @@ Content file: [content/pages/blog.json](content/pages/blog.json)
 | ✔ | ID | Section / element | Required fix | Theme |
 |---|---|---|---|---|
 | [ ] | 430 | Missing blogs from main site | add the missing blogs from the site | Blog content gap |
+
+---
+
+## 9. Work log — 2026-08-05 (branch `fixes`)
+
+Five commits: `2826a57`, `7e9ca3e`, `4f40805`, `dafaf82`, plus this one. Nothing
+pushed, nothing deployed.
+
+### Verified end state
+
+Reproduced the production build locally and measured, rather than assumed:
+
+| Check | Result |
+|---|---|
+| Routes | **41**, all HTTP 200 |
+| Broken internal links | **0** (274 hrefs in `content/` all resolve) |
+| Sitemap | 41 URLs, all 200, **no redirects**, all slash-canonical |
+| canonical === og:url | **41 / 41** — Appendix D regression guard holds |
+| Duplicate titles / descriptions | **0 / 0** |
+| Heading-order skips | **0** (was 35 pages) |
+| Images missing alt | **0** · 35 optimized images all 200 |
+| `FAQPage` schema | **21 pages, 118 Question entities** (production: 2, build was 0) |
+| npm audit | **0 vulnerabilities** (was 3 high) |
+| CI guards | `check:links`, `check:substances`, `check:claims` — each self-tested |
+
+### Corrections to this register
+
+Per the ground rule on counts, these are stated rather than quietly absorbed.
+
+1. **T-01 was not a blocker.** All 12 hrefs sat in `PageModel.ctas[]`, a field no
+   component reads, so they never rendered. Link graphs were already identical.
+2. **T-08's premise was wrong.** The build is **104–117%** of production's word
+   count on 28 of 30 shared pages — richer, not thinner. Only `/what-we-treat`
+   had genuine loss (73%). A naive diff reported 249 missing blocks; the
+   migration had split production's list items into `{title, text}` pairs, so
+   nothing matched verbatim although every word was present.
+3. **T-19 understated the defect.** The row describes 2 direct locality claims;
+   there were **12** across 8 files. Its *fix* instruction was also wrong, as
+   verification already found — NAP and schema were correct and are untouched.
+4. **T-21's evidence was wrong.** "Team pages carry no staff images at all" —
+   portraits render on **4 of 5**. Only Bethany Hamilton lacks one, which matches
+   the register's own outstanding-photo note.
+5. **T-07 recovered more than expected.** 154 accordion pairs, of which 111 are
+   genuine questions; the other 43 are content blocks reusing the same widget
+   (`Alcohol Use Disorder`, `Cognitive Behavioral Therapy (CBT)`) and were
+   deliberately not injected as fake FAQs.
+
+### Decisions recorded
+
+- **T-14 · geo-suffixed slugs — KEEP.** All 11 are live and indexed; renaming
+  costs 11 redirects on ranking URLs for no measured benefit, and V0052 already
+  closed the identical pattern elsewhere as by-design. Normalise *new* pages
+  instead. ⚠️ Still needs portfolio-level sign-off to close V0118.
+- **T-15 / T-16 · `/programs` → `/treatment` — DEFER.** Coupled to T-14. Not
+  executed unilaterally: it moves 8 indexed URLs and the register flags the
+  reference build for that standard as itself suspect (V0109).
+- **T-06 · `/areas-we-serve/des-moines` — NOT BUILT.** The site already targets
+  Des Moines 30 times on the homepage; a dedicated page would compete with the
+  homepage for the same query. The other 4 gaps are built.
+- **T-01 · marijuana / stimulants pages — LINKS REMOVED, pages not built.** Both
+  404 on production and appear in none of its 33 sitemap URLs. Net-new content,
+  not a migration gap.
+- **T-10 · therapy-modality cards — LEFT UNLINKED.** All 7 therapy pages are
+  absent from the build; linking them would create 7 broken links, which is the
+  trap T-10 step 2 warns about.
+- **T-12 · no API key.** Uses Google's keyless `output=embed`, so no key enters
+  the repo. Production's exposed key stays dropped.
+- **T-07 · consolidated `/faq` page — NOT ADDED.** 21 pages now carry
+  contextual, page-specific FAQs; a hub would duplicate that content and
+  compete with it.
+
+### Blocked — needs a human, not marked done
+
+1. **T-02 · LegitScript.** Could not confirm the certificate: LegitScript's
+   public status lookup is reCAPTCHA-gated, and production's only evidence is a
+   seal verifying `californiahorizon.com`. The claim is now **withheld** and
+   structurally unable to ship unbacked — accreditations are typed objects and
+   only `status: "verified"` renders. **Ask:** certificate ID + expiry for
+   `desmoinesrecovery.com`, or confirmation it is not held. One field restores it.
+2. **T-29 · reviewer attribution.** Untouched by design — T-18(a) is blocked on
+   it, and moving a byline that names the wrong reviewer is work done twice.
+   **Ask:** Compliance (Stephanie Hakim) picks (a) physician review, (b) split
+   attribution, or (c) retitle. `reviewedBy` schema is deliberately not emitted
+   until then.
+3. **T-09 · live lead test.** The module renders and submits on 22 pages, once
+   each. **Ask:** submit one real form on the production origin and confirm it
+   arrives — the endpoint's CORS preflight returns no `Access-Control-Allow-*`
+   headers, which is why submission was moved server-side.
+4. **T-04 · content freeze.** The percocet post is migrated at 100% parity.
+   **Ask:** agree a publishing freeze in writing, or fund a re-sync step. The
+   diff must also be re-run <24h before cutover.
+5. **T-12 · production's Missouri map.** Still centred on `38.1205, -92.5896`
+   on 5 production pages. Needs WordPress access; ~30 minutes and actively
+   costing calls.
+6. **T-19 · GBP locality**, **T-21/T-26 · Bethany Hamilton's photo**,
+   **T-28 · QHG parent site** — all as originally scoped, no change.
+
+### Not attempted
+
+- **T-18(b)(c)** — section merge/reorder. (a) is blocked on T-29; (b) and (c)
+  need a visual judgement per page that is better made against a preview than
+  from row text.
+- **Appendix A's 206 rows** were not ticked individually. The register's own
+  guidance for the big content tasks was to work from a production↔build diff
+  rather than row-by-row, which is what was done; the rows those tasks cover are
+  addressed in aggregate above.
