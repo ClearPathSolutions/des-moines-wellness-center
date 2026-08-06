@@ -1642,3 +1642,35 @@ Medicine and Addiction Medicine and currently absent from the site entirely — 
 needs. Neither is placed: T-29 is an attribution decision, not an asset gap. But
 step 3 of T-29 ("add the reviewer to `/team` with a bio") no longer has a missing
 photo standing in its way once the model is chosen.
+
+### Addendum 4 — image placement corrected (2026-08-06)
+
+The owner flagged that several image placements did not make sense. An audit of
+all 38 heroes confirmed it: **four images were used on two pages each while 26
+optimized images sat unused**, and six pairings were weak or plainly wrong.
+
+| Page | Was | Now | Why |
+|---|---|---|---|
+| `/team` | reception-admin (an empty desk) | **no hero image** | "Meet Our Team" beside an empty office was the worst pairing on the site. The page's content *is* the portrait grid, and `Hero` renders full-width when there is no image, so leading with the faces is the right answer rather than hunting for a less-bad room. |
+| `/what-we-treat/alcohol-rehab` | nurses-station-wide | **lounge-tv** | The nursing station's dark polished-wood counter reads as a **bar**. On an alcohol page specifically that association is worth avoiding whatever the room actually is. |
+| `/programs/php-des-moines` | dining-room | **group-lounge-large** | PHP is full-day clinical programming; a dining room read as a canteen. |
+| `/what-we-treat/drug-rehab` | study-room | **bedroom-twin** | A study room has nothing to do with drug rehab. |
+| `/areas-we-serve/polk-county` | aerial-overhead | **aerial-central-iowa** | A top-down roof shot says nothing about a county. |
+| `/what-we-treat/prescription-drug` | clinician-office (empty desk) | **consult-room** | Misuse starts with a prescription, so a clinical conversation. |
+| blog post | courtyard-building (a brick wall) | **patio-covered** | A calmer setting for long-form reading. |
+| `/programs` hub | group-lounge-large *(dup)* | **corridor-seating** | The corridor is the spine linking every level of care. |
+| `/what-we-treat/benzo` | nurses-station *(dup)* | **clinician-office** | A benzo taper is clinician-managed. |
+| `/what-we-treat/fentanyl` | nurses-station-wide | **bedroom-ensuite** | High-acuity detox means an inpatient stay. |
+| `/what-we-treat/cocaine` | therapy-room *(dup)* | **quiet-room** | Stimulant withdrawal is a crash; a decompression room is clinically apt. |
+| `/what-we-treat/meth` | group-lounge-large *(dup)* | **bedroom-window** | Meth recovery is a long stabilisation. |
+| `/what-we-treat` §3 | therapy-nook | **meditation-chairs** | Was identical to that page's own hero. |
+| `/therapies` §2 | dining-recreation | **exterior-entrance-doors** | "A Trusted Clinical Partner" is a credibility claim; a rec room did not carry it. |
+
+The rule now applied to condition pages: **clinical where withdrawal is medically
+dangerous** (benzo, fentanyl, prescription), **residential or recovery-led where
+the work is behavioural** (alcohol, cocaine, meth, drug).
+
+Verified: **37 heroes, 37 distinct images, 0 duplicates, 0 pages showing the same
+room twice.** Each remapped page was screenshot and judged in context rather than
+assumed — which is how the `/team` and alcohol-page problems were caught, since
+both looked fine as filenames and wrong as pictures.
