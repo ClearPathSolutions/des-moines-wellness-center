@@ -785,7 +785,15 @@ This is the most-repeated single complaint in the entire 206. For YMYL medical c
 **(b) "Levels Of Care" duplicates an adjacent section — 5 rows** (447, 455, 464 + 441, 495)
 > "*remove section or merge with [the adjacent continuum-of-care section]*"
 
-**(c) Ordering** — 486 (`/team`: intro above the member list, since it says "select any team member below"), 604 (homepage: swap two sections), 495 (`/what-we-treat`: make "Targeted Solutions" first).
+**(c) Ordering** — 486 (`/team`), 604 (homepage: swap two sections), 495 (`/what-we-treat`: make "Targeted Solutions" first).
+
+> **Row 486 reversed on owner instruction — 2026-08-06.** The row asked for the intro
+> *above* the member list, because its copy read "select any team member below," and that
+> is how it was first built. The owner's objection: on a page titled *Meet Our Team*, the
+> team was the **third** thing on the page — hero, then a paragraph of boilerplate, then
+> faces. The grid now renders directly under the hero via `afterHero`, and the copy that
+> forced the old order was rewritten to be position-independent. The row's stated fix was
+> followed literally at first; the intent behind it was wrong for the page.
 
 **Steps**
 1. Move the reviewer byline into the template, rendering under the `h1` on all 13 pages.

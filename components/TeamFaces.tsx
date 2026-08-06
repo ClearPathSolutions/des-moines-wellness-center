@@ -1,18 +1,20 @@
 import Link from 'next/link'
 import SmartImage from './SmartImage'
 import { resolveImage } from '@/lib/images'
+import { GRID_WRAP, gridItem } from '@/lib/layout'
 import type { PageModel } from '@/lib/types'
 
 /**
- * "Faces Behind Your Care" — T-21 row 409.
+ * The team grid, used in two places:
+ *   - `/team` as the page's primary content, directly under the hero
+ *   - `/about` as the "faces behind your care" teaser
  *
- * Uses the real staff portraits already in the repo. Anyone without a photo is
- * shown with their initials rather than a stock headshot or a broken frame:
- * Bethany Hamilton's photo is genuinely outstanding (T-26), and inventing a face
- * for a named clinician on a treatment site would be worse than an initial.
+ * Real staff portraits only. Anyone without a photo gets their initials rather
+ * than a stock headshot — inventing a face for a named clinician on a treatment
+ * site would be worse than an initial.
  *
  * Portraits are portrait-orientation, so they get a 4:5 frame anchored to the
- * top — the crop that keeps heads intact.
+ * top: the crop that keeps heads intact.
  */
 
 function initials(name: string) {
@@ -33,40 +35,68 @@ function roleFrom(alt: string | undefined, headline: string) {
   return tail || null
 }
 
-export default function TeamFaces({ team }: { team: PageModel[] }) {
+/**
+ * Split "Parneet “Pam” Sahota, MA, LMHC, IADC, CCMHC" into the name and the
+ * post-nominals, so a five-credential clinician doesn't render as one cramped
+ * line. Only splits when every trailing comma-separated token actually looks
+ * like a credential; otherwise the headline is left whole.
+ */
+function splitCredentials(headline: string): { name: string; creds: string | null } {
+  const parts = headline.split(',').map((p) => p.trim())
+  if (parts.length < 2) return { name: headline, creds: null }
+  const tail = parts.slice(1)
+  const looksLikeCredential = (t: string) =>
+    /^[A-Za-z.]{2,8}$/.test(t) && !/[a-z]{3}/.test(t)
+  if (!tail.every(looksLikeCredential)) return { name: headline, creds: null }
+  return { name: parts[0], creds: tail.join(', ') }
+}
+
+type Props = {
+  team: PageModel[]
+  eyebrow?: string
+  heading?: string
+  intro?: string
+}
+
+export default function TeamFaces({
+  team,
+  eyebrow = 'Our People',
+  heading = 'The faces behind your care',
+  intro = 'You will work with the same small clinical team throughout your stay, not a rotating roster.',
+}: Props) {
   if (!team.length) return null
 
   return (
     <section className="section bg-white">
       <div className="container-page">
-        <div className="mx-auto mb-10 max-w-2xl text-center">
-          <p className="eyebrow">Our People</p>
-          <h2 className="mt-3">The faces behind your care</h2>
-          <p className="prose-brand mt-4 text-lg">
-            You will work with the same small clinical team throughout your stay, not a
-            rotating roster.
-          </p>
-        </div>
+        {heading ? (
+          <div className="mx-auto mb-10 max-w-2xl text-center">
+            {eyebrow ? <p className="eyebrow">{eyebrow}</p> : null}
+            <h2 className="mt-3">{heading}</h2>
+            {intro ? <p className="prose-brand mt-4 text-lg">{intro}</p> : null}
+          </div>
+        ) : null}
 
-        <ul className="mx-auto grid max-w-5xl gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <ul className={GRID_WRAP}>
           {team.map((person) => {
-            const name = person.hero.headline
-            const role = roleFrom(person.hero.image?.alt, name)
+            const headline = person.hero.headline
+            const { name, creds } = splitCredentials(headline)
+            const role = roleFrom(person.hero.image?.alt, headline)
             const portrait = resolveImage(person.hero.image?.src)
             return (
               <li
                 key={person.slug}
-                className="overflow-hidden rounded-2xl border border-line bg-white shadow-card"
+                className={`${gridItem(team.length)} overflow-hidden rounded-2xl border border-line bg-white shadow-card transition-transform hover:-translate-y-1`}
               >
-                <Link href={`/${person.slug}`} className="block">
-                  <div className="relative aspect-[4/5] w-full bg-brand-50">
+                <Link href={`/${person.slug}`} className="group block h-full">
+                  <div className="relative aspect-[4/5] w-full overflow-hidden bg-brand-50">
                     {portrait ? (
                       <SmartImage
                         src={person.hero.image!.src}
                         alt={person.hero.image!.alt || name}
                         fill
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                        className="object-cover object-top"
+                        className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
                       />
                     ) : (
                       <span className="absolute inset-0 flex items-center justify-center font-heading text-4xl font-semibold text-brand/40">
@@ -75,10 +105,16 @@ export default function TeamFaces({ team }: { team: PageModel[] }) {
                     )}
                   </div>
                   <div className="p-5">
-                    <h3 className="font-heading text-lg font-semibold text-brand-dark">
+                    {/* Role leads in colour — it is what a reader scans this grid for. */}
+                    {role ? (
+                      <p className="text-sm font-semibold uppercase tracking-wide text-brand">
+                        {role}
+                      </p>
+                    ) : null}
+                    <h3 className="mt-1 font-heading text-lg font-semibold text-brand-dark">
                       {name}
                     </h3>
-                    {role ? <p className="mt-1 text-sm text-muted">{role}</p> : null}
+                    {creds ? <p className="mt-1 text-sm text-muted">{creds}</p> : null}
                   </div>
                 </Link>
               </li>

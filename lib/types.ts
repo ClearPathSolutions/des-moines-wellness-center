@@ -59,6 +59,10 @@ export type PageModel = {
   sections: Section[]
   images: ImageRef[]
   ctas: Cta[]
+  /** Explicit display order within a collection. Pages load in filename order,
+   *  which for /team meant alphabetical by first name — a meaningless sequence
+   *  for a leadership page. Lower sorts first; unset sorts last. */
+  order?: number
 }
 
 export type NavItem = { label: string; href: string; children?: NavItem[] }

@@ -8,7 +8,7 @@
   "hero": {
     "eyebrow": "The Faces Behind Your Care",
     "headline": "Meet Our Team",
-    "subhead": "Our leadership and clinical team bring years of experience in addiction medicine, nursing, and behavioral health to every patient we serve. Get to know the people guiding your recovery.",
+    "subhead": "The clinicians and leaders who will care for you, and what each of them brings.",
     "image": {
       "src": "",
       "alt": ""
@@ -27,10 +27,9 @@
       "id": "team-intro",
       "kind": "prose",
       "heading": "Experienced, Compassionate, Local",
-      "subheading": "OUR LEADERSHIP",
+      "subheading": "Why Our Team Matters",
       "body": [
-        "Des Moines Wellness Center is led by a multidisciplinary team of board-certified clinicians and healthcare professionals with a shared commitment to evidence-based, trauma-informed care. From medical detox to long-term aftercare, our staff bring decades of collective experience to Iowa's recovery community.",
-        "Select any team member below to learn more about their background, credentials, and role in your care."
+        "Des Moines Wellness Center is led by a multidisciplinary team of board-certified clinicians and healthcare professionals with a shared commitment to evidence-based, trauma-informed care. From medical detox to long-term aftercare, our staff bring decades of collective experience to Iowa's recovery community."
       ],
       "items": [],
       "faqs": [],

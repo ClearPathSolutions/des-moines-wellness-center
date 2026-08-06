@@ -93,6 +93,11 @@ export default async function CatchAllPage({
   const { site } = config
   const all = getAllPages()
   const byType = (t: string) => all.filter((p) => p.pageType === t)
+  // Pages load in filename order. Team members carry an explicit `order` so the
+  // grid reads by seniority rather than alphabetically by first name.
+  const team = byType('team').sort(
+    (a, b) => (a.order ?? Infinity) - (b.order ?? Infinity),
+  )
   const url = canonicalUrl(site.url, '/' + slug.join('/'))
 
   // T-18(c) rows 486/495: hub collection grids render BELOW the page's own
@@ -113,15 +118,6 @@ export default async function CatchAllPage({
         heading="Conditions We Treat"
         subheading="Specialized, evidence-based care for substance use and co-occurring disorders."
         pages={byType('condition')}
-        alt
-      />
-    )
-  } else if (page.pageType === 'hub-team') {
-    collection = (
-      <CollectionGrid
-        heading="Our Team"
-        subheading="Board-certified clinicians and leadership guiding your recovery."
-        pages={byType('team')}
         alt
       />
     )
@@ -149,8 +145,21 @@ export default async function CatchAllPage({
 
   // T-21 row 409: real staff portraits on /about, linking to each bio.
   if (page.slug === 'about') {
-    collection = <TeamFaces team={byType('team')} />
+    collection = <TeamFaces team={team} />
   }
+
+  // On /team the people ARE the page, so the grid goes directly under the hero —
+  // ahead of the "Our Leadership" prose, which is supporting detail. Passed as
+  // afterHero rather than afterFirstSection for that reason.
+  const afterHero =
+    page.pageType === 'hub-team' ? (
+      <TeamFaces
+        team={team}
+        eyebrow="Our Leadership"
+        heading="The people guiding your care"
+        intro="Every profile covers their background, credentials, and role in your treatment."
+      />
+    ) : null
 
   const reviewsTypes = [
     'program', 'condition', 'area', 'page',
@@ -171,6 +180,7 @@ export default async function CatchAllPage({
         // T-12: the location map belongs on every page a prospective patient
         // might use to work out where we are. Excludes legal and blog pages.
         showMap={['program', 'condition', 'area', 'page', 'hub-programs', 'hub-conditions', 'hub-areas'].includes(page.pageType)}
+        afterHero={afterHero}
         afterFirstSection={collection}
       />
 
