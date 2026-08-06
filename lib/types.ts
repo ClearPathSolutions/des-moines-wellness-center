@@ -49,6 +49,9 @@ export type Hero = {
   image?: ImageRef
   primaryCta?: Cta
   secondaryCta?: Cta
+  /** Full-bleed muted video behind the hero copy, in place of the side image.
+   *  `poster` paints immediately and is also what reduced-motion users see. */
+  video?: { src: string; poster: string }
 }
 
 export type PageModel = {

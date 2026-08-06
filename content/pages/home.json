@@ -10,8 +10,8 @@
     "headline": "Premier Drug Rehab in Des Moines, IA",
     "subhead": "Des Moines Wellness Center provides a full continuum of care including medical detox, inpatient residential treatment, and flexible PHP/IOP programs. We specialize in dual-diagnosis care, treating addiction and co-occurring mental health disorders simultaneously in a trauma-informed environment.",
     "image": {
-      "src": "/images/facility/exterior-entrance.webp",
-      "alt": "The covered main entrance at Des Moines Wellness Center, 5820 Winwood Dr in Johnston, Iowa"
+      "src": "",
+      "alt": ""
     },
     "primaryCta": {
       "label": "(888) 378-2158",
@@ -20,6 +20,10 @@
     "secondaryCta": {
       "label": "Verify Insurance",
       "href": "/verify-insurance"
+    },
+    "video": {
+      "src": "/video/hero-aerial.mp4",
+      "poster": "/images/facility/hero-aerial-poster.webp"
     }
   },
   "sections": [

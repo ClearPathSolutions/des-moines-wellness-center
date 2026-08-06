@@ -58,6 +58,11 @@
   .btn-white {
     @apply btn bg-white text-brand-dark shadow-soft hover:bg-cream;
   }
+  /* Secondary action on a dark or video background. btn-outline is brand-green on
+     transparent, which sits at 1.4:1 against the hero scrim — effectively invisible. */
+  .btn-outline-white {
+    @apply btn border-2 border-white/70 text-white hover:bg-white hover:text-brand-dark;
+  }
   .prose-brand {
     @apply text-[17px] leading-relaxed text-muted;
   }
