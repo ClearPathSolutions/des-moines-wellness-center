@@ -1,0 +1,13 @@
+{
+ "only_production": [
+  "/author/cpts",
+  "/category/uncategorized",
+  "/how-long-does-percocet-stay-in-your-system"
+ ],
+ "only_preview": [
+  "/areas-we-serve",
+  "/team",
+  "/team/bethany-hamilton",
+  "/verify-insurance"
+ ]
+}

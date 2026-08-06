@@ -1,0 +1,1872 @@
+[
+ {
+  "id": "408.0",
+  "page": "/about",
+  "section": "Serving the Greater Des Moines Area",
+  "fix": "Needs a google map with the location pinned, also isnt mentioning multiple locations in the original site",
+  "cats": [
+   "T6-map"
+  ]
+ },
+ {
+  "id": "409.0",
+  "page": "/about",
+  "section": "Missing The Faces Behind Your Care",
+  "fix": "Needs the section, also needs the pictures of the staff",
+  "cats": [
+   "T12-imagery",
+   "T13-missing-section"
+  ]
+ },
+ {
+  "id": "410.0",
+  "page": "/about",
+  "section": "Take a Look Inside Our Des Moines Sanctuary",
+  "fix": "Needs a link to tour our facility",
+  "cats": [
+   "T11-tour"
+  ]
+ },
+ {
+  "id": "411.0",
+  "page": "/about",
+  "section": "Footer text on the vercel site is different from the original site",
+  "fix": "should be changed to \"Des Moines Wellness Center provides full-spectrum addiction treatment in Des Moines, from medical detox and residential rehab to outpatient care, using structured, evidence-based approaches.\"",
+  "cats": [
+   "T99-uncategorized"
+  ]
+ },
+ {
+  "id": "412.0",
+  "page": "/about",
+  "section": "Footer areas we serve section has missplaced links",
+  "fix": "Remove Verify Insurance & Privacy policy from this section of the footer",
+  "cats": [
+   "T7-insurance",
+   "T14-header-footer"
+  ]
+ },
+ {
+  "id": "413.0",
+  "page": "/about",
+  "section": "Header is missing a verify insurance button / link",
+  "fix": "add to header",
+  "cats": [
+   "T14-header-footer"
+  ]
+ },
+ {
+  "id": "414.0",
+  "page": "/about",
+  "section": "About Des Moines Wellness: Our Story, Team & Values",
+  "fix": "Should use a picture of the facility instead of a stock image",
+  "cats": [
+   "T12-imagery"
+  ]
+ },
+ {
+  "id": "415.0",
+  "page": "/admissions",
+  "section": "We Work With Your Insuranc section",
+  "fix": "Add the submission tool like in verify insurance page",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "416.0",
+  "page": "/admissions",
+  "section": "How To Help A Loved One Struggling With Substance Abuse?",
+  "fix": "Missing paragraph, only contains bullet points from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "417.0",
+  "page": "/admissions",
+  "section": "Your Path to Recovery in 3 Simple Steps",
+  "fix": "Missing paragraph, only contains bullet points from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "418.0",
+  "page": "/admissions",
+  "section": "Navigating Local And National Support Systems",
+  "fix": "Missing clickable links to local support resources & national resources, remove the link from the widget and make the text on each widget a clickable link",
+  "cats": [
+   "T4-widget-links",
+   "T18-resource-links"
+  ]
+ },
+ {
+  "id": "419.0",
+  "page": "/areas-we-serve/",
+  "section": "The Best Version of Your Life is Within Reach",
+  "fix": "Needs a google map with the location pinned",
+  "cats": [
+   "T6-map"
+  ]
+ },
+ {
+  "id": "420.0",
+  "page": "/areas-we-serve/ankeny",
+  "section": "Our evidence-based Rehab Programs Minutes from Ankeny",
+  "fix": "Missing links on the widgets to each service page",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "421.0",
+  "page": "/areas-we-serve/ankeny",
+  "section": "A Private, Accessible Sanctuary Just 15 Minutes From Ankeny",
+  "fix": "Missing paragraph, only contains bullet points from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "422.0",
+  "page": "/areas-we-serve/ankeny",
+  "section": "Missing Frequently Asked Questions",
+  "fix": "Use the faqs from the original page",
+  "cats": [
+   "T2-faq-accordion"
+  ]
+ },
+ {
+  "id": "423.0",
+  "page": "/areas-we-serve/ankeny",
+  "section": "Step Out of the Darkness and Into Lasting Healing",
+  "fix": "Needs a google map with the location pinned",
+  "cats": [
+   "T6-map"
+  ]
+ },
+ {
+  "id": "424.0",
+  "page": "/areas-we-serve/west-des-moines",
+  "section": "From Detox to Outpatient in One Location: Our levels of care",
+  "fix": "Missing links on the widgets to each service page, also missing paragraph used in the original site",
+  "cats": [
+   "T3-missing-copy",
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "425.0",
+  "page": "/areas-we-serve/west-des-moines",
+  "section": "Why West Des Moines Families Choose Our Drug Rehab",
+  "fix": "Missing links on the widgets to each service page",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "426.0",
+  "page": "/areas-we-serve/west-des-moines",
+  "section": "Easy Driving Directions From West Des Moines",
+  "fix": "missing paragraph used in the original site",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "427.0",
+  "page": "/areas-we-serve/west-des-moines",
+  "section": "Missing Frequently Asked Questions",
+  "fix": "Use the faqs from the original page",
+  "cats": [
+   "T2-faq-accordion"
+  ]
+ },
+ {
+  "id": "428.0",
+  "page": "/areas-we-serve/west-des-moines",
+  "section": "Explore Our Beautiful Central Iowa Facility",
+  "fix": "missing tour the facility link",
+  "cats": [
+   "T11-tour"
+  ]
+ },
+ {
+  "id": "429.0",
+  "page": "/areas-we-serve/west-des-moines",
+  "section": "Step Out of the Darkness and Into Lasting Healing",
+  "fix": "Needs a google map with the location pinned",
+  "cats": [
+   "T6-map"
+  ]
+ },
+ {
+  "id": "430.0",
+  "page": "/blog",
+  "section": "Missing blogs from main site",
+  "fix": "add the missing blogs from the site",
+  "cats": [
+   "T15-blog-gap"
+  ]
+ },
+ {
+  "id": "431.0",
+  "page": "/programs/des-moines-outpatient-rehab",
+  "section": "Most Major Private Insurance Plans Accepted",
+  "fix": "Needs the insurance icons",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "432.0",
+  "page": "/programs/des-moines-outpatient-rehab",
+  "section": "PHP vs. IOP: Choosing the Right Level of Support",
+  "fix": "missing paragraph used in the original site",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "433.0",
+  "page": "/programs/des-moines-outpatient-rehab",
+  "section": "PHP vs. IOP: Choosing the Right Level of Support",
+  "fix": "Bullet points on the widgets need to be structured",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "434.0",
+  "page": "/programs/des-moines-outpatient-rehab",
+  "section": "Outpatient Programs: The Last Step In Your Recovery from Addiction",
+  "fix": "needs links to the service pages mentioned in the widgets",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "435.0",
+  "page": "/programs/des-moines-outpatient-rehab",
+  "section": "Convenient Access for Central Iowa",
+  "fix": "missing bullet points",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "436.0",
+  "page": "/programs/des-moines-outpatient-rehab",
+  "section": "Missing FAQs",
+  "fix": "add faqs from the main page",
+  "cats": [
+   "T2-faq-accordion"
+  ]
+ },
+ {
+  "id": "437.0",
+  "page": "/programs/des-moines-outpatient-rehab",
+  "section": "Medically Reviewed By Wesley Starlin, LMHC",
+  "fix": "should be on the top of the page instead of randomly placed in the middle",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "438.0",
+  "page": "/programs/des-moines-outpatient-rehab",
+  "section": "Secure Your Private Clinical Assessment",
+  "fix": "Needs a google map with the location pinned",
+  "cats": [
+   "T6-map"
+  ]
+ },
+ {
+  "id": "439.0",
+  "page": "/programs/des-moines-outpatient-rehab",
+  "section": "Expert-led Outpatient Addiction Treatment Programs in Iowa",
+  "fix": "needs a verify your insurance button",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "440.0",
+  "page": "/programs/des-moines-outpatient-rehab",
+  "section": "Levels Of Care",
+  "fix": "remove the raw links, make each widget a clickable link to the raw links instead",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "441.0",
+  "page": "/programs/des-moines-outpatient-rehab",
+  "section": "Convenient Access for Central Iowa",
+  "fix": "merge this section with \"\"Secure Your Private Clinical Assessment\"",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "442.0",
+  "page": "/programs/des-moines-outpatient-rehab",
+  "section": "url clean up, for /des-moines-outpatient-rehab",
+  "fix": "remove des-moines, leave as outpatient rehab",
+  "cats": [
+   "T10-slug"
+  ]
+ },
+ {
+  "id": "443.0",
+  "page": "/programs/dual-diagnosis",
+  "section": "Most Major Private Insurance Plans Accepted",
+  "fix": "Needs the insurance icons",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "444.0",
+  "page": "/programs/dual-diagnosis",
+  "section": "Medically Reviewed By Wesley Starlin, LMHC",
+  "fix": "should be on the top of the page instead of randomly placed in the middle",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "445.0",
+  "page": "/programs/dual-diagnosis",
+  "section": "Integrated Care Across the Continuum",
+  "fix": "needs links to the service pages mentioned in the widgets",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "446.0",
+  "page": "/programs/dual-diagnosis",
+  "section": "Beyond Our Doors: Your Iowa Support Network",
+  "fix": "missing paragraph used in the original site",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "447.0",
+  "page": "/programs/dual-diagnosis",
+  "section": "Levels Of Care",
+  "fix": "remove section or merge with Integrated Care Across the Continuum",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "448.0",
+  "page": "/programs/dual-diagnosis",
+  "section": "Secure Your Private Clinical Assessment",
+  "fix": "Needs a google map with the location pinned",
+  "cats": [
+   "T6-map"
+  ]
+ },
+ {
+  "id": "449.0",
+  "page": "/programs/iop-des-moines",
+  "section": "Most Major Private Insurance Plans Accepted",
+  "fix": "Needs the insurance icons",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "450.0",
+  "page": "/programs/iop-des-moines",
+  "section": "url clean up, for /iop-des-moines",
+  "fix": "remove des-moines, leave as iop",
+  "cats": [
+   "T10-slug"
+  ]
+ },
+ {
+  "id": "451.0",
+  "page": "/programs/iop-des-moines",
+  "section": "IOP in Des Moines: A Foundation for Your Daily Routine",
+  "fix": "missing paragraph used in the original site",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "452.0",
+  "page": "/programs/iop-des-moines",
+  "section": "Where IOP Fits in the continuum of care in Iowa",
+  "fix": "needs links to the service pages mentioned in the widgets",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "453.0",
+  "page": "/programs/iop-des-moines",
+  "section": "Our Specialized IOP Treatment Tracks",
+  "fix": "should be an accordian tool format, only contains answers & missing questions",
+  "cats": [
+   "T2-faq-accordion"
+  ]
+ },
+ {
+  "id": "454.0",
+  "page": "/programs/iop-des-moines",
+  "section": "Convenient Access for Central Iowa",
+  "fix": "missing paragraph used in the original site",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "455.0",
+  "page": "/programs/iop-des-moines",
+  "section": "Levels Of Care",
+  "fix": "remove section or merge with Where IOP Fits in the continuum of care in Iowa",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "456.0",
+  "page": "/programs/iop-des-moines",
+  "section": "Medically Reviewed By Wesley Starlin, LMHC",
+  "fix": "should be on the top of the page instead of randomly placed in the middle",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "457.0",
+  "page": "/programs/iop-des-moines",
+  "section": "Missing Common Questions About Our IOP Program",
+  "fix": "use the faqs from the original page",
+  "cats": [
+   "T2-faq-accordion"
+  ]
+ },
+ {
+  "id": "458.0",
+  "page": "/programs/iop-des-moines",
+  "section": "Secure Your Private Clinical Assessment",
+  "fix": "Needs a google map with the location pinned",
+  "cats": [
+   "T6-map"
+  ]
+ },
+ {
+  "id": "459.0",
+  "page": "/programs/medical-detox-des-moines",
+  "section": "url clean up, for /medical-detox-des-moines",
+  "fix": "remove des-moines",
+  "cats": [
+   "T10-slug"
+  ]
+ },
+ {
+  "id": "460.0",
+  "page": "/programs/medical-detox-des-moines",
+  "section": "Most Major Private Insurance Plans Accepted",
+  "fix": "Needs the insurance icons",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "461.0",
+  "page": "/programs/medical-detox-des-moines",
+  "section": "Specialized Detox Programs for each substance right here in Des Moines",
+  "fix": "widgets should link to the treatment pages",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "462.0",
+  "page": "/programs/medical-detox-des-moines",
+  "section": "Medical Detox Is Only The First Step",
+  "fix": "widgets should link to the program pages",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "463.0",
+  "page": "/programs/medical-detox-des-moines",
+  "section": "Medically Reviewed By Wesley Starlin, LMHC",
+  "fix": "should be on the top of the page instead of randomly placed in the middle",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "464.0",
+  "page": "/programs/medical-detox-des-moines",
+  "section": "Levels Of Care",
+  "fix": "remove section or merge with Specialized Detox Programs for each substance right here in Des Moines",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "465.0",
+  "page": "/programs/medical-detox-des-moines",
+  "section": "Secure Your Private Clinical Assessment",
+  "fix": "Needs a google map with the location pinned",
+  "cats": [
+   "T6-map"
+  ]
+ },
+ {
+  "id": "466.0",
+  "page": "/programs/medical-detox-des-moines",
+  "section": "Affordable Medical Detox & Addiction Treatment in Des Moines",
+  "fix": "needs a verify your insurance button",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "467.0",
+  "page": "/programs/php-des-moines",
+  "section": "url clean up, for /php-des-moines",
+  "fix": "remove des-moines",
+  "cats": [
+   "T10-slug"
+  ]
+ },
+ {
+  "id": "468.0",
+  "page": "/programs/php-des-moines",
+  "section": "Most Major Private Insurance Plans Accepted",
+  "fix": "Needs the insurance icons",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "469.0",
+  "page": "/programs/php-des-moines",
+  "section": "PHP vs. IOP: Choosing the Right Level of Support",
+  "fix": "Bullet points on the widgets need to be structured",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "470.0",
+  "page": "/programs/php-des-moines",
+  "section": "Where PHP Fits in Your Recovery Journey",
+  "fix": "widgets should link to the program pages",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "471.0",
+  "page": "/programs/php-des-moines",
+  "section": "LOCAL EXCELLENCE in Iowa",
+  "fix": "should be all capital",
+  "cats": [
+   "T9-casing"
+  ]
+ },
+ {
+  "id": "472.0",
+  "page": "/programs/php-des-moines",
+  "section": "Medically Reviewed By Wesley Starlin, LMHC",
+  "fix": "should be on the top of the page instead of randomly placed in the middle",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "473.0",
+  "page": "/programs/php-des-moines",
+  "section": "Levels Of Care",
+  "fix": "Remove raw urls, link the widgets to the raw urls",
+  "cats": [
+   "T4-widget-links",
+   "T16-raw-urls"
+  ]
+ },
+ {
+  "id": "474.0",
+  "page": "/programs/php-des-moines",
+  "section": "Missing Frequently Asked Questions About PHP",
+  "fix": "add faqs from the main page",
+  "cats": [
+   "T2-faq-accordion"
+  ]
+ },
+ {
+  "id": "475.0",
+  "page": "/programs/php-des-moines",
+  "section": "TAKE THE NEXT STEP today",
+  "fix": "should be all capital",
+  "cats": [
+   "T9-casing"
+  ]
+ },
+ {
+  "id": "476.0",
+  "page": "/programs/php-des-moines",
+  "section": "Premier Des Moines Partial Hospitalization Program for Lasting Recovery",
+  "fix": "add a verify insurance button",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "477.0",
+  "page": "/programs/php-des-moines",
+  "section": "Secure Your Private Clinical Assessment",
+  "fix": "Needs a google map with the location pinned",
+  "cats": [
+   "T6-map"
+  ]
+ },
+ {
+  "id": "478.0",
+  "page": "/programs/residential-rehab-des-moines",
+  "section": "Our Clinical Sanctuary In Iowa",
+  "fix": "Missing a tour our facility link",
+  "cats": [
+   "T11-tour"
+  ]
+ },
+ {
+  "id": "479.0",
+  "page": "/programs/residential-rehab-des-moines",
+  "section": "Medical Detox Is Only The First Step",
+  "fix": "widgets should link to the program pages",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "480.0",
+  "page": "/programs/residential-rehab-des-moines",
+  "section": "Specialized Rehab Programs for each substance in Iowa",
+  "fix": "should be an accordian tool format, only contains answers & missing questions",
+  "cats": [
+   "T2-faq-accordion"
+  ]
+ },
+ {
+  "id": "481.0",
+  "page": "/programs/residential-rehab-des-moines",
+  "section": "Common Questions About Residential Treatment",
+  "fix": "should be an accordian tool format, only contains answers & missing questions",
+  "cats": [
+   "T2-faq-accordion"
+  ]
+ },
+ {
+  "id": "482.0",
+  "page": "/programs/residential-rehab-des-moines",
+  "section": "Medically Reviewed By Wesley Starlin, LMHC",
+  "fix": "should be on the top of the page instead of randomly placed in the middle",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "483.0",
+  "page": "/programs/residential-rehab-des-moines",
+  "section": "your RECOVERY STARTS HERE",
+  "fix": "should be all capital",
+  "cats": [
+   "T9-casing"
+  ]
+ },
+ {
+  "id": "484.0",
+  "page": "/programs/residential-rehab-des-moines",
+  "section": "Des Moines' Leading Inpatient Treatment Center",
+  "fix": "Needs verify your insurance button",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "485.0",
+  "page": "/programs/residential-rehab-des-moines",
+  "section": "Secure Your Private Clinical Assessment",
+  "fix": "Needs a google map with the location pinned",
+  "cats": [
+   "T6-map"
+  ]
+ },
+ {
+  "id": "486.0",
+  "page": "/team",
+  "section": "Experienced, Compassionate, Local",
+  "fix": "Should be above the team members, mentions select any team member below",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "487.0",
+  "page": "/team",
+  "section": "Bethany Hamilton, RCS, CMA",
+  "fix": "Missing photo for staff member",
+  "cats": [
+   "T12-imagery"
+  ]
+ },
+ {
+  "id": "488.0",
+  "page": "/team",
+  "section": "Wesley Starlin",
+  "fix": "missing job titles, Wesley Starlin, LMHC",
+  "cats": [
+   "T17-credentials"
+  ]
+ },
+ {
+  "id": "489.0",
+  "page": "/tour",
+  "section": "Clinical Modalities for Emotional & Behavioral Stability",
+  "fix": "Each widget needs to be linked to the therapy type",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "490.0",
+  "page": "/tour",
+  "section": "A Trusted Clinical Partner for Recovery in Iowa",
+  "fix": "Remove stock image, add google reviews",
+  "cats": [
+   "T12-imagery"
+  ]
+ },
+ {
+  "id": "491.0",
+  "page": "/tour",
+  "section": "Our 3-Step Clinical Framework",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "492.0",
+  "page": "/tour",
+  "section": "Use Your Insurance for Addiction Rehab",
+  "fix": "Needs the insurance icons",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "493.0",
+  "page": "/tour",
+  "section": "We Work With Your Insurance",
+  "fix": "Needs the insurance icons",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "494.0",
+  "page": "/tour",
+  "section": "Tour Our Luxury Facility",
+  "fix": "Missing Take the virtual tour section with facility video",
+  "cats": [
+   "T11-tour",
+   "T12-imagery",
+   "T13-missing-section"
+  ]
+ },
+ {
+  "id": "495.0",
+  "page": "/what-we-treat",
+  "section": "Targeted Solutions for Complex Conditions",
+  "fix": "should be the first section",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "496.0",
+  "page": "/what-we-treat",
+  "section": "Targeted Solutions for Complex Conditions",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "497.0",
+  "page": "/what-we-treat",
+  "section": "Conditions We Treat",
+  "fix": "instead of widgets use a list type format, the stock images dont help when navigating different conditions",
+  "cats": [
+   "T4-widget-links",
+   "T12-imagery"
+  ]
+ },
+ {
+  "id": "498.0",
+  "page": "/what-we-treat",
+  "section": "Treating the Mental Health Triggers Behind Addiction",
+  "fix": "needs link to the dual diagnosis page",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "499.0",
+  "page": "/what-we-treat",
+  "section": "Use Your Insurance for Addiction Rehab",
+  "fix": "needs insurance icons",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "500.0",
+  "page": "/what-we-treat",
+  "section": "Missing Most Frequently asked questions",
+  "fix": "Use the faqs from the original page",
+  "cats": [
+   "T2-faq-accordion"
+  ]
+ },
+ {
+  "id": "501.0",
+  "page": "/what-we-treat/alcohol-rehab-des-moines",
+  "section": "Let Your Insurance Support Your Recovery",
+  "fix": "needs insurance icons",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "502.0",
+  "page": "/what-we-treat/alcohol-rehab-des-moines",
+  "section": "url clean up, for /alcohol-rehab-des-moines",
+  "fix": "remove des-moines",
+  "cats": [
+   "T10-slug"
+  ]
+ },
+ {
+  "id": "503.0",
+  "page": "/what-we-treat/alcohol-rehab-des-moines",
+  "section": "Common Red Flags of Alcoholism",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "504.0",
+  "page": "/what-we-treat/alcohol-rehab-des-moines",
+  "section": "Managing Alcohol Withdrawal Symptoms Safely:",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "505.0",
+  "page": "/what-we-treat/alcohol-rehab-des-moines",
+  "section": "Fixing the Roots of Alcohol Addiction in Des Moines, Iowa",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "506.0",
+  "page": "/what-we-treat/alcohol-rehab-des-moines",
+  "section": "Fixing the Roots of Alcohol Addiction in Des Moines, Iowa",
+  "fix": "Each widget needs to be linked to the therapy type",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "507.0",
+  "page": "/what-we-treat/alcohol-rehab-des-moines",
+  "section": "Alcohol Treatment & Dual Diagnosis",
+  "fix": "needs link to the dual diagnosis page",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "508.0",
+  "page": "/what-we-treat/alcohol-rehab-des-moines",
+  "section": "THE WAY WE HEAL alcohol addiction",
+  "fix": "should be all capital",
+  "cats": [
+   "T9-casing"
+  ]
+ },
+ {
+  "id": "509.0",
+  "page": "/what-we-treat/alcohol-rehab-des-moines",
+  "section": "Our Approach to Alcohol Recovery in Des Moines, Iowa",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "510.0",
+  "page": "/what-we-treat/alcohol-rehab-des-moines",
+  "section": "Keeping Your Job While Seeking Help",
+  "fix": "missing call button",
+  "cats": [
+   "T5-button-cta"
+  ]
+ },
+ {
+  "id": "511.0",
+  "page": "/what-we-treat/alcohol-rehab-des-moines",
+  "section": "Recovery Resources in Des Moines and Across Iowa",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "512.0",
+  "page": "/what-we-treat/alcohol-rehab-des-moines",
+  "section": "Frequently Asked Questions",
+  "fix": "should be an accordian tool format, only contains answers & missing questions",
+  "cats": [
+   "T2-faq-accordion"
+  ]
+ },
+ {
+  "id": "513.0",
+  "page": "/what-we-treat/alcohol-rehab-des-moines",
+  "section": "Medically Reviewed By Wesley Starlin, LMHC",
+  "fix": "should be at the top of the page",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "514.0",
+  "page": "/what-we-treat/alcohol-rehab-des-moines",
+  "section": "TAKE THE FIRST STEP now",
+  "fix": "should be all capital",
+  "cats": [
+   "T9-casing"
+  ]
+ },
+ {
+  "id": "515.0",
+  "page": "/what-we-treat/alcohol-rehab-des-moines",
+  "section": "Start Your Alcohol Recovery Journey in Des Moines",
+  "fix": "missing call button & verify your insurance button",
+  "cats": [
+   "T5-button-cta",
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "516.0",
+  "page": "/what-we-treat/alcohol-rehab-des-moines",
+  "section": "Let\u2019s Build a Life You Don\u2019t Need to Escape",
+  "fix": "Needs a google map with the location pinned",
+  "cats": [
+   "T6-map"
+  ]
+ },
+ {
+  "id": "517.0",
+  "page": "/what-we-treat/alcohol-rehab-des-moines",
+  "section": "START Your Recovery Today",
+  "fix": "should be all capital",
+  "cats": [
+   "T9-casing"
+  ]
+ },
+ {
+  "id": "518.0",
+  "page": "/what-we-treat/benzo-rehab-des-moines",
+  "section": "Let Your Insurance Support Your Recovery",
+  "fix": "needs insurance icons",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "519.0",
+  "page": "/what-we-treat/benzo-rehab-des-moines",
+  "section": "Let Your Insurance Support Your Recovery",
+  "fix": "missing call button & verify your insurance button",
+  "cats": [
+   "T5-button-cta",
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "520.0",
+  "page": "/what-we-treat/benzo-rehab-des-moines",
+  "section": "Verify Your Insurance button",
+  "fix": "remove floating verify your insurance button",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "521.0",
+  "page": "/what-we-treat/benzo-rehab-des-moines",
+  "section": "What Benzodiazepine Addiction Looks Like",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "522.0",
+  "page": "/what-we-treat/benzo-rehab-des-moines",
+  "section": "Managing Alcohol Withdrawal Symptoms Safely:",
+  "fix": "refrencing alcohol when it should be benzo",
+  "cats": [
+   "T1-wrong-substance"
+  ]
+ },
+ {
+  "id": "523.0",
+  "page": "/what-we-treat/benzo-rehab-des-moines",
+  "section": "Managing Alcohol Withdrawal Symptoms Safely:",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "524.0",
+  "page": "/what-we-treat/benzo-rehab-des-moines",
+  "section": "Treating the Root Causes of Benzo Addiction in Des Moines, Iowa",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "525.0",
+  "page": "/what-we-treat/benzo-rehab-des-moines",
+  "section": "Treating the Root Causes of Benzo Addiction in Des Moines, Iowa",
+  "fix": "widgets need links to the treatment type pages",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "526.0",
+  "page": "/what-we-treat/benzo-rehab-des-moines",
+  "section": "Dual Diagnosis Treatment for Benzo Addiction",
+  "fix": "needs button link to the dual diagnosis page",
+  "cats": [
+   "T5-button-cta"
+  ]
+ },
+ {
+  "id": "527.0",
+  "page": "/what-we-treat/benzo-rehab-des-moines",
+  "section": "Our Approach to Benzo Rehab in Des Moines, Iowa",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "528.0",
+  "page": "/what-we-treat/benzo-rehab-des-moines",
+  "section": "Job Protection and FMLA During Benzo Rehab",
+  "fix": "missing call button",
+  "cats": [
+   "T5-button-cta"
+  ]
+ },
+ {
+  "id": "529.0",
+  "page": "/what-we-treat/benzo-rehab-des-moines",
+  "section": "Medically Reviewed By Wesley Starlin, LMHC",
+  "fix": "should be at the top of the page",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "530.0",
+  "page": "/what-we-treat/benzo-rehab-des-moines",
+  "section": "Getting to Treatment in Des Moines, Iowa",
+  "fix": "Needs a google map with the location pinned",
+  "cats": [
+   "T6-map"
+  ]
+ },
+ {
+  "id": "531.0",
+  "page": "/what-we-treat/benzo-rehab-des-moines",
+  "section": "Missing Most Frequently asked questions",
+  "fix": "Use the faqs from the original page",
+  "cats": [
+   "T2-faq-accordion"
+  ]
+ },
+ {
+  "id": "532.0",
+  "page": "/what-we-treat/benzo-rehab-des-moines",
+  "section": "url clean up, for /benzo-rehab-des-moines",
+  "fix": "remove des-moines",
+  "cats": [
+   "T10-slug"
+  ]
+ },
+ {
+  "id": "533.0",
+  "page": "/what-we-treat/cocaine-rehab-des-moines",
+  "section": "url clean up, for /cocaine-rehab-des-moines",
+  "fix": "remove des-moines",
+  "cats": [
+   "T10-slug"
+  ]
+ },
+ {
+  "id": "534.0",
+  "page": "/what-we-treat/cocaine-rehab-des-moines",
+  "section": "Let Your Insurance Support Your Recovery",
+  "fix": "needs insurance icons",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "535.0",
+  "page": "/what-we-treat/cocaine-rehab-des-moines",
+  "section": "What Cocaine Addiction Looks Like",
+  "fix": "Missing bullet points",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "536.0",
+  "page": "/what-we-treat/cocaine-rehab-des-moines",
+  "section": "Our Approach to Cocaine Rehab in Des Moines, Iowa",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "537.0",
+  "page": "/what-we-treat/cocaine-rehab-des-moines",
+  "section": "Missing paragraph from original page",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "538.0",
+  "page": "/what-we-treat/cocaine-rehab-des-moines",
+  "section": "Cocaine Addiction Treatment After Detox in Des Moines",
+  "fix": "widgets need links to the treatment type pages",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "539.0",
+  "page": "/what-we-treat/cocaine-rehab-des-moines",
+  "section": "Medically Reviewed By Wesley Starlin, LMHC",
+  "fix": "should be at the top of the page",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "540.0",
+  "page": "/what-we-treat/cocaine-rehab-des-moines",
+  "section": "Missing Most Frequently asked questions",
+  "fix": "Use the faqs from the original page",
+  "cats": [
+   "T2-faq-accordion"
+  ]
+ },
+ {
+  "id": "541.0",
+  "page": "/what-we-treat/cocaine-rehab-des-moines",
+  "section": "Cocaine Rehab and Detox in Des Moines, Iowa",
+  "fix": "missing call button & verify your insurance button",
+  "cats": [
+   "T5-button-cta",
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "542.0",
+  "page": "/what-we-treat/cocaine-rehab-des-moines",
+  "section": "Let\u2019s Build a Life You Don\u2019t Need to Escape",
+  "fix": "Needs a google map with the location pinned",
+  "cats": [
+   "T6-map"
+  ]
+ },
+ {
+  "id": "543.0",
+  "page": "/what-we-treat/drug-rehab-des-moines",
+  "section": "url clean up, for /drug-rehab-des-moines",
+  "fix": "remove des-moines",
+  "cats": [
+   "T10-slug"
+  ]
+ },
+ {
+  "id": "544.0",
+  "page": "/what-we-treat/drug-rehab-des-moines",
+  "section": "Let Your Insurance Support Your Recovery",
+  "fix": "needs insurance icons",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "545.0",
+  "page": "/what-we-treat/drug-rehab-des-moines",
+  "section": "Medical Drug Detox In Des Moines: Manage Withdrawal Safely",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "546.0",
+  "page": "/what-we-treat/drug-rehab-des-moines",
+  "section": "Managing Drug Withdrawal Symptoms Safely:",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "547.0",
+  "page": "/what-we-treat/drug-rehab-des-moines",
+  "section": "Managing Drug Withdrawal Symptoms Safely:",
+  "fix": "needs button link to detox program",
+  "cats": [
+   "T5-button-cta"
+  ]
+ },
+ {
+  "id": "548.0",
+  "page": "/what-we-treat/drug-rehab-des-moines",
+  "section": "What Drug Rehab in Des Moines Looks Like",
+  "fix": "widgets need links to the treatment type pages",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "549.0",
+  "page": "/what-we-treat/drug-rehab-des-moines",
+  "section": "Evidence-Based Therapies For Drug addiction treatment",
+  "fix": "addiction treatment needs the first letters capitalized",
+  "cats": [
+   "T9-casing"
+  ]
+ },
+ {
+  "id": "550.0",
+  "page": "/what-we-treat/drug-rehab-des-moines",
+  "section": "Evidence-Based Therapies For Drug addiction treatment",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "551.0",
+  "page": "/what-we-treat/drug-rehab-des-moines",
+  "section": "Evidence-Based Therapies For Drug addiction treatment",
+  "fix": "widgets need links to the treatment type pages",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "552.0",
+  "page": "/what-we-treat/drug-rehab-des-moines",
+  "section": "Drug Addiction and Dual Diagnosis Treatment",
+  "fix": "needs button link to the dual diagnosis page",
+  "cats": [
+   "T5-button-cta"
+  ]
+ },
+ {
+  "id": "553.0",
+  "page": "/what-we-treat/drug-rehab-des-moines",
+  "section": "Why Choose Our Drug Rehab in Des Moines, IOWA",
+  "fix": "Iowa should not be fully capitalized, only capitalize the I",
+  "cats": [
+   "T9-casing"
+  ]
+ },
+ {
+  "id": "554.0",
+  "page": "/what-we-treat/drug-rehab-des-moines",
+  "section": "Go to Drug Rehab Without Losing Your Job",
+  "fix": "missing call button",
+  "cats": [
+   "T5-button-cta"
+  ]
+ },
+ {
+  "id": "555.0",
+  "page": "/what-we-treat/drug-rehab-des-moines",
+  "section": "Drug Addiction Recovery Resources In Des Moines and Broader Iowa",
+  "fix": "Missing sentence from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "556.0",
+  "page": "/what-we-treat/drug-rehab-des-moines",
+  "section": "Missing Frequently asked questions",
+  "fix": "Use the faqs from the original page",
+  "cats": [
+   "T2-faq-accordion"
+  ]
+ },
+ {
+  "id": "557.0",
+  "page": "/what-we-treat/drug-rehab-des-moines",
+  "section": "Medically Reviewed By Wesley Starlin, LMHC",
+  "fix": "should be at the top of the page",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "558.0",
+  "page": "/what-we-treat/drug-rehab-des-moines",
+  "section": "Drug Rehab in Des Moines, IA: Get Help Today",
+  "fix": "missing call button & verify your insurance button",
+  "cats": [
+   "T5-button-cta",
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "559.0",
+  "page": "/what-we-treat/drug-rehab-des-moines",
+  "section": "Let\u2019s Build a Life You Don\u2019t Need to Escape",
+  "fix": "Needs a google map with the location pinned",
+  "cats": [
+   "T6-map"
+  ]
+ },
+ {
+  "id": "560.0",
+  "page": "/what-we-treat/fentanyl-rehab-des-moines",
+  "section": "url clean up, for /fentanyl-rehab-des-moines",
+  "fix": "remove des-moines",
+  "cats": [
+   "T10-slug"
+  ]
+ },
+ {
+  "id": "561.0",
+  "page": "/what-we-treat/fentanyl-rehab-des-moines",
+  "section": "Let Your Insurance Support Your Recovery",
+  "fix": "needs insurance icons",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "562.0",
+  "page": "/what-we-treat/fentanyl-rehab-des-moines",
+  "section": "Common Red Flags of Fentanyl Use",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "563.0",
+  "page": "/what-we-treat/fentanyl-rehab-des-moines",
+  "section": "Step 1 Of Alcohol Addiction Recovery",
+  "fix": "references Alcohol, change to Fentanyl",
+  "cats": [
+   "T1-wrong-substance"
+  ]
+ },
+ {
+  "id": "564.0",
+  "page": "/what-we-treat/fentanyl-rehab-des-moines",
+  "section": "Medical Fentanyl Detox in Des Moines",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "565.0",
+  "page": "/what-we-treat/fentanyl-rehab-des-moines",
+  "section": "Missing section from original page: Managing Fentanyl Withdrawal Symptoms Safely:",
+  "fix": "add section in the Medical Fentanyl Detox in Des Moines\nspot, above the widgets",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "566.0",
+  "page": "/what-we-treat/fentanyl-rehab-des-moines",
+  "section": "Fixing the Roots of Alcohol Addiction in Des Moines, Iowa",
+  "fix": "references Alcohol, change to Fentanyl",
+  "cats": [
+   "T1-wrong-substance"
+  ]
+ },
+ {
+  "id": "567.0",
+  "page": "/what-we-treat/fentanyl-rehab-des-moines",
+  "section": "Fixing the Roots of Alcohol Addiction in Des Moines, Iowa",
+  "fix": "widgets need links to the treatment type pages",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "568.0",
+  "page": "/what-we-treat/fentanyl-rehab-des-moines",
+  "section": "Fentanyl Addiction and Dual Diagnosis",
+  "fix": "needs button link to the dual diagnosis page",
+  "cats": [
+   "T5-button-cta"
+  ]
+ },
+ {
+  "id": "569.0",
+  "page": "/what-we-treat/fentanyl-rehab-des-moines",
+  "section": "Our Approach to Fentanyl Addiction Recovery in Iowa",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "570.0",
+  "page": "/what-we-treat/fentanyl-rehab-des-moines",
+  "section": "THE WAY WE HEAL alcohol addiciton",
+  "fix": "references Alcohol, change to Fentanyl",
+  "cats": [
+   "T1-wrong-substance"
+  ]
+ },
+ {
+  "id": "571.0",
+  "page": "/what-we-treat/fentanyl-rehab-des-moines",
+  "section": "Job Protection and FMLA for Fentanyl Addiction Treatment",
+  "fix": "missing call button",
+  "cats": [
+   "T5-button-cta"
+  ]
+ },
+ {
+  "id": "572.0",
+  "page": "/what-we-treat/fentanyl-rehab-des-moines",
+  "section": "Fentanyl & Addiction Resources",
+  "fix": "use the links provided in the original site page",
+  "cats": [
+   "T18-resource-links"
+  ]
+ },
+ {
+  "id": "573.0",
+  "page": "/what-we-treat/fentanyl-rehab-des-moines",
+  "section": "Medically Reviewed By Wesley Starlin, LMHC",
+  "fix": "should be at the top of the page",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "574.0",
+  "page": "/what-we-treat/fentanyl-rehab-des-moines",
+  "section": "Missing Frequently asked questions",
+  "fix": "Use the faqs from the original page",
+  "cats": [
+   "T2-faq-accordion"
+  ]
+ },
+ {
+  "id": "575.0",
+  "page": "/what-we-treat/fentanyl-rehab-des-moines",
+  "section": "Let\u2019s Build a Life You Don\u2019t Need to Escape",
+  "fix": "Needs a google map with the location pinned",
+  "cats": [
+   "T6-map"
+  ]
+ },
+ {
+  "id": "576.0",
+  "page": "/what-we-treat/fentanyl-rehab-des-moines",
+  "section": "START Your Recovery Today",
+  "fix": "Start shouldnt be fully capitalized, only Capital the S",
+  "cats": [
+   "T9-casing"
+  ]
+ },
+ {
+  "id": "577.0",
+  "page": "/what-we-treat/meth-rehab-des-moines",
+  "section": "url clean up, for /meth-rehab-des-moines",
+  "fix": "remove des-moines",
+  "cats": [
+   "T10-slug"
+  ]
+ },
+ {
+  "id": "578.0",
+  "page": "/what-we-treat/meth-rehab-des-moines",
+  "section": "Let Your Insurance Support Your Recovery",
+  "fix": "needs insurance icons",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "579.0",
+  "page": "/what-we-treat/meth-rehab-des-moines",
+  "section": "Recognizing the Signs: When to Seek Help",
+  "fix": "Missing top and botton paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "580.0",
+  "page": "/what-we-treat/meth-rehab-des-moines",
+  "section": "Recognizing the Signs: When to Seek Help",
+  "fix": "missing call button",
+  "cats": [
+   "T5-button-cta"
+  ]
+ },
+ {
+  "id": "581.0",
+  "page": "/what-we-treat/meth-rehab-des-moines",
+  "section": "Medical Detox for Methamphetamine in Des Moines, IOWA",
+  "fix": "Iowa should not be fully capitalized, only capitalize the I",
+  "cats": [
+   "T9-casing"
+  ]
+ },
+ {
+  "id": "582.0",
+  "page": "/what-we-treat/meth-rehab-des-moines",
+  "section": "Medical Detox for Methamphetamine in Des Moines, IOWA",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "583.0",
+  "page": "/what-we-treat/meth-rehab-des-moines",
+  "section": "One Location. Every Level of Care.",
+  "fix": "widgets need links to the treatment type pages",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "584.0",
+  "page": "/what-we-treat/meth-rehab-des-moines",
+  "section": "Evidence-Based Therapies for Meth Recovery",
+  "fix": "Missing top and botton paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "585.0",
+  "page": "/what-we-treat/meth-rehab-des-moines",
+  "section": "Meth addiction Treatment & Dual Diagnosis",
+  "fix": "needs button link to the dual diagnosis page",
+  "cats": [
+   "T5-button-cta"
+  ]
+ },
+ {
+  "id": "586.0",
+  "page": "/what-we-treat/meth-rehab-des-moines",
+  "section": "Local Iowa Resources for Methamphetamine Recovery",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "587.0",
+  "page": "/what-we-treat/meth-rehab-des-moines",
+  "section": "Medically Reviewed By Wesley Starlin, LMHC",
+  "fix": "should be at the top of the page",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "588.0",
+  "page": "/what-we-treat/meth-rehab-des-moines",
+  "section": "Cocaine Rehab and Detox in Des Moines, Iowa",
+  "fix": "missing call button & verify your insurance button",
+  "cats": [
+   "T5-button-cta",
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "589.0",
+  "page": "/what-we-treat/meth-rehab-des-moines",
+  "section": "Let\u2019s Build a Life You Don\u2019t Need to Escape",
+  "fix": "Needs a google map with the location pinned",
+  "cats": [
+   "T6-map"
+  ]
+ },
+ {
+  "id": "590.0",
+  "page": "/what-we-treat/meth-rehab-des-moines",
+  "section": "Cocaine Rehab and Detox in Des Moines, Iowa",
+  "fix": "references Cocaine, change to Meth",
+  "cats": [
+   "T1-wrong-substance"
+  ]
+ },
+ {
+  "id": "591.0",
+  "page": "/what-we-treat/prescription-drug-rehab-des-moines",
+  "section": "Prescription Drug Rehab in Des Moines, Iowa",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "592.0",
+  "page": "/what-we-treat/prescription-drug-rehab-des-moines",
+  "section": "Let Your Insurance Support Your Recovery",
+  "fix": "needs insurance icons",
+  "cats": [
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "593.0",
+  "page": "/what-we-treat/prescription-drug-rehab-des-moines",
+  "section": "Signs of Prescription Drug Dependency",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "594.0",
+  "page": "/what-we-treat/prescription-drug-rehab-des-moines",
+  "section": "Managing Prescription Drug Withdrawal Symptoms Safely:",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "595.0",
+  "page": "/what-we-treat/prescription-drug-rehab-des-moines",
+  "section": "Managing Prescription Drug Withdrawal Symptoms Safely:",
+  "fix": "needs button link to detox program",
+  "cats": [
+   "T5-button-cta"
+  ]
+ },
+ {
+  "id": "596.0",
+  "page": "/what-we-treat/prescription-drug-rehab-des-moines",
+  "section": "Sustaining Recovery Through Every Stage in Des Moines, Iowa",
+  "fix": "widgets need links to the treatment type pages",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "597.0",
+  "page": "/what-we-treat/prescription-drug-rehab-des-moines",
+  "section": "Evidence-Based Clinical Modalities for Drug Rehab",
+  "fix": "should be an accordian tool format, only contains answers & missing treatment types",
+  "cats": [
+   "T2-faq-accordion"
+  ]
+ },
+ {
+  "id": "598.0",
+  "page": "/what-we-treat/prescription-drug-rehab-des-moines",
+  "section": "Dual Diagnosis: Treating the Root of Dependency",
+  "fix": "needs button link to the dual diagnosis page",
+  "cats": [
+   "T5-button-cta"
+  ]
+ },
+ {
+  "id": "599.0",
+  "page": "/what-we-treat/prescription-drug-rehab-des-moines",
+  "section": "Recovery Resources in Des Moines and Across Iowa",
+  "fix": "use the links provided in the original site page",
+  "cats": [
+   "T18-resource-links"
+  ]
+ },
+ {
+  "id": "600.0",
+  "page": "/what-we-treat/prescription-drug-rehab-des-moines",
+  "section": "Medically Reviewed By Wesley Starlin, LMHC",
+  "fix": "should be at the top of the page",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "601.0",
+  "page": "/what-we-treat/prescription-drug-rehab-des-moines",
+  "section": "Prescription Drug Addiction Treatment in Des Moines",
+  "fix": "missing call button & verify your insurance button",
+  "cats": [
+   "T5-button-cta",
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "602.0",
+  "page": "/what-we-treat/prescription-drug-rehab-des-moines",
+  "section": "Let\u2019s Build a Life You Don\u2019t Need to Escape",
+  "fix": "Needs a google map with the location pinned",
+  "cats": [
+   "T6-map"
+  ]
+ },
+ {
+  "id": "603.0",
+  "page": "/",
+  "section": "Iowa's Trusted Destination for Quality Addiction Treatment",
+  "fix": "Missing see more about us button",
+  "cats": [
+   "T5-button-cta"
+  ]
+ },
+ {
+  "id": "604.0",
+  "page": "/",
+  "section": "Accredited Drug & Alcohol Addiction Rehab in Iowa",
+  "fix": "Swap section with They Trusted Us. So Can You.",
+  "cats": [
+   "T8-layout-order"
+  ]
+ },
+ {
+  "id": "605.0",
+  "page": "/",
+  "section": "Personalized Rehab Programs in the Heart of Iowa",
+  "fix": "widgets need links to the treatment type pages",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "606.0",
+  "page": "/",
+  "section": "Expert Care for Complex Substance Use Disorders in Iowa",
+  "fix": "widgets need links to the rehab type pages",
+  "cats": [
+   "T4-widget-links"
+  ]
+ },
+ {
+  "id": "607.0",
+  "page": "/",
+  "section": "Specialized Dual Diagnosis Treatment in Des Moines, Iowa",
+  "fix": "needs button link to the dual diagnosis page",
+  "cats": [
+   "T5-button-cta"
+  ]
+ },
+ {
+  "id": "608.0",
+  "page": "/",
+  "section": "Take a Virtual Tour of Des Moines Wellness Center",
+  "fix": "Needs button link to take virtual tour page",
+  "cats": [
+   "T5-button-cta",
+   "T11-tour"
+  ]
+ },
+ {
+  "id": "609.0",
+  "page": "/",
+  "section": "Specialized Therapeutic Approaches for Lasting Change",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "610.0",
+  "page": "/",
+  "section": "Addiction Recovery for Des Moines & Beyond",
+  "fix": "missing call button",
+  "cats": [
+   "T5-button-cta"
+  ]
+ },
+ {
+  "id": "611.0",
+  "page": "/",
+  "section": "TOP-RATED DRUG & ALCOHOL REHAB IN DES MOINES, IA",
+  "fix": "Missing paragraph from original page",
+  "cats": [
+   "T3-missing-copy"
+  ]
+ },
+ {
+  "id": "612.0",
+  "page": "/",
+  "section": "TOP-RATED DRUG & ALCOHOL REHAB IN DES MOINES, IA",
+  "fix": "missing call button & verify your insurance button",
+  "cats": [
+   "T5-button-cta",
+   "T7-insurance"
+  ]
+ },
+ {
+  "id": "613.0",
+  "page": "/",
+  "section": "The Best Version of Your Life is Within Reach",
+  "fix": "Needs a google map with the location pinned",
+  "cats": [
+   "T6-map"
+  ]
+ }
+]
