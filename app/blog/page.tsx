@@ -25,6 +25,9 @@ export function generateMetadata(): Metadata {
       title: page.seo.title,
       description: page.seo.description,
       url: canonicalPath('/blog'),
+      // Explicit: Next replaces the parent openGraph rather than merging, so
+      // without this the layout's default card is dropped.
+      images: [{ url: '/og.jpg', width: 1200, height: 630, alt: page.hero?.headline ?? page.seo.title }],
     },
   }
 }

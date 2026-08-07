@@ -13,7 +13,7 @@ import {
 } from '@/components/JsonLd'
 import { getAllPages, getPage, getSiteConfig } from '@/lib/content'
 import { canonicalPath, canonicalUrl } from '@/lib/urls'
-import { resolveImage } from '@/lib/images'
+import { resolveImage, orientation } from '@/lib/images'
 import type { Faq, PageModel } from '@/lib/types'
 
 export const dynamicParams = false
@@ -49,8 +49,34 @@ export async function generateMetadata({
     title: { absolute: page.seo.title },
     description: page.seo.description,
     alternates: { canonical: path },
-    openGraph: { title: page.seo.title, description: page.seo.description, url: path },
+    openGraph: {
+      title: page.seo.title,
+      description: page.seo.description,
+      url: path,
+      // Next REPLACES the parent openGraph object rather than deep-merging it,
+      // so omitting `images` here silently dropped the layout's default on every
+      // catch-all page — 45 of 47 pages shared with no preview image at all.
+      // Production had one on 33 of 34, so this was a regression. Always emit one.
+      images: ogImages(page),
+    },
   }
+}
+
+/** Social preview image for a page.
+ *
+ *  Prefers the page's own hero when it is landscape, so a share of the detox
+ *  page shows the detox photo rather than a generic card. Portrait heroes (the
+ *  team portraits) are skipped: cropped to 1.91:1 they show a slice of forehead.
+ *  Everything else falls back to the site card. */
+function ogImages(page: PageModel) {
+  const src = page.hero?.image?.src
+  if (src && orientation(src) === 'landscape') {
+    const img = resolveImage(src)
+    if (img) {
+      return [{ url: img.out, width: img.width, height: img.height, alt: page.hero.image!.alt || page.hero.headline }]
+    }
+  }
+  return [{ url: '/og.jpg', width: 1200, height: 630, alt: page.hero?.headline ?? page.seo.title }]
 }
 
 /** Every FAQ on the page, in render order, for FAQPage markup. */

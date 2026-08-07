@@ -60,6 +60,8 @@ export async function generateMetadata({
         title: local.seo.title,
         description: local.seo.description,
         url: path,
+        // Same replace-not-merge trap as the other routes.
+        images: [{ url: '/og.jpg', width: 1200, height: 630, alt: local.seo.title }],
       },
     }
   }
@@ -78,7 +80,9 @@ export async function generateMetadata({
       description,
       url: path,
       publishedTime: post.publishedAt ?? undefined,
-      ...(post.coverImageUrl ? { images: [{ url: post.coverImageUrl }] } : {}),
+      images: post.coverImageUrl
+        ? [{ url: post.coverImageUrl }]
+        : [{ url: '/og.jpg', width: 1200, height: 630, alt: title }],
     },
   }
 }

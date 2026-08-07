@@ -1,4 +1,12 @@
 import Link from 'next/link'
+import type { Metadata } from 'next'
+
+// Without this the 404 inherits the layout's default title, so a not-found page
+// announces itself in the tab and in history as the homepage.
+export const metadata: Metadata = {
+  title: { absolute: 'Page not found | Des Moines Wellness Center' },
+  robots: { index: false, follow: true },
+}
 
 export default function NotFound() {
   return (
@@ -13,7 +21,7 @@ export default function NotFound() {
           <Link href="/" className="btn-primary">
             Return Home
           </Link>
-          <Link href="/contact" className="btn-outline">
+          <Link href="/contact/" className="btn-outline">
             Contact Us
           </Link>
         </div>
