@@ -1,0 +1,133 @@
+{
+  "slug": "therapies/family-therapy",
+  "pageType": "page",
+  "seo": {
+    "title": "Family Therapy in Des Moines, IA | Des Moines Wellness Center",
+    "description": "Family sessions at our Johnston, IA facility. We repair communication and educate your support system so the environment you return to supports recovery."
+  },
+  "hero": {
+    "eyebrow": "Therapies",
+    "headline": "Family Therapy",
+    "subhead": "Systemic restoration. We facilitate dedicated sessions to repair communication and educate your support system on the science of addiction, ensuring a stable environment for your return home.",
+    "image": {
+      "src": "/images/facility/therapy-nook.webp",
+      "alt": "A quiet two-seat therapy nook at Des Moines Wellness Center used for family sessions"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-it-is",
+      "kind": "prose",
+      "heading": "What Family Therapy involves",
+      "subheading": "",
+      "body": [
+        "Addiction rarely affects one person in isolation, and recovery is harder when the household someone returns to has not been part of the process. Family sessions bring the people closest to you into the work.",
+        "Two things usually need attention. The first is information: what a substance use disorder actually is, what relapse means, and what is and is not within your family's control. The second is communication — long-standing patterns of blame, silence or over-management that tend to build up over years and do not resolve on their own."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "what-to-expect",
+      "kind": "features",
+      "heading": "What to expect",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Education first",
+          "text": "Families are given a clear account of addiction as a medical condition, which changes how the rest of the conversation goes.",
+          "icon": ""
+        },
+        {
+          "title": "Facilitated conversations",
+          "text": "A clinician is present to keep difficult sessions productive rather than letting them re-run old arguments.",
+          "icon": ""
+        },
+        {
+          "title": "Planning for home",
+          "text": "Sessions cover what support looks like in practice once treatment ends, including boundaries everyone can hold.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "where-it-fits",
+      "kind": "cards",
+      "heading": "Where it fits in your care",
+      "subheading": "Available at these levels of care. Most people move through more than one.",
+      "body": [],
+      "items": [
+        {
+          "title": "Residential Inpatient",
+          "text": "Scheduled family sessions during the residential stay, including remote attendance.",
+          "href": "/programs/residential-rehab-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Partial Hospitalization (PHP)",
+          "text": "Family work continues while you step down toward independent living.",
+          "href": "/programs/php-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Intensive Outpatient (IOP)",
+          "text": "Sessions timed around the household's own work and school commitments.",
+          "href": "/programs/iop-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Dual Diagnosis",
+          "text": "Additional education where a co-occurring mental health condition is involved.",
+          "href": "/programs/dual-diagnosis",
+          "icon": ""
+        },
+        {
+          "title": "Aftercare & Alumni",
+          "text": "Continued family contact as part of the alumni programme.",
+          "href": "/programs/aftercare-and-alumni",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "heading": "Speak with our clinical team",
+      "subheading": "",
+      "body": [
+        "Our intake specialists are available 24/7 for a confidential assessment. We can talk through which therapies fit your situation and verify your insurance on the same call."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [],
+  "ctas": []
+}

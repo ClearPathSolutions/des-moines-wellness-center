@@ -1,0 +1,133 @@
+{
+  "slug": "therapies/cognitive-behavioral-therapy",
+  "pageType": "page",
+  "seo": {
+    "title": "CBT for Addiction in Des Moines, IA | Des Moines Wellness Center",
+    "description": "Cognitive Behavioral Therapy at our Johnston, IA facility. CBT identifies the thoughts and triggers behind substance use and replaces them with practical coping skills."
+  },
+  "hero": {
+    "eyebrow": "Therapies",
+    "headline": "Cognitive Behavioral Therapy (CBT)",
+    "subhead": "Pattern recognition. Our staff utilizes CBT to identify the automatic negative thoughts and environmental triggers that lead to substance use, replacing them with practical, proactive coping mechanisms.",
+    "image": {
+      "src": "/images/facility/study-room.webp",
+      "alt": "A quiet study room at Des Moines Wellness Center used for structured CBT work"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-it-is",
+      "kind": "prose",
+      "heading": "What Cognitive Behavioral Therapy involves",
+      "subheading": "",
+      "body": [
+        "Cognitive Behavioral Therapy is a structured, practical approach built on a simple observation: thoughts, feelings and behaviour are linked, and the chain from a trigger to a drink or a dose is more predictable than it feels from the inside.",
+        "The work is to map that chain, catch the automatic thought partway along, and put a different response in its place. CBT is skills-based and often involves work between sessions, because the point is to use it in the situations where it is actually needed rather than only in the room."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "what-to-expect",
+      "kind": "features",
+      "heading": "What to expect",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Structured and goal-directed",
+          "text": "Sessions follow a clear method with defined targets, rather than open-ended conversation.",
+          "icon": ""
+        },
+        {
+          "title": "Trigger mapping",
+          "text": "You identify the specific people, places, times and internal states that reliably precede use.",
+          "icon": ""
+        },
+        {
+          "title": "Skills you keep",
+          "text": "The coping strategies developed in CBT are meant to outlast treatment and are reinforced in aftercare.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "where-it-fits",
+      "kind": "cards",
+      "heading": "Where it fits in your care",
+      "subheading": "Available at these levels of care. Most people move through more than one.",
+      "body": [],
+      "items": [
+        {
+          "title": "Residential Inpatient",
+          "text": "Daily structured CBT work as part of the residential clinical schedule.",
+          "href": "/programs/residential-rehab-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Partial Hospitalization (PHP)",
+          "text": "Continued CBT sessions within full-day programming.",
+          "href": "/programs/php-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Intensive Outpatient (IOP)",
+          "text": "CBT applied directly to real situations you are meeting back in daily life.",
+          "href": "/programs/iop-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Outpatient",
+          "text": "Maintenance sessions that reinforce the skills already built.",
+          "href": "/programs/des-moines-outpatient-rehab",
+          "icon": ""
+        },
+        {
+          "title": "Dual Diagnosis",
+          "text": "Used for co-occurring depression and anxiety alongside substance use.",
+          "href": "/programs/dual-diagnosis",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "heading": "Speak with our clinical team",
+      "subheading": "",
+      "body": [
+        "Our intake specialists are available 24/7 for a confidential assessment. We can talk through which therapies fit your situation and verify your insurance on the same call."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [],
+  "ctas": []
+}

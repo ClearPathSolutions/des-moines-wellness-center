@@ -1,0 +1,133 @@
+{
+  "slug": "therapies/dialectical-behavior-therapy",
+  "pageType": "page",
+  "seo": {
+    "title": "DBT for Addiction in Des Moines, IA | Des Moines Wellness Center",
+    "description": "Dialectical Behavior Therapy at our Johnston, IA facility. DBT builds distress tolerance and emotional regulation for dual-diagnosis care."
+  },
+  "hero": {
+    "eyebrow": "Therapies",
+    "headline": "Dialectical Behavior Therapy (DBT)",
+    "subhead": "Emotional regulation. Specifically designed for dual-diagnosis care, DBT provides the tools needed for distress tolerance and interpersonal effectiveness, helping you manage intense emotions without drugs or alcohol.",
+    "image": {
+      "src": "/images/facility/quiet-room.webp",
+      "alt": "A calm, low-stimulation quiet room at Des Moines Wellness Center"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-it-is",
+      "kind": "prose",
+      "heading": "What Dialectical Behavior Therapy involves",
+      "subheading": "",
+      "body": [
+        "Dialectical Behavior Therapy was developed for people who experience emotion at high intensity, and it has become a central approach in dual-diagnosis treatment for exactly that reason. Where CBT asks what you are thinking, DBT focuses on what to do when the feeling is already overwhelming.",
+        "It is taught as a set of concrete skills across four areas — distress tolerance, emotional regulation, mindfulness and interpersonal effectiveness. The aim is a reliable alternative to substance use in the moments that previously left no other option."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "what-to-expect",
+      "kind": "features",
+      "heading": "What to expect",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Distress tolerance",
+          "text": "Specific techniques for getting through an acute crisis without using, and without making the situation worse.",
+          "icon": ""
+        },
+        {
+          "title": "Emotional regulation",
+          "text": "Work on recognising and naming emotional states early, before they reach the point of overwhelm.",
+          "icon": ""
+        },
+        {
+          "title": "Built for co-occurring conditions",
+          "text": "DBT is a core part of our dual-diagnosis programming, not an optional extra.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "where-it-fits",
+      "kind": "cards",
+      "heading": "Where it fits in your care",
+      "subheading": "Available at these levels of care. Most people move through more than one.",
+      "body": [],
+      "items": [
+        {
+          "title": "Residential Inpatient",
+          "text": "Skills groups and individual DBT work throughout the residential stay.",
+          "href": "/programs/residential-rehab-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Partial Hospitalization (PHP)",
+          "text": "Continued skills training during structured day treatment.",
+          "href": "/programs/php-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Intensive Outpatient (IOP)",
+          "text": "Practising the skills in live situations while living at home.",
+          "href": "/programs/iop-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Dual Diagnosis",
+          "text": "The central modality where a co-occurring condition is being treated alongside addiction.",
+          "href": "/programs/dual-diagnosis",
+          "icon": ""
+        },
+        {
+          "title": "Aftercare & Alumni",
+          "text": "Skills refreshers as part of ongoing alumni support.",
+          "href": "/programs/aftercare-and-alumni",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "heading": "Speak with our clinical team",
+      "subheading": "",
+      "body": [
+        "Our intake specialists are available 24/7 for a confidential assessment. We can talk through which therapies fit your situation and verify your insurance on the same call."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [],
+  "ctas": []
+}

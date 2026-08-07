@@ -119,6 +119,23 @@ const nextConfig = {
       // blog rather than 410'd so any inbound link lands somewhere useful.
       { source: '/author/cpts/', destination: '/blog/', permanent: true },
       { source: '/category/uncategorized/', destination: '/blog/', permanent: true },
+
+      // Production's /therapies "Learn More" buttons point at flat, top-level
+      // therapy slugs that have never existed — all six 404 there today. The
+      // pages now exist, nested under /therapies/ to match how /programs and
+      // /what-we-treat are organised. These redirects mean anyone following one
+      // of the old buttons, or a bookmark, lands on the real page instead.
+      { source: '/individual-therapy/', destination: '/therapies/individual-therapy/', permanent: true },
+      { source: '/group-therapy/', destination: '/therapies/group-therapy/', permanent: true },
+      { source: '/family-therapy/', destination: '/therapies/family-therapy/', permanent: true },
+      { source: '/cognitive-behavioral-therapy/', destination: '/therapies/cognitive-behavioral-therapy/', permanent: true },
+      { source: '/dialectical-behavior-therapy/', destination: '/therapies/dialectical-behavior-therapy/', permanent: true },
+      { source: '/trauma-informed-care/', destination: '/therapies/trauma-informed-care/', permanent: true },
+
+      // /emdr is linked from production's drug-rehab page and 404s there too.
+      // We do not offer a dedicated EMDR page, so it goes to the therapies hub
+      // rather than nowhere.
+      { source: '/emdr/', destination: '/therapies/', permanent: true },
     ]
   },
 }

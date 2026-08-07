@@ -1,0 +1,133 @@
+{
+  "slug": "therapies/trauma-informed-care",
+  "pageType": "page",
+  "seo": {
+    "title": "Trauma-Informed Care in Des Moines, IA | Des Moines Wellness Center",
+    "description": "Trauma-informed addiction treatment at our Johnston, IA facility. Specialized protocols that process past experiences without causing re-traumatization."
+  },
+  "hero": {
+    "eyebrow": "Therapies",
+    "headline": "Trauma-Informed Care",
+    "subhead": "Safety-first processing. We recognize the impact of past trauma on addiction. Our clinicians use specialized protocols to process these experiences and reduce hyper-vigilance without causing re-traumatization.",
+    "image": {
+      "src": "/images/facility/meditation-room.webp",
+      "alt": "A calm meditation room at Des Moines Wellness Center used for trauma-informed work"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-it-is",
+      "kind": "prose",
+      "heading": "What trauma-informed care involves",
+      "subheading": "",
+      "body": [
+        "Trauma-informed care is less a single therapy than a way of running the whole programme. It starts from the assumption that a significant number of people entering treatment have a trauma history, and that treatment itself can do harm if it ignores that.",
+        "In practice it changes pace and sequencing. Safety and stabilization come before any processing of difficult material, you are not pushed to disclose before you are ready, and clinicians watch for signs that a session is moving faster than is useful. Substance use is understood partly as an attempt to manage symptoms — hyper-vigilance, intrusive memories, sleeplessness — rather than as a failure of will."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "what-to-expect",
+      "kind": "features",
+      "heading": "What to expect",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Stabilization before processing",
+          "text": "Nothing difficult is opened up until you are physically and emotionally steady enough for it.",
+          "icon": ""
+        },
+        {
+          "title": "You set the pace",
+          "text": "Disclosure is never a requirement of participation. Sessions move at a speed you control.",
+          "icon": ""
+        },
+        {
+          "title": "Applied across the programme",
+          "text": "It informs how every clinician works, not just what happens in one specialist session.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "where-it-fits",
+      "kind": "cards",
+      "heading": "Where it fits in your care",
+      "subheading": "Available at these levels of care. Most people move through more than one.",
+      "body": [],
+      "items": [
+        {
+          "title": "Medical Detox",
+          "text": "A calm, low-stimulation environment during the most physically difficult stage.",
+          "href": "/programs/medical-detox-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Residential Inpatient",
+          "text": "Trauma-aware pacing across the full residential schedule.",
+          "href": "/programs/residential-rehab-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Partial Hospitalization (PHP)",
+          "text": "Continued processing work with daily clinical support available.",
+          "href": "/programs/php-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Dual Diagnosis",
+          "text": "Coordinated with treatment for PTSD and other co-occurring conditions.",
+          "href": "/programs/dual-diagnosis",
+          "icon": ""
+        },
+        {
+          "title": "Aftercare & Alumni",
+          "text": "Ongoing support as trauma work continues beyond formal treatment.",
+          "href": "/programs/aftercare-and-alumni",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "heading": "Speak with our clinical team",
+      "subheading": "",
+      "body": [
+        "Our intake specialists are available 24/7 for a confidential assessment. We can talk through which therapies fit your situation and verify your insurance on the same call."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [],
+  "ctas": []
+}

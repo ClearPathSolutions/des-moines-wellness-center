@@ -72,32 +72,38 @@
         {
           "title": "Individual Therapy",
           "text": "Private sessions with board-certified counselors to process personal history, set goals, and develop individualized relapse prevention strategies.",
-          "icon": ""
+          "icon": "",
+          "href": "/therapies/individual-therapy"
         },
         {
           "title": "Group Therapy",
           "text": "Peer-supported recovery. These facilitated sessions reduce isolation by connecting you with others facing similar challenges, providing a safe environment to practice social skills and emotional accountability.",
-          "icon": ""
+          "icon": "",
+          "href": "/therapies/group-therapy"
         },
         {
           "title": "Family Therapy",
           "text": "Systemic restoration. We facilitate dedicated sessions to repair communication and educate your support system on the science of addiction, ensuring a stable environment for your return home.",
-          "icon": ""
+          "icon": "",
+          "href": "/therapies/family-therapy"
         },
         {
           "title": "Cognitive Behavioral Therapy (CBT)",
           "text": "Pattern recognition. Our staff utilizes CBT to identify the automatic negative thoughts and environmental triggers that lead to substance use, replacing them with practical, proactive coping mechanisms.",
-          "icon": ""
+          "icon": "",
+          "href": "/therapies/cognitive-behavioral-therapy"
         },
         {
           "title": "Dialectical Behavior Therapy (DBT)",
           "text": "Emotional regulation. Specifically designed for dual-diagnosis care, DBT provides the tools needed for distress tolerance and interpersonal effectiveness, helping you manage intense emotions without drugs or alcohol.",
-          "icon": ""
+          "icon": "",
+          "href": "/therapies/dialectical-behavior-therapy"
         },
         {
           "title": "Trauma-Informed Care",
           "text": "Safety-first processing. We recognize the impact of past trauma on addiction. Our clinicians use specialized protocols to process these experiences and reduce hyper-vigilance without causing re-traumatization.",
-          "icon": ""
+          "icon": "",
+          "href": "/therapies/trauma-informed-care"
         }
       ],
       "faqs": [],

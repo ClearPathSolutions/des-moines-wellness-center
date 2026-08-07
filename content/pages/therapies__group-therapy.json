@@ -1,0 +1,133 @@
+{
+  "slug": "therapies/group-therapy",
+  "pageType": "page",
+  "seo": {
+    "title": "Group Therapy in Des Moines, IA | Des Moines Wellness Center",
+    "description": "Facilitated group sessions at our Johnston, IA facility. Peer-supported recovery that reduces isolation and builds accountability alongside individual care."
+  },
+  "hero": {
+    "eyebrow": "Therapies",
+    "headline": "Group Therapy",
+    "subhead": "Peer-supported recovery. These facilitated sessions reduce isolation by connecting you with others facing similar challenges, providing a safe environment to practice social skills and emotional accountability.",
+    "image": {
+      "src": "/images/facility/group-lounge.webp",
+      "alt": "The group lounge at Des Moines Wellness Center, arranged for facilitated group sessions"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-it-is",
+      "kind": "prose",
+      "heading": "What Group Therapy involves",
+      "subheading": "",
+      "body": [
+        "Group therapy is clinician-facilitated, not a free-for-all. A member of our staff runs each session, sets the ground rules and keeps the room safe, which is what separates it from an informal peer meeting.",
+        "Much of what makes it work is simply hearing the same thing said by someone who is living it. Isolation and the belief that your situation is uniquely shameful are common in addiction, and both tend to weaken in a room of people describing the same patterns."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "what-to-expect",
+      "kind": "features",
+      "heading": "What to expect",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Facilitated, not unstructured",
+          "text": "A clinician leads every session, holds the boundaries and steps in when a topic needs care.",
+          "icon": ""
+        },
+        {
+          "title": "A place to practise",
+          "text": "Group is where communication, boundary-setting and accountability get rehearsed before you need them at home.",
+          "icon": ""
+        },
+        {
+          "title": "Confidentiality is the rule",
+          "text": "What is said in the room stays there. It is stated openly and enforced.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "where-it-fits",
+      "kind": "cards",
+      "heading": "Where it fits in your care",
+      "subheading": "Available at these levels of care. Most people move through more than one.",
+      "body": [],
+      "items": [
+        {
+          "title": "Residential Inpatient",
+          "text": "Daily group sessions form the backbone of the residential schedule.",
+          "href": "/programs/residential-rehab-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Partial Hospitalization (PHP)",
+          "text": "Multiple facilitated groups each day, with evenings at home or in housing.",
+          "href": "/programs/php-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Intensive Outpatient (IOP)",
+          "text": "Several group sessions a week, scheduled around work and family.",
+          "href": "/programs/iop-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Outpatient",
+          "text": "Lower-frequency groups that maintain contact as independence increases.",
+          "href": "/programs/des-moines-outpatient-rehab",
+          "icon": ""
+        },
+        {
+          "title": "Aftercare & Alumni",
+          "text": "Alumni groups keep the same peer connection after formal treatment ends.",
+          "href": "/programs/aftercare-and-alumni",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "heading": "Speak with our clinical team",
+      "subheading": "",
+      "body": [
+        "Our intake specialists are available 24/7 for a confidential assessment. We can talk through which therapies fit your situation and verify your insurance on the same call."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [],
+  "ctas": []
+}

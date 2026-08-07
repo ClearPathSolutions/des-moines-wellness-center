@@ -1,13 +1,20 @@
 {
   "$comment": "T-13 cutover redirect map. Machine-readable so scripts/cutover-check.mjs can verify every entry is a single hop to a 200. Keep in step with next.config.mjs redirects().",
-  "reviewed": "2026-08-05",
+  "reviewed": "2026-08-07",
   "convention": "Slash-canonical, matching production. Sources AND destinations carry the trailing slash: with trailingSlash: true Next normalises before matching, so a slashless source never matches the indexed URL and a slashless destination adds a second hop.",
   "redirects": {
     "/how-long-does-percocet-stay-in-your-system/": "/blog/how-long-does-percocet-stay-in-your-system/",
     "/how-alcohol-addiction-can-impact-every-area-of-life/": "/blog/how-alcohol-addiction-can-impact-every-area-of-life/",
     "/author/cpts/": "/blog/",
     "/category/uncategorized/": "/blog/",
-    "/team/wesley-starlin/": "/team/welsey-starlin/"
+    "/team/wesley-starlin/": "/team/welsey-starlin/",
+    "/individual-therapy/": "/therapies/individual-therapy/",
+    "/group-therapy/": "/therapies/group-therapy/",
+    "/family-therapy/": "/therapies/family-therapy/",
+    "/cognitive-behavioral-therapy/": "/therapies/cognitive-behavioral-therapy/",
+    "/dialectical-behavior-therapy/": "/therapies/dialectical-behavior-therapy/",
+    "/trauma-informed-care/": "/therapies/trauma-informed-care/",
+    "/emdr/": "/therapies/"
   },
   "intentionalDrops": [
     {
@@ -20,16 +27,70 @@
     }
   ],
   "newUrlsForSearchConsole": [
-    { "path": "/verify-insurance/", "note": "404s on production. New page — submit, no redirect needed." },
-    { "path": "/areas-we-serve/", "note": "404s on production. New hub." },
-    { "path": "/team/", "note": "404s on production. New hub." },
-    { "path": "/team/bethany-hamilton/", "note": "404s on production. Legitimate new team member (T-26); photo still outstanding." },
-    { "path": "/areas-we-serve/urbandale/", "note": "New service-area page (T-06)." },
-    { "path": "/areas-we-serve/waukee/", "note": "New service-area page (T-06)." },
-    { "path": "/areas-we-serve/polk-county/", "note": "New service-area page (T-06)." },
-    { "path": "/areas-we-serve/dallas-county/", "note": "New service-area page (T-06)." },
-    { "path": "/blog/how-long-does-percocet-stay-in-your-system/", "note": "Migrated post, moved off its root-level slug (T-17)." },
-    { "path": "/blog/how-alcohol-addiction-can-impact-every-area-of-life/", "note": "Moved off its root-level slug (T-17)." }
+    {
+      "path": "/verify-insurance/",
+      "note": "404s on production. New page — submit, no redirect needed."
+    },
+    {
+      "path": "/areas-we-serve/",
+      "note": "404s on production. New hub."
+    },
+    {
+      "path": "/team/",
+      "note": "404s on production. New hub."
+    },
+    {
+      "path": "/team/bethany-hamilton/",
+      "note": "404s on production. Legitimate new team member (T-26); photo still outstanding."
+    },
+    {
+      "path": "/areas-we-serve/urbandale/",
+      "note": "New service-area page (T-06)."
+    },
+    {
+      "path": "/areas-we-serve/waukee/",
+      "note": "New service-area page (T-06)."
+    },
+    {
+      "path": "/areas-we-serve/polk-county/",
+      "note": "New service-area page (T-06)."
+    },
+    {
+      "path": "/areas-we-serve/dallas-county/",
+      "note": "New service-area page (T-06)."
+    },
+    {
+      "path": "/blog/how-long-does-percocet-stay-in-your-system/",
+      "note": "Migrated post, moved off its root-level slug (T-17)."
+    },
+    {
+      "path": "/blog/how-alcohol-addiction-can-impact-every-area-of-life/",
+      "note": "Moved off its root-level slug (T-17)."
+    },
+    {
+      "path": "/therapies/individual-therapy/",
+      "note": "New therapy page. Production's /therapies linked this modality at a flat slug that 404s there."
+    },
+    {
+      "path": "/therapies/group-therapy/",
+      "note": "New therapy page. Production's /therapies linked this modality at a flat slug that 404s there."
+    },
+    {
+      "path": "/therapies/family-therapy/",
+      "note": "New therapy page. Production's /therapies linked this modality at a flat slug that 404s there."
+    },
+    {
+      "path": "/therapies/cognitive-behavioral-therapy/",
+      "note": "New therapy page. Production's /therapies linked this modality at a flat slug that 404s there."
+    },
+    {
+      "path": "/therapies/dialectical-behavior-therapy/",
+      "note": "New therapy page. Production's /therapies linked this modality at a flat slug that 404s there."
+    },
+    {
+      "path": "/therapies/trauma-informed-care/",
+      "note": "New therapy page. Production's /therapies linked this modality at a flat slug that 404s there."
+    }
   ],
   "notExecutedPendingDecision": [
     {

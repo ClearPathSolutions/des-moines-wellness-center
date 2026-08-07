@@ -1,0 +1,133 @@
+{
+  "slug": "therapies/individual-therapy",
+  "pageType": "page",
+  "seo": {
+    "title": "Individual Therapy in Des Moines, IA | Des Moines Wellness Center",
+    "description": "One-to-one counseling at our Johnston, IA facility. Private sessions with licensed clinicians to build a personal recovery and relapse-prevention plan."
+  },
+  "hero": {
+    "eyebrow": "Therapies",
+    "headline": "Individual Therapy",
+    "subhead": "Private sessions with board-certified counselors to process personal history, set goals, and develop individualized relapse prevention strategies.",
+    "image": {
+      "src": "/images/facility/therapy-room.webp",
+      "alt": "A private one-to-one counseling room at Des Moines Wellness Center"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-it-is",
+      "kind": "prose",
+      "heading": "What Individual Therapy involves",
+      "subheading": "",
+      "body": [
+        "Individual therapy is the part of treatment that belongs only to you. You meet one-to-one with the same licensed clinician throughout your stay, which means you are not re-explaining your history to a new face every week.",
+        "Sessions are where the details of your own situation get worked through — what led to substance use, what has been tried before, what is waiting for you at home, and what specifically tends to precede a return to use. That work produces your relapse-prevention plan, and it is revisited as your circumstances change rather than written once at intake."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "what-to-expect",
+      "kind": "features",
+      "heading": "What to expect",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "A consistent clinician",
+          "text": "You work with the same counselor across levels of care, so progress carries forward instead of restarting.",
+          "icon": ""
+        },
+        {
+          "title": "Your own treatment plan",
+          "text": "Goals, triggers and coping strategies are written for your history, not a template, and adjusted as you progress.",
+          "icon": ""
+        },
+        {
+          "title": "Private by design",
+          "text": "Individual sessions are confidential and separate from group work — the place for anything you are not ready to say in a room.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "where-it-fits",
+      "kind": "cards",
+      "heading": "Where it fits in your care",
+      "subheading": "Available at these levels of care. Most people move through more than one.",
+      "body": [],
+      "items": [
+        {
+          "title": "Medical Detox",
+          "text": "Brief supportive contact while you stabilize medically.",
+          "href": "/programs/medical-detox-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Residential Inpatient",
+          "text": "Regular one-to-one sessions as the core of the weekly schedule.",
+          "href": "/programs/residential-rehab-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Partial Hospitalization (PHP)",
+          "text": "Continued individual work alongside structured day programming.",
+          "href": "/programs/php-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Intensive Outpatient (IOP)",
+          "text": "Ongoing sessions while you return to work, study or family life.",
+          "href": "/programs/iop-des-moines",
+          "icon": ""
+        },
+        {
+          "title": "Dual Diagnosis",
+          "text": "Coordinated with psychiatric care when a co-occurring condition is being treated.",
+          "href": "/programs/dual-diagnosis",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "heading": "Speak with our clinical team",
+      "subheading": "",
+      "body": [
+        "Our intake specialists are available 24/7 for a confidential assessment. We can talk through which therapies fit your situation and verify your insurance on the same call."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [],
+  "ctas": []
+}
