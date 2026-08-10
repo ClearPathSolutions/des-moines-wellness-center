@@ -1,6 +1,6 @@
 {
   "$comment": "T-13 cutover redirect map. Machine-readable so scripts/cutover-check.mjs can verify every entry is a single hop to a 200. Keep in step with next.config.mjs redirects().",
-  "reviewed": "2026-08-07",
+  "reviewed": "2026-08-06",
   "convention": "Slash-canonical, matching production. Sources AND destinations carry the trailing slash: with trailingSlash: true Next normalises before matching, so a slashless source never matches the indexed URL and a slashless destination adds a second hop.",
   "redirects": {
     "/how-long-does-percocet-stay-in-your-system/": "/blog/how-long-does-percocet-stay-in-your-system/",
@@ -14,7 +14,8 @@
     "/cognitive-behavioral-therapy/": "/therapies/cognitive-behavioral-therapy/",
     "/dialectical-behavior-therapy/": "/therapies/dialectical-behavior-therapy/",
     "/trauma-informed-care/": "/therapies/trauma-informed-care/",
-    "/emdr/": "/therapies/"
+    "/emdr/": "/therapies/",
+    "/programs/php-des-moines/": "/programs/des-moines-outpatient-rehab/"
   },
   "intentionalDrops": [
     {
@@ -104,6 +105,13 @@
       "task": "T-15, T-16",
       "recommendation": "defer",
       "reason": "Moves 8 indexed URLs and is coupled to T-14. The register also flags the reference build for this standard as itself suspect (V0109: 106 canonicals pointing at the homepage)."
+    }
+  ],
+  "retiredServices": [
+    {
+      "path": "/programs/php-des-moines/",
+      "reason": "The facility does not offer Partial Hospitalization. Advertising it was an unsubstantiated service claim, so the page was removed and every PHP mention stripped sitewide (nav, footer, homepage card row, 32 content files). 301'd to the nearest level of care actually offered rather than 410'd, because the URL is indexed and returns 200 on live production today.",
+      "redirectsTo": "/programs/des-moines-outpatient-rehab/"
     }
   ]
 }

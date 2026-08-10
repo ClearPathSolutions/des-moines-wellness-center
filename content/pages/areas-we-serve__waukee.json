@@ -3,7 +3,7 @@
   "pageType": "area",
   "seo": {
     "title": "Addiction Treatment Serving Waukee, Iowa | Des Moines Wellness Center",
-    "description": "Medical detox, inpatient rehab and flexible PHP/IOP about 20 minutes from Waukee, IA. Dual-diagnosis care, most insurance accepted."
+    "description": "Medical detox, inpatient rehab and flexible IOP about 20 minutes from Waukee, IA. Dual-diagnosis care, most insurance accepted."
   },
   "hero": {
     "eyebrow": "Areas We Serve",
@@ -57,12 +57,6 @@
           "text": "Full-time inpatient care in a structured, private setting.",
           "icon": "",
           "href": "/programs/residential-rehab-des-moines"
-        },
-        {
-          "title": "Partial Hospitalization",
-          "text": "Full-day clinical programming without an overnight stay.",
-          "icon": "",
-          "href": "/programs/php-des-moines"
         },
         {
           "title": "Intensive Outpatient",

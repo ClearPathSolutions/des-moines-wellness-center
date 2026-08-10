@@ -29,7 +29,7 @@
       "heading": "Treatment for Dallas County, from our Johnston campus",
       "subheading": "",
       "body": [
-        "Dallas County is one of the fastest-growing counties in Iowa, and for many residents the nearest accredited detox is still east of the county line. Our Johnston campus is a short drive from Waukee, Adel, Perry and Dallas Center, close enough for family involvement and for a genuine step-down through PHP and IOP rather than a discharge straight home.",
+        "Dallas County is one of the fastest-growing counties in Iowa, and for many residents the nearest accredited detox is still east of the county line. Our Johnston campus is a short drive from Waukee, Adel, Perry and Dallas Center, close enough for family involvement and for a genuine step-down through IOP rather than a discharge straight home.",
         "We frequently work with Dallas County clients who have tried outpatient counselling alone and relapsed. Starting with medical stabilisation and then moving through levels of care in one place, with one clinical team, is usually what changes the outcome."
       ],
       "items": [],
@@ -57,12 +57,6 @@
           "text": "Full-time inpatient care in a structured, private setting.",
           "icon": "",
           "href": "/programs/residential-rehab-des-moines"
-        },
-        {
-          "title": "Partial Hospitalization",
-          "text": "Full-day clinical programming without an overnight stay.",
-          "icon": "",
-          "href": "/programs/php-des-moines"
         },
         {
           "title": "Intensive Outpatient",

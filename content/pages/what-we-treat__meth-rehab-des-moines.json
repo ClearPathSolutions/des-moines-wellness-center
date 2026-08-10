@@ -3,7 +3,7 @@
   "pageType": "condition",
   "seo": {
     "title": "Meth Rehab in Des Moines, IA | Des Moines Wellness Center",
-    "description": "Leading methamphetamine addiction treatment in Des Moines. Our Polk County facility offers medical detox, residential care, PHP, and IOP on one campus."
+    "description": "Leading methamphetamine addiction treatment in Des Moines. Our Polk County facility offers medical detox, residential care and IOP on one campus."
   },
   "hero": {
     "eyebrow": "",
@@ -42,7 +42,7 @@
         },
         {
           "title": "",
-          "text": "Evidence-based Residential, PHP, and IOP programs focused on cognitive repair and long-term sobriety.",
+          "text": "Evidence-based Residential and IOP programs focused on cognitive repair and long-term sobriety.",
           "icon": ""
         },
         {
@@ -181,12 +181,6 @@
           "text": "Immersive Stabilization. Transition from detox into 24/7 structured care focused on intensive therapy and neuro-restoration.",
           "icon": "",
           "href": "/programs/residential-rehab-des-moines"
-        },
-        {
-          "title": "Partial Hospitalization",
-          "text": "Back to Real Life. High-level clinical support during the day while you begin practicing real-world coping skills.",
-          "icon": "",
-          "href": "/programs/php-des-moines"
         },
         {
           "title": "Intensive Outpatient",

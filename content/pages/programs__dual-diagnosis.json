@@ -32,7 +32,7 @@
       "items": [
         {
           "title": "Continuum of Care",
-          "text": "Seamless transitions through Detox, Residential, PHP, IOP, and Aftercare.",
+          "text": "Seamless transitions through Detox, Residential, IOP, and Aftercare.",
           "icon": ""
         },
         {
@@ -155,11 +155,6 @@
           "text": "Intensive Healing — 24/7 structured support. Daily therapy sessions focus deeply on the root causes of co-occurring disorders.",
           "icon": "",
           "href": "/programs/residential-rehab-des-moines"
-        },
-        {
-          "title": "Partial Hospitalization",
-          "text": "Skill Building — High-intensity day treatment where patients apply coping strategies to real-world stressors with full clinical oversight.",
-          "icon": ""
         },
         {
           "title": "Intensive Outpatient",
@@ -292,7 +287,7 @@
       "heading": "Expert Dual Diagnosis Care Tailored for the Iowa Community",
       "subheading": "Your Local Partner for Dual Diagnosis Recovery in Iowa",
       "body": [
-        "Finding an accredited dual diagnosis treatment center in Des Moines is the most critical step in breaking the cycle of co-occurring disorders. While many facilities treat addiction as a standalone issue, our clinical philosophy is rooted in integrated recovery. We recognize that without addressing the underlying psychiatric triggers, such as depression, anxiety, or PTSD, the risk of relapse remains high. As a proud member of the Quadrant Health Group , our luxury drug rehab brings the clinical expertise of a national network of excellence directly to Polk County. We provide a full continuum of care, from medically supervised detox to outpatient support, using a trauma-informed approach that addresses root causes through integrated psychiatric management and evidence-based therapies.",
+        "Finding an accredited dual diagnosis treatment center in Des Moines is the most critical step in breaking the cycle of co-occurring disorders. While many facilities treat addiction as a standalone issue, our clinical philosophy is rooted in integrated recovery. We recognize that without addressing the underlying psychiatric triggers, such as depression, anxiety, or PTSD, the risk of relapse remains high. As a proud member of the Quadrant Health Group, our programs bring the clinical expertise of a national network of excellence directly to Polk County. We provide a full continuum of care, from medically supervised detox to outpatient support, using a trauma-informed approach that addresses root causes through integrated psychiatric management and evidence-based therapies.",
         "Conveniently located for local families, we are easily accessible via I-235 and I-80, and just a short drive from Des Moines International Airport (DSM). We offer same-day assessments and insurance verification to ensure you can start your recovery in a safe, healing environment without delay. Our admissions team is available 24/7 to provide a confidential consultation, verify your insurance, and walk you through our intake process. Whether you need detox in Des Moines or long-term dual diagnosis care, we are ready to help. Call us today."
       ],
       "items": [],
@@ -335,7 +330,7 @@
         },
         {
           "q": "How long does the program last?",
-          "a": "Treatment is highly individualized. While most patients transition through our continuum of care (Detox, Residential, PHP, and IOP) over 30 to 90 days, your specific timeline will depend on your unique progress and clinical needs identified during your stay."
+          "a": "Treatment is highly individualized. While most patients transition through our continuum of care (Detox, Residential and IOP) over 30 to 90 days, your specific timeline will depend on your unique progress and clinical needs identified during your stay."
         },
         {
           "q": "Are these programs available for local Des Moines residents?",

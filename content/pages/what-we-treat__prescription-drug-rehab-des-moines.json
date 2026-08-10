@@ -3,7 +3,7 @@
   "pageType": "condition",
   "seo": {
     "title": "Prescription Drug Rehab in Des Moines, IA | Des Moines Wellness Center",
-    "description": "Specialized prescription drug rehab in Des Moines. Offering a full on-site continuum of care: Medical Detox, Residential, & PHP. Most insurances accepted."
+    "description": "Specialized prescription drug rehab in Des Moines. Offering a full on-site continuum of care: Medical Detox, Residential, & IOP. Most insurances accepted."
   },
   "hero": {
     "eyebrow": "",
@@ -41,12 +41,6 @@
           "text": "24/7 structured environment focused on neuro-restoration and therapy.",
           "icon": "",
           "href": "/programs/residential-rehab-des-moines"
-        },
-        {
-          "title": "Partial Hospitalization (PHP)",
-          "text": "Intensive daytime clinical support while practicing real-world coping.",
-          "icon": "",
-          "href": "/programs/php-des-moines"
         },
         {
           "title": "Intensive Outpatient (IOP)",
@@ -194,7 +188,7 @@
         },
         {
           "title": "4. Integrated Transition",
-          "text": "Once stable, you move seamlessly into our on-site Residential or PHP programs, ensuring a continuous path to healing without leaving our Des Moines campus.",
+          "text": "Once stable, you move seamlessly into our on-site Residential or outpatient programs, ensuring a continuous path to healing without leaving our Des Moines campus.",
           "icon": ""
         }
       ],
@@ -220,7 +214,7 @@
           "href": "/programs/residential-rehab-des-moines"
         },
         {
-          "title": "Outpatient (PHP & IOP)",
+          "title": "Outpatient (IOP)",
           "text": "Back to Real Life. These levels provide intensive therapy during the day while allowing you to live at home. It is the ideal bridge for reintegrating into your Polk County routine with professional support.",
           "icon": ""
         },
@@ -341,7 +335,7 @@
       "heading": "Prescription Drug Addiction Treatment in Des Moines",
       "subheading": "Clinical Excellence in Iowa",
       "body": [
-        "Overcoming prescription drug dependency requires a medically precise approach that addresses both physical chemistry and psychological triggers. As a Quadrant Health Group facility , Des Moines Wellness Center provides a high-acuity clinical environment in Polk County specifically engineered for the complexities of opioid, benzodiazepine, and stimulant recovery. The cornerstone of our success is our full on-site continuum of care. We offer every stage of recovery, from medical detox and residential treatment to PHP and IOP within a single, integrated Des Moines campus. This seamless structure eliminates the risks associated with facility transfers, ensuring your clinical team and treatment plan remain consistent as you progress.",
+        "Overcoming prescription drug dependency requires a medically precise approach that addresses both physical chemistry and psychological triggers. As a Quadrant Health Group facility, Des Moines Wellness Center provides a high-acuity clinical environment in Polk County specifically engineered for the complexities of opioid, benzodiazepine, and stimulant recovery. The cornerstone of our success is our full on-site continuum of care. We offer every stage of recovery, from medical detox and residential treatment to IOP within a single, integrated Des Moines campus. This seamless structure eliminates the risks associated with facility transfers, ensuring your clinical team and treatment plan remain consistent as you progress.",
         "Our commitment to clinical excellence is further reinforced by our specialized focus on medication-assisted treatment (MAT) and dual-diagnosis integration. Our Quadrant Health Group experts address the intricate relationship between physical dependency and co-occurring mental health conditions, ensuring that underlying issues like chronic pain or treatment-resistant anxiety are addressed simultaneously. For those seeking the highest standard of prescription drug rehab in Des Moines, we offer a medically rigorous, insurance-accessible path to recovery that prioritizes sustainable sobriety. We are in-network with most major providers. Our Des Moines admissions team is available 24/7 for confidential insurance verification and same-day clinical assessments."
       ],
       "items": [],
@@ -361,7 +355,7 @@
       "faqs": [
         {
           "q": "How long does prescription drug treatment last?",
-          "a": "The duration of treatment is individualized based on your clinical needs. While Medical Detox typically lasts 5–10 days, most patients benefit from a 30-to-90-day progression through our Residential, PHP, and IOP programs to ensure long-term stability."
+          "a": "The duration of treatment is individualized based on your clinical needs. While Medical Detox typically lasts 5–10 days, most patients benefit from a 30-to-90-day progression through our Residential and IOP programs to ensure long-term stability."
         },
         {
           "q": "Can I recover while still working or attending school?",

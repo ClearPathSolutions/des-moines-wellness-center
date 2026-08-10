@@ -1,0 +1,155 @@
+{
+  "slug": "areas-we-serve/des-moines",
+  "pageType": "area",
+  "seo": {
+    "title": "Addiction Treatment Serving Des Moines, Iowa | Des Moines Wellness Center",
+    "description": "Accredited detox, residential and outpatient addiction treatment 15 minutes from downtown Des Moines. Dual-diagnosis care, 24/7 admissions, most insurance accepted."
+  },
+  "hero": {
+    "eyebrow": "Areas We Serve",
+    "headline": "Addiction Treatment Serving Des Moines, Iowa",
+    "subhead": "Our Johnston campus sits about 15 minutes from downtown Des Moines — close enough for family to stay involved, far enough to give you room to focus.",
+    "image": {
+      "src": "/images/facility/aerial-des-moines-skyline.webp",
+      "alt": "Aerial view of the Des Moines skyline"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "treatment-for-des-moines",
+      "kind": "prose",
+      "heading": "Treatment for Des Moines, from our Johnston campus",
+      "subheading": "Care in your own city, without leaving your support system behind",
+      "body": [
+        "Most people looking for addiction treatment in Des Moines are weighing two bad options: a facility so close that every trigger is still on the doorstep, or one so far away that family involvement stops being realistic. Our Johnston campus sits between those extremes — roughly 15 minutes from downtown, straight up I-35 or Merle Hay Road.",
+        "That distance matters clinically. It is far enough to break the daily routine that keeps substance use going, and near enough that a partner, parent or adult child can attend family sessions on a weeknight without booking travel. When treatment ends, you are already in the community where you will do the work of staying well."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "levels-of-care",
+      "kind": "cards",
+      "heading": "Every Level of Care in One Place",
+      "subheading": "You move between levels without changing facility, insurer or clinical team.",
+      "body": [],
+      "items": [
+        {
+          "title": "Medical Detox",
+          "text": "24/7 supervised withdrawal management, the safe first step when there is physical dependence.",
+          "icon": "",
+          "href": "/programs/medical-detox-des-moines"
+        },
+        {
+          "title": "Residential Inpatient",
+          "text": "Live on site with round-the-clock support, for substance use and mental health alike.",
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
+        },
+        {
+          "title": "Intensive Outpatient (IOP)",
+          "text": "Part-day sessions while you live at home and keep working or studying.",
+          "icon": "",
+          "href": "/programs/iop-des-moines"
+        },
+        {
+          "title": "Outpatient",
+          "text": "Continuing care as your weekly commitment scales back.",
+          "icon": "",
+          "href": "/programs/des-moines-outpatient-rehab"
+        },
+        {
+          "title": "Virtual Outpatient",
+          "text": "The same clinicians by secure video, if getting to campus is the obstacle.",
+          "icon": "",
+          "href": "/programs/virtual-outpatient"
+        },
+        {
+          "title": "Dual Diagnosis",
+          "text": "Addiction and co-occurring mental health conditions treated together, not in sequence.",
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "getting-here",
+      "kind": "prose",
+      "heading": "Getting here from Des Moines",
+      "subheading": "",
+      "body": [
+        "We are at 5820 Winwood Dr, Johnston, IA 50131. From downtown Des Moines it is about 15 minutes: north on I-35/80 to the Merle Hay Road exit, then a short run north-west. From the East Village or Drake allow a little longer in rush hour. Parking is on site and free, and if transport is the thing standing in your way, say so when you call — we can often help arrange it."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "Is the facility actually in Des Moines?",
+          "a": "The campus is in Johnston, about 15 minutes from downtown Des Moines, and we serve the whole metro from there. We say Johnston plainly rather than claiming a Des Moines address, because you should know exactly where you are going before you commit to treatment."
+        },
+        {
+          "q": "Can my family visit during treatment?",
+          "a": "Yes, and we actively encourage it. Family involvement is one of the strongest predictors of lasting recovery, and being 15 minutes from Des Moines means a weeknight family session is realistic rather than an all-day undertaking."
+        },
+        {
+          "q": "Do you take my insurance?",
+          "a": "We work with most major private plans, including Wellmark Blue Cross Blue Shield, Aetna, Cigna, UMR, UnitedHealthcare and Surest. Verification is free, confidential and takes minutes — we will tell you your coverage, deductible and any co-pay before you commit to anything."
+        },
+        {
+          "q": "How quickly can I be admitted?",
+          "a": "Often the same day. Admissions are answered 24/7, and if we are not the right fit for your clinical needs we will tell you and help you find somewhere that is."
+        }
+      ],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "heading": "Start treatment in Des Moines today",
+      "subheading": "",
+      "body": [
+        "One confidential call is enough to understand your options, check your insurance and decide on a next step. No obligation to enrol."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [],
+  "ctas": []
+}

@@ -2,7 +2,7 @@
   "name": "des-moines-wellness-center",
   "version": "1.0.0",
   "private": true,
-  "description": "Des Moines Wellness Center \u2014 modern Next.js rebuild",
+  "description": "Des Moines Wellness Center — modern Next.js rebuild",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,10 +10,11 @@
     "lint": "next lint",
     "check:links": "node scripts/check-links.mjs",
     "check:substances": "node scripts/check-substances.mjs",
-    "check": "npm run check:links && npm run check:substances && npm run check:claims",
+    "check": "npm run check:links && npm run check:substances && npm run check:claims && npm run check:services",
     "check:claims": "node scripts/check-claims.mjs",
     "cutover:check": "node scripts/cutover-check.mjs",
-    "verify:lead": "node scripts/verify-lead.mjs"
+    "verify:lead": "node scripts/verify-lead.mjs",
+    "check:services": "node scripts/check-services.mjs"
   },
   "//overrides": "postcss and sharp are pulled in transitively by next at versions with published high-severity advisories (postcss sourceMappingURL file disclosure; sharp/libvips CVE-2026-33327 et al). Both are patch/minor bumps within the same major. Re-check on each next upgrade and drop the pin once next ships the patched ranges itself.",
   "overrides": {

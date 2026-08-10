@@ -37,7 +37,7 @@
         },
         {
           "title": "Program Options",
-          "text": "Dual-track flexibility including full-day PHP and part-day IOP sessions.",
+          "text": "Flexible part-day IOP sessions that work around your schedule.",
           "icon": ""
         },
         {
@@ -84,22 +84,6 @@
       }
     },
     {
-      "id": "php-day-treatment",
-      "kind": "prose",
-      "heading": "High-Intensity PHP Day Treatment in Des Moines, IA",
-      "subheading": "THE HIGHEST LEVEL OF CARE",
-      "body": [
-        "Outpatient treatment is a clinical framework that allows you to receive intensive, expert-led therapy for addiction and mental health without living at a facility. Unlike residential care, where you remain on-site 24/7, our Des Moines outpatient programs are designed to fit into your existing life. You attend high-level clinical sessions during the day and return home each evening to your own bed and family.",
-        "We provide the same rigor found in inpatient settings, including CBT, DBT, and psychiatric oversight, but delivered through a flexible schedule. This model serves as the ultimate real-world test, allowing you to build recovery skills and immediately apply them to your daily life."
-      ],
-      "items": [],
-      "faqs": [],
-      "image": {
-        "src": "",
-        "alt": ""
-      }
-    },
-    {
       "id": "who-is-outpatient-care-for",
       "kind": "features",
       "heading": "Who is Outpatient Care For?",
@@ -134,34 +118,6 @@
       }
     },
     {
-      "id": "php-vs-iop",
-      "kind": "cards",
-      "heading": "PHP vs. IOP: Choosing the Right Level of Support",
-      "subheading": "FINDING YOUR FIT",
-      "body": [
-        "We offer both Partial Hospitalization (PHP) and Intensive Outpatient (IOP) programs to ensure your treatment matches your specific clinical needs. Backed by 10+ years of Quadrant Health expertise, these tracks allow you to receive high-intensity care while remaining present for your family and career in Polk County. Our Des Moines outpatient rehab provides the professional sanctuary needed to fix the roots of addiction and transition back to normal life.",
-        "While both programs allow you to live at home , the difference lies in the clinical intensity and your weekly time commitment. Use the grid below to see the main differences:"
-      ],
-      "items": [
-        {
-          "title": "PHP (Day Treatment)",
-          "text": "Best For: Early recovery & high clinical need. Goal: Crisis stabilization & deep trauma work. Frequency: 5 Days Per Week. Weekly Hours: 30+ Hours. Schedule: Full-day (9:00 AM – 3:30 PM). Daily Life: Focus is 100% on recovery.",
-          "icon": ""
-        },
-        {
-          "title": "IOP (Intensive Outpatient)",
-          "text": "Best For: Stabilized recovery & transition. Goal: Maintenance & real-world integration. Frequency: 3–5 Days Per Week. Weekly Hours: 9–15 Hours. Schedule: Part-time (Morning or Evening). Daily Life: Balance of recovery, work, or school.",
-          "icon": "",
-          "href": "/programs/iop-des-moines"
-        }
-      ],
-      "faqs": [],
-      "image": {
-        "src": "",
-        "alt": ""
-      }
-    },
-    {
       "id": "continuum-of-care",
       "kind": "steps",
       "heading": "Outpatient Programs: The Last Step In Your Recovery from Addiction",
@@ -182,7 +138,7 @@
         },
         {
           "title": "Outpatient Programs",
-          "text": "Back to Real Life. This is where you transition back to daily life. PHP offers full-day clinical intensity while you sleep at home. IOP allow to work or go to school.",
+          "text": "Back to Real Life. This is where you transition back to daily life. IOP offers clinical structure while you live at home. IOP lets you keep working or studying.",
           "icon": ""
         }
       ],
@@ -212,7 +168,7 @@
           "icon": ""
         },
         {
-          "title": "High-End Privacy",
+          "title": "comfortable Privacy",
           "text": "Access premier clinical care at our private estate while maintaining your personal and professional schedule.",
           "icon": ""
         },
@@ -245,7 +201,7 @@
       "subheading": "COMMUTING MADE EASY",
       "body": [
         "We’ve removed the stress of the commute so you can focus on healing. Our Des Moines clinical sanctuary is strategically positioned for easy access, whether you are driving yourself or using local transit from across Polk or Dallas County.",
-        "If commuting is a hurdle, we offer coordinated transport for our PHP and IOP patients to ensure you never miss a clinical session."
+        "If commuting is a hurdle, we offer coordinated transport for our IOP patients to ensure you never miss a clinical session."
       ],
       "items": [
         {
@@ -292,12 +248,6 @@
       "subheading": "",
       "body": [],
       "items": [
-        {
-          "title": "PHP Program",
-          "text": "Full-day clinical programming without an overnight stay.",
-          "icon": "",
-          "href": "/programs/php-des-moines"
-        },
         {
           "title": "IOP Program",
           "text": "Structured therapy on a schedule that fits work or school.",
@@ -350,8 +300,8 @@
       "heading": "Expert-led Outpatient Addiction Treatment Programs in Iowa",
       "subheading": "Ready to Start Your Recovery?",
       "body": [
-        "At Des Moines Wellness Center, we provide effective outpatient drug and alcohol rehab in Des Moines. By combining over 10 years of clinical experience with evidence-based therapies like CBT, DBT, and EMDR, we help families across Polk County and Dallas County find a path to lasting recovery. Whether you are seeking a Partial Hospitalization Program (PHP) or a flexible Intensive Outpatient Program (IOP), our dual-diagnosis experts address the roots of addiction to help you transition back into the broader Iowa community with confidence.",
-        "Our facility is strategically located near the I-35/I-80 interchange, providing easy access for residents in West Des Moines, Ankeny, Urbandale, and more. Our admissions team is standing by to provide direct answers about our PHP and IOP tracks, and help you understand your insurance coverage. Your path to a stable, sober life in Des Moines begins with a single, confidential conversation."
+        "At Des Moines Wellness Center, we provide effective outpatient drug and alcohol rehab in Des Moines. By combining over 10 years of clinical experience with evidence-based therapies like CBT, DBT, and EMDR, we help families across Polk County and Dallas County find a path to lasting recovery. Whether you are stepping down from residential care or starting with a flexible Intensive Outpatient Program (IOP), our dual-diagnosis experts address the roots of addiction to help you transition back into the broader Iowa community with confidence.",
+        "Our facility is strategically located near the I-35/I-80 interchange, providing easy access for residents in West Des Moines, Ankeny, Urbandale, and more. Our admissions team is standing by to provide direct answers about our IOP tracks, and help you understand your insurance coverage. Your path to a stable, sober life in Des Moines begins with a single, confidential conversation."
       ],
       "items": [],
       "faqs": [],
@@ -385,7 +335,7 @@
       "faqs": [
         {
           "q": "How long do the outpatient programs last?",
-          "a": "The duration of our PHP and IOP tracks depends on your clinical progress. Typically, our high-intensity PHP lasts 3–4 weeks before transitioning into a more flexible IOP schedule. We ensure your step-down is timed perfectly for your stability."
+          "a": "The duration of our IOP tracks depends on your clinical progress. We ensure your step-down is timed perfectly for your stability."
         },
         {
           "q": "Can I work or go to school while in treatment?",
@@ -394,10 +344,6 @@
         {
           "q": "Is transportation provided to the Des Moines facility?",
           "a": "Yes. We coordinate transport for patients across the Des Moines metro, including Ankeny, Urbandale, and West Des Moines. Whether you are taking the bus or need a private ride, we help you get to our facility safely."
-        },
-        {
-          "q": "What is the difference between PHP and IOP?",
-          "a": "PHP is a full-day commitment (30+ hours/week) providing residential-level care, whereas IOP is a part-day track (9–15 hours/week) focused on long-term integration. Both tracks offer dual-diagnosis support for alcohol, meth, and benzo recovery."
         },
         {
           "q": "What is the difference between outpatient and residential rehab?",

@@ -2,13 +2,13 @@
   "slug": "home",
   "pageType": "home",
   "seo": {
-    "title": "Luxury Detox & Drug Rehab in Des Moines, IA | Des Moines Wellness Center",
-    "description": "Start healing at Des Moines Wellness Center. Our Iowa facility offers 24/7 medical detox, inpatient residential rehab, PHP, IOP, and dual diagnosis care."
+    "title": "Detox & Drug Rehab in Des Moines, IA | Des Moines Wellness Center",
+    "description": "Start healing at Des Moines Wellness Center. Our Iowa facility offers 24/7 medical detox, inpatient residential rehab, IOP, and dual diagnosis care."
   },
   "hero": {
     "eyebrow": "Real Recovery. Right Here in Iowa.",
     "headline": "Premier Drug Rehab in Des Moines, IA",
-    "subhead": "Des Moines Wellness Center provides a full continuum of care including medical detox, inpatient residential treatment, and flexible PHP/IOP programs. We specialize in dual-diagnosis care, treating addiction and co-occurring mental health disorders simultaneously in a trauma-informed environment.",
+    "subhead": "Des Moines Wellness Center provides a full continuum of care including medical detox, inpatient residential treatment, and flexible IOP programs. We specialize in dual-diagnosis care, treating addiction and co-occurring mental health disorders simultaneously in a trauma-informed environment.",
     "image": {
       "src": "",
       "alt": ""
@@ -36,7 +36,7 @@
       "items": [
         {
           "title": "Care Levels",
-          "text": "Medical Detox, Residential Inpatient, PHP, and IOP.",
+          "text": "Medical Detox, Residential Inpatient and IOP.",
           "icon": ""
         },
         {
@@ -77,7 +77,7 @@
       "heading": "Iowa's Trusted Destination for Quality Addiction Treatment",
       "subheading": "Welcome to Des Moines Wellness Center",
       "body": [
-        "As a premier rehab center in Des Moines, Iowa, our facility provides a clinical sanctuary for individuals and families navigating the complexities of addiction and mental health. We bridge the gap between crisis and long-term stability by offering a full continuum of care, from medically supervised detox to intensive residential treatment and flexible outpatient programs (PHP/IOP).",
+        "As a premier rehab center in Des Moines, Iowa, our facility provides a clinical sanctuary for individuals and families navigating the complexities of addiction and mental health. We bridge the gap between crisis and long-term stability by offering a full continuum of care, from medically supervised detox to intensive residential treatment and flexible outpatient programs (IOP).",
         "Our approach is rooted in evidence-based clinical modalities and trauma-informed support, ensuring every patient receives a personalized recovery plan. Based in Johnston, minutes from downtown Des Moines, we proudly serve the recovery needs of Polk County and the surrounding communities, including West Des Moines and Ankeny. Whether you are searching for local Iowa drug rehab services or specialized dual-diagnosis care, our board-certified team is dedicated to healing the root causes of substance use disorders in a safe, modern environment."
       ],
       "items": [],
@@ -107,12 +107,6 @@
           "text": "24/7 Inpatient Care — Immerse yourself in a healing environment. Our inpatient residential rehab offers intensive, around-the-clock therapy and support for those needing a structured recovery setting.",
           "icon": "",
           "href": "/programs/residential-rehab-des-moines"
-        },
-        {
-          "title": "Partial Hospitalization",
-          "text": "Intensive Day Care — Receive high-level clinical support during the day while maintaining evening flexibility. PHP is the ideal bridge between residential care and community reintegration.",
-          "icon": "",
-          "href": "/programs/php-des-moines"
         },
         {
           "title": "Intensive Outpatient (IOP)",
@@ -285,6 +279,10 @@
       "image": {
         "src": "",
         "alt": ""
+      },
+      "primaryCta": {
+        "label": "Take the virtual tour",
+        "href": "/tour"
       }
     },
     {
@@ -361,7 +359,8 @@
         {
           "title": "Des Moines",
           "text": "",
-          "icon": ""
+          "icon": "",
+          "href": "/areas-we-serve/des-moines"
         },
         {
           "title": "West Des Moines",
@@ -402,7 +401,8 @@
         {
           "title": "And more...",
           "text": "",
-          "icon": ""
+          "icon": "",
+          "href": "/areas-we-serve"
         }
       ],
       "faqs": [],

@@ -62,9 +62,9 @@
         "children": [
           { "label": "Medical Detox", "href": "/programs/medical-detox-des-moines" },
           { "label": "Residential Inpatient", "href": "/programs/residential-rehab-des-moines" },
-          { "label": "PHP", "href": "/programs/php-des-moines" },
           { "label": "IOP", "href": "/programs/iop-des-moines" },
           { "label": "Outpatient", "href": "/programs/des-moines-outpatient-rehab" },
+          { "label": "Virtual Outpatient", "href": "/programs/virtual-outpatient" },
           { "label": "Dual Diagnosis", "href": "/programs/dual-diagnosis" },
           { "label": "Aftercare & Alumni", "href": "/programs/aftercare-and-alumni" }
         ]
@@ -86,6 +86,7 @@
         "label": "Areas We Serve",
         "href": "/areas-we-serve",
         "children": [
+          { "label": "Des Moines", "href": "/areas-we-serve/des-moines" },
           { "label": "Ankeny", "href": "/areas-we-serve/ankeny" },
           { "label": "West Des Moines", "href": "/areas-we-serve/west-des-moines" },
           { "label": "Urbandale", "href": "/areas-we-serve/urbandale" },
@@ -106,9 +107,9 @@
         "links": [
           { "label": "Medical Detox", "href": "/programs/medical-detox-des-moines" },
           { "label": "Residential Inpatient", "href": "/programs/residential-rehab-des-moines" },
-          { "label": "PHP", "href": "/programs/php-des-moines" },
           { "label": "IOP", "href": "/programs/iop-des-moines" },
           { "label": "Outpatient", "href": "/programs/des-moines-outpatient-rehab" },
+          { "label": "Virtual Outpatient", "href": "/programs/virtual-outpatient" },
           { "label": "Dual Diagnosis", "href": "/programs/dual-diagnosis" },
           { "label": "Aftercare & Alumni", "href": "/programs/aftercare-and-alumni" }
         ]
@@ -157,6 +158,7 @@
     { "slug": "home", "route": "/", "pageType": "home", "title": "Premier Drug Rehab in Des Moines, IA" },
     { "slug": "about", "route": "/about", "pageType": "page", "title": "About Des Moines Wellness: Our Story, Team & Values" },
     { "slug": "admissions", "route": "/admissions", "pageType": "page", "title": "Des Moines Wellness Center Admissions" },
+    { "slug": "areas-we-serve/des-moines", "route": "/areas-we-serve/des-moines", "pageType": "area", "title": "Addiction Treatment Serving Des Moines, Iowa" },
     { "slug": "areas-we-serve/ankeny", "route": "/areas-we-serve/ankeny", "pageType": "area", "title": "Drug and Alcohol Rehab Serving Ankeny, Iowa" },
     { "slug": "areas-we-serve/west-des-moines", "route": "/areas-we-serve/west-des-moines", "pageType": "area", "title": "Accredited Detox & Rehab Programs Minutes From West Des Moines" },
     { "slug": "blog", "route": "/blog", "pageType": "blog-index", "title": "Addiction & Mental Health Blog" },
@@ -167,10 +169,10 @@
     { "slug": "programs", "route": "/programs", "pageType": "hub-programs", "title": "Alcohol & Drug Addiction Treatment Programs in Iowa" },
     { "slug": "programs/aftercare-and-alumni", "route": "/programs/aftercare-and-alumni", "pageType": "program", "title": "Aftercare & Alumni Support in Des Moines, Iowa" },
     { "slug": "programs/des-moines-outpatient-rehab", "route": "/programs/des-moines-outpatient-rehab", "pageType": "program", "title": "Premier Outpatient Drug & Alcohol Rehab in Des Moines, IA" },
+    { "slug": "programs/virtual-outpatient", "route": "/programs/virtual-outpatient", "pageType": "program", "title": "Virtual Outpatient Treatment in Iowa" },
     { "slug": "programs/dual-diagnosis", "route": "/programs/dual-diagnosis", "pageType": "program", "title": "Comprehensive Dual Diagnosis Treatment in Des Moines, Iowa" },
     { "slug": "programs/iop-des-moines", "route": "/programs/iop-des-moines", "pageType": "program", "title": "Intensive Outpatient Program (IOP) in Des Moines, Iowa" },
     { "slug": "programs/medical-detox-des-moines", "route": "/programs/medical-detox-des-moines", "pageType": "program", "title": "Alcohol & Drug Medical Detox in Des Moines, Iowa" },
-    { "slug": "programs/php-des-moines", "route": "/programs/php-des-moines", "pageType": "program", "title": "Partial Hospitalization Program (PHP) in Des Moines, Iowa" },
     { "slug": "programs/residential-rehab-des-moines", "route": "/programs/residential-rehab-des-moines", "pageType": "program", "title": "Residential Addiction Treatment in Des Moines, Iowa" },
     { "slug": "team/alexander-maddux", "route": "/team/alexander-maddux", "pageType": "team", "title": "Alexander \"Alex\" Maddux - Director of Operations" },
     { "slug": "team/lacey-stielow", "route": "/team/lacey-stielow", "pageType": "team", "title": "Lacey Stielow, MSN, RN - Director of Nursing" },
@@ -191,9 +193,9 @@
     "programs": [
       "programs/medical-detox-des-moines",
       "programs/residential-rehab-des-moines",
-      "programs/php-des-moines",
       "programs/iop-des-moines",
       "programs/des-moines-outpatient-rehab",
+      "programs/virtual-outpatient",
       "programs/dual-diagnosis",
       "programs/aftercare-and-alumni"
     ],
@@ -213,6 +215,7 @@
       "team/alexander-maddux"
     ],
     "areas": [
+      "areas-we-serve/des-moines",
       "areas-we-serve/ankeny",
       "areas-we-serve/west-des-moines"
     ]
@@ -246,14 +249,12 @@
   "warnings": [
     "areas-we-serve/west-des-moines has copied SEO title and description from the Ankeny page ('Minutes From Ankeny IA') - needs unique West Des Moines metadata.",
     "what-we-treat/fentanyl-rehab-des-moines has copied SEO title and description from the Benzo page - needs unique fentanyl metadata.",
-    "programs/des-moines-outpatient-rehab shares its SEO title ('Partial Hospitalization Program (PHP)...') and description with programs/php-des-moines - duplicate/mismatched metadata to disambiguate.",
     "Team slug 'team/welsey-starlin' misspells 'Wesley'; hero and title read 'Wesley Starlin'. Slug preserved for SEO but flag for a 301 redirect to a corrected slug if desired.",
     "What We Treat hub CTAs link to non-existent 'Marijuana Rehab' and 'Stimulants Rehab' pages and omit the existing Cocaine and Drug rehab pages - align hub links with the 7 real condition pages.",
     "No index/landing pages exist for /team or /areas-we-serve; nav 'Our Team' points to /about#team and 'Areas We Serve' parent points to a child page. Consider adding real index routes.",
     "brand.json notes a stale JSON-LD phone (888) 775-4566 that must be ignored; standardize all structured data and tel: links on 888-378-2158.",
     "Brand name is misspelled 'Des Moins Wellness Center' in some source content and the working directory - ensure 'Des Moines' everywhere in copy and metadata.",
     "SEO titles are very long with a repeated '| Des Moines Wellness Center | Alcohol & Drug Rehab Iowa' suffix (often >60 chars); trim to reduce SERP truncation.",
-    "programs/php-des-moines lists a 'contact' section twice (mid-page and end) - dedupe when composing the template.",
     "Domain mismatch to confirm: brand domain and email use desmoinesrecovery.com while the brand name is 'Des Moines Wellness Center' - verify canonical https://desmoinesrecovery.com is correct."
   ]
 }

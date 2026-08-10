@@ -1,0 +1,202 @@
+{
+  "slug": "programs/virtual-outpatient",
+  "pageType": "program",
+  "seo": {
+    "title": "Virtual Outpatient Treatment in Iowa | Des Moines Wellness Center",
+    "description": "Virtual outpatient treatment for substance use and mental health across Iowa. Attend therapy from home by secure video. Most insurance accepted."
+  },
+  "hero": {
+    "eyebrow": "Levels of Care",
+    "headline": "Virtual Outpatient Treatment in Iowa",
+    "subhead": "The same clinical team and the same evidence-based therapies, delivered by secure video so distance, work or childcare never decide whether you get treatment.",
+    "image": {
+      "src": "/images/facility/study-room.webp",
+      "alt": "A quiet room with a desk and chair, suitable for a private video therapy session"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:+18883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-you-need-to-know",
+      "kind": "features",
+      "heading": "Virtual Outpatient: What You Need To Know",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "Who It Treats",
+          "text": "Both substance use and mental health conditions, including co-occurring diagnoses treated together rather than in sequence.",
+          "icon": "",
+          "href": "/programs/dual-diagnosis"
+        },
+        {
+          "title": "How It Works",
+          "text": "Scheduled individual and group sessions by secure video. You join from home, so there is no commute and no time lost travelling to the campus.",
+          "icon": ""
+        },
+        {
+          "title": "Who It Suits",
+          "text": "People stepping down from residential or IOP care, and people across Iowa for whom the drive to Johnston would be the reason they never start.",
+          "icon": ""
+        },
+        {
+          "title": "What You Need",
+          "text": "A private space and an internet connection. Our admissions team will confirm what works before your first session.",
+          "icon": ""
+        },
+        {
+          "title": "Clinical Team",
+          "text": "The same licensed clinicians who lead our on-site programs, so the standard of care does not change with the format.",
+          "icon": "",
+          "href": "/team"
+        },
+        {
+          "title": "Insurance",
+          "text": "Most major private plans cover virtual treatment. We verify your benefits in minutes, free and confidentially.",
+          "icon": "",
+          "href": "/verify-insurance"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "why-virtual-care",
+      "kind": "prose",
+      "heading": "Treatment That Reaches the Whole State",
+      "subheading": "Distance should not be the reason you go untreated",
+      "body": [
+        "Iowa is a large, largely rural state, and for many people the nearest accredited programme is an hour or more each way. That commute is not a small inconvenience — it is often the deciding factor between starting treatment and putting it off indefinitely. Virtual outpatient care removes it.",
+        "Sessions run to a set schedule, with the same licensed clinicians and the same evidence-based therapies we use on our Johnston campus. You still have a treatment plan, a clinical team who know your history, and accountability built into the week. The difference is only where you sit."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "levels-of-care-continuum",
+      "kind": "cards",
+      "heading": "Where Virtual Outpatient Fits",
+      "subheading": "Virtual care is one part of a full continuum, not a substitute for medical supervision.",
+      "body": [
+        "If you are still physically dependent, treatment starts with medical detox on site — withdrawal needs in-person monitoring and cannot be managed safely over video. From there, care can continue at whatever level matches your clinical needs:"
+      ],
+      "items": [
+        {
+          "title": "Medical Detox",
+          "text": "24/7 supervised withdrawal management on our Johnston campus. Always in person.",
+          "icon": "",
+          "href": "/programs/medical-detox-des-moines"
+        },
+        {
+          "title": "Residential Inpatient",
+          "text": "Live on site with round-the-clock clinical support, for substance use and mental health.",
+          "icon": "",
+          "href": "/programs/residential-rehab-des-moines"
+        },
+        {
+          "title": "Intensive Outpatient (IOP)",
+          "text": "Part-day sessions on campus while you live at home.",
+          "icon": "",
+          "href": "/programs/iop-des-moines"
+        },
+        {
+          "title": "Outpatient",
+          "text": "Continuing care on campus as your weekly commitment scales back.",
+          "icon": "",
+          "href": "/programs/des-moines-outpatient-rehab"
+        },
+        {
+          "title": "Aftercare & Alumni",
+          "text": "Long-term support once structured treatment ends.",
+          "icon": "",
+          "href": "/programs/aftercare-and-alumni"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "cta",
+      "kind": "cta",
+      "heading": "Ask Whether Virtual Care Is Right for You",
+      "subheading": "",
+      "body": [
+        "A short, confidential conversation is enough to work out whether virtual outpatient treatment fits your situation, or whether you would be safer starting with a higher level of care. Our admissions team is available 24/7."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "Is virtual outpatient treatment as effective as attending in person?",
+          "a": "For outpatient-level care, research has generally found telehealth delivery to produce outcomes comparable to in-person sessions, and it removes the travel barrier that causes many people to drop out. It is not a substitute for every level of care — medical detox and residential treatment require you to be on site — so we assess which level fits before you start."
+        },
+        {
+          "q": "Can I get virtual treatment for mental health as well as addiction?",
+          "a": "Yes. We treat substance use and mental health conditions, including co-occurring diagnoses, and we treat them together rather than one after the other. If anxiety, depression or trauma sits underneath the substance use, that is part of the same treatment plan."
+        },
+        {
+          "q": "Do I need to live near Des Moines?",
+          "a": "No. Virtual outpatient care is available to people across Iowa, which is the main reason we offer it. If you later need detox or residential treatment, that happens at our Johnston campus, minutes from Des Moines."
+        },
+        {
+          "q": "Will my insurance cover virtual treatment?",
+          "a": "Most major private plans cover virtual outpatient care, though the specifics vary by plan. We check your benefits for free and tell you what your coverage, deductible and any co-pay actually are before you commit to anything."
+        },
+        {
+          "q": "What do I need to take part?",
+          "a": "A private space where you will not be overheard, and a reliable internet connection on a phone, tablet or computer. Our admissions team will confirm the details with you before your first session."
+        }
+      ],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "contact",
+      "kind": "contact",
+      "heading": "Speak With Our Admissions Team",
+      "subheading": "",
+      "body": [
+        "Calls are free, confidential and answered 24/7. If virtual care is not the right level for you, we will say so and explain what is."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [],
+  "ctas": []
+}

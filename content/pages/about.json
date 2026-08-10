@@ -31,7 +31,7 @@
       "body": [
         "We decided to come to Des Moines because we saw how much this community was hurting and realized we could help. After 15 years of refining our approach to substance abuse recovery through the Quadrant Health Group , it was a real wish for us to bring that expertise here in Iowa. We saw too many of our neighbors in Iowa struggling to find a rehab center that felt both professional and personal, and we knew we had to bridge that gap.",
         "Our approach to treatment isn’t about corporate checklists. We’ve spent over a decade learning that even the most advanced medical detox, residential programs and long-term recovery planning only work when a person feels safe and heard. We created this space to be a sanctuary where starting the journey toward sobriety feels like a relief.",
-        "By planting roots here, we’re making a promise to the families in Ankeny, West Des Moines, Polk County and across the state. We provide high-end addiction care for chemical dependency that stays grounded in empathy. We’re here because we believe our neighbors deserve a world-class place to turn for substance use disorder without having to leave their support system behind."
+        "By planting roots here, we’re making a promise to the families in Ankeny, West Des Moines, Polk County and across the state. We provide comfortable addiction care for chemical dependency that stays grounded in empathy. We’re here because we believe our neighbors deserve a world-class place to turn for substance use disorder without having to leave their support system behind."
       ],
       "items": [],
       "faqs": [],
@@ -210,6 +210,10 @@
       "image": {
         "src": "",
         "alt": ""
+      },
+      "primaryCta": {
+        "label": "Take the virtual tour",
+        "href": "/tour"
       }
     }
   ],

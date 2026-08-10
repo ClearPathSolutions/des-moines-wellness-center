@@ -99,6 +99,17 @@ const nextConfig = {
         permanent: true,
       },
 
+      // The facility does not offer Partial Hospitalization, so the page and
+      // every PHP mention were removed — advertising it was an unsubstantiated
+      // service claim. The URL is indexed and still returns 200 on live
+      // production, so it is sent to the nearest level of care actually
+      // offered rather than left to 404.
+      {
+        source: '/programs/php-des-moines/',
+        destination: '/programs/des-moines-outpatient-rehab/',
+        permanent: true,
+      },
+
       // T-17: blog posts move off root-level slugs onto /blog/<slug>. Root-level
       // post URLs share a namespace with page slugs, which is a collision risk
       // as pages are added. Both of these are live and indexed on production, so

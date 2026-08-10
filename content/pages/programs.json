@@ -2,8 +2,8 @@
   "slug": "programs",
   "pageType": "hub-programs",
   "seo": {
-    "title": "Rehab Programs: Detox, Inpatient, PHP & IOP | Des Moines Wellness Center",
-    "description": "Discover our personalized addiction treatment programs in Des Moines, Iowa, including detox, residential care, PHP, IOP, and dual diagnosis treatment."
+    "title": "Rehab Programs: Detox, Inpatient & IOP | Des Moines Wellness Center",
+    "description": "Discover our personalized addiction treatment programs in Des Moines, Iowa, including detox, residential care, IOP, and dual diagnosis treatment."
   },
   "hero": {
     "eyebrow": "Substance Abuse Recovery Programs Built for Real Life",
@@ -81,12 +81,6 @@
           "text": "24/7 Inpatient Care. Heal in a 24-hour immersive sanctuary. Our residential program removes you from local triggers so you can focus entirely on your physical and mental health.",
           "icon": "",
           "href": "/programs/residential-rehab-des-moines"
-        },
-        {
-          "title": "Partial Hospitalization",
-          "text": "Intensive Day Care. Receive intensive daily therapy while beginning your transition. PHP provides structured, high-level clinical support for those ready for the next phase of treatment.",
-          "icon": "",
-          "href": "/programs/php-des-moines"
         },
         {
           "title": "Intensive Outpatient (IOP)",
@@ -217,12 +211,8 @@
           "a": "Recovery is personal, not a race. While we offer structured phases like medical detox and residential care, the duration depends on your progress. Our 15 years of experience have shown that a flexible transition through our levels of care, from inpatient stay to outpatient support, leads to more sustainable sobriety."
         },
         {
-          "q": "What is the difference between PHP and IOP?",
-          "a": "Our Partial Hospitalization Program (PHP) is a high-intensity day program for those who need intensive clinical support but are ready to begin transitioning. Intensive Outpatient (IOP) offers more flexibility, allowing you to maintain your work or family commitments in Des Moines while attending structured therapy sessions several times a week."
-        },
-        {
           "q": "Can I transition directly into outpatient care?",
-          "a": "Yes. Many of our clients move from residential treatment into our PHP or IOP to ensure they don’t lose momentum. These outpatient levels of care are designed to provide a safety net as you return to your daily life in Ankeny or West Des Moines, and more focusing on real-world application of recovery tools."
+          "a": "Yes. Many of our clients move from residential treatment into our IOP to ensure they don’t lose momentum. These outpatient levels of care are designed to provide a safety net as you return to your daily life in Ankeny or West Des Moines, and more focusing on real-world application of recovery tools."
         },
         {
           "q": "Is my treatment confidential?",

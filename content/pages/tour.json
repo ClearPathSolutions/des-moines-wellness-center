@@ -7,7 +7,7 @@
   },
   "hero": {
     "eyebrow": "A Clinical Space Designed For Healing",
-    "headline": "Tour Our Luxury Facility",
+    "headline": "Tour Our Facility",
     "subhead": "Recovery starts with a safe, structured environment. Our Des Moines facility is engineered to provide the physical comfort and medical security necessary for your transition from crisis to health. Take a virtual look at the high-level setting where your recovery journey begins.",
     "image": {
       "src": "/images/facility/aerial-facility.webp",
@@ -33,7 +33,7 @@
       ],
       "items": [
         {
-          "title": "Executive Private Suites",
+          "title": "Comfortable Private Rooms",
           "text": "",
           "icon": ""
         },
