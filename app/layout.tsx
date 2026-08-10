@@ -48,6 +48,16 @@ export const metadata: Metadata = {
     images: ['/og.jpg'],
   },
   robots: { index: true, follow: true },
+  // Google Search Console ownership proof. Emitted as
+  // <meta name="google-site-verification" ...> on every page. Public by design —
+  // it proves control of the domain and grants no access on its own.
+  //
+  // Keep this until the property is verified by another method (DNS TXT is the
+  // more durable option, since it survives any change of host or framework).
+  // Removing it can un-verify the property and cut off Search Console data.
+  verification: {
+    google: 'O-fkQZR9RbgY6BX1WFO0hfCycwvtezkEFkDFAxypK5A',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
