@@ -2,13 +2,13 @@
   "slug": "programs/residential-rehab-des-moines",
   "pageType": "program",
   "seo": {
-    "title": "Residential Rehab in Des Moines, IA | Des Moines Wellness Center",
-    "description": "Get a complete environmental reset at our Des Moines residential program. We provide physician-led inpatient care focused on fixing the roots of addiction."
+    "title": "Residential Rehab & Mental Health Treatment, Des Moines IA | Des Moines Wellness Center",
+    "description": "Physician-led residential treatment in Des Moines for substance use and mental health conditions. 24/7 on-site clinical care, most insurance accepted."
   },
   "hero": {
     "eyebrow": "",
-    "headline": "Residential Addiction Treatment in Des Moines, Iowa",
-    "subhead": "",
+    "headline": "Residential Treatment for Addiction & Mental Health in Des Moines, Iowa",
+    "subhead": "Inpatient care for substance use and mental health conditions, with 24/7 clinical support on our Johnston campus, minutes from Des Moines.",
     "image": {
       "src": "/images/facility/bedroom-twin-bright.webp",
       "alt": "A shared residential bedroom with two beds and a large window"
@@ -32,7 +32,7 @@
       "items": [
         {
           "title": "Clinical Goal",
-          "text": "To identify and deconstruct the underlying trauma and behavioral triggers driving substance use.",
+          "text": "To identify and treat the trauma and behavioural patterns driving substance use, mental health symptoms, or both.",
           "icon": ""
         },
         {
@@ -52,7 +52,7 @@
         },
         {
           "title": "Dual Diagnosis",
-          "text": "Specialized care for co-occurring mental health disorders like depression, anxiety, and PTSD.",
+          "text": "Depression, anxiety, PTSD and other conditions treated in their own right, and alongside addiction where both are present.",
           "icon": "",
           "href": "/programs/dual-diagnosis"
         },

@@ -25,7 +25,10 @@ const config = getSiteConfig()
 export const metadata: Metadata = {
   metadataBase: new URL(config.site.url),
   title: {
-    default: `${config.site.name} | Alcohol & Drug Rehab in Des Moines, Iowa`,
+    // Fallback only — every page now supplies its own absolute title, the
+    // homepage included. Names mental health so a future page that forgets its
+    // own title still reflects both halves of what the facility treats.
+    default: `${config.site.name} | Addiction & Mental Health Treatment in Des Moines, Iowa`,
     template: `%s | ${config.site.name}`,
   },
   description: config.site.tagline,

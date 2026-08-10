@@ -2,13 +2,13 @@
   "slug": "programs/des-moines-outpatient-rehab",
   "pageType": "program",
   "seo": {
-    "title": "Outpatient Rehab in Des Moines, IA | Des Moines Wellness Center",
-    "description": "Flexible outpatient drug and alcohol rehab in Des Moines, IA. Continue treatment while living at home, working, or studying. Most insurance accepted."
+    "title": "Outpatient Addiction & Mental Health Treatment, Des Moines IA | Des Moines Wellness Center",
+    "description": "Flexible outpatient treatment in Des Moines for substance use and mental health. Continue care while living at home, working or studying. Most insurance accepted."
   },
   "hero": {
     "eyebrow": "",
-    "headline": "Premier Outpatient Drug & Alcohol Rehab in Des Moines, IA",
-    "subhead": "",
+    "headline": "Outpatient Treatment for Addiction & Mental Health in Des Moines, IA",
+    "subhead": "Structured outpatient care for substance use and mental health conditions, built around your work, study and family commitments.",
     "image": {
       "src": "/images/facility/lounge-seating.webp",
       "alt": "Shared lounge seating in the residential common area"
@@ -102,7 +102,7 @@
         },
         {
           "title": "Early Intervention",
-          "text": "Those who have recognized a burgeoning struggle with substance use and want to fix the roots of the problem before it requires a 24/7 hospital stay.",
+          "text": "Those who have recognised an emerging struggle with substance use or their mental health and want to address the roots of the problem before it requires a 24/7 hospital stay.",
           "icon": ""
         },
         {
@@ -297,7 +297,7 @@
     {
       "id": "expert-led-programs",
       "kind": "prose",
-      "heading": "Expert-led Outpatient Addiction Treatment Programs in Iowa",
+      "heading": "Expert-led Outpatient Addiction & Mental Health Programs in Iowa",
       "subheading": "Ready to Start Your Recovery?",
       "body": [
         "At Des Moines Wellness Center, we provide effective outpatient drug and alcohol rehab in Des Moines. By combining over 10 years of clinical experience with evidence-based therapies like CBT, DBT, and EMDR, we help families across Polk County and Dallas County find a path to lasting recovery. Whether you are stepping down from residential care or starting with a flexible Intensive Outpatient Program (IOP), our dual-diagnosis experts address the roots of addiction to help you transition back into the broader Iowa community with confidence.",
