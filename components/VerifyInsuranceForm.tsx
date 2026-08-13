@@ -129,23 +129,23 @@ export default function VerifyInsuranceForm() {
 
       <div className="grid gap-4 sm:grid-cols-2">
         <label className="block text-sm font-medium text-brand-dark">
-          Full name<span className="text-gold"> *</span>
+          Full name<span className="text-gold-dark"> *</span>
           <input required name="name" value={f.name} onChange={set('name')} className={`mt-1.5 ${field}`} autoComplete="name" />
         </label>
         <label className="block text-sm font-medium text-brand-dark">
-          Phone<span className="text-gold"> *</span>
+          Phone<span className="text-gold-dark"> *</span>
           <input required type="tel" name="phone" value={f.phone} onChange={set('phone')} className={`mt-1.5 ${field}`} autoComplete="tel" />
         </label>
         <label className="block text-sm font-medium text-brand-dark">
-          Email<span className="text-gold"> *</span>
+          Email<span className="text-gold-dark"> *</span>
           <input required type="email" name="email" value={f.email} onChange={set('email')} className={`mt-1.5 ${field}`} autoComplete="email" />
         </label>
         <label className="block text-sm font-medium text-brand-dark">
-          Date of birth<span className="text-gold"> *</span>
+          Date of birth<span className="text-gold-dark"> *</span>
           <input required type="date" name="date_of_birth" value={f.dob} onChange={set('dob')} className={`mt-1.5 ${field}`} autoComplete="bday" />
         </label>
         <label className="block text-sm font-medium text-brand-dark">
-          Insurance provider<span className="text-gold"> *</span>
+          Insurance provider<span className="text-gold-dark"> *</span>
           <ProviderCombobox
             required
             name="provider"
@@ -181,7 +181,7 @@ export default function VerifyInsuranceForm() {
           <Link href="/privacy-policy" className="font-semibold text-brand underline">
             Privacy Policy
           </Link>
-          .<span className="text-gold"> *</span>
+          .<span className="text-gold-dark"> *</span>
         </span>
       </label>
 

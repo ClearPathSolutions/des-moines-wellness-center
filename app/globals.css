@@ -49,8 +49,12 @@
   .btn-primary {
     @apply btn bg-brand text-white shadow-soft hover:bg-brand-dark hover:-translate-y-0.5;
   }
+  /* Gold fill, not brand gold: `.btn` is 14px/600, which WCAG counts as normal
+     text, so it needs 4.5:1. White on brand gold measures 3.75:1 — and this is
+     the phone-number button, the one control the whole site points at. gold-dark
+     is 5.66:1, gold-deep 7.63:1. */
   .btn-gold {
-    @apply btn bg-gold text-white shadow-soft hover:bg-gold-dark hover:-translate-y-0.5;
+    @apply btn bg-gold-dark text-white shadow-soft hover:bg-gold-deep hover:-translate-y-0.5;
   }
   .btn-outline {
     @apply btn border-2 border-brand text-brand hover:bg-brand hover:text-white;
@@ -83,8 +87,11 @@
     @apply my-6 border-l-4 border-gold bg-cream py-3 pl-5 pr-4 italic;
   }
   .prose-post img { @apply my-6 h-auto w-full rounded-2xl; }
+  /* text-gold-dark, not text-gold: 14px uppercase on cream is 3.53:1 in brand
+     gold, 5.34:1 here. Over a dark hero this inverts — see Hero.tsx, which
+     overrides to white rather than darkening into the background. */
   .eyebrow {
-    @apply inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.14em] text-gold;
+    @apply inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.14em] text-gold-dark;
   }
   .section {
     @apply py-16 sm:py-24;

@@ -21,9 +21,14 @@ const config: Config = {
         },
         sage: '#7D9B76',
         gold: {
+          // DEFAULT is the brand gold, but at 3.75:1 against white it is not an
+          // AA text or button colour at body size — it is for icons, washes and
+          // large display type only. `dark` (5.66:1 on white) carries text and
+          // button fills; `deep` is its hover step (7.63:1).
           DEFAULT: '#A77C43',
           light: '#C39A62',
           dark: '#875F2F',
+          deep: '#6E4D26',
         },
         ink: '#222222',
         cream: '#FAF8F3',

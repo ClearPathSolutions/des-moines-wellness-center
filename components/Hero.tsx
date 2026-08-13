@@ -1,7 +1,9 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { Phone, ShieldCheck, ArrowRight } from 'lucide-react'
 import type { Accreditation, Hero as HeroType } from '@/lib/types'
 import { orientation } from '@/lib/images'
+import HeroVideo from './HeroVideo'
 import SmartImage from './SmartImage'
 
 type Props = {
@@ -19,31 +21,28 @@ export default function Hero({ hero, accreditations, compact }: Props) {
     <section
       className={
         video
-          ? 'relative isolate overflow-hidden bg-brand-dark bg-cover bg-center'
+          ? 'relative isolate overflow-hidden bg-brand-dark'
           : 'relative overflow-hidden bg-gradient-to-b from-brand-50 to-cream'
       }
-      // Poster as a CSS background: it paints on first frame, so the hero is
-      // never empty while the loop downloads, and it is what shows if the video
-      // is blocked or motion is reduced.
-      style={video ? { backgroundImage: `url(${video.poster})` } : undefined}
     >
       {video ? (
         <>
-          {/* Decorative only: muted, looping, no controls, out of the tab order.
-              motion-reduce hides it so the poster remains for those users. */}
-          <video
-            className="absolute inset-0 h-full w-full object-cover motion-reduce:hidden"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="metadata"
-            poster={video.poster}
-            aria-hidden="true"
-            tabIndex={-1}
-          >
-            <source src={video.src} type="video/mp4" />
-          </video>
+          {/* The poster is the LCP element on the homepage, and it used to be a
+              CSS background — invisible to the preload scanner, discovered only
+              once the stylesheet applied, at default priority, and shipped at one
+              fixed size to every device. Through next/image it is preloaded with a
+              priority hint, served as AVIF, and sized to the viewport. It still
+              paints before the loop arrives, and it is the whole hero on phones. */}
+          <Image
+            src={video.poster}
+            alt=""
+            fill
+            priority
+            fetchPriority="high"
+            sizes="100vw"
+            className="object-cover"
+          />
+          <HeroVideo src={video.src} poster={video.poster} />
           {/* Legibility scrim. Heaviest on the left, where the copy sits. */}
           <div
             aria-hidden="true"
@@ -63,7 +62,12 @@ export default function Hero({ hero, accreditations, compact }: Props) {
         }`}
       >
         <div className="animate-fade-up">
-          {hero.eyebrow ? <p className="eyebrow mb-4">{hero.eyebrow}</p> : null}
+          {/* Over the video scrim the gold eyebrow measured 3.15:1 and darkening
+              it would only sink it further into the background, so it goes white
+              here (11.8:1), matching the headline. */}
+          {hero.eyebrow ? (
+            <p className={`eyebrow mb-4 ${video ? 'text-white' : ''}`}>{hero.eyebrow}</p>
+          ) : null}
           <h1 className={`max-w-2xl ${video ? 'text-white' : ''}`}>{hero.headline}</h1>
           {hero.subhead ? (
             <p
