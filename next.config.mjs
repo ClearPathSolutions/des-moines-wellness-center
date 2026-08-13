@@ -53,6 +53,24 @@ const securityHeaders = [
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  experimental: {
+    // Inlining the stylesheet is a deliberate trade, not a free win, and it was
+    // measured both ways (median of 5 Lighthouse mobile runs, third parties
+    // blocked):
+    //
+    //              external CSS   inlined CSS
+    //   perf             94            96
+    //   LCP           2955 ms       2559 ms
+    //   FCP           1535 ms       1684 ms
+    //
+    // The HTML document grows (~30 KB to ~45 KB gzipped) which costs first paint
+    // ~150 ms, but dropping the render-blocking request frees the connection for
+    // the preloaded hero image and buys ~400 ms of LCP. LCP carries 25% of the
+    // mobile score against 10% each for FCP and Speed Index, so the trade nets
+    // positive. Re-measure if the stylesheet grows a lot — the arithmetic
+    // reverses once the document is big enough.
+    inlineCss: true,
+  },
   // T-03. Production is slash-canonical (`/about` 301s to `/about/`), and that
   // is what is indexed and linked today. Matching it means existing inbound
   // links stay direct hits instead of becoming redirects. See lib/urls.ts —
@@ -76,7 +94,10 @@ const nextConfig = {
         headers: securityHeaders,
       },
       {
-        source: '/:all*(svg|jpg|jpeg|png|webp|avif|woff2)',
+        // mp4 belongs here too: the facility tour is 7.3 MB and the hero loop is
+        // 1 MB, and without this they fell through to `max-age=0,
+        // must-revalidate` and were revalidated on every visit.
+        source: '/:all*(svg|jpg|jpeg|png|webp|avif|woff2|mp4)',
         headers: [
           { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
         ],

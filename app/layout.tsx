@@ -7,11 +7,22 @@ import Footer from '@/components/Footer'
 import LocalBusinessJsonLd from '@/components/JsonLd'
 import { getSiteConfig } from '@/lib/content'
 
+// Deliberately not preloaded. Preloading both faces put 85 KB of high-priority
+// font requests ahead of the hero image, which is the LCP element on every page.
+// Measured (median of 5 Lighthouse mobile runs, CSS inlined, third parties
+// blocked): preloading both scores 93 with LCP 3029 ms; preloading only the body
+// face scores 96 with LCP 2559 ms.
+//
+// Headings are the right thing to give up, because `display: swap` paints them
+// immediately in a size-matched fallback and adjustFontFallback keeps the swap
+// from shifting layout — CLS stays at 0.000. Do not add `preload: true` here
+// without re-measuring LCP.
 const heading = Fraunces({
   subsets: ['latin'],
   weight: ['500', '600', '700'],
   variable: '--font-heading',
   display: 'swap',
+  preload: false,
 })
 
 const body = Inter({
