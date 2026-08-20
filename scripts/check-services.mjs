@@ -20,6 +20,7 @@
  */
 import fs from 'node:fs'
 import path from 'node:path'
+import { pageSources } from './lib/page-sources.mjs'
 
 const CONTENT = path.join(process.cwd(), 'content')
 const PAGES = path.join(CONTENT, 'pages')
@@ -69,6 +70,26 @@ for (const { label, file } of targets) {
   }
 }
 
+// Pages whose copy lives in TSX rather than content/*.json — campaign landing
+// pages — are scanned as source text, comments stripped. Without this a hand-
+// built ads page could advertise a retired service and no guard would notice.
+for (const { label, text } of pageSources()) {
+  for (const { service, patterns } of NOT_OFFERED) {
+    const hit = patterns.find((re) => re.test(text))
+    if (hit) {
+      const m = text.match(hit)
+      const at = `source match ${JSON.stringify(m[0])}`
+      violations.push({ label, at, service, value: excerpt(text, m.index) })
+      break
+    }
+  }
+}
+
+/** A little context around a source match, for the error message. */
+function excerpt(text, index) {
+  return text.slice(Math.max(0, index - 60), index + 60).replace(/\s+/g, ' ').trim()
+}
+
 if (violations.length) {
   console.error(`✗ ${violations.length} reference(s) to a service that is not offered:\n`)
   const bySvc = new Map()
@@ -93,4 +114,7 @@ if (violations.length) {
 }
 
 const names = NOT_OFFERED.map((n) => n.service).join(', ')
-console.log(`✓ no page advertises a service that is not offered (${names})`)
+console.log(
+  `✓ no page advertises a service that is not offered (${names}) — ` +
+    `${targets.length} content file(s) + ${pageSources().length} page source(s)`
+)

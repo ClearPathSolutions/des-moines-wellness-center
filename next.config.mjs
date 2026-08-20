@@ -24,7 +24,10 @@ const cspReportOnly = [
   `img-src 'self' data: blob: https:`,
   `font-src 'self' data:`,
   `connect-src 'self' ${VENDORS.clarionApi} ${VENDORS.clarionSocket} ${VENDORS.callTracking} ${VENDORS.trustindex}`,
-  `frame-src 'self' ${VENDORS.trustindex} ${VENDORS.maps}`,
+  // callTracking is here for the FormReactor embed on /recovery-lp/, which is
+  // an iframe on CTM's own host. Report-only today, so its absence was not
+  // breaking the form — but it would have the moment this is enforced.
+  `frame-src 'self' ${VENDORS.callTracking} ${VENDORS.trustindex} ${VENDORS.maps}`,
   `object-src 'none'`,
   `base-uri 'self'`,
   `form-action 'self'`,

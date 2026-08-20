@@ -2,9 +2,6 @@ import type { Metadata } from 'next'
 import Script from 'next/script'
 import { Fraunces, Inter } from 'next/font/google'
 import './globals.css'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-import LocalBusinessJsonLd from '@/components/JsonLd'
 import { getSiteConfig } from '@/lib/content'
 
 // Deliberately not preloaded. Preloading both faces put 85 KB of high-priority
@@ -79,18 +76,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Script src="https://264810.tctm.co/t.js" strategy="afterInteractive" />
       </head>
       <body>
-        <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[100] focus:rounded-full focus:bg-brand focus:px-4 focus:py-2 focus:text-white">
-          Skip to content
-        </a>
-        <Header
-          nav={config.nav.primary}
-          phone={config.site.phone}
-          phoneHref={config.site.phoneHref}
-          siteName={config.site.name}
-        />
-        <main id="main">{children}</main>
-        <Footer config={config} />
-        <LocalBusinessJsonLd config={config} />
+        {/* Header, main and footer are rendered per route group, not here — see
+            app/(site)/layout.tsx. A root layout sits above every page and cannot
+            vary by route without reading headers(), which would opt all 48
+            static pages into dynamic rendering. Campaign landing pages need
+            different chrome, so the chrome moved down a level. */}
+        {children}
         {/* Chat widget. `lazyOnload` because it is purely interactive — nothing
             above the fold depends on it, and it competes with our own JS for
             bandwidth during hydration. */}

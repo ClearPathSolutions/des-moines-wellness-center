@@ -14,6 +14,7 @@
  */
 import fs from 'node:fs'
 import path from 'node:path'
+import { pageSources } from './lib/page-sources.mjs'
 
 const CONTENT = path.join(process.cwd(), 'content')
 
@@ -80,6 +81,27 @@ function scanFile(file) {
 const PAGES = path.join(CONTENT, 'pages')
 for (const f of fs.readdirSync(PAGES).filter((f) => f.endsWith('.json'))) {
   scanFile(path.join(PAGES, f))
+}
+
+// Same gap as check-services.mjs: a page whose copy is authored in TSX is not
+// in content/, so walking JSON never sees it. Comments are stripped first, so
+// the note explaining *why* a claim is withheld does not read as the claim.
+for (const { label, text } of pageSources()) {
+  for (const claim of withheld) {
+    const patterns = CLAIM_TOKENS[claim.label] ?? [
+      new RegExp(claim.label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i'),
+    ]
+    const hit = patterns.find((re) => re.test(text))
+    if (hit) {
+      const m = text.match(hit)
+      violations.push({
+        file: label,
+        field: `source match ${JSON.stringify(m[0])}`,
+        claim: claim.label,
+        text: text.slice(Math.max(0, m.index - 60), m.index + 80).replace(/\s+/g, ' ').trim(),
+      })
+    }
+  }
 }
 
 if (violations.length) {
