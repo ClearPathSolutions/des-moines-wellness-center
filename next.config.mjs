@@ -37,11 +37,18 @@ const VENDORS = {
 // report-only to enforcing — a tag added later will be reported, not blocked,
 // and is easy to miss.
 
-// Reported, not enforced. The site loads four third-party scripts (call
-// tracking, Clarion chat + form capture, Trustindex reviews) that inject their
-// own styles and sub-resources; enforcing a policy before we have report data
-// risks silently breaking the chat widget or the reviews carousel. Collect
-// violations first, tighten, then promote to `Content-Security-Policy`.
+// Reported, not enforced. The site loads four third-party scripts — call
+// tracking, the Clarion chat widget, Trustindex reviews, and the GTM container
+// — that inject their own styles and sub-resources; enforcing a policy before
+// we have report data risks silently breaking the chat widget or the reviews
+// carousel. Collect violations first, tighten, then promote to
+// `Content-Security-Policy`.
+//
+// GTM is the reason this cannot simply be promoted once it looks quiet: it
+// loads whatever tags the container publishes, so the set of origins is not
+// fixed by anything in this repo. (Clarion's forms-capture.v1.js used to be the
+// fourth script here; it was removed when the insurance form moved to the
+// server-side relay in app/api/verify-insurance.)
 const cspReportOnly = [
   `default-src 'self'`,
   `script-src 'self' 'unsafe-inline' 'unsafe-eval' ${VENDORS.callTracking} ${VENDORS.clarionScripts} ${VENDORS.trustindex} ${VENDORS.gtm} ${VENDORS.googleAnalytics} ${VENDORS.googleAds} ${VENDORS.clarity}`,
