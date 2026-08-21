@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { ShieldCheck, Lock, CheckCircle2, Phone, AlertTriangle, Loader2 } from 'lucide-react'
 import ProviderCombobox from './ProviderCombobox'
+import { submissionAttribution } from '@/lib/session'
 
 const PHONE = '888-378-2158'
 const PHONE_HREF = `tel:+1${PHONE.replace(/\D/g, '')}`
@@ -22,26 +23,6 @@ const EMPTY: Fields = { name: '', phone: '', email: '', dob: '', provider: '', m
 
 type Status = 'idle' | 'submitting' | 'sent' | 'error'
 
-/** Attribution the vendor's own capture script used to collect. Read here so it
- *  still reaches the CRM now that the submit goes through our own endpoint. */
-function attribution() {
-  if (typeof window === 'undefined') return {}
-  const params = new URLSearchParams(window.location.search)
-  const utm: Record<string, string> = {}
-  for (const key of ['source', 'medium', 'campaign', 'term', 'content']) {
-    const value = params.get(`utm_${key}`)
-    if (value) utm[key] = value
-  }
-  const referrer = document.referrer
-  return {
-    page_url: window.location.href,
-    landing_page_url: window.location.href,
-    referrer: referrer && !referrer.startsWith(window.location.origin) ? referrer : null,
-    utm: Object.keys(utm).length ? utm : null,
-    gclid: params.get('gclid'),
-  }
-}
-
 export default function VerifyInsuranceForm() {
   const [f, setF] = useState<Fields>(EMPTY)
   const [status, setStatus] = useState<Status>('idle')
@@ -56,7 +37,9 @@ export default function VerifyInsuranceForm() {
     setStatus('submitting')
 
     try {
-      const res = await fetch('/api/verify-insurance', {
+      // Trailing slash matters: next.config sets `trailingSlash: true`, so the
+      // unslashed path 308s and every submission pays a second round trip.
+      const res = await fetch('/api/verify-insurance/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -67,7 +50,11 @@ export default function VerifyInsuranceForm() {
           provider: f.provider,
           member_id: f.memberId,
           message: f.message,
-          ...attribution(),
+          // Attribution the vendor's own capture script used to collect,
+          // plus the full session — see lib/session.ts. Read from the stored
+          // session rather than the current URL, because by the time someone
+          // reaches this form the campaign query string is usually gone.
+          ...submissionAttribution(),
         }),
       })
       // Only claim success when the lead was actually accepted. The previous

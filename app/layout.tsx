@@ -3,6 +3,7 @@ import Script from 'next/script'
 import { Fraunces, Inter } from 'next/font/google'
 import './globals.css'
 import { getSiteConfig } from '@/lib/content'
+import SessionTracker from '@/components/SessionTracker'
 
 // Deliberately not preloaded. Preloading both faces put 85 KB of high-priority
 // font requests ahead of the hero image, which is the LCP element on every page.
@@ -72,7 +73,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${heading.variable} ${body.variable}`}>
       <head>
-        {/* Site-wide call tracking (t.js) — loaded on every page. */}
+        {/* Site-wide call tracking (t.js), CTM account 264810 — loaded on every
+            page from the root layout so the campaign landing pages are covered
+            too. Deliberately not `lazyOnload`: it does the number swap, which
+            has to happen before a visitor reads the number off the page.
+
+            It also establishes the CTM session that lib/session.ts reads
+            (`__ctm.config.sid` / the `__ctmid` cookie) and the `__ctm_cvars`
+            channel it writes attribution back into, so a form lead and a phone
+            call from the same visit reconcile to one session. */}
         <Script src="https://264810.tctm.co/t.js" strategy="afterInteractive" />
       </head>
       <body>
@@ -96,9 +105,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           data-position="right"
           strategy="lazyOnload"
         />
-        {/* forms-capture.v1.js was removed: the insurance form now submits
-            through /api/verify-insurance, so the capture script had no form to
-            attach to. While both were active every submission was sent twice. */}
+        {/* Session + attribution capture for form submissions. This replaces
+            what forms-capture.v1.js used to do here: that script was removed
+            because the insurance form now submits through /api/verify-insurance,
+            and while both were active every submission was sent twice. Re-adding
+            it would resurrect the duplicate. */}
+        <SessionTracker />
       </body>
     </html>
   )
