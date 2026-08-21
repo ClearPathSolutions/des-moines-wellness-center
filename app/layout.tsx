@@ -31,6 +31,18 @@ const body = Inter({
 
 const config = getSiteConfig()
 
+/** Google Tag Manager container. Every marketing tag the site loads through GTM
+ *  — GA4, Ads conversions, remarketing — is configured inside the container, not
+ *  here, so this is the only place the site itself needs to know about it.
+ *
+ *  Worth knowing when adding tags: the paths on this site are themselves
+ *  sensitive. A pageview for /what-we-treat/fentanyl-rehab-des-moines/ tells the
+ *  receiving system what a visitor is seeking treatment for, which is why
+ *  Referrer-Policy is locked down in next.config.mjs. Anything configured in the
+ *  container gets that path as page_location regardless, so do not add tags that
+ *  forward form fields, phone numbers or any other identifier alongside it. */
+const GTM_CONTAINER_ID = 'GTM-WH4BQ54G'
+
 export const metadata: Metadata = {
   metadataBase: new URL(config.site.url),
   title: {
@@ -83,8 +95,30 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             channel it writes attribution back into, so a form lead and a phone
             call from the same visit reconcile to one session. */}
         <Script src="https://264810.tctm.co/t.js" strategy="afterInteractive" />
+        {/* Google Tag Manager. GTM's own snippet, kept intact: it pushes gtm.start
+            before injecting gtm.js, and that ordering is what lets the container
+            measure its own load time. Splitting it into a dataLayer push plus a
+            plain src= would work but breaks that. */}
+        <Script id="gtm-loader" strategy="afterInteractive">
+          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${GTM_CONTAINER_ID}');`}
+        </Script>
       </head>
       <body>
+        {/* GTM's no-JavaScript fallback. Must be the first thing in the body, and
+            it is inert markup rather than a Script, so next/script does not apply. */}
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_CONTAINER_ID}`}
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+            title="Google Tag Manager"
+          />
+        </noscript>
         {/* Header, main and footer are rendered per route group, not here — see
             app/(site)/layout.tsx. A root layout sits above every page and cannot
             vary by route without reading headers(), which would opt all 48

@@ -10,7 +10,32 @@ const VENDORS = {
   trustindex: 'https://cdn.trustindex.io',
   // Keyless Google Maps embed (T-12).
   maps: 'https://www.google.com',
+  // Google Tag Manager, plus the Google marketing endpoints a container
+  // normally reaches once GA4 or Ads tags are configured in it. GTM can load
+  // arbitrary tags, so this list covers the usual set rather than everything —
+  // revisit it against the tags actually published in the container before
+  // promoting the policy from report-only to enforcing.
+  gtm: 'https://www.googletagmanager.com',
+  // Note the bare host as well as the wildcard: the container collects to
+  // `analytics.google.com`, and a CSP `*.analytics.google.com` does not match a
+  // hostname with nothing in front of it.
+  googleAnalytics:
+    'https://analytics.google.com https://*.analytics.google.com https://www.google-analytics.com https://*.google-analytics.com',
+  googleAds: 'https://*.doubleclick.net',
+  // Microsoft Clarity (session replay + heatmaps) and the Bing pixel it links
+  // to. Both arrive through the GTM container rather than from this codebase.
+  clarity: 'https://*.clarity.ms',
+  bing: 'https://c.bing.com',
 }
+
+// Every origin above was taken from the requests the published container
+// actually makes, observed on a real page load, rather than from a generic
+// allowlist. As of this commit GTM-WH4BQ54G publishes GA4 G-SLJ88ZSZ4L, Google
+// Ads AW-18375305584 (including view-through conversion), Microsoft Clarity
+// xye1rsrjkq and a Bing pixel. Tags can be added in the container without any
+// change here, so re-check this list before promoting the policy from
+// report-only to enforcing — a tag added later will be reported, not blocked,
+// and is easy to miss.
 
 // Reported, not enforced. The site loads four third-party scripts (call
 // tracking, Clarion chat + form capture, Trustindex reviews) that inject their
@@ -19,15 +44,15 @@ const VENDORS = {
 // violations first, tighten, then promote to `Content-Security-Policy`.
 const cspReportOnly = [
   `default-src 'self'`,
-  `script-src 'self' 'unsafe-inline' 'unsafe-eval' ${VENDORS.callTracking} ${VENDORS.clarionScripts} ${VENDORS.trustindex}`,
+  `script-src 'self' 'unsafe-inline' 'unsafe-eval' ${VENDORS.callTracking} ${VENDORS.clarionScripts} ${VENDORS.trustindex} ${VENDORS.gtm} ${VENDORS.googleAnalytics} ${VENDORS.googleAds} ${VENDORS.clarity}`,
   `style-src 'self' 'unsafe-inline' ${VENDORS.trustindex}`,
   `img-src 'self' data: blob: https:`,
   `font-src 'self' data:`,
-  `connect-src 'self' ${VENDORS.clarionApi} ${VENDORS.clarionSocket} ${VENDORS.callTracking} ${VENDORS.trustindex}`,
+  `connect-src 'self' ${VENDORS.clarionApi} ${VENDORS.clarionSocket} ${VENDORS.callTracking} ${VENDORS.trustindex} ${VENDORS.gtm} ${VENDORS.googleAnalytics} ${VENDORS.googleAds} ${VENDORS.maps} ${VENDORS.clarity} ${VENDORS.bing}`,
   // callTracking is here for the FormReactor embed on /recovery-lp/, which is
   // an iframe on CTM's own host. Report-only today, so its absence was not
   // breaking the form — but it would have the moment this is enforced.
-  `frame-src 'self' ${VENDORS.callTracking} ${VENDORS.trustindex} ${VENDORS.maps}`,
+  `frame-src 'self' ${VENDORS.callTracking} ${VENDORS.trustindex} ${VENDORS.maps} ${VENDORS.gtm} ${VENDORS.googleAds}`,
   `object-src 'none'`,
   `base-uri 'self'`,
   `form-action 'self'`,
