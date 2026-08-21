@@ -113,6 +113,63 @@ function sanitizeSession(value: unknown): Json | null {
 }
 
 /* -------------------------------------------------------------------------- */
+/* CTM session id                                                              */
+/* -------------------------------------------------------------------------- */
+
+/** CTM identifiers are 24 hex characters, no dashes. Our own session id is a
+ *  UUID, so this also catches the two being confused for one another. */
+const CTM_ID_RE = /^[0-9a-f]{24}$/i
+
+/**
+ * CTM's session id, which is what lets CTM staple this lead to the visit — and
+ * so to the ad click and any call from the same visit. Without it CTM accepts
+ * the submission, answers 200, and files it against no visit at all.
+ *
+ * Taken from the browser, which reads it off `__ctm.config.sid`. If that is
+ * missing we can still recover it here: `t.js` writes `__ctmid` as a first-party
+ * cookie on this domain, so it rides along on this very request. That covers the
+ * case where the submit beat `t.js` initialising.
+ *
+ * Deliberately never falls back to the app's own session id. Substituting one
+ * for the other is exactly the failure this field exists to prevent, so a value
+ * of the wrong shape is logged and forwarded as-is rather than quietly swapped.
+ */
+function ctmVisitorSid(body: Record<string, unknown>, request: Request): string | null {
+  const fromClient = clean(body.ctm_visitor_sid, 64)
+  if (fromClient && CTM_ID_RE.test(fromClient)) return fromClient
+
+  const cookie = request.headers
+    .get('cookie')
+    ?.match(/(?:^|;\s*)__ctmid=([^;]*)/)?.[1]
+  const fromCookie = cookie ? decodeURIComponent(cookie) : null
+  if (fromCookie && CTM_ID_RE.test(fromCookie)) {
+    if (fromClient) {
+      console.warn(
+        `[verify-insurance] ctm_visitor_sid from the browser was not CTM-shaped ` +
+          `(length ${fromClient.length}, dashes: ${fromClient.includes('-')}); ` +
+          `using the __ctmid cookie instead.`
+      )
+    }
+    return fromCookie
+  }
+
+  if (fromClient) {
+    console.warn(
+      `[verify-insurance] ctm_visitor_sid is not CTM-shaped and no __ctmid cookie ` +
+        `was present (length ${fromClient.length}, dashes: ${fromClient.includes('-')}). ` +
+        `CTM will file this lead against no visit.`
+    )
+    return fromClient
+  }
+
+  console.warn(
+    '[verify-insurance] no CTM session id on this submission — t.js was likely ' +
+      'blocked. The lead will arrive with no visit attached.'
+  )
+  return null
+}
+
+/* -------------------------------------------------------------------------- */
 
 export async function POST(request: Request) {
   let payload: unknown
@@ -166,6 +223,9 @@ export async function POST(request: Request) {
     referrer: attribution.referrer ?? null,
     utm: Object.keys(utm).length ? utm : null,
     gclid: attribution.gclid ?? null,
+    // CTM's own session id, passed through untouched. Must not be replaced with
+    // the app's session id, which lives on `session.session_id` and is a UUID.
+    ctm_visitor_sid: ctmVisitorSid(body, request),
     user_agent: request.headers.get('user-agent') ?? null,
   }
 

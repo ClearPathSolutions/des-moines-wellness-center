@@ -428,13 +428,41 @@ export function getSessionData(): SessionData | null {
   }
 }
 
+/** A CTM identifier: 24 hex characters, no dashes. Our own session id is a UUID,
+ *  so this also tells the two apart if they are ever confused for each other. */
+export const isCtmId = (value: unknown): value is string =>
+  typeof value === 'string' && /^[0-9a-f]{24}$/i.test(value)
+
+/**
+ * CTM's session id, which is what CTM needs in order to staple this submission
+ * to the visit — and thereby to the ad click and any call from the same visit.
+ *
+ * Read live at submit time from the JS global, falling back to the `__ctmid`
+ * cookie that `t.js` writes. No copy is kept in sessionStorage: the cookie is
+ * already the durable store CTM itself reconciles against (first-party, 30-day
+ * `cookie_dur`), it survives a full page load and a second tab, and `t.js` runs
+ * on every route here, so a stashed copy could only ever be staler than this.
+ *
+ * Never falls back to our own session id. They are different identifiers for
+ * different systems, and substituting one for the other is precisely the failure
+ * that leaves a lead filed against no visit.
+ */
+export function ctmSessionId(): string | null {
+  if (!isBrowser()) return null
+  const { session_id: sid, visitor_id: vid } = ctmIdentity()
+  if (isCtmId(sid)) return sid
+  if (isCtmId(vid)) return vid
+  return sid ?? vid ?? null
+}
+
 /**
  * The submission payload's attribution half.
  *
  * The four flat fields are the shape the CRM already accepts, so they are kept
  * exactly — only their values get more accurate, resolved from the stored session
  * instead of from whatever happens to be in the address bar at submit time.
- * `session` is the new structured blob.
+ * `session` is the new structured blob, and `ctm_visitor_sid` is the flat
+ * top-level copy of CTM's session id that Clarion reads.
  */
 export function submissionAttribution(): Record<string, unknown> {
   const session = getSessionData()
@@ -455,6 +483,10 @@ export function submissionAttribution(): Record<string, unknown> {
     referrer: entry.referrer ?? session.first_touch.referrer,
     utm: utm && Object.keys(utm).length ? utm : null,
     gclid,
+    // Flat and top-level because that is where Clarion looks for it. The same
+    // value is inside `session.ctm.session_id`; `session.session_id` next to it
+    // is OUR id (a UUID) and is not interchangeable with this one.
+    ctm_visitor_sid: ctmSessionId(),
     session,
   }
 }
