@@ -15,7 +15,7 @@
     },
     "primaryCta": {
       "label": "(888) 378-2158",
-      "href": "tel:+18883782158"
+      "href": "tel:8883782158"
     },
     "secondaryCta": {
       "label": "Verify Insurance",
@@ -432,7 +432,7 @@
   "ctas": [
     {
       "label": "(888) 378-2158",
-      "href": "tel:+18883782158"
+      "href": "tel:8883782158"
     },
     {
       "label": "Verify Insurance",
@@ -440,7 +440,7 @@
     },
     {
       "label": "Get Started",
-      "href": "tel:+18883782158"
+      "href": "tel:8883782158"
     },
     {
       "label": "Verify Your Insurance",

@@ -36,11 +36,20 @@ const CAMPAIGN_PAGES = [
   {
     path: '/recovery-lp/',
     display: '(515) 303-2386',
-    href: 'tel:+15153032386',
+    href: 'tel:5153032386',
   },
 ]
 
 const digits = (s) => s.replace(/\D/g, '')
+/** Digits, minus the NANP country code, so the check compares the number itself
+ *  rather than how the href happens to be written. `tel:` links on this site are
+ *  bare ten-digit, but +1 forms are equally valid and a mix of the two must not
+ *  read as the wrong number. Anything that is not a plain 11-digit 1-prefixed
+ *  string is left alone, so a genuinely different number still fails. */
+const nanp = (s) => {
+  const d = digits(s)
+  return d.length === 11 && d.startsWith('1') ? d.slice(1) : d
+}
 /** Phone-shaped runs of text, e.g. (515) 303-2386 or 888-378-2158. */
 const PHONE_TEXT = /\(?\b\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}\b/g
 
@@ -61,7 +70,7 @@ for (const page of CAMPAIGN_PAGES) {
 
   const telLinks = [...new Set(rendered.match(/tel:\+?[\d-]+/g) ?? [])]
   for (const link of telLinks) {
-    if (digits(link) !== digits(page.href)) {
+    if (nanp(link) !== nanp(page.href)) {
       problems.push(`tappable link ${link} — only ${page.href} is allowed here`)
     }
   }

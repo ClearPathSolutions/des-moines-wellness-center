@@ -15,7 +15,7 @@
     },
     "primaryCta": {
       "label": "Call (888) 378-2158",
-      "href": "tel:+18883782158"
+      "href": "tel:8883782158"
     },
     "secondaryCta": {
       "label": "Contact Us",
@@ -77,7 +77,7 @@
     }
   ],
   "ctas": [
-    { "label": "Call (888) 378-2158", "href": "tel:+18883782158" },
+    { "label": "Call (888) 378-2158", "href": "tel:8883782158" },
     { "label": "Contact Us", "href": "/contact" }
   ]
 }

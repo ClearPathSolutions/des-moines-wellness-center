@@ -7,7 +7,7 @@ import ProviderCombobox from './ProviderCombobox'
 import { submissionAttribution } from '@/lib/session'
 
 const PHONE = '888-378-2158'
-const PHONE_HREF = `tel:+1${PHONE.replace(/\D/g, '')}`
+const PHONE_HREF = `tel:${PHONE.replace(/\D/g, '')}`
 
 type Fields = {
   name: string

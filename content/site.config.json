@@ -4,7 +4,7 @@
     "shortName": "DMWC",
     "url": "https://desmoinesrecovery.com",
     "phone": "888-378-2158",
-    "phoneHref": "tel:+18883782158",
+    "phoneHref": "tel:8883782158",
     "email": "info@desmoinesrecovery.com",
     "address": {
       "street": "5820 Winwood Dr",
@@ -152,7 +152,7 @@
       }
     ],
     "legal": ["/privacy-policy"],
-    "napHtml": "Des Moines Wellness Center, 5820 Winwood Dr, Johnston, IA 50131 &middot; <a href=\"tel:+18883782158\">888-378-2158</a>"
+    "napHtml": "Des Moines Wellness Center, 5820 Winwood Dr, Johnston, IA 50131 &middot; <a href=\"tel:8883782158\">888-378-2158</a>"
   },
   "routes": [
     { "slug": "home", "route": "/", "pageType": "home", "title": "Premier Drug Rehab in Des Moines, IA" },

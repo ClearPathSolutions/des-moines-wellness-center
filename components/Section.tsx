@@ -124,7 +124,7 @@ export default function Section({ section, alt, slug, phone, phoneHref, heroSrc 
   const bg = alt ? 'bg-white' : 'bg-cream'
   const onAdmissions = slug === 'admissions'
   const onVerify = slug === 'verify-insurance'
-  const callHref = phoneHref ?? 'tel:+18883782158'
+  const callHref = phoneHref ?? 'tel:8883782158'
 
   switch (kind) {
     // Real bullet lists. Migrated article copy interleaves paragraphs and
@@ -462,7 +462,7 @@ export default function Section({ section, alt, slug, phone, phoneHref, heroSrc 
       const hrefFor = (text: string) => {
         const t = text.trim()
         if (t.includes('@')) return `mailto:${t}`
-        if (phoneRe.test(t)) return `tel:+1${t.replace(/\D/g, '')}`
+        if (phoneRe.test(t)) return `tel:${t.replace(/\D/g, '')}`
         return null
       }
       const iconFor = (text: string) => (text.includes('@') ? Mail : phoneRe.test(text) ? Phone : MapPin)

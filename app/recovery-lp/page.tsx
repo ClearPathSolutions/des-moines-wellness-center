@@ -33,7 +33,7 @@ import { canonicalPath } from '@/lib/urls'
  *  scripts/check-services.mjs were extended to scan this file too. */
 
 const CAMPAIGN_PHONE = '(515) 303-2386'
-const CAMPAIGN_PHONE_HREF = 'tel:+15153032386'
+const CAMPAIGN_PHONE_HREF = 'tel:5153032386'
 
 const CTM_FORM_URL =
   'https://264810.tctm.co/form/FRT472ABB2C5B9B141A1FFF98722836BB0F90260CACD64AE968086DF9BF29802CEF.html'
