@@ -46,13 +46,17 @@ Open the deployed site with devtools. Answer all four.
 ### Q1 — Is `t.js` present exactly once?
 
 ```js
-window.__ctm && window.__ctm.config.aid                      // expect 264810
-document.querySelectorAll('script[src*="tctm.co"]').length   // expect 1
+window.__ctm && window.__ctm.config.aid                           // expect 264810
+document.querySelectorAll('script[src*="tctm.co/t.js"]').length   // expect 1
 ```
 
+**Use `tctm.co/t.js`, not `tctm.co`.** A correct install returns **2** for the looser selector,
+because `t.js` injects its own `p.js` (the number-pool lookup). Deleting that "extra" breaks
+CTM. Verified on production: `t.js` plus `p.js?sid=…&p=<pool>.<number>`.
+
 - `undefined` → **Fault A**. Do section 2 first; nothing else works without it.
-- `2` or more → two copies. Double-counts sessions, makes number swap unpredictable. Remove the
-  extra before anything else. A tag in GTM plus one in the template is the usual cause.
+- `2` or more **on the `/t.js` selector** → two real copies. Double-counts sessions and makes the
+  number swap unpredictable. A tag in GTM plus one in the template is the usual cause.
 - a different `aid` → different CTM account. **Stop and ask.** Do not assume 264810.
 
 ### Q2 — How do forms reach Clarion?
@@ -92,15 +96,48 @@ This decides whether the site can use the vendor script at all.
 ## 2. Fault A — install `t.js`
 
 ```html
-<script src="https://264810.tctm.co/t.js"></script>
+<script async src="https://264810.tctm.co/t.js"></script>
 ```
 
+- **`async` is required. Never make this a synchronous tag.** A sync script in `<head>` runs
+  while `<body>` is still `null`, and every entry point into CTM's number scan defaults its root
+  to `document.body` and returns without doing anything when that is null:
+
+  ```js
+  function m(t,e,n,o){ if(void 0===e&&(e=document.body), e) return …   // mark
+  function e(t,e){     if(void 0===t&&(t=document.body), t){ …         // scan
+  if(_.ready(R), document.body && !E) …                                // early scan
+  ```
+
+  It has a DOM-ready handler and a retry interval, so it recovers *some* of the time — which is
+  worse than failing outright, because the swap then works intermittently. When it misses, every
+  visitor sees the hardcoded number and CTM can only guess which web session an inbound call
+  belongs to.
+
+- On React/Next sites a sync tag has a second failure: it rewrites the number before hydration,
+  then React reverts the swap and replaces the server HTML wholesale.
 - Absolute `https://`, not the protocol-relative `//264810.tctm.co/...` form.
 - Every page, including campaign landing pages. In a framework that means the **root** layout,
   not a per-route include that landing pages skip.
-- Load it **eagerly** — it performs the dynamic number swap, so deferring it lets a visitor read
-  and dial the wrong number.
 - After deploying, re-run Q1 and confirm exactly one copy.
+
+### Verify the tag on the deployed site, not locally
+
+```js
+document.querySelector('script[src*="tctm.co/t.js"]').async === true
+window.__ctm.config.sid                                    // 24 hex, no dashes
+Object.keys(window.__ctm_tracked_numbers).length > 0       // ← the one that matters
+```
+
+`__ctm_tracked_numbers` being populated is the proof the scan actually found the page's numbers.
+`async === true` alone does not prove the scan ran.
+
+**Do not treat "the rendered number equals the hardcoded one" as a failure.** CTM assigns from a
+pool, and on several sites the hardcoded number is itself a member of that pool — Des Moines
+serves `888-378-2158` from five different rules. Confirm a swap by checking
+`__ctm_tracked_numbers` and the injected `p.js?…&p=<pool>.<number>` request instead. On a paid
+click that resolves to a different pool member you will see a genuine change, e.g. a rendered
+`tel:+18889854841` against a hardcoded `888-378-2158`.
 
 CSP, if the site has one: add `264810.tctm.co` to `script-src` and `connect-src`, plus
 `frame-src` if the site embeds a CTM FormReactor.
@@ -287,7 +324,17 @@ sites a path discloses what someone is seeking treatment for.
 
 Do not report done until all of these pass.
 
-**In the browser, on the deployed site:**
+**The `t.js` tag, on the deployed site:**
+
+- [ ] `document.querySelector('script[src*="tctm.co/t.js"]').async === true`
+- [ ] `document.querySelectorAll('script[src*="tctm.co/t.js"]').length === 1`
+- [ ] `window.__ctm.config.aid === 264810`
+- [ ] `window.__ctm.config.sid` is 24 hex, no dashes
+- [ ] `Object.keys(window.__ctm_tracked_numbers).length > 0` — proves the scan found the numbers
+- [ ] On a paid click, the rendered `tel:` differs from the hardcoded number *or* `p.js` shows a
+      pool assignment (see section 2 — the hardcoded number is often in the pool)
+
+**The form, in the browser on the deployed site:**
 
 - [ ] Land on `/?utm_source=test&utm_medium=cpc&gclid=TEST123`, navigate to the form page, confirm the query string is gone
 - [ ] Submit with the Network tab open and read the actual request payload
@@ -311,6 +358,10 @@ one. Make any equivalent harness do the same.
 
 ## 6. Do not
 
+- **Do not make the `t.js` tag synchronous.** It must be `async`. A sync tag in `<head>` runs
+  before `<body>` exists and CTM's number scan silently no-ops. See section 2.
+- **Do not delete the second `tctm.co` script.** `t.js` injects its own `p.js`; a correct install
+  has two. Count with the `tctm.co/t.js` selector, not `tctm.co`.
 - **Do not add `forms-capture.v1.js` to a site that already posts to its own endpoint.** Every
   lead gets sent twice. Run Q2 first.
 - **Do not assume a missing script means a missing feature.** On this repo, two of the three

@@ -87,14 +87,28 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         {/* Site-wide call tracking (t.js), CTM account 264810 — loaded on every
             page from the root layout so the campaign landing pages are covered
-            too. Deliberately not `lazyOnload`: it does the number swap, which
-            has to happen before a visitor reads the number off the page.
+            too.
+
+            MUST stay `async`. Do not make this a synchronous tag. A sync script
+            in <head> executes while <body> is still null, and every entry point
+            into CTM's number scan defaults its root to document.body and returns
+            without doing anything when that is null:
+
+              function m(t,e,n,o){ if(void 0===e&&(e=document.body), e) return …
+              function e(t,e){     if(void 0===t&&(t=document.body), t){ …
+              if(_.ready(R), document.body && !E) …
+
+            It has a DOM-ready handler and a retry interval, so it recovers some
+            of the time — which is worse than failing outright, because the swap
+            then works intermittently and nobody trusts the bug report. When it
+            does miss, every visitor sees the hardcoded number and CTM has to
+            guess which web session an inbound call belongs to.
 
             It also establishes the CTM session that lib/session.ts reads
             (`__ctm.config.sid` / the `__ctmid` cookie) and the `__ctm_cvars`
             channel it writes attribution back into, so a form lead and a phone
             call from the same visit reconcile to one session. */}
-        <Script src="https://264810.tctm.co/t.js" strategy="afterInteractive" />
+        <script async src="https://264810.tctm.co/t.js" />
         {/* Google Tag Manager. GTM's own snippet, kept intact: it pushes gtm.start
             before injecting gtm.js, and that ordering is what lets the container
             measure its own load time. Splitting it into a dataLayer push plus a
