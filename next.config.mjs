@@ -146,6 +146,21 @@ const nextConfig = {
   // what T-13's "no redirect chains" criterion requires.
   async redirects() {
     return [
+      // Recruiting link for the nursing requisition — handed out in job ads and
+      // on printed material, so it has to be short and typo-proof.
+      //
+      // Temporary (307) on purpose. This points at a single ADP requisition
+      // (jobId=551516). Reqs close and ids change, and a permanent redirect
+      // would already be cached in the browser of everyone who ever used it,
+      // with no way to pull it back. Make it permanent only if /nursing becomes
+      // a stable careers destination rather than one job.
+      {
+        source: '/nursing/',
+        destination:
+          'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=e1094ba9-8b93-4f55-9dab-3102a4eaaa49&ccId=9200857813559_2&jobId=551516&lang=en_US',
+        permanent: false,
+      },
+
       // The team slug preserves the original site's misspelling ("welsey") to
       // keep its indexed URL. Anyone typing or linking the correct spelling —
       // including our own page title, which reads "Wesley Starlin" — hit a 404.
