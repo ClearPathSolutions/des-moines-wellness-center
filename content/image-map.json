@@ -683,5 +683,10 @@
   "out": "/images/team/bethany-hamilton.webp",
   "width": 1000,
   "height": 1413
+ },
+ "images/team/pamela-tambini.webp": {
+  "out": "/images/team/pamela-tambini.webp",
+  "width": 1000,
+  "height": 1250
  }
 }

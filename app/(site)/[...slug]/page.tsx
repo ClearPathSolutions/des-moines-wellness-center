@@ -35,6 +35,23 @@ function loadPage(slugArr: string[]): PageModel | null {
   return getPage(slugArr.join('/'))
 }
 
+/**
+ * Pages whose copy is syndicated from Quadrant Health Group and therefore
+ * canonicalise to the parent site rather than to themselves.
+ *
+ * Dr. Tambini provides medical oversight for the network, not for this facility
+ * alone, so her bio is published verbatim on quadranthealthgroup.com and on all
+ * thirteen facility sites. Left self-canonical, those thirteen near-identical
+ * pages compete with each other and with the parent; pointing them at the parent
+ * consolidates the duplicates on the one page that owns the content.
+ *
+ * Keyed by page slug — every slug not listed keeps its own self-canonical, which
+ * is what every other page (staff included) should have.
+ */
+const CANONICAL_AT_PARENT: Record<string, string> = {
+  'team/pamela-tambini': 'https://www.quadranthealthgroup.com/team/pamela-tambini/',
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -45,10 +62,13 @@ export async function generateMetadata({
   if (!page) return {}
   // Slash-canonical, matching what the server actually serves (T-03).
   const path = canonicalPath('/' + slug.join('/'))
+  // og:url stays on this site's own URL even for a syndicated page — it is the
+  // address a share should open, not the SEO owner of the text.
+  const canonical = CANONICAL_AT_PARENT[page.slug] ?? path
   return {
     title: { absolute: page.seo.title },
     description: page.seo.description,
-    alternates: { canonical: path },
+    alternates: { canonical },
     openGraph: {
       title: page.seo.title,
       description: page.seo.description,
