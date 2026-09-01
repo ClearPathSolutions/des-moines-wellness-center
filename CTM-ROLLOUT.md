@@ -320,6 +320,40 @@ sites a path discloses what someone is seeking treatment for.
 
 ---
 
+## 4b. Image policy — add the API host to `img-src`
+
+Blog cover images are served from `api.clarionlabs.ai`. Add it to the `img-src` directive so the
+direct, cacheable image path works and no embed/proxy fallback is needed:
+
+```
+img-src 'self' data: blob: https://api.clarionlabs.ai …
+```
+
+**Check what the site's current `img-src` actually is before assuming this fixes anything.**
+Two cases:
+
+- **`img-src` already contains a bare `https:`** (this repo's case). That scheme source already
+  matches every https origin, `api.clarionlabs.ai` included — so images are *not* being blocked
+  by CSP, and adding the host changes nothing today. Add it anyway: the wildcard has to go when
+  the policy is promoted from report-only to enforcing, and the explicit entry is what stops
+  that promotion silently breaking every cover image. But if images are falling back to an embed
+  on such a site, **CSP is not the cause** — look at the framework's remote-image allowlist
+  (`images.remotePatterns` in Next.js) or the component doing the fallback.
+- **`img-src` lists specific hosts.** Here the host is genuinely missing and adding it is the
+  fix — it restores the direct path and removes the fallback's round trip.
+
+Also confirm the host is in the framework's own image allowlist, which is separate from CSP. In
+Next.js:
+
+```js
+images: { remotePatterns: [{ protocol: 'https', hostname: 'api.clarionlabs.ai' }] }
+```
+
+A host can be permitted by CSP and still refused by the framework, which is a distinct failure
+with a distinct error message.
+
+---
+
 ## 5. Acceptance criteria
 
 Do not report done until all of these pass.
@@ -333,6 +367,12 @@ Do not report done until all of these pass.
 - [ ] `Object.keys(window.__ctm_tracked_numbers).length > 0` — proves the scan found the numbers
 - [ ] On a paid click, the rendered `tel:` differs from the hardcoded number *or* `p.js` shows a
       pool assignment (see section 2 — the hardcoded number is often in the pool)
+
+**Images:**
+
+- [ ] A blog cover image loads directly from `api.clarionlabs.ai` — check the Network tab shows
+      the image request going to that host, not through an embed or a data URI
+- [ ] No `img-src` violation for that host in the console
 
 **The form, in the browser on the deployed site:**
 

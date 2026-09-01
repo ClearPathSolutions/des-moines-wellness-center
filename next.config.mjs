@@ -53,7 +53,12 @@ const cspReportOnly = [
   `default-src 'self'`,
   `script-src 'self' 'unsafe-inline' 'unsafe-eval' ${VENDORS.callTracking} ${VENDORS.clarionScripts} ${VENDORS.trustindex} ${VENDORS.gtm} ${VENDORS.googleAnalytics} ${VENDORS.googleAds} ${VENDORS.clarity}`,
   `style-src 'self' 'unsafe-inline' ${VENDORS.trustindex}`,
-  `img-src 'self' data: blob: https:`,
+  // api.clarionlabs.ai is named explicitly even though the `https:` wildcard
+  // below already matches it. The wildcard is a placeholder: it has to go when
+  // this policy is promoted from report-only to enforcing, and blog cover
+  // images are served from that host — so without the explicit entry, tightening
+  // the wildcard would silently break every post's cover image.
+  `img-src 'self' data: blob: ${VENDORS.clarionApi} https:`,
   `font-src 'self' data:`,
   `connect-src 'self' ${VENDORS.clarionApi} ${VENDORS.clarionSocket} ${VENDORS.callTracking} ${VENDORS.trustindex} ${VENDORS.gtm} ${VENDORS.googleAnalytics} ${VENDORS.googleAds} ${VENDORS.maps} ${VENDORS.clarity} ${VENDORS.bing}`,
   // callTracking is here for the FormReactor embed on /recovery-lp/, which is
