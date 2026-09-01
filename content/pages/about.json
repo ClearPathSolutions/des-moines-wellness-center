@@ -50,24 +50,34 @@
       ],
       "items": [
         {
+          "icon": "",
+          "title": "Dr. Pamela Tambini",
+          "text": "Medical Oversight"
+        },
+        {
+          "icon": "",
           "title": "Wesley Starlin",
-          "text": "Executive Director",
-          "icon": ""
+          "text": "Executive Director"
         },
         {
+          "icon": "",
           "title": "Robert Dzieniszewski",
-          "text": "Executive Operations Director",
-          "icon": ""
+          "text": "Executive Operations Director"
         },
         {
-          "title": "Parneet Sahota, MA, LMHC",
-          "text": "Clinical Director",
-          "icon": ""
-        },
-        {
+          "icon": "",
           "title": "Lacey Stielow, MSN, RN",
-          "text": "Director of Nursing",
-          "icon": ""
+          "text": "Director of Nursing"
+        },
+        {
+          "icon": "",
+          "title": "Parneet “Pam” Sahota, MA, LMHC, IADC, CCMHC",
+          "text": "Clinical Director"
+        },
+        {
+          "icon": "",
+          "title": "Bethany Hamilton, RCS, CMA",
+          "text": "Case Manager"
         }
       ],
       "faqs": [],

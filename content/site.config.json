@@ -175,7 +175,7 @@
     { "slug": "programs/medical-detox-des-moines", "route": "/programs/medical-detox-des-moines", "pageType": "program", "title": "Alcohol & Drug Medical Detox in Des Moines, Iowa" },
     { "slug": "programs/residential-rehab-des-moines", "route": "/programs/residential-rehab-des-moines", "pageType": "program", "title": "Residential Addiction Treatment in Des Moines, Iowa" },
     { "slug": "team/lacey-stielow", "route": "/team/lacey-stielow", "pageType": "team", "title": "Lacey Stielow, MSN, RN - Director of Nursing" },
-    { "slug": "team/parneet-sahota", "route": "/team/parneet-sahota", "pageType": "team", "title": "Parneet “Pam” Sahota, MA, LMHC - Clinical Director" },
+    { "slug": "team/parneet-sahota", "route": "/team/parneet-sahota", "pageType": "team", "title": "Parneet “Pam” Sahota, MA, LMHC, IADC, CCMHC - Clinical Director" },
     { "slug": "team/robert-dzieniszewski", "route": "/team/robert-dzieniszewski", "pageType": "team", "title": "Robert Dzieniszewski - Executive Operations Director" },
     { "slug": "team/welsey-starlin", "route": "/team/welsey-starlin", "pageType": "team", "title": "Wesley Starlin - Executive Director" },
     { "slug": "therapies", "route": "/therapies", "pageType": "page", "title": "Evidence-Based Therapies for Real Addiction Treatment" },
