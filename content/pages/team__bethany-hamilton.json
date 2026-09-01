@@ -84,13 +84,7 @@
       }
     }
   ],
-  "images": [
-    {
-      "src": "../../wp-content/uploads/2026/06/Alexander-Maddux-Director-of-Operations-768x1024.png",
-      "alt": "Alexander \"Alex\" Maddux, Director of Operations",
-      "role": "hero"
-    }
-  ],
+  "images": [],
   "ctas": [
     {
       "label": "(888) 378-2158",
@@ -101,5 +95,5 @@
       "href": "/verify-insurance"
     }
   ],
-  "order": 5
+  "order": 6
 }

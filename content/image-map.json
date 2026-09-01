@@ -24,11 +24,6 @@
   "width": 671,
   "height": 755
  },
- "wp-content/uploads/2026/06/Alexander-Maddux-Director-of-Operations-768x1024.png": {
-  "out": "/images/alexander-maddux-director-of-operations-768x1024-a31633a4.webp",
-  "width": 768,
-  "height": 1024
- },
  "wp-content/uploads/2026/06/Lacey-Stielow-862x1024.jpeg": {
   "out": "/images/lacey-stielow-862x1024-f2cc8270.webp",
   "width": 862,
@@ -338,11 +333,6 @@
   "out": "/images/shutterstock-645867346-scaled-8d05cb86.webp",
   "width": 1600,
   "height": 1067
- },
- "wp-content/uploads/2026/06/Alexander-Maddux-Director-of-Operations.png": {
-  "out": "/images/alexander-maddux-director-of-operations-c931d6ee.webp",
-  "width": 1086,
-  "height": 1448
  },
  "wp-content/uploads/2026/06/Lacey-Stielow-scaled.jpeg": {
   "out": "/images/lacey-stielow-scaled-0eab37ea.webp",
@@ -673,11 +663,6 @@
   "out": "/images/team/lacey-stielow.webp",
   "width": 1000,
   "height": 1189
- },
- "images/team/alexander-maddux.webp": {
-  "out": "/images/team/alexander-maddux.webp",
-  "width": 1000,
-  "height": 1333
  },
  "images/team/bethany-hamilton.webp": {
   "out": "/images/team/bethany-hamilton.webp",

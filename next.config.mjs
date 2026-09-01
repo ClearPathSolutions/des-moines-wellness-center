@@ -151,6 +151,16 @@ const nextConfig = {
   // what T-13's "no redirect chains" criterion requires.
   async redirects() {
     return [
+      // Alexander Maddux left the organisation. His profile is indexed and was
+      // returning 200, so it consolidates to the team hub rather than 404ing.
+      // Permanent, unlike /nursing: a departed staff member's page is not coming
+      // back, and his portraits were deleted with the page.
+      {
+        source: '/team/alexander-maddux/',
+        destination: '/team/',
+        permanent: true,
+      },
+
       // Recruiting link for the nursing requisition — handed out in job ads and
       // on printed material, so it has to be short and typo-proof.
       //
