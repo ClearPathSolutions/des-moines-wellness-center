@@ -1,0 +1,80 @@
+{
+  "slug": "team/robert-dzieniszewski",
+  "pageType": "team",
+  "seo": {
+    "title": "Robert Dzieniszewski - Executive Operations Director | Des Moines Wellness Center",
+    "description": "Learn more about Robert Dzieniszewski, Executive Operations Director at Des Moines Wellness Center, who oversees day-to-day operations, staffing and facility care."
+  },
+  "hero": {
+    "eyebrow": "Executive Operations Director",
+    "headline": "Robert Dzieniszewski",
+    "subhead": "",
+    "image": {
+      "src": "/images/team/robert-dzieniszewski.webp",
+      "alt": "Robert Dzieniszewski - Executive Operations Director"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:8883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "about",
+      "kind": "team-bio",
+      "heading": "About:",
+      "subheading": "",
+      "body": [
+        "Robert Dzieniszewski serves as the Executive Operations Director at Des Moines Wellness Center, where he oversees the day-to-day operations of the facility and helps ensure a safe, supportive, and well-coordinated environment for clients, families, and staff. His responsibilities include staffing and workflow, facility operations, departmental accountability, and ensuring needs are addressed efficiently and with care.",
+        "Known for his clear, structured, and fair leadership style, Robert is committed to creating an environment where staff feel supported and equipped to provide the highest level of care.",
+        "He is especially passionate about welcoming individuals and families into treatment with respect and compassion, helping ensure each client feels supported from the moment they arrive and throughout their journey at Des Moines Wellness Center."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "/images/team/robert-dzieniszewski.webp",
+        "alt": "Robert Dzieniszewski - Executive Operations Director"
+      }
+    },
+    {
+      "id": "ready-to-take-the-first-step",
+      "kind": "cta",
+      "heading": "Ready to Take the First Step?",
+      "subheading": "",
+      "body": [
+        "Recovery is built on relationships. If you’re looking for help with addiction or mental health challenges, our team is here to guide you every step of the way. Contact Des Moines Wellness Center to learn more about our programs and admissions process."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": { "src": "", "alt": "" }
+    },
+    {
+      "id": "recovery-starts-with-the-right-people",
+      "kind": "cta",
+      "heading": "Recovery Starts With the Right People",
+      "subheading": "",
+      "body": [
+        "At Des Moines Wellness Center, our team is committed to providing compassionate, evidence-based care for addiction and co-occurring mental health conditions. Whether you’re looking for medical detox, residential treatment, IOP, or ongoing recovery support, we’re here to help you find the right path forward. Contact our admissions team today to learn more about treatment options, verify insurance, and take the first step toward lasting recovery."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": { "src": "", "alt": "" }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/team/robert-dzieniszewski.webp",
+      "alt": "Robert Dzieniszewski - Executive Operations Director",
+      "role": "hero"
+    }
+  ],
+  "ctas": [
+    { "label": "(888) 378-2158", "href": "tel:8883782158" },
+    { "label": "Verify Insurance", "href": "/verify-insurance" }
+  ],
+  "order": 3
+}
