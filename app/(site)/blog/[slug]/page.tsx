@@ -101,12 +101,28 @@ export default async function BlogPostPage({
   const local = localPost(slug)
   if (local) {
     const faqs = (local.sections ?? []).flatMap((s) => s.faqs ?? [])
+    const localDate = formatPostDate(local.publishedAt ?? null)
     return (
       <>
-        <PageRenderer page={local} config={config} showReviews={false} />
+        <PageRenderer
+          page={local}
+          config={config}
+          showReviews={false}
+          afterHero={
+            localDate ? (
+              <div className="container-page pt-8">
+                <p className="flex items-center gap-1.5 text-xs text-muted">
+                  <CalendarDays className="h-3.5 w-3.5" />
+                  <time dateTime={local.publishedAt}>{localDate}</time>
+                </p>
+              </div>
+            ) : null
+          }
+        />
         <ArticleJsonLd
           headline={local.hero.headline}
           description={local.seo.description}
+          datePublished={local.publishedAt ?? null}
           url={url}
           siteName={site.name}
           siteUrl={site.url}

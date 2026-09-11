@@ -50,11 +50,14 @@ export default async function BlogIndexPage() {
       excerpt: p.seo.description || null,
       coverImageUrl: null,
       authorName: null,
-      publishedAt: null,
+      publishedAt: p.publishedAt ?? null,
       seo: { title: p.seo.title, description: p.seo.description },
     }))
   const localSlugs = new Set(local.map((p) => p.slug))
   const posts = [...local, ...remote.filter((p) => !localSlugs.has(p.slug))]
+    // One chronology across both sources, newest first. Undated posts sort last
+    // rather than leading the index.
+    .sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''))
 
   // The JSON still carries the migrated placeholder post list ("hub-list"),
   // which would duplicate the real feed below it.

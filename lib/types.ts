@@ -66,6 +66,10 @@ export type PageModel = {
    *  which for /team meant alphabetical by first name — a meaningless sequence
    *  for a leadership page. Lower sorts first; unset sorts last. */
   order?: number
+  /** Publication date of a 'blog-post' page, ISO 8601. Migrated WordPress
+   *  articles carry no date of their own, so /blog had nothing to sort them by
+   *  and they sat above newer Clarion posts. Unset sorts last. */
+  publishedAt?: string
 }
 
 export type NavItem = { label: string; href: string; children?: NavItem[] }
