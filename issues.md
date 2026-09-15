@@ -102,7 +102,7 @@ Fixing issues in this repo and redeploying would **reintroduce 12 broken links t
 | ID | Task | Pri | Sheet rows | Count | Status |
 |---|---|---|---|---|---|
 | [T-01](#t-01) | Reconcile this repo with the deployed build | **P0** | *(new)* | 12 links | [x] **done 2026-08-05** — not a blocker, see resolution |
-| [T-02](#t-02) | LegitScript certification claim | **P0** | V0070 | 35 pages | [~] **gated 2026-08-05** — claim withheld, cert unverifiable (reCAPTCHA) |
+| [T-02](#t-02) | LegitScript certification claim | **P0** | V0070 | 35 pages | [x] **done 2026-09-15** — certification confirmed for this domain, claim restored |
 | [T-03](#t-03) | Trailing-slash convention + sitemap host | **P0** | V0102 | 34 URLs | [x] **done 2026-08-05** |
 | [T-04](#t-04) | Content freeze / re-sync before cutover | **P0** | V0124 | 1 post | [~] **re-sync gate implemented 2026-08-05** — `npm run cutover:check`; run <24h before go-live |
 | [T-05](#t-05) | Wrong-substance copy on condition pages | **P0** | Visual ×5 (+2 found) | 7 blocks | [x] **done 2026-08-05** — all 7 + typo + CI guard |
@@ -265,8 +265,49 @@ Unsubstantiated certification claims on an addiction-treatment site are a paid-s
 3. Fix the production seal's `californiahorizon.com` verification link either way.
 4. Record the outcome and who confirmed it, in this file.
 
+**Resolution — 2026-09-15: certification CONFIRMED for this domain, claim restored**
+
+Filed as issue #28 by Chelsea Stelmach ("DES MOINES IS LEGITSCRIPT CERTIFIED"),
+with the public record as evidence:
+<https://www.legitscript.com/websites/desmoinesrecovery.com/>
+
+LegitScript's own status page returns, for `desmoinesrecovery.com`:
+
+| Field | Value |
+|---|---|
+| Approval Status | **Certified** |
+| URL | desmoinesrecovery.com |
+| Website Type | In Person Addiction Treatment |
+
+That is the evidence this task asked for and could not previously obtain — the
+lookup is reCAPTCHA-gated, so it cannot be fetched programmatically (confirmed
+again on 2026-09-15: the page returns 200 but renders only the CAPTCHA notice;
+the legacy `?checker_keywords=` lookup and the domain-keyed seal path both 403).
+It was read by a human in a browser and supplied to this task; the verification
+URL above is the reproducible check for anyone revisiting it.
+
+`site.config.json` now carries `status: "verified"` plus that `verificationUrl`,
+so the badge renders via `verifiedAccreditations()` and links to the live record
+everywhere accreditations appear. `withheldReason` was removed. No certificate
+ID is recorded because the public record does not expose one — the fields above
+are everything it publishes.
+
+**Not done, deliberately:**
+- **The seal graphic is not embedded.** It needs the per-account
+  `static.legitscript.com/seals/<id>.js` embed from the LegitScript merchant
+  portal, which nobody has yet (the open question on issue #28). The text claim
+  linked to the live record is substantiated on its own and does not depend on
+  it. When the seal lands, `static.legitscript.com` must also be added to
+  `script-src` in next.config.mjs — it is not in the allowlist today.
+- **The expiry date is not recorded.** The screenshot supplied was cut off below
+  "Website Type". Certifications lapse, and the claim has to come down if this
+  one does, so capture it and add a review date.
+- **Prose claims were not restored to the 35 pages.** They were removed when the
+  claim was withheld; the badge is the substantiated presentation and re-adding
+  body copy sitewide is a separate content decision.
+
 **Acceptance criteria**
-- [ ] Certificate status for `desmoinesrecovery.com` documented with ID + expiry, or absence documented
+- [x] Certificate status for `desmoinesrecovery.com` documented — Certified, verified against LegitScript's public record 2026-09-15 (public record publishes no certificate ID; expiry still to capture)
 - [ ] All 35 pages consistent with the documented status — no page claims more than the certificate supports
 - [ ] If retained: seal image present and linked to the live record on all 35 pages
 - [ ] Production's wrong-domain verification link fixed or removed
