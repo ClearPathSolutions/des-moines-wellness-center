@@ -109,23 +109,42 @@ export default function Hero({ hero, accreditations, compact }: Props) {
                 video ? 'text-white/80' : 'text-muted'
               }`}
             >
-              {accreditations.map((a) => (
-                <span key={a.label} className="inline-flex items-center gap-1.5">
+              {accreditations.map((a) => {
+                /* The issuing body's own seal where we hold the licence for it,
+                   otherwise the generic shield. The Gold Seal is recognised on
+                   sight in a way a shield icon is not — but it is kept small
+                   here so it reads as reassurance beside the CTAs rather than
+                   competing with them. */
+                const mark = a.seal ? (
+                  <Image
+                    src={a.seal.src}
+                    alt={a.seal.alt}
+                    width={72}
+                    height={72}
+                    sizes="36px"
+                    className="h-9 w-auto shrink-0"
+                  />
+                ) : (
                   <ShieldCheck className={`h-4 w-4 ${video ? 'text-gold' : 'text-brand'}`} />
-                  {a.verificationUrl ? (
-                    <a
-                      href={a.verificationUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={`underline ${video ? 'hover:text-white' : 'hover:text-brand'}`}
-                    >
-                      {a.label}
-                    </a>
-                  ) : (
-                    a.label
-                  )}
-                </span>
-              ))}
+                )
+                return (
+                  <span key={a.label} className="inline-flex items-center gap-2">
+                    {mark}
+                    {a.verificationUrl ? (
+                      <a
+                        href={a.verificationUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`underline ${video ? 'hover:text-white' : 'hover:text-brand'}`}
+                      >
+                        {a.label}
+                      </a>
+                    ) : (
+                      a.label
+                    )}
+                  </span>
+                )
+              })}
             </div>
           ) : null}
         </div>
