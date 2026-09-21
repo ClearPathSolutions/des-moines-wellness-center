@@ -77,16 +77,20 @@
         "href": "/about",
         "children": [
           {
+            "label": "Who We Are",
+            "href": "/about"
+          },
+          {
             "label": "Our Team",
             "href": "/team"
           },
           {
-            "label": "Virtual Tour",
-            "href": "/tour"
-          },
-          {
             "label": "Therapies",
             "href": "/therapies"
+          },
+          {
+            "label": "Latest Articles",
+            "href": "/blog"
           }
         ]
       },
@@ -193,12 +197,12 @@
         ]
       },
       {
-        "label": "Admissions",
-        "href": "/admissions"
+        "label": "Tour",
+        "href": "/tour"
       },
       {
-        "label": "Blog",
-        "href": "/blog"
+        "label": "Admissions",
+        "href": "/admissions"
       },
       {
         "label": "Contact",
