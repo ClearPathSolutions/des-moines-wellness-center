@@ -88,6 +88,14 @@ export type Accreditation = {
   /** Public record backing the claim. Rendered as a link when present. */
   verificationUrl?: string
   certificateId?: string
+  /** The issuing body's own seal, shown in place of the generic shield icon.
+   *
+   *  Only set this where the mark is licensed for THIS domain. LegitScript
+   *  issues a per-domain seal through the certificate holder's portal; a seal
+   *  copied between sites is exactly how production ended up displaying a badge
+   *  whose verification record resolved to californiahorizon.com. Leave it
+   *  unset and the claim still renders as a linked text badge. */
+  seal?: { src: string; alt: string }
   /** Required when status is not 'verified', so the next person understands
    *  what evidence is missing instead of just flipping the flag. */
   withheldReason?: string
@@ -105,6 +113,11 @@ export type SiteConfig = {
     tagline: string
     accreditations: Accreditation[]
     insurancePartners: string[]
+    /** Official profiles. Rendered as footer icons and emitted as schema.org
+     *  `sameAs`, which is what ties these profiles to the business entity in
+     *  search — so adding one here does both jobs. `platform` selects the icon,
+     *  so a new value needs a matching entry in Footer's icon map. */
+    social?: { platform: 'facebook' | 'instagram' | 'linkedin'; label: string; href: string }[]
   }
   colors: Record<string, string>
   fonts: { heading: string; body: string; rationale?: string }

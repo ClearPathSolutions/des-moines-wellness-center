@@ -18,7 +18,11 @@
     "accreditations": [
       {
         "label": "The Joint Commission (Gold Seal of Approval)",
-        "status": "verified"
+        "status": "verified",
+        "seal": {
+          "src": "/images/goldseal-national-1-scaled-1-852b963b.webp",
+          "alt": "The Joint Commission Gold Seal of Approval"
+        }
       },
       {
         "label": "LegitScript Certified",
@@ -30,6 +34,23 @@
       "Surest",
       "UMR",
       "NYSHIP"
+    ],
+    "social": [
+      {
+        "platform": "facebook",
+        "label": "Facebook",
+        "href": "https://www.facebook.com/desmoineswellness/"
+      },
+      {
+        "platform": "instagram",
+        "label": "Instagram",
+        "href": "https://www.instagram.com/desmoineswellness"
+      },
+      {
+        "platform": "linkedin",
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/des-moines-wellness-center/"
+      }
     ]
   },
   "colors": {

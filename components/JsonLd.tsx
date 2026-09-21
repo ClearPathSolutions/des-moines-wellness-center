@@ -24,6 +24,12 @@ export default function LocalBusinessJsonLd({ config }: { config: SiteConfig }) 
     url: site.url,
     telephone: site.phone,
     email: site.email,
+    /* The official profiles for this business. `sameAs` is how a search engine
+       ties them to this entity rather than treating them as unrelated pages, so
+       these are the same URLs the footer links — one list in site.config.json,
+       used twice. Omitted entirely when empty: an empty array is a weaker
+       signal than saying nothing. */
+    ...(site.social?.length ? { sameAs: site.social.map((s) => s.href) } : {}),
     image: `${site.url}/og.jpg`,
     priceRange: '$$',
     address: {

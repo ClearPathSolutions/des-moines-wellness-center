@@ -1,11 +1,20 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Phone, MapPin, ShieldCheck } from 'lucide-react'
+import { Phone, MapPin, ShieldCheck, Facebook, Instagram, Linkedin } from 'lucide-react'
 import type { SiteConfig } from '@/lib/types'
 import { verifiedAccreditations } from '@/lib/content'
 
+/** Keyed by `site.social[].platform`. Adding a platform to the config without
+ *  adding it here is a type error rather than a silently missing icon. */
+const SOCIAL_ICONS = {
+  facebook: Facebook,
+  instagram: Instagram,
+  linkedin: Linkedin,
+} as const
+
 export default function Footer({ config }: { config: SiteConfig }) {
   const { site, footer } = config
+  const social = site.social ?? []
   // T-02: only substantiated claims render.
   const accreditations = verifiedAccreditations(config)
   return (
@@ -28,6 +37,33 @@ export default function Footer({ config }: { config: SiteConfig }) {
             <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-gold-light" />
             <span>{site.address.full}</span>
           </div>
+
+          {social.length ? (
+            /* Icon-only, so each link carries its own name for screen readers —
+               the icon is aria-hidden and the label is visually hidden text, not
+               a title attribute, which is not reliably announced. The p-2 takes
+               the tap target to 36px (WCAG 2.5.8 wants 24px); the -m-2 cancels
+               that padding visually so the row still lines up with the address
+               above it. Icons measure 7.8:1 against the footer, 4.6:1 on hover. */
+            <ul className="-m-2 mt-4 flex items-center">
+              {social.map((s) => {
+                const Icon = SOCIAL_ICONS[s.platform]
+                return (
+                  <li key={s.platform}>
+                    <a
+                      href={s.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex p-2 text-cream/80 transition-colors hover:text-gold-light"
+                    >
+                      <Icon className="h-5 w-5" aria-hidden="true" />
+                      <span className="sr-only">{site.name} on {s.label}</span>
+                    </a>
+                  </li>
+                )
+              })}
+            </ul>
+          ) : null}
         </div>
 
         {footer.columns.map((col) => (
@@ -50,10 +86,24 @@ export default function Footer({ config }: { config: SiteConfig }) {
 
       {accreditations.length ? (
         <div className="border-t border-white/10">
-          <div className="container-page flex flex-wrap items-center justify-center gap-x-8 gap-y-2 py-5 text-xs text-cream/70">
+          <div className="container-page flex flex-wrap items-center justify-center gap-x-10 gap-y-4 py-6 text-xs text-cream/70">
             {accreditations.map((a) => (
-              <span key={a.label} className="inline-flex items-center gap-1.5">
-                <ShieldCheck className="h-4 w-4 text-gold-light" />
+              <span key={a.label} className="inline-flex items-center gap-2.5">
+                {/* Larger than the hero's: the footer is where someone who has
+                    read the page looks for proof, and a seal only does its job
+                    at a size where the mark is actually legible. */}
+                {a.seal ? (
+                  <Image
+                    src={a.seal.src}
+                    alt={a.seal.alt}
+                    width={112}
+                    height={112}
+                    sizes="56px"
+                    className="h-14 w-auto shrink-0"
+                  />
+                ) : (
+                  <ShieldCheck className="h-4 w-4 text-gold-light" />
+                )}
                 {a.verificationUrl ? (
                   <a
                     href={a.verificationUrl}
