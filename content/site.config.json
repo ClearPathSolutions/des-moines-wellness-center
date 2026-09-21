@@ -273,6 +273,10 @@
             "href": "/therapies"
           },
           {
+            "label": "Areas We Serve",
+            "href": "/areas-we-serve"
+          },
+          {
             "label": "Admissions",
             "href": "/admissions"
           },
@@ -287,35 +291,6 @@
           {
             "label": "Contact",
             "href": "/contact"
-          }
-        ]
-      },
-      {
-        "title": "Areas We Serve",
-        "links": [
-          {
-            "label": "Ankeny, IA",
-            "href": "/areas-we-serve/ankeny"
-          },
-          {
-            "label": "West Des Moines, IA",
-            "href": "/areas-we-serve/west-des-moines"
-          },
-          {
-            "label": "Urbandale, IA",
-            "href": "/areas-we-serve/urbandale"
-          },
-          {
-            "label": "Waukee, IA",
-            "href": "/areas-we-serve/waukee"
-          },
-          {
-            "label": "Polk County, IA",
-            "href": "/areas-we-serve/polk-county"
-          },
-          {
-            "label": "Dallas County, IA",
-            "href": "/areas-we-serve/dallas-county"
           }
         ]
       }
