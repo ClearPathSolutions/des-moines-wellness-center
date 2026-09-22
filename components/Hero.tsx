@@ -127,21 +127,28 @@ export default function Hero({ hero, accreditations, compact }: Props) {
                 ) : (
                   <ShieldCheck className={`h-4 w-4 ${video ? 'text-gold' : 'text-brand'}`} />
                 )
-                return (
-                  <span key={a.label} className="inline-flex items-center gap-2">
+                /* Where there is a record to check, the SEAL is part of the
+                   link, not just the words beside it. A verification seal whose
+                   image is inert fails at the one job it has. */
+                const body = (
+                  <>
                     {mark}
-                    {a.verificationUrl ? (
-                      <a
-                        href={a.verificationUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={`underline ${video ? 'hover:text-white' : 'hover:text-brand'}`}
-                      >
-                        {a.label}
-                      </a>
-                    ) : (
-                      a.label
-                    )}
+                    <span className={a.verificationUrl ? 'underline' : undefined}>{a.label}</span>
+                  </>
+                )
+                return a.verificationUrl ? (
+                  <a
+                    key={a.label}
+                    href={a.verificationUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`inline-flex items-center gap-2 ${video ? 'hover:text-white' : 'hover:text-brand'}`}
+                  >
+                    {body}
+                  </a>
+                ) : (
+                  <span key={a.label} className="inline-flex items-center gap-2">
+                    {body}
                   </span>
                 )
               })}

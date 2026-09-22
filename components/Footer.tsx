@@ -87,37 +87,46 @@ export default function Footer({ config }: { config: SiteConfig }) {
       {accreditations.length ? (
         <div className="border-t border-white/10">
           <div className="container-page flex flex-wrap items-center justify-center gap-x-10 gap-y-4 py-6 text-xs text-cream/70">
-            {accreditations.map((a) => (
-              <span key={a.label} className="inline-flex items-center gap-2.5">
-                {/* Larger than the hero's: the footer is where someone who has
-                    read the page looks for proof, and a seal only does its job
-                    at a size where the mark is actually legible. */}
-                {a.seal ? (
-                  <Image
-                    src={a.seal.src}
-                    alt={a.seal.alt}
-                    width={112}
-                    height={112}
-                    sizes="56px"
-                    className="h-14 w-auto shrink-0"
-                  />
-                ) : (
-                  <ShieldCheck className="h-4 w-4 text-gold-light" />
-                )}
-                {a.verificationUrl ? (
-                  <a
-                    href={a.verificationUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline hover:text-gold-light"
-                  >
-                    {a.label}
-                  </a>
-                ) : (
-                  a.label
-                )}
-              </span>
-            ))}
+            {accreditations.map((a) => {
+              {/* Larger than the hero's: the footer is where someone who has
+                  read the page looks for proof, and a seal only does its job
+                  at a size where the mark is actually legible. Where a record
+                  exists the seal is inside the link — an inert verification
+                  seal fails at the one job it has. */}
+              const mark = a.seal ? (
+                <Image
+                  src={a.seal.src}
+                  alt={a.seal.alt}
+                  width={112}
+                  height={112}
+                  sizes="56px"
+                  className="h-14 w-auto shrink-0"
+                />
+              ) : (
+                <ShieldCheck className="h-4 w-4 text-gold-light" />
+              )
+              const body = (
+                <>
+                  {mark}
+                  <span className={a.verificationUrl ? 'underline' : undefined}>{a.label}</span>
+                </>
+              )
+              return a.verificationUrl ? (
+                <a
+                  key={a.label}
+                  href={a.verificationUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2.5 hover:text-gold-light"
+                >
+                  {body}
+                </a>
+              ) : (
+                <span key={a.label} className="inline-flex items-center gap-2.5">
+                  {body}
+                </span>
+              )
+            })}
           </div>
         </div>
       ) : null}

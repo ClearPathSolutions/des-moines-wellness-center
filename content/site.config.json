@@ -27,7 +27,11 @@
       {
         "label": "LegitScript Certified",
         "status": "verified",
-        "verificationUrl": "https://www.legitscript.com/websites/desmoinesrecovery.com/"
+        "verificationUrl": "https://www.legitscript.com/websites/desmoinesrecovery.com/",
+        "seal": {
+          "src": "/images/legit-script-certified-9eead42e-ecae-4ef3-b52d-82412e0e9e42--21b45964.webp",
+          "alt": "LegitScript Certified"
+        }
       }
     ],
     "insurancePartners": [
