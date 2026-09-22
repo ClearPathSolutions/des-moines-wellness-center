@@ -161,6 +161,16 @@ const nextConfig = {
         permanent: true,
       },
 
+      // Parneet "Pam" Sahota left the organisation. Same treatment as Maddux
+      // above: the profile was indexed and returning 200, so it consolidates to
+      // the team hub rather than 404ing, and her portrait was deleted with the
+      // page.
+      {
+        source: '/team/parneet-sahota/',
+        destination: '/team/',
+        permanent: true,
+      },
+
       // Recruiting link for the nursing requisition — handed out in job ads and
       // on printed material, so it has to be short and typo-proof.
       //

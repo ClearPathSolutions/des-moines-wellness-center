@@ -36,8 +36,8 @@ function roleFrom(alt: string | undefined, headline: string) {
 }
 
 /**
- * Split "Parneet “Pam” Sahota, MA, LMHC, IADC, CCMHC" into the name and the
- * post-nominals, so a five-credential clinician doesn't render as one cramped
+ * Split "Lacey Stielow, MSN, RN" into the name and the
+ * post-nominals, so a multi-credential clinician does not render as one cramped
  * line. Only splits when every trailing comma-separated token actually looks
  * like a credential; otherwise the headline is left whole.
  */

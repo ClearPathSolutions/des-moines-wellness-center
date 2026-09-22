@@ -71,11 +71,6 @@
         },
         {
           "icon": "",
-          "title": "Parneet “Pam” Sahota, MA, LMHC, IADC, CCMHC",
-          "text": "Clinical Director"
-        },
-        {
-          "icon": "",
           "title": "Bethany Hamilton, RCS, CMA",
           "text": "Case Manager"
         }
@@ -236,11 +231,6 @@
     {
       "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
       "alt": "Wesley Starlin - Executive Clinical Director",
-      "role": "section"
-    },
-    {
-      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/Pam-Sahota-Clinical-Director.png",
-      "alt": "Parneet “Pam” Sahota, MA, LMHC, IADC, CCMHC - Clinical Director",
       "role": "section"
     },
     {

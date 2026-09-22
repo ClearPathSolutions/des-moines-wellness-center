@@ -447,12 +447,6 @@
       "title": "Lacey Stielow, MSN, RN - Director of Nursing"
     },
     {
-      "slug": "team/parneet-sahota",
-      "route": "/team/parneet-sahota",
-      "pageType": "team",
-      "title": "Parneet “Pam” Sahota, MA, LMHC, IADC, CCMHC - Clinical Director"
-    },
-    {
       "slug": "team/robert-dzieniszewski",
       "route": "/team/robert-dzieniszewski",
       "pageType": "team",
@@ -546,7 +540,6 @@
     ],
     "team": [
       "team/welsey-starlin",
-      "team/parneet-sahota",
       "team/lacey-stielow",
       "team/robert-dzieniszewski"
     ],
