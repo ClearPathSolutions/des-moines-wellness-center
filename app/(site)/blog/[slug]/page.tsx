@@ -204,7 +204,7 @@ export default async function BlogPostPage({
             Our admissions team is available 24/7. Calls are free and confidential.
           </p>
           <div className="mt-7 flex flex-wrap justify-center gap-3">
-            <a href={site.phoneHref} className="btn-gold">
+            <a href={site.phoneHref} className="btn-gold" suppressHydrationWarning>
               <Phone className="h-4 w-4" />
               {site.phone}
             </a>

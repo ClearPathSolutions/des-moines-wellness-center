@@ -78,7 +78,7 @@ export default function VerifyInsuranceForm() {
           We&rsquo;re now running a verification of your coverage. An admissions specialist will
           reach out to you shortly to review your benefits and next steps. Prefer to talk now?
         </p>
-        <a href={PHONE_HREF} className="btn-primary mt-6">
+        <a href={PHONE_HREF} className="btn-primary mt-6" suppressHydrationWarning>
           <Phone className="h-4 w-4" />
           Call {PHONE}
         </a>
@@ -91,7 +91,7 @@ export default function VerifyInsuranceForm() {
   return (
     <form
       onSubmit={onSubmit}
-      className="mx-auto max-w-2xl rounded-2xl border border-line bg-white p-6 shadow-card sm:p-8"
+      className="mx-auto max-w-2xl rounded-2xl border border-line bg-white p-6 shadow-card sm:p-8" suppressHydrationWarning
     >
       {status === 'error' ? (
         // A failed submission must never look like a successful one. Give the
@@ -105,7 +105,7 @@ export default function VerifyInsuranceForm() {
             <p className="font-semibold text-brand-dark">We couldn&rsquo;t submit your details.</p>
             <p className="mt-1 text-muted">
               Nothing was sent. Please try again, or call us at{' '}
-              <a href={PHONE_HREF} className="font-semibold text-brand underline">
+              <a href={PHONE_HREF} className="font-semibold text-brand underline" suppressHydrationWarning>
                 {PHONE}
               </a>{' '}
               and we&rsquo;ll verify your benefits over the phone right now.

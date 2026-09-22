@@ -97,7 +97,7 @@ export default function Header({ nav, phone, phoneHref, siteName }: Props) {
           {/* Shown from xl (1280px). Below that the bar has room for the
               logo and the seven nav labels but not a CTA as well, and the
               number is already in the hero, the mobile menu and the footer. */}
-          <a href={phoneHref} className="btn-primary whitespace-nowrap">
+          <a href={phoneHref} className="btn-primary whitespace-nowrap" suppressHydrationWarning>
             <Phone className="h-4 w-4" />
             {phone}
           </a>
@@ -155,7 +155,7 @@ export default function Header({ nav, phone, phoneHref, siteName }: Props) {
                 </div>
               ))}
             </nav>
-            <a href={phoneHref} className="btn-primary mt-6 w-full">
+            <a href={phoneHref} className="btn-primary mt-6 w-full" suppressHydrationWarning>
               <Phone className="h-4 w-4" />
               {phone}
             </a>

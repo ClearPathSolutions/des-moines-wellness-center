@@ -26,7 +26,7 @@ export default function BlogPostList({
               Our latest recovery resources aren&rsquo;t available to view right now. If you
               have a question about treatment, our admissions team can answer it directly.
             </p>
-            <a href={phoneHref} className="btn-primary mt-6">
+            <a href={phoneHref} className="btn-primary mt-6" suppressHydrationWarning>
               <Phone className="h-4 w-4" />
               Call {phone}
             </a>

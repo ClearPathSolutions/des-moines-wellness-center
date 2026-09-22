@@ -46,7 +46,7 @@ export default function FacilityVideo({
               If you would rather be shown around in person, we arrange tours seven days
               a week, and you are welcome to bring family.
             </p>
-            <a href={phoneHref} className="btn-primary mt-7">
+            <a href={phoneHref} className="btn-primary mt-7" suppressHydrationWarning>
               <Phone className="h-4 w-4" />
               Arrange a tour — {phone}
             </a>

@@ -73,7 +73,7 @@ function SectionCta({ cta }: { cta?: { label: string; href: string } }) {
   if (!cta?.href) return null
   const isPhone = cta.href.startsWith('tel:')
   return (
-    <a href={cta.href} className={`${isPhone ? 'btn-primary' : 'btn-outline'} mt-6`}>
+    <a href={cta.href} className={`${isPhone ? 'btn-primary' : 'btn-outline'} mt-6`} suppressHydrationWarning>
       {isPhone ? <Phone className="h-4 w-4" /> : null}
       {cta.label}
     </a>
@@ -395,7 +395,7 @@ export default function Section({ section, alt, slug, phone, phoneHref, heroSrc 
                 </p>
               ))}
               <div className="mt-8 flex flex-wrap justify-center gap-3">
-                <a href={callHref} className="btn-gold">
+                <a href={callHref} className="btn-gold" suppressHydrationWarning>
                   <Phone className="h-4 w-4" />
                   {phone ? `Call ${phone}` : 'Call Now'}
                 </a>

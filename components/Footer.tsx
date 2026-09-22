@@ -29,7 +29,7 @@ export default function Footer({ config }: { config: SiteConfig }) {
             className="h-12 w-auto"
           />
           <p className="mt-4 max-w-xs text-sm leading-relaxed">{site.tagline}</p>
-          <a href={site.phoneHref} className="btn-gold mt-6">
+          <a href={site.phoneHref} className="btn-gold mt-6" suppressHydrationWarning>
             <Phone className="h-4 w-4" />
             {site.phone}
           </a>

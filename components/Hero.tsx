@@ -23,7 +23,7 @@ export default function Hero({ hero, accreditations, compact }: Props) {
         video
           ? 'relative isolate overflow-hidden bg-brand-dark'
           : 'relative overflow-hidden bg-gradient-to-b from-brand-50 to-cream'
-      }
+      } suppressHydrationWarning
     >
       {video ? (
         <>
@@ -81,13 +81,13 @@ export default function Hero({ hero, accreditations, compact }: Props) {
             </p>
           ) : null}
 
-          <div className="mt-8 flex flex-wrap gap-3">
+          <div className="mt-8 flex flex-wrap gap-3" suppressHydrationWarning>
             {/* Over video the palette inverts. The brand-green primary measures
                 1.4:1 against the green scrim, so it read as the *weaker* of the
                 two buttons — backwards, when the phone number is the whole point.
                 White leads (11.4:1), outlined white follows. */}
             {hero.primaryCta?.href ? (
-              <Link href={hero.primaryCta.href} className={video ? 'btn-white' : 'btn-primary'}>
+              <Link href={hero.primaryCta.href} className={video ? 'btn-white' : 'btn-primary'} suppressHydrationWarning>
                 {hero.primaryCta.href.startsWith('tel:') ? <Phone className="h-4 w-4" /> : null}
                 {hero.primaryCta.label}
               </Link>

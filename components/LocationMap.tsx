@@ -53,7 +53,7 @@ export default function LocationMap({
               <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-brand" />
               <address className="not-italic font-medium">{address}</address>
             </div>
-            <a href={phoneHref} className="btn-primary mt-6">
+            <a href={phoneHref} className="btn-primary mt-6" suppressHydrationWarning>
               <Phone className="h-4 w-4" />
               {phone}
             </a>
