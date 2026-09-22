@@ -2,16 +2,16 @@
   "slug": "team/welsey-starlin",
   "pageType": "team",
   "seo": {
-    "title": "Wesley Starlin - Executive Director | Des Moines Wellness Center",
-    "description": "Learn more about Wesley Starlin, Executive Director at Des Moines Wellness Center. Wesley brings 15+ years of experience in behavioral health."
+    "title": "Wesley Starlin - Executive Clinical Director | Des Moines Wellness Center",
+    "description": "Learn more about Wesley Starlin, Executive Clinical Director at Des Moines Wellness Center. Wesley brings 15+ years of experience in behavioral health."
   },
   "hero": {
-    "eyebrow": "Executive Director",
+    "eyebrow": "Executive Clinical Director",
     "headline": "Wesley Starlin",
     "subhead": "",
     "image": {
       "src": "/images/team/welsey-starlin.webp",
-      "alt": "Wesley Starlin - Executive Director"
+      "alt": "Wesley Starlin - Executive Clinical Director"
     },
     "primaryCta": {
       "label": "(888) 378-2158",
@@ -37,7 +37,7 @@
       "faqs": [],
       "image": {
         "src": "../../wp-content/uploads/2026/06/wes-1-768x1024.png",
-        "alt": "Wesley Starlin - Executive Director"
+        "alt": "Wesley Starlin - Executive Clinical Director"
       }
     },
     {
@@ -87,7 +87,7 @@
   "images": [
     {
       "src": "../../wp-content/uploads/2026/06/wes-1-768x1024.png",
-      "alt": "Wesley Starlin - Executive Director",
+      "alt": "Wesley Starlin - Executive Clinical Director",
       "role": "hero"
     }
   ],
