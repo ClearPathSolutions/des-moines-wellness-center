@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { Phone, MapPin, ShieldCheck, Facebook, Instagram, Linkedin } from 'lucide-react'
 import type { SiteConfig } from '@/lib/types'
 import { verifiedAccreditations } from '@/lib/content'
+import { EDITORIAL_POLICY_PATH, policyIsLive } from '@/lib/editorialPolicy'
+import { canonicalPath } from '@/lib/urls'
 
 /** Keyed by `site.social[].platform`. Adding a platform to the config without
  *  adding it here is a type error rather than a silently missing icon. */
@@ -17,6 +19,12 @@ export default function Footer({ config }: { config: SiteConfig }) {
   const social = site.social ?? []
   // T-02: only substantiated claims render.
   const accreditations = verifiedAccreditations(config)
+  // The editorial policy link waits for the policy itself: until it has every
+  // field and a content sign-off, the page 404s in production.
+  const policyLive = policyIsLive(config)
+  const legal = footer.legal.filter(
+    (l) => policyLive || canonicalPath(l.href) !== EDITORIAL_POLICY_PATH,
+  )
   return (
     <footer className="bg-brand-dark text-cream/80">
       <div className="container-page grid gap-10 py-16 md:grid-cols-2 lg:grid-cols-[1.4fr_repeat(3,1fr)]">
@@ -137,9 +145,9 @@ export default function Footer({ config }: { config: SiteConfig }) {
             © {new Date().getFullYear()} {site.name}. All rights reserved.
           </p>
           <div className="flex gap-5">
-            {footer.legal.map((href) => (
-              <Link key={href} href={href} className="hover:text-gold-light">
-                Privacy Policy
+            {legal.map((l) => (
+              <Link key={l.href} href={l.href} className="hover:text-gold-light">
+                {l.label}
               </Link>
             ))}
           </div>

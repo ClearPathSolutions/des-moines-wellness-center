@@ -34,6 +34,10 @@ export type BlogPostSummary = {
 
 export type BlogPost = BlogPostSummary & {
   bodyHtml: string
+  /** Clinical reviewer as entered in Clarion. Clarion exposes no review date,
+   *  and the byline shows a reviewer only alongside one (editorial policy: no
+   *  undated or default reviewer), so this does not render on its own. */
+  reviewer: { name: string; credentials: string | null; url: string | null } | null
 }
 
 type RawPost = {
@@ -44,6 +48,9 @@ type RawPost = {
   author_name?: unknown
   published_at?: unknown
   body_html?: unknown
+  medically_reviewed_by?: unknown
+  medically_reviewed_by_credentials?: unknown
+  medically_reviewed_by_url?: unknown
   seo_meta?: { title?: unknown; description?: unknown } | null
   meta_title?: unknown
 }
@@ -104,7 +111,19 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
   if (!data || typeof data !== 'object') return null
   const summary = toSummary(data as RawPost)
   if (!summary) return null
-  return { ...summary, bodyHtml: str((data as RawPost).body_html) ?? '' }
+  const raw = data as RawPost
+  const reviewerName = str(raw.medically_reviewed_by)
+  return {
+    ...summary,
+    bodyHtml: str(raw.body_html) ?? '',
+    reviewer: reviewerName
+      ? {
+          name: reviewerName,
+          credentials: str(raw.medically_reviewed_by_credentials),
+          url: str(raw.medically_reviewed_by_url),
+        }
+      : null,
+  }
 }
 
 /** e.g. "July 16, 2026". Empty string when the date is missing or unparseable. */

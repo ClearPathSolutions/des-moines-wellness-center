@@ -15,7 +15,7 @@ const CONTENT = path.join(process.cwd(), 'content')
 const PAGES = path.join(CONTENT, 'pages')
 
 // Routes that exist as code, not as a content/pages/*.json file.
-const CODE_ROUTES = new Set(['/', '/blog'])
+const CODE_ROUTES = new Set(['/', '/blog', '/editorial-policy'])
 
 const pageSlugs = new Set(
   fs

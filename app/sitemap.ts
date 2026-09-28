@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next'
 import { getAllPages, getSiteConfig } from '@/lib/content'
 import { getBlogPosts } from '@/lib/blog'
 import { canonicalUrl, pathForSlug } from '@/lib/urls'
+import { EDITORIAL_POLICY_PATH, policyIsLive } from '@/lib/editorialPolicy'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const config = getSiteConfig()
@@ -27,5 +28,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.6,
   }))
 
-  return [...pages, ...postEntries]
+  // A code route, not a content page, and only listed once it is live — the CI
+  // sitemap check requires every entry to return 200.
+  const policy: MetadataRoute.Sitemap = policyIsLive(config)
+    ? [{ url: canonicalUrl(base, EDITORIAL_POLICY_PATH), changeFrequency: 'yearly', priority: 0.4 }]
+    : []
+
+  return [...pages, ...policy, ...postEntries]
 }

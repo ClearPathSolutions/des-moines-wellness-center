@@ -1,9 +1,20 @@
 import type { Faq, SiteConfig } from '@/lib/types'
 import { canonicalUrl } from '@/lib/urls'
+import {
+  correctionsPolicyUrl,
+  policyDescription,
+  policyFields,
+  policyIsLive,
+  policyUrl,
+} from '@/lib/editorialPolicy'
 
 /** Stable identifier for the organization entity, so page-level schema can
  *  reference the same business rather than describing a new one each time. */
 export const orgId = (siteUrl: string) => `${siteUrl}/#organization`
+
+/** Stable identifier for a person, keyed by their bio page, so a byline's
+ *  author or reviewer and the Person node on the bio page are one entity. */
+export const personId = (bioUrl: string) => `${bioUrl}#person`
 
 function JsonLdScript({ data }: { data: unknown }) {
   return (
@@ -59,6 +70,40 @@ export default function LocalBusinessJsonLd({ config }: { config: SiteConfig }) 
     ],
     medicalSpecialty: 'Addiction Medicine',
     description: site.tagline,
+    /* Merged into this node rather than emitted as a second Organization, which
+       would split the entity. Absent until the policy page is live, so the
+       graph never points at a URL that 404s. */
+    ...(policyIsLive(config)
+      ? {
+          publishingPrinciples: policyUrl(config),
+          correctionsPolicy: correctionsPolicyUrl(config),
+        }
+      : {}),
+  }
+  return <JsonLdScript data={data} />
+}
+
+/** WebPage schema for /editorial-policy/. `lastReviewed` is the ISO date. */
+export function EditorialPolicyJsonLd({ config }: { config: SiteConfig }) {
+  const { site } = config
+  const fields = policyFields(config)
+  const lastReviewed = config.editorialPolicy?.lastReviewed?.trim()
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${policyUrl(config)}#webpage`,
+    url: policyUrl(config),
+    name: 'Editorial Policy',
+    description: policyDescription(fields),
+    isPartOf: {
+      '@type': 'WebSite',
+      '@id': `${site.url}/#website`,
+      url: canonicalUrl(site.url, '/'),
+      name: site.name,
+    },
+    about: { '@id': orgId(site.url) },
+    ...(lastReviewed ? { lastReviewed } : {}),
+    inLanguage: 'en-US',
   }
   return <JsonLdScript data={data} />
 }
@@ -114,6 +159,7 @@ export function PersonJsonLd({
   siteUrl,
   siteName,
   description,
+  credentials,
 }: {
   name: string
   jobTitle?: string | null
@@ -122,11 +168,16 @@ export function PersonJsonLd({
   siteUrl: string
   siteName: string
   description?: string | null
+  /** Post-nominals as published in the staff bios, e.g. "MSN, RN". Only
+   *  real, verifiable credentials — leave unset rather than guess. */
+  credentials?: string | null
 }) {
   const data = {
     '@context': 'https://schema.org',
     '@type': 'Person',
+    '@id': personId(url),
     name,
+    ...(credentials ? { honorificSuffix: credentials } : {}),
     ...(jobTitle ? { jobTitle } : {}),
     ...(image ? { image } : {}),
     ...(description ? { description } : {}),
@@ -136,13 +187,35 @@ export function PersonJsonLd({
   return <JsonLdScript data={data} />
 }
 
-/** Article schema for blog posts. */
+export type SchemaPerson = { name: string; bioUrl?: string | null; credentials?: string | null }
+
+/** A byline person as schema: a reference to their bio page's Person node when
+ *  they have one, otherwise a bare named Person. */
+function personRef(p: SchemaPerson) {
+  return {
+    ...(p.bioUrl ? { '@id': personId(p.bioUrl), url: p.bioUrl } : {}),
+    '@type': 'Person',
+    name: p.name,
+    ...(p.credentials ? { honorificSuffix: p.credentials } : {}),
+  }
+}
+
+/**
+ * Article schema for blog posts: a MedicalWebPage wrapping a BlogPosting
+ * (editorial policy package, clinical-article.jsonld).
+ *
+ * `reviewedBy` and `lastReviewed` are emitted only when the post has both a
+ * reviewer and a review date of its own — never a site-wide default.
+ */
 export function ArticleJsonLd({
   headline,
   description,
   image,
   datePublished,
-  authorName,
+  dateModified,
+  author,
+  reviewer,
+  lastReviewed,
   url,
   siteName,
   siteUrl,
@@ -151,23 +224,42 @@ export function ArticleJsonLd({
   description?: string | null
   image?: string | null
   datePublished?: string | null
-  authorName?: string | null
+  dateModified?: string | null
+  author?: SchemaPerson | null
+  reviewer?: SchemaPerson | null
+  /** YYYY-MM-DD */
+  lastReviewed?: string | null
   url: string
   siteName: string
   siteUrl: string
 }) {
+  const reviewed = reviewer && lastReviewed
+  const publisher = { '@id': orgId(siteUrl), name: siteName }
   const data = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
-    headline,
-    ...(description ? { description } : {}),
-    ...(image ? { image } : {}),
-    ...(datePublished ? { datePublished } : {}),
-    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
-    author: authorName
-      ? { '@type': 'Person', name: authorName }
-      : { '@id': orgId(siteUrl), name: siteName },
-    publisher: { '@id': orgId(siteUrl), name: siteName },
+    '@graph': [
+      {
+        '@type': 'MedicalWebPage',
+        '@id': `${url}#webpage`,
+        url,
+        name: headline,
+        ...(description ? { description } : {}),
+        ...(reviewed ? { lastReviewed, reviewedBy: personRef(reviewer) } : {}),
+        publisher,
+      },
+      {
+        '@type': 'BlogPosting',
+        '@id': `${url}#article`,
+        headline,
+        ...(description ? { description } : {}),
+        ...(image ? { image } : {}),
+        mainEntityOfPage: { '@id': `${url}#webpage` },
+        ...(datePublished ? { datePublished } : {}),
+        ...(dateModified || datePublished ? { dateModified: dateModified || datePublished } : {}),
+        author: author ? personRef(author) : publisher,
+        publisher,
+      },
+    ],
   }
   return <JsonLdScript data={data} />
 }

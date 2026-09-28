@@ -325,7 +325,14 @@
       }
     ],
     "legal": [
-      "/privacy-policy"
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy-policy"
+      },
+      {
+        "label": "Editorial Policy",
+        "href": "/editorial-policy"
+      }
     ],
     "napHtml": "Des Moines Wellness Center, 5820 Winwood Dr, Johnston, IA 50131 &middot; <a href=\"tel:8883782158\">888-378-2158</a>"
   },
@@ -658,5 +665,10 @@
     "Brand name is misspelled 'Des Moins Wellness Center' in some source content and the working directory - ensure 'Des Moines' everywhere in copy and metadata.",
     "SEO titles are very long with a repeated '| Des Moines Wellness Center | Alcohol & Drug Rehab Iowa' suffix (often >60 chars); trim to reduce SERP truncation.",
     "Domain mismatch to confirm: brand domain and email use desmoinesrecovery.com while the brand name is 'Des Moines Wellness Center' - verify canonical https://desmoinesrecovery.com is correct."
-  ]
+  ],
+  "editorialPolicy": {
+    "editorialEmail": "info@desmoinesrecovery.com",
+    "lastReviewed": "",
+    "contentSignoff": ""
+  }
 }

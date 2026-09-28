@@ -70,6 +70,31 @@ export type PageModel = {
    *  articles carry no date of their own, so /blog had nothing to sort them by
    *  and they sat above newer Clarion posts. Unset sorts last. */
   publishedAt?: string
+  /** 'blog-post' only. Who wrote and clinically reviewed the article. */
+  byline?: PostByline
+}
+
+export type BylinePerson = {
+  name: string
+  /** Site path of their bio page, e.g. /team/welsey-starlin. Unlinked when unset. */
+  bioPath?: string
+}
+
+/**
+ * The per-post byline fields (editorial policy package, "Post fields").
+ *
+ * There is deliberately no site-wide default reviewer: a post without its own
+ * `reviewedBy` and `lastReviewed` shows no reviewer line and emits no
+ * `reviewedBy` schema. Attributing a clinical review that did not happen is the
+ * failure this is designed to make impossible.
+ */
+export type PostByline = {
+  writtenBy?: BylinePerson
+  reviewedBy?: BylinePerson & { credentials?: string }
+  /** YYYY-MM-DD */
+  lastReviewed?: string
+  /** ISO 8601. Falls back to the publication date. */
+  modifiedAt?: string
 }
 
 export type NavItem = { label: string; href: string; children?: NavItem[] }
@@ -122,7 +147,18 @@ export type SiteConfig = {
   colors: Record<string, string>
   fonts: { heading: string; body: string; rationale?: string }
   nav: { primary: NavItem[] }
-  footer: { columns: { title: string; links: Cta[] }[]; legal: string[]; napHtml: string }
+  footer: { columns: { title: string; links: Cta[] }[]; legal: Cta[]; napHtml: string }
+  /** Per-site fields for the shared editorial policy (lib/editorialPolicy.ts).
+   *  Facility name, domain and phone come from `site`; these are the rest.
+   *  Nothing about the policy goes live until all three are filled. */
+  editorialPolicy?: {
+    /** Monitored corrections inbox. */
+    editorialEmail: string
+    /** YYYY-MM-DD. */
+    lastReviewed: string
+    /** Who signed the content off, and when. Blank = not approved to launch. */
+    contentSignoff: string
+  }
   routes: { slug: string; route: string; pageType: string; title: string }[]
   collections: { programs: string[]; conditions: string[]; team: string[]; areas: string[] }
 }

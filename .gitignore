@@ -32,3 +32,6 @@ yarn-error.log*
 
 # browser tool scratch output
 .playwright-mcp/
+
+# local editorial policy handoff package
+/editorial-policy-dev-package/

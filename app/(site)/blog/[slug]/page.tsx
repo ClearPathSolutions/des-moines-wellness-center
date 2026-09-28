@@ -2,10 +2,12 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
-import { ArrowLeft, CalendarDays, Phone } from 'lucide-react'
+import { ArrowLeft, Phone } from 'lucide-react'
 import PageRenderer from '@/components/PageRenderer'
-import { getAllPages, getPage, getSiteConfig } from '@/lib/content'
-import { formatPostDate, getBlogPost, getBlogPosts } from '@/lib/blog'
+import ArticleByline from '@/components/ArticleByline'
+import { getAllPages, getSiteConfig } from '@/lib/content'
+import { getBlogPost, getBlogPosts } from '@/lib/blog'
+import { policyIsLive } from '@/lib/editorialPolicy'
 import { ArticleJsonLd, BreadcrumbJsonLd, FaqJsonLd } from '@/components/JsonLd'
 import { canonicalPath, canonicalUrl } from '@/lib/urls'
 
@@ -31,6 +33,20 @@ function localPost(slug: string) {
   return getAllPages().find(
     (p) => p.pageType === 'blog-post' && p.slug === `blog/${slug}`
   )
+}
+
+/** A Clarion reviewer URL on this site's own host, as a local path, so the
+ *  byline links internally and the schema @id matches the bio page's own. */
+function ownPath(url: string | null, siteUrl: string): string | null {
+  if (!url) return null
+  try {
+    const u = new URL(url)
+    const own = new URL(siteUrl)
+    const bare = (h: string) => h.replace(/^www\./, '')
+    return bare(u.hostname) === bare(own.hostname) ? canonicalPath(u.pathname) : null
+  } catch {
+    return null
+  }
 }
 
 export async function generateStaticParams() {
@@ -96,12 +112,15 @@ export default async function BlogPostPage({
   const config = getSiteConfig()
   const { site } = config
   const url = canonicalUrl(site.url, `/blog/${slug}`)
+  const showPolicyLink = policyIsLive(config)
 
   // --- Migrated local article ---------------------------------------------
   const local = localPost(slug)
   if (local) {
     const faqs = (local.sections ?? []).flatMap((s) => s.faqs ?? [])
-    const localDate = formatPostDate(local.publishedAt ?? null)
+    const { writtenBy, reviewedBy, lastReviewed, modifiedAt } = local.byline ?? {}
+    const modified = modifiedAt ?? local.publishedAt ?? null
+    const bio = (p?: { bioPath?: string }) => (p?.bioPath ? canonicalPath(p.bioPath) : null)
     return (
       <>
         <PageRenderer
@@ -109,20 +128,43 @@ export default async function BlogPostPage({
           config={config}
           showReviews={false}
           afterHero={
-            localDate ? (
-              <div className="container-page pt-8">
-                <p className="flex items-center gap-1.5 text-xs text-muted">
-                  <CalendarDays className="h-3.5 w-3.5" />
-                  <time dateTime={local.publishedAt}>{localDate}</time>
-                </p>
+            <div className="container-page pt-8">
+              <div className="mx-auto max-w-3xl">
+                <ArticleByline
+                  author={writtenBy ? { name: writtenBy.name, href: bio(writtenBy) } : null}
+                  reviewer={
+                    reviewedBy
+                      ? { name: reviewedBy.name, href: bio(reviewedBy), credentials: reviewedBy.credentials }
+                      : null
+                  }
+                  lastReviewed={lastReviewed}
+                  modifiedAt={modified}
+                  showPolicyLink={showPolicyLink}
+                />
               </div>
-            ) : null
+            </div>
           }
         />
         <ArticleJsonLd
           headline={local.hero.headline}
           description={local.seo.description}
           datePublished={local.publishedAt ?? null}
+          dateModified={modified}
+          author={
+            writtenBy
+              ? { name: writtenBy.name, bioUrl: writtenBy.bioPath ? canonicalUrl(site.url, writtenBy.bioPath) : null }
+              : null
+          }
+          reviewer={
+            reviewedBy
+              ? {
+                  name: reviewedBy.name,
+                  credentials: reviewedBy.credentials,
+                  bioUrl: reviewedBy.bioPath ? canonicalUrl(site.url, reviewedBy.bioPath) : null,
+                }
+              : null
+          }
+          lastReviewed={lastReviewed}
           url={url}
           siteName={site.name}
           siteUrl={site.url}
@@ -143,7 +185,18 @@ export default async function BlogPostPage({
   const post = await getBlogPost(slug)
   if (!post) notFound()
 
-  const date = formatPostDate(post.publishedAt)
+  const reviewerPath = ownPath(post.reviewer?.url ?? null, site.url)
+  const reviewer = post.reviewer
+    ? {
+        name: post.reviewer.name,
+        credentials: post.reviewer.credentials,
+        href: reviewerPath,
+        bioUrl: reviewerPath ? canonicalUrl(site.url, reviewerPath) : null,
+      }
+    : null
+  // Clarion has no review-date field, so its posts carry no reviewer line or
+  // reviewedBy schema until it does. Wire the date in here when it exists.
+  const lastReviewed: string | null = null
 
   return (
     <>
@@ -160,15 +213,13 @@ export default async function BlogPostPage({
 
             <h1 className="mt-5">{post.title}</h1>
 
-            <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted">
-              {date ? (
-                <span className="flex items-center gap-1.5">
-                  <CalendarDays className="h-4 w-4" />
-                  <time dateTime={post.publishedAt ?? undefined}>{date}</time>
-                </span>
-              ) : null}
-              {post.authorName ? <span>By {post.authorName}</span> : null}
-            </div>
+            <ArticleByline
+              author={post.authorName ? { name: post.authorName } : null}
+              reviewer={reviewer}
+              lastReviewed={lastReviewed}
+              modifiedAt={post.publishedAt}
+              showPolicyLink={showPolicyLink}
+            />
 
             {post.coverImageUrl ? (
               <div className="relative mt-8 aspect-[16/9] w-full overflow-hidden rounded-2xl">
@@ -220,7 +271,9 @@ export default async function BlogPostPage({
         description={post.seo.description ?? post.excerpt}
         image={post.coverImageUrl}
         datePublished={post.publishedAt}
-        authorName={post.authorName}
+        author={post.authorName ? { name: post.authorName } : null}
+        reviewer={reviewer}
+        lastReviewed={lastReviewed}
         url={url}
         siteName={site.name}
         siteUrl={site.url}

@@ -11,7 +11,9 @@ import {
   MedicalPageJsonLd,
   PersonJsonLd,
 } from '@/components/JsonLd'
+import Link from 'next/link'
 import { getAllPages, getPage, getSiteConfig } from '@/lib/content'
+import { EDITORIAL_POLICY_PATH, policyIsLive } from '@/lib/editorialPolicy'
 import { canonicalPath, canonicalUrl } from '@/lib/urls'
 import { resolveImage, orientation } from '@/lib/images'
 import type { Faq, PageModel } from '@/lib/types'
@@ -126,6 +128,15 @@ function jobTitleFrom(alt: string | undefined, headline: string) {
   return tail || null
 }
 
+/** Team headlines carry post-nominals after the name, as the staff bios doc
+ *  prints them: "Lacey Stielow, MSN, RN". Split for Person schema. */
+function splitCredentials(headline: string) {
+  const i = headline.indexOf(',')
+  return i === -1
+    ? { name: headline, credentials: null }
+    : { name: headline.slice(0, i).trim(), credentials: headline.slice(i + 1).trim() || null }
+}
+
 export default async function CatchAllPage({
   params,
 }: {
@@ -190,8 +201,32 @@ export default async function CatchAllPage({
   }
 
   // T-21 row 409: real staff portraits on /about, linking to each bio.
+  // The editorial policy is linked from About (policy package, "Site links"),
+  // under the team who stand behind it — once the policy is live.
   if (page.slug === 'about') {
-    collection = <TeamFaces team={team} />
+    collection = (
+      <>
+        <TeamFaces team={team} />
+        {policyIsLive(config) ? (
+          // Continues TeamFaces' white band rather than starting a new one.
+          <div className="-mt-8 bg-white pb-16 sm:-mt-12">
+            <div className="container-page text-center">
+            <p className="text-[15px] text-muted">
+              How we research, write, clinically review and update the health information on
+              this site:{' '}
+              <Link
+                href={EDITORIAL_POLICY_PATH}
+                className="font-medium text-brand underline hover:text-brand-dark"
+              >
+                read our editorial policy
+              </Link>
+              .
+            </p>
+            </div>
+          </div>
+        ) : null}
+      </>
+    )
   }
 
   // On /team the people ARE the page, so the grid goes directly under the hero —
@@ -236,7 +271,7 @@ export default async function CatchAllPage({
 
       {page.pageType === 'team' ? (
         <PersonJsonLd
-          name={page.hero.headline}
+          {...splitCredentials(page.hero.headline)}
           jobTitle={jobTitleFrom(page.hero.image?.alt, page.hero.headline)}
           image={portrait ? `${site.url}${portrait.out}` : null}
           description={page.hero.subhead || null}
