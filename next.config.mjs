@@ -182,7 +182,7 @@ const nextConfig = {
       {
         source: '/nursing/',
         destination:
-          'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=e1094ba9-8b93-4f55-9dab-3102a4eaaa49&ccId=9200857813559_2&jobId=551516&lang=en_US',
+          'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=e1094ba9-8b93-4f55-9dab-3102a4eaaa49&ccId=9201562455183_2&jobId=551516&lang=en_US',
         permanent: false,
       },
 
