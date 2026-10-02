@@ -458,6 +458,12 @@
       "title": "Lacey Stielow, MSN, RN - Director of Nursing"
     },
     {
+      "slug": "team/lindsay-arndorfer",
+      "route": "/team/lindsay-arndorfer",
+      "pageType": "team",
+      "title": "Lindsay Arndorfer - Alumni Coordinator"
+    },
+    {
       "slug": "team/robert-dzieniszewski",
       "route": "/team/robert-dzieniszewski",
       "pageType": "team",
@@ -552,7 +558,8 @@
     "team": [
       "team/welsey-starlin",
       "team/lacey-stielow",
-      "team/robert-dzieniszewski"
+      "team/robert-dzieniszewski",
+      "team/lindsay-arndorfer"
     ],
     "areas": [
       "areas-we-serve/des-moines",

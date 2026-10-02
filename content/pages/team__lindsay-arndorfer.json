@@ -1,0 +1,93 @@
+{
+  "slug": "team/lindsay-arndorfer",
+  "pageType": "team",
+  "seo": {
+    "title": "Lindsay Arndorfer - Alumni Coordinator | Des Moines Wellness Center",
+    "description": "Learn more about Lindsay Arndorfer, Alumni Coordinator at Des Moines Wellness Center, who helps alumni stay connected to one another and to the recovery community after treatment."
+  },
+  "hero": {
+    "eyebrow": "Alumni Coordinator",
+    "headline": "Lindsay Arndorfer",
+    "subhead": "",
+    "image": {
+      "src": "/images/team/lindsay-arndorfer.webp",
+      "alt": "Lindsay Arndorfer - Alumni Coordinator"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:8883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "about",
+      "kind": "team-bio",
+      "heading": "About:",
+      "subheading": "",
+      "body": [
+        "Lindsay Arndorfer is passionate about building genuine relationships and helping people feel connected and supported. As Alumni Coordinator, she works to create opportunities for alumni to stay connected to one another and to the recovery community long after treatment ends.",
+        "Lindsay brings more than 15 years of experience in relationship-focused roles across leadership, education, and technology. Most recently, she worked in a middle school supporting students with complex emotional and behavioral needs. That experience strengthened her interest in mental health and substance use and reinforced something that has been a common thread throughout her career: relationships matter, and people do better when they feel like they have someone in their corner.",
+        "Lindsay is currently pursuing her Master of Social Work at Grand View University with a clinical focus. Her move into behavioral health has been shaped by a desire to better understand people, their experiences, and the environments and relationships that influence their lives.",
+        "As Alumni Coordinator, Lindsay will develop events, programming, outreach, and other ways for alumni to stay involved and connected. She believes recovery is about more than what happens during treatment—it’s also about building relationships, finding community, and creating a life that feels meaningful moving forward."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "/images/team/lindsay-arndorfer.webp",
+        "alt": "Lindsay Arndorfer - Alumni Coordinator"
+      }
+    },
+    {
+      "id": "ready-to-take-the-first-step",
+      "kind": "cta",
+      "heading": "Ready to Take the First Step?",
+      "subheading": "",
+      "body": [
+        "Recovery is built on relationships. If you’re looking for help with addiction or mental health challenges, our team is here to guide you every step of the way. Contact Des Moines Wellness Center to learn more about our programs and admissions process."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "recovery-starts-with-the-right-people",
+      "kind": "cta",
+      "heading": "Recovery Starts With the Right People",
+      "subheading": "",
+      "body": [
+        "At Des Moines Wellness Center, our team is committed to providing compassionate, evidence-based care for addiction and co-occurring mental health conditions. Whether you’re looking for medical detox, residential treatment, IOP, or ongoing recovery support, we’re here to help you find the right path forward. Contact our admissions team today to learn more about treatment options, verify insurance, and take the first step toward lasting recovery."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/team/lindsay-arndorfer.webp",
+      "alt": "Lindsay Arndorfer - Alumni Coordinator",
+      "role": "hero"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:8883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  ],
+  "order": 6
+}
