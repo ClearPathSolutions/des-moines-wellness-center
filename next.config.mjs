@@ -186,6 +186,20 @@ const nextConfig = {
         permanent: false,
       },
 
+      // General careers link — the ADP job board listing every open position,
+      // not a single requisition like /nursing above. There is no careers page
+      // on the site, so this goes straight to ADP.
+      //
+      // Temporary (307) for the same reason as /nursing: a permanent redirect is
+      // cached by browsers with no way to retract it, and if a careers page is
+      // ever built here, or the ADP board moves, this needs to be repointable.
+      {
+        source: '/careers/',
+        destination:
+          'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=e1094ba9-8b93-4f55-9dab-3102a4eaaa49&ccId=9201562455183_2&lang=en_US',
+        permanent: false,
+      },
+
       // The team slug preserves the original site's misspelling ("welsey") to
       // keep its indexed URL. Anyone typing or linking the correct spelling —
       // including our own page title, which reads "Wesley Starlin" — hit a 404.
