@@ -470,6 +470,12 @@
       "title": "Robert Dzieniszewski - Executive Operations Director"
     },
     {
+      "slug": "team/michelle-hernandez",
+      "route": "/team/michelle-hernandez",
+      "pageType": "team",
+      "title": "Michelle Hernandez - Executive Clinical Director"
+    },
+    {
       "slug": "therapies",
       "route": "/therapies",
       "pageType": "page",
@@ -550,6 +556,7 @@
       "what-we-treat/prescription-drug-rehab-des-moines"
     ],
     "team": [
+      "team/michelle-hernandez",
       "team/lacey-stielow",
       "team/robert-dzieniszewski",
       "team/lindsay-arndorfer"

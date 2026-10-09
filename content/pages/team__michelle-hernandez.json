@@ -1,0 +1,95 @@
+{
+  "slug": "team/michelle-hernandez",
+  "pageType": "team",
+  "seo": {
+    "title": "Michelle Hernandez - Executive Clinical Director | Des Moines Wellness Center",
+    "description": "Learn more about Michelle Hernandez, Executive Clinical Director at Des Moines Wellness Center."
+  },
+  "hero": {
+    "eyebrow": "Executive Clinical Director",
+    "headline": "Michelle Hernandez",
+    "subhead": "",
+    "image": {
+      "src": "",
+      "alt": "Michelle Hernandez - Executive Clinical Director"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:8883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "about",
+      "kind": "team-bio",
+      "heading": "About:",
+      "subheading": "",
+      "body": [],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "ready-to-take-the-first-step",
+      "kind": "cta",
+      "heading": "Ready to Take the First Step?",
+      "subheading": "",
+      "body": [
+        "Recovery is built on relationships. If you’re looking for help with addiction or mental health challenges, our team is here to guide you every step of the way. Contact Des Moines Wellness Center to learn more about our programs and admissions process."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "start-your-recovery-today",
+      "kind": "cta",
+      "heading": "START Your Recovery Today",
+      "subheading": "",
+      "body": [],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "recovery-starts-with-the-right-people",
+      "kind": "cta",
+      "heading": "Recovery Starts With the Right People",
+      "subheading": "",
+      "body": [
+        "At Des Moines Wellness Center, our team is committed to providing compassionate, evidence-based care for addiction and co-occurring mental health conditions. Whether you’re looking for medical detox, residential treatment, IOP, or ongoing recovery support, we’re here to help you find the right path forward. Contact our admissions team today to learn more about treatment options, verify insurance, and take the first step toward lasting recovery."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:8883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  ],
+  "order": 2
+}
