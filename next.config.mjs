@@ -200,12 +200,17 @@ const nextConfig = {
         permanent: false,
       },
 
-      // The team slug preserves the original site's misspelling ("welsey") to
-      // keep its indexed URL. Anyone typing or linking the correct spelling —
-      // including our own page title, which reads "Wesley Starlin" — hit a 404.
+      // Wesley Starlin is no longer with the facility and his bio page was
+      // removed. Both the indexed (misspelled "welsey") URL and the correct
+      // spelling go to the team page rather than 404ing.
+      {
+        source: '/team/welsey-starlin/',
+        destination: '/team/',
+        permanent: true,
+      },
       {
         source: '/team/wesley-starlin/',
-        destination: '/team/welsey-starlin/',
+        destination: '/team/',
         permanent: true,
       },
 

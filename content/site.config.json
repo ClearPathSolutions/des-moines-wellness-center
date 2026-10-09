@@ -470,12 +470,6 @@
       "title": "Robert Dzieniszewski - Executive Operations Director"
     },
     {
-      "slug": "team/welsey-starlin",
-      "route": "/team/welsey-starlin",
-      "pageType": "team",
-      "title": "Wesley Starlin - Executive Clinical Director"
-    },
-    {
       "slug": "therapies",
       "route": "/therapies",
       "pageType": "page",
@@ -556,7 +550,6 @@
       "what-we-treat/prescription-drug-rehab-des-moines"
     ],
     "team": [
-      "team/welsey-starlin",
       "team/lacey-stielow",
       "team/robert-dzieniszewski",
       "team/lindsay-arndorfer"
@@ -665,7 +658,6 @@
   "warnings": [
     "areas-we-serve/west-des-moines has copied SEO title and description from the Ankeny page ('Minutes From Ankeny IA') - needs unique West Des Moines metadata.",
     "what-we-treat/fentanyl-rehab-des-moines has copied SEO title and description from the Benzo page - needs unique fentanyl metadata.",
-    "Team slug 'team/welsey-starlin' misspells 'Wesley'; hero and title read 'Wesley Starlin'. Slug preserved for SEO but flag for a 301 redirect to a corrected slug if desired.",
     "What We Treat hub CTAs link to non-existent 'Marijuana Rehab' and 'Stimulants Rehab' pages and omit the existing Cocaine and Drug rehab pages - align hub links with the 7 real condition pages.",
     "No index/landing pages exist for /team or /areas-we-serve; nav 'Our Team' points to /about#team and 'Areas We Serve' parent points to a child page. Consider adding real index routes.",
     "brand.json notes a stale JSON-LD phone (888) 775-4566 that must be ignored; standardize all structured data and tel: links on 888-378-2158.",

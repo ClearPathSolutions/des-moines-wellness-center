@@ -29,11 +29,6 @@
     "width": 862,
     "height": 1024
   },
-  "wp-content/uploads/2026/06/wes-1-768x1024.png": {
-    "out": "/images/wes-1-768x1024-fd6e7496.webp",
-    "width": 768,
-    "height": 1024
-  },
   "wp-content/uploads/elementor/thumbs/shutterstock_2573301753-scaled-rmav5jdmhaqaiesafoncm8mt6ufzqarsctf6zznlv4.jpg": {
     "out": "/images/shutterstock-2573301753-scaled-rmav5jdmhaqaiesafoncm8mt6ufzq-c7f82be0.webp",
     "width": 600,
@@ -339,11 +334,6 @@
     "width": 1024,
     "height": 683
   },
-  "wp-content/uploads/2026/06/wes-1.png": {
-    "out": "/images/wes-1-72cfa27a.webp",
-    "width": 1086,
-    "height": 1448
-  },
   "wp-content/uploads/2026/07/69-506_5820_Winwood_Dr-scaled.jpg": {
     "out": "/images/69-506-5820-winwood-dr-scaled-3bbf6f2f.webp",
     "width": 1600,
@@ -638,11 +628,6 @@
     "out": "/images/facility/facility-tour-poster.webp",
     "width": 720,
     "height": 1280
-  },
-  "images/team/welsey-starlin.webp": {
-    "out": "/images/team/welsey-starlin.webp",
-    "width": 1000,
-    "height": 1333
   },
   "images/team/lacey-stielow.webp": {
     "out": "/images/team/lacey-stielow.webp",

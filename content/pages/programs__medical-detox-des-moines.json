@@ -401,21 +401,6 @@
       }
     },
     {
-      "id": "medical-reviewer",
-      "kind": "team-bio",
-      "heading": "Medically Reviewed By Wesley Starlin, LMHC",
-      "subheading": "",
-      "body": [
-        "Wesley Starlin is the Executive Clinical Director at Des Moines Wellness Center with over 15 years of experience in behavioral health and addiction treatment."
-      ],
-      "items": [],
-      "faqs": [],
-      "image": {
-        "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
-        "alt": "Wesley Starlin - Executive Clinical Director"
-      }
-    },
-    {
       "id": "clinical-consultation-cta",
       "kind": "cta",
       "heading": "Immediate Clinical Consultation & Placement",
@@ -553,11 +538,6 @@
       "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp",
       "alt": "mcr-beacon-white.webp",
       "role": "logo"
-    },
-    {
-      "src": "https://desmoinesrecovery.com/wp-content/uploads/2026/06/wes-1.png",
-      "alt": "Wesley Starlin - Executive Clinical Director",
-      "role": "section"
     }
   ],
   "ctas": [
@@ -572,10 +552,6 @@
     {
       "label": "Verify Your Insurance",
       "href": "/admissions"
-    },
-    {
-      "label": "Read The Bio",
-      "href": "/team/welsey-starlin"
     }
   ]
 }
