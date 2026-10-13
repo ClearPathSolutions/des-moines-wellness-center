@@ -6,9 +6,12 @@ import { NextResponse } from 'next/server'
  * The browser used to POST straight to Clarion. That is unreliable here for two
  * reasons: the request is cross-origin with a JSON content type, so it needs a
  * CORS preflight that Clarion's endpoint does not answer with the required
- * `Access-Control-Allow-*` headers; and Clarion pins this site key to an origin
- * allowlist that does not currently include desmoinesrecovery.com. Relaying
- * server-to-server sends no `Origin` header at all, so neither applies.
+ * `Access-Control-Allow-*` headers. Relaying server-to-server avoids CORS.
+ *
+ * The relay must still send `Origin` explicitly. Node's fetch adds
+ * `Sec-Fetch-Mode: cors` to every request, which Clarion takes as a browser
+ * call and answers `403 origin required` unless an allowlisted `Origin` is
+ * present. Without the header below, every lead is rejected.
  *
  * It also keeps the submitted PHI (date of birth, member ID, free-text notes)
  * out of a third-party script running in the visitor's browser, and gives the
@@ -18,6 +21,8 @@ import { NextResponse } from 'next/server'
 const CLARION_ENDPOINT = 'https://api.clarionlabs.ai/forms/public/submit'
 const SITE_KEY = 'cpx__fSy1X8JikCR2mQQMFTF81zFCiT5KP33'
 const FORM_KEY = 'insurance_verification'
+/** On this site key's allowlist (both www and apex are). See the note above. */
+const ORIGIN = 'https://www.desmoinesrecovery.com'
 
 /** Fields we forward, and the cap applied to each. Anything else is dropped. */
 const FIELD_LIMITS: Record<string, number> = {
@@ -232,7 +237,7 @@ export async function POST(request: Request) {
   const send = (withSession: boolean) =>
     fetch(CLARION_ENDPOINT, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', Origin: ORIGIN },
       body: JSON.stringify(withSession && session ? { ...envelope, session } : envelope),
       // Don't let a hung vendor hold the visitor on a spinner indefinitely.
       signal: AbortSignal.timeout(10_000),

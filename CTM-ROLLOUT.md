@@ -17,11 +17,11 @@ not an assumption to carry.
 
 Independent. A site can have any combination. Fixing one does nothing for the others.
 
-| | Fault | Symptom |
-|---|---|---|
-| **A** | CTM `t.js` missing | No CTM session exists, so nothing can attach to a lead. No dynamic number swap. |
-| **B** | Campaign lost after the first pageview | Attribution read from `location.search` at submit time. Land on an ad → read two pages → submit, and the lead reads as direct traffic. |
-| **C** | CTM session id absent, wrong, or in the wrong place | CTM files the lead against no visit. |
+|       | Fault                                               | Symptom                                                                                                                                |
+| ----- | --------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **A** | CTM `t.js` missing                                  | No CTM session exists, so nothing can attach to a lead. No dynamic number swap.                                                        |
+| **B** | Campaign lost after the first pageview              | Attribution read from `location.search` at submit time. Land on an ad → read two pages → submit, and the lead reads as direct traffic. |
+| **C** | CTM session id absent, wrong, or in the wrong place | CTM files the lead against no visit.                                                                                                   |
 
 **All three fail silently.** Clarion returns `200 OK`, the dashboard says delivered, and the
 lead really does arrive — a rep can call the person back. Only the link to the ad click is
@@ -46,8 +46,8 @@ Open the deployed site with devtools. Answer all four.
 ### Q1 — Is `t.js` present exactly once?
 
 ```js
-window.__ctm && window.__ctm.config.aid                           // expect 264810
-document.querySelectorAll('script[src*="tctm.co/t.js"]').length   // expect 1
+window.__ctm && window.__ctm.config.aid; // expect 264810
+document.querySelectorAll('script[src*="tctm.co/t.js"]').length; // expect 1
 ```
 
 **Use `tctm.co/t.js`, not `tctm.co`.** A correct install returns **2** for the looser selector,
@@ -62,7 +62,7 @@ CTM. Verified on production: `t.js` plus `p.js?sid=…&p=<pool>.<number>`.
 ### Q2 — How do forms reach Clarion?
 
 ```js
-document.querySelectorAll('script[src*="forms-capture"]').length
+document.querySelectorAll('script[src*="forms-capture"]').length;
 ```
 
 - `1` → vendor script handles submission. Go to **section 3**.
@@ -109,7 +109,7 @@ This decides whether the site can use the vendor script at all.
   if(_.ready(R), document.body && !E) …                                // early scan
   ```
 
-  It has a DOM-ready handler and a retry interval, so it recovers *some* of the time — which is
+  It has a DOM-ready handler and a retry interval, so it recovers _some_ of the time — which is
   worse than failing outright, because the swap then works intermittently. When it misses, every
   visitor sees the hardcoded number and CTM can only guess which web session an inbound call
   belongs to.
@@ -124,9 +124,9 @@ This decides whether the site can use the vendor script at all.
 ### Verify the tag on the deployed site, not locally
 
 ```js
-document.querySelector('script[src*="tctm.co/t.js"]').async === true
-window.__ctm.config.sid                                    // 24 hex, no dashes
-Object.keys(window.__ctm_tracked_numbers).length > 0       // ← the one that matters
+document.querySelector('script[src*="tctm.co/t.js"]').async === true;
+window.__ctm.config.sid; // 24 hex, no dashes
+Object.keys(window.__ctm_tracked_numbers).length > 0; // ← the one that matters
 ```
 
 `__ctm_tracked_numbers` being populated is the proof the scan actually found the page's numbers.
@@ -155,14 +155,14 @@ caches to `sessionStorage` under `clarion_ctm_sid`. **No work needed for the CTM
 
 ### It does NOT handle Fault B
 
-| Field | Source | Survives navigation |
-|---|---|---|
-| `ctm_visitor_sid` | `__ctm.config.sid`, cached | yes |
-| `landing_page_url` | first touch, `clarion_ft_landing` | yes |
-| `referrer` | first touch, `clarion_ft_referrer` | yes |
-| `utm` | **live** `new URLSearchParams(location.search)` | **no** |
-| `gclid` | **live** `location.search` | **no** |
-| `wbraid` / `gbraid` | not collected at all | never |
+| Field               | Source                                          | Survives navigation |
+| ------------------- | ----------------------------------------------- | ------------------- |
+| `ctm_visitor_sid`   | `__ctm.config.sid`, cached                      | yes                 |
+| `landing_page_url`  | first touch, `clarion_ft_landing`               | yes                 |
+| `referrer`          | first touch, `clarion_ft_referrer`              | yes                 |
+| `utm`               | **live** `new URLSearchParams(location.search)` | **no**              |
+| `gclid`             | **live** `location.search`                      | **no**              |
+| `wbraid` / `gbraid` | not collected at all                            | never               |
 
 Landing page and referrer are persisted; **the campaign itself is not**. Any visitor who reads a
 second page before converting arrives with a correct landing page and no campaign. The CRM
@@ -179,40 +179,65 @@ Load this **before** `forms-capture.v1.js`.
 
 ```html
 <script>
-(function () {
-  // forms-capture reads utm/gclid from location.search at submit time, so a visitor
-  // who browses before converting loses the campaign. Persist on first touch and
-  // restore into the query string on later pageviews.
-  // localStorage, not sessionStorage: a second tab is the same visit.
-  var KEY = 'campaign.first_touch.v1', TTL = 30 * 24 * 60 * 60 * 1000;
-  var KEYS = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content',
-              'gclid','gbraid','wbraid','fbclid','msclkid'];
+  (function () {
+    // forms-capture reads utm/gclid from location.search at submit time, so a visitor
+    // who browses before converting loses the campaign. Persist on first touch and
+    // restore into the query string on later pageviews.
+    // localStorage, not sessionStorage: a second tab is the same visit.
+    var KEY = "campaign.first_touch.v1",
+      TTL = 30 * 24 * 60 * 60 * 1000;
+    var KEYS = [
+      "utm_source",
+      "utm_medium",
+      "utm_campaign",
+      "utm_term",
+      "utm_content",
+      "gclid",
+      "gbraid",
+      "wbraid",
+      "fbclid",
+      "msclkid",
+    ];
 
-  function read() {
-    try {
-      var v = JSON.parse(localStorage.getItem(KEY) || 'null');
-      return v && Date.now() - v.at < TTL ? v : null;
-    } catch (e) { return null; }
-  }
+    function read() {
+      try {
+        var v = JSON.parse(localStorage.getItem(KEY) || "null");
+        return v && Date.now() - v.at < TTL ? v : null;
+      } catch (e) {
+        return null;
+      }
+    }
 
-  var now = new URLSearchParams(location.search), found = {};
-  KEYS.forEach(function (k) { if (now.get(k)) found[k] = now.get(k); });
+    var now = new URLSearchParams(location.search),
+      found = {};
+    KEYS.forEach(function (k) {
+      if (now.get(k)) found[k] = now.get(k);
+    });
 
-  // A fresh click always wins — that is a new campaign, not a continuation.
-  if (Object.keys(found).length) {
-    try { localStorage.setItem(KEY, JSON.stringify({ p: found, at: Date.now() })); } catch (e) {}
-    return;
-  }
+    // A fresh click always wins — that is a new campaign, not a continuation.
+    if (Object.keys(found).length) {
+      try {
+        localStorage.setItem(KEY, JSON.stringify({ p: found, at: Date.now() }));
+      } catch (e) {}
+      return;
+    }
 
-  var saved = read();
-  if (!saved) return;
+    var saved = read();
+    if (!saved) return;
 
-  var url = new URL(location.href), changed = false;
-  Object.keys(saved.p).forEach(function (k) {
-    if (!url.searchParams.get(k)) { url.searchParams.set(k, saved.p[k]); changed = true; }
-  });
-  if (changed) try { history.replaceState(null, '', url.toString()); } catch (e) {}
-})();
+    var url = new URL(location.href),
+      changed = false;
+    Object.keys(saved.p).forEach(function (k) {
+      if (!url.searchParams.get(k)) {
+        url.searchParams.set(k, saved.p[k]);
+        changed = true;
+      }
+    });
+    if (changed)
+      try {
+        history.replaceState(null, "", url.toString());
+      } catch (e) {}
+  })();
 </script>
 ```
 
@@ -248,16 +273,19 @@ Fault C on this repo — we had it at `session.ctm.session_id` and their parser 
 
 ```js
 function ctmSessionId() {
-  var sid = null, vid = null;
-  try { sid = window.__ctm && window.__ctm.config && window.__ctm.config.sid; } catch (e) {}
+  var sid = null,
+    vid = null;
+  try {
+    sid = window.__ctm && window.__ctm.config && window.__ctm.config.sid;
+  } catch (e) {}
   try {
     var m = document.cookie.match(/(?:^|;\s*)__ctmid=([^;]*)/);
     vid = m ? decodeURIComponent(m[1]) : null;
   } catch (e) {}
 
   var CTM = /^[0-9a-f]{24}$/i;
-  if (CTM.test(sid || '')) return sid;
-  if (CTM.test(vid || '')) return vid;
+  if (CTM.test(sid || "")) return sid;
+  if (CTM.test(vid || "")) return vid;
   // Never fall back to the app's own session id.
   return sid || vid || null;
 }
@@ -274,21 +302,30 @@ stashed copy can only be staler.
 regression cannot silently un-attribute every lead.
 
 ```js
-const CTM_ID = /^[0-9a-f]{24}$/i
+const CTM_ID = /^[0-9a-f]{24}$/i;
 
 function ctmVisitorSid(body, request) {
-  const fromClient = typeof body.ctm_visitor_sid === 'string' ? body.ctm_visitor_sid : null
-  if (fromClient && CTM_ID.test(fromClient)) return fromClient
+  const fromClient =
+    typeof body.ctm_visitor_sid === "string" ? body.ctm_visitor_sid : null;
+  if (fromClient && CTM_ID.test(fromClient)) return fromClient;
 
-  const raw = request.headers.get('cookie')?.match(/(?:^|;\s*)__ctmid=([^;]*)/)?.[1]
-  const fromCookie = raw ? decodeURIComponent(raw) : null
+  const raw = request.headers
+    .get("cookie")
+    ?.match(/(?:^|;\s*)__ctmid=([^;]*)/)?.[1];
+  const fromCookie = raw ? decodeURIComponent(raw) : null;
   if (fromCookie && CTM_ID.test(fromCookie)) {
-    if (fromClient) console.warn('[lead] non-CTM sid from browser; using __ctmid cookie')
-    return fromCookie
+    if (fromClient)
+      console.warn("[lead] non-CTM sid from browser; using __ctmid cookie");
+    return fromCookie;
   }
-  if (fromClient) { console.warn('[lead] sid not CTM-shaped and no cookie — no visit will attach'); return fromClient }
-  console.warn('[lead] no CTM session id — t.js likely blocked')
-  return null
+  if (fromClient) {
+    console.warn(
+      "[lead] sid not CTM-shaped and no cookie — no visit will attach",
+    );
+    return fromClient;
+  }
+  console.warn("[lead] no CTM session id — t.js likely blocked");
+  return null;
 }
 ```
 
@@ -333,7 +370,7 @@ img-src 'self' data: blob: https://api.clarionlabs.ai …
 Two cases:
 
 - **`img-src` already contains a bare `https:`** (this repo's case). That scheme source already
-  matches every https origin, `api.clarionlabs.ai` included — so images are *not* being blocked
+  matches every https origin, `api.clarionlabs.ai` included — so images are _not_ being blocked
   by CSP, and adding the host changes nothing today. Add it anyway: the wildcard has to go when
   the policy is promoted from report-only to enforcing, and the explicit entry is what stops
   that promotion silently breaking every cover image. But if images are falling back to an embed
@@ -346,7 +383,9 @@ Also confirm the host is in the framework's own image allowlist, which is separa
 Next.js:
 
 ```js
-images: { remotePatterns: [{ protocol: 'https', hostname: 'api.clarionlabs.ai' }] }
+images: {
+  remotePatterns: [{ protocol: "https", hostname: "api.clarionlabs.ai" }];
+}
 ```
 
 A host can be permitted by CSP and still refused by the framework, which is a distinct failure
@@ -365,7 +404,7 @@ Do not report done until all of these pass.
 - [ ] `window.__ctm.config.aid === 264810`
 - [ ] `window.__ctm.config.sid` is 24 hex, no dashes
 - [ ] `Object.keys(window.__ctm_tracked_numbers).length > 0` — proves the scan found the numbers
-- [ ] On a paid click, the rendered `tel:` differs from the hardcoded number *or* `p.js` shows a
+- [ ] On a paid click, the rendered `tel:` differs from the hardcoded number _or_ `p.js` shows a
       pool assignment (see section 2 — the hardcoded number is often in the pool)
 
 **Images:**
@@ -389,8 +428,8 @@ Do not report done until all of these pass.
 - [ ] Confirm the lead routed to the correct facility (one CTM account serves the whole fleet)
 
 **If you built a test script:** it cannot prove attribution. The CTM id only exists in a real
-browser, so any curl/node harness produces a lead with no visit attached — *exactly the symptom
-being investigated*. Our `scripts/verify-lead.mjs` did this and would have reported the fix as
+browser, so any curl/node harness produces a lead with no visit attached — _exactly the symptom
+being investigated_. Our `scripts/verify-lead.mjs` did this and would have reported the fix as
 failed. It now takes `--ctm-sid=<24 hex>`, refuses a UUID outright, and warns loudly without
 one. Make any equivalent harness do the same.
 
@@ -419,12 +458,12 @@ one. Make any equivalent harness do the same.
 
 ## 7. Reference implementation
 
-| File | What it does |
-|---|---|
-| `lib/session.ts` | Session + attribution store, CTM identity, `ctm_visitor_sid` |
-| `components/SessionTracker.tsx` | Records pageviews on route change |
-| `app/api/verify-insurance/route.ts` | Server relay, sanitiser, cookie fallback, 4xx retry |
-| `scripts/verify-lead.mjs` | Lead test harness with the `--ctm-sid` guard |
+| File                                | What it does                                                 |
+| ----------------------------------- | ------------------------------------------------------------ |
+| `lib/session.ts`                    | Session + attribution store, CTM identity, `ctm_visitor_sid` |
+| `components/SessionTracker.tsx`     | Records pageviews on route change                            |
+| `app/api/verify-insurance/route.ts` | Server relay, sanitiser, cookie fallback, 4xx retry          |
+| `scripts/verify-lead.mjs`           | Lead test harness with the `--ctm-sid` guard                 |
 
 ## 8. Fleet
 
