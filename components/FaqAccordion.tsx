@@ -44,7 +44,7 @@ export default function FaqAccordion({ faqs }: { faqs: Faq[] }) {
               hidden={!isOpen}
               className="px-5 pb-5 prose-brand"
             >
-              <p>{f.a}</p>
+              <p suppressHydrationWarning>{f.a}</p>
             </div>
           </div>
         )

@@ -653,5 +653,10 @@
     "out": "/images/team/pamela-tambini.webp",
     "width": 1000,
     "height": 1250
+  },
+  "images/team/michelle-hernandez.webp": {
+    "out": "/images/team/michelle-hernandez.webp",
+    "width": 893,
+    "height": 1200
   }
 }
