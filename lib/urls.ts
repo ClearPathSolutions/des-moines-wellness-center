@@ -30,3 +30,21 @@ export function canonicalUrl(siteUrl: string, path: string): string {
 export function pathForSlug(slug: string): string {
   return slug === 'home' ? '/' : canonicalPath(`/${slug}`)
 }
+
+/**
+ * Pages whose copy is syndicated from Quadrant Health Group and therefore
+ * canonicalise to the parent site rather than to themselves.
+ *
+ * Dr. Tambini provides medical oversight for the network, not for this facility
+ * alone, so her bio is published verbatim on quadranthealthgroup.com and on all
+ * thirteen facility sites. Left self-canonical, those thirteen near-identical
+ * pages compete with each other and with the parent; pointing them at the parent
+ * consolidates the duplicates on the one page that owns the content.
+ *
+ * Keyed by page slug — every slug not listed keeps its own self-canonical, which
+ * is what every other page (staff included) should have. These pages are left
+ * out of the sitemap: a sitemap should only list self-canonical URLs.
+ */
+export const CANONICAL_AT_PARENT: Record<string, string> = {
+  'team/pamela-tambini': 'https://www.quadranthealthgroup.com/team/pamela-tambini/',
+}

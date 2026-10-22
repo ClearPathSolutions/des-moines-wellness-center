@@ -294,11 +294,16 @@ export function MedicalPageJsonLd({
           provider: { '@id': orgId(siteUrl), name: siteName },
         }
       : {
+          // `provider` is not a MedicalTherapy property (schema.org puts it on
+          // CreativeWork, Service, etc.), so the therapy is described as what the
+          // page is about and the provider sits on the page, as for conditions.
           '@context': 'https://schema.org',
-          '@type': 'MedicalTherapy',
+          '@type': 'MedicalWebPage',
           name,
           ...(description ? { description } : {}),
           url,
+          about: { '@type': 'MedicalTherapy', name },
+          audience: { '@type': 'Patient' },
           provider: { '@id': orgId(siteUrl), name: siteName },
         }
   return <JsonLdScript data={data} />

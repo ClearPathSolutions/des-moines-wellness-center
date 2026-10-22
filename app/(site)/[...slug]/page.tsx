@@ -14,7 +14,7 @@ import {
 import Link from 'next/link'
 import { getAllPages, getPage, getSiteConfig } from '@/lib/content'
 import { EDITORIAL_POLICY_PATH, policyIsLive } from '@/lib/editorialPolicy'
-import { canonicalPath, canonicalUrl } from '@/lib/urls'
+import { CANONICAL_AT_PARENT, canonicalPath, canonicalUrl } from '@/lib/urls'
 import { resolveImage, orientation } from '@/lib/images'
 import type { Faq, PageModel } from '@/lib/types'
 
@@ -37,22 +37,6 @@ function loadPage(slugArr: string[]): PageModel | null {
   return getPage(slugArr.join('/'))
 }
 
-/**
- * Pages whose copy is syndicated from Quadrant Health Group and therefore
- * canonicalise to the parent site rather than to themselves.
- *
- * Dr. Tambini provides medical oversight for the network, not for this facility
- * alone, so her bio is published verbatim on quadranthealthgroup.com and on all
- * thirteen facility sites. Left self-canonical, those thirteen near-identical
- * pages compete with each other and with the parent; pointing them at the parent
- * consolidates the duplicates on the one page that owns the content.
- *
- * Keyed by page slug — every slug not listed keeps its own self-canonical, which
- * is what every other page (staff included) should have.
- */
-const CANONICAL_AT_PARENT: Record<string, string> = {
-  'team/pamela-tambini': 'https://www.quadranthealthgroup.com/team/pamela-tambini/',
-}
 
 export async function generateMetadata({
   params,
@@ -184,6 +168,20 @@ export default async function CatchAllPage({
         heading="Communities We Serve"
         subheading="Accredited detox and rehab within reach of Central Iowa."
         pages={byType('area')}
+        alt
+      />
+    )
+  }
+
+  // Individual therapy pages were reachable only from the /therapies hub (one
+  // internal link each, flagged in the site audit). Each now links to its
+  // sibling therapies, which also helps a reader comparing approaches.
+  if (page.slug.startsWith('therapies/')) {
+    collection = (
+      <CollectionGrid
+        heading="Other Therapies We Offer"
+        subheading="Evidence-based approaches our clinicians combine in every treatment plan."
+        pages={all.filter((p) => p.slug.startsWith('therapies/') && p.slug !== page.slug)}
         alt
       />
     )

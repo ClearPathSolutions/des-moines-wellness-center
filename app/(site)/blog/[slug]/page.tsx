@@ -10,6 +10,41 @@ import { getBlogPost, getBlogPosts } from '@/lib/blog'
 import { policyIsLive } from '@/lib/editorialPolicy'
 import { ArticleJsonLd, BreadcrumbJsonLd, FaqJsonLd } from '@/components/JsonLd'
 import { canonicalPath, canonicalUrl } from '@/lib/urls'
+import { cleanCmsHtml } from '@/lib/cmsHtml'
+import RelatedPosts, { pickRelated } from '@/components/RelatedPosts'
+
+const BRAND_SUFFIX = ' | Des Moines Wellness Center'
+
+/** Title tag for a Clarion post. When the SEO title is just the headline, the
+ *  <title> and <h1> are identical (an audit finding), so the brand is appended
+ *  — but only while the result stays within 70 characters. */
+function postTitle(seoTitle: string | null, headline: string): string {
+  const base = seoTitle ?? headline
+  if (base.trim().toLowerCase() === headline.trim().toLowerCase() && (base + BRAND_SUFFIX).length <= 70) {
+    return base + BRAND_SUFFIX
+  }
+  return base
+}
+
+/** Every post from both sources, newest first — same merge as /blog. */
+async function allPostSummaries() {
+  const remote = await getBlogPosts()
+  const local = getAllPages()
+    .filter((p) => p.pageType === 'blog-post')
+    .map((p) => ({
+      slug: p.slug.replace(/^blog\//, ''),
+      title: p.hero.headline,
+      excerpt: p.seo.description || null,
+      publishedAt: p.publishedAt ?? null,
+    }))
+  const localSlugs = new Set(local.map((p) => p.slug))
+  return [
+    ...local,
+    ...remote
+      .filter((p) => !localSlugs.has(p.slug))
+      .map((p) => ({ slug: p.slug, title: p.title, excerpt: p.excerpt, publishedAt: p.publishedAt })),
+  ].sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''))
+}
 
 // Must be a literal (Next statically analyses it); keep in step with
 // BLOG_REVALIDATE_SECONDS in lib/blog.ts.
@@ -84,7 +119,7 @@ export async function generateMetadata({
 
   const post = await getBlogPost(slug)
   if (!post) return {}
-  const title = post.seo.title ?? post.title
+  const title = postTitle(post.seo.title, post.title)
   const description = post.seo.description ?? post.excerpt ?? undefined
   return {
     title: { absolute: title },
@@ -145,6 +180,7 @@ export default async function BlogPostPage({
             </div>
           }
         />
+        <RelatedPosts posts={pickRelated(await allPostSummaries(), slug)} />
         <ArticleJsonLd
           headline={local.hero.headline}
           description={local.seo.description}
@@ -184,6 +220,15 @@ export default async function BlogPostPage({
   // --- Clarion-authored post ----------------------------------------------
   const post = await getBlogPost(slug)
   if (!post) notFound()
+
+  // Clarion bodies are shared across sister sites and can link to posts that
+  // were never published here (e.g. /blog/what-to-expect-first-30-days-of-treatment/,
+  // a 404 on this domain). Send those to the blog index instead.
+  const knownSlugs = new Set((await allPostSummaries()).map((p) => p.slug))
+  const isMissingPost = (path: string) => {
+    const m = path.match(/^\/blog\/([^/]+)\/?$/)
+    return !!m && !knownSlugs.has(m[1])
+  }
 
   const reviewerPath = ownPath(post.reviewer?.url ?? null, site.url)
   const reviewer = post.reviewer
@@ -239,7 +284,15 @@ export default async function BlogPostPage({
                 className="prose-brand mt-8 prose-post"
                 // Body HTML is authored in Clarion's CMS by the facility's own
                 // team; it is trusted first-party editorial content.
-                dangerouslySetInnerHTML={{ __html: post.bodyHtml }}
+                dangerouslySetInnerHTML={{
+                  __html: cleanCmsHtml(post.bodyHtml, {
+                    siteUrl: site.url,
+                    trailingSlash: true,
+                    fallbackAlt: post.title,
+                    isMissing: isMissingPost,
+                    fallbackPath: '/blog/',
+                  }),
+                }}
               />
             ) : post.excerpt ? (
               <p className="prose-brand mt-8">{post.excerpt}</p>
@@ -247,6 +300,8 @@ export default async function BlogPostPage({
           </div>
         </div>
       </article>
+
+      <RelatedPosts posts={pickRelated(await allPostSummaries(), slug)} />
 
       <section className="section bg-brand-dark text-cream">
         <div className="container-page text-center">
