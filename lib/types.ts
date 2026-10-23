@@ -40,6 +40,9 @@ export type Section = {
   /** T-11: an inline phone CTA for high-intent sections (job protection,
    *  FMLA, closing sections). Rendered under the section body. */
   primaryCta?: Cta
+  /** Feature cards show only their titles; each card's text opens in a
+   *  drop-down beneath it (the tour page's amenity cards). */
+  collapsible?: boolean
 }
 
 export type Hero = {

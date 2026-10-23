@@ -13,6 +13,7 @@ import {
   Phone,
   Mail,
   MapPin,
+  ChevronDown,
 } from 'lucide-react'
 import type { Section as SectionType } from '@/lib/types'
 import { GRID_WRAP, gridItem } from '@/lib/layout'
@@ -235,7 +236,19 @@ export default function Section({ section, alt, slug, phone, phoneHref, heroSrc 
                         )}
                       </ItemHeading>
                     ) : null}
-                    {it.text ? <p className="prose-brand mt-2 text-base">{it.text}</p> : null}
+                    {it.text && section.collapsible ? (
+                      // Native <details> keeps the text in the markup (crawlable)
+                      // and needs no client JS.
+                      <details className="group mt-3">
+                        <summary className="flex cursor-pointer list-none items-center gap-1 text-sm font-semibold text-brand hover:text-brand-dark [&::-webkit-details-marker]:hidden">
+                          Learn more
+                          <ChevronDown className="h-4 w-4 text-gold transition-transform group-open:rotate-180" aria-hidden="true" />
+                        </summary>
+                        <p className="prose-brand mt-2 text-base">{it.text}</p>
+                      </details>
+                    ) : it.text ? (
+                      <p className="prose-brand mt-2 text-base">{it.text}</p>
+                    ) : null}
                     {it.href ? (
                       <CardLink
                         href={it.href}

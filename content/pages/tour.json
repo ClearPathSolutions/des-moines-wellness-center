@@ -33,51 +33,42 @@
       ],
       "items": [
         {
-          "title": "Comfortable Private Rooms",
-          "text": "",
-          "icon": ""
+          "title": "Comfortable, Welcoming Accommodations",
+          "text": "Clients stay in comfortable, semi-private rooms that offer a calm, welcoming place to rest and recover.",
+          "icon": "home"
         },
         {
-          "title": "Dedicated Medical Detox Suite",
-          "text": "",
-          "icon": ""
+          "title": "Experienced Detox & Withdrawal Support",
+          "text": "Our staff is trained in detox and withdrawal support. Clients receiving detox services are generally housed together on one side of the facility, in the same rooms as everyone else. We have 12 four-bed rooms, each with its own bathroom.",
+          "icon": "medical"
         },
         {
-          "title": "Professional Clinical Offices",
-          "text": "",
-          "icon": ""
+          "title": "Outdoor Space for Reflection",
+          "text": "An outdoor area is available for clients to get fresh air, take a quiet moment, and reflect.",
+          "icon": "activity"
         },
         {
-          "title": "Premium Wellness & Movement Center",
-          "text": "",
-          "icon": ""
+          "title": "Catered Meals & Everyday Comforts",
+          "text": "Meals are catered, and snacks are available between meals.",
+          "icon": "heart"
         },
         {
-          "title": "Expansive Outdoor Recovery Spaces",
-          "text": "",
-          "icon": ""
+          "title": "Group Therapy & Educational Spaces",
+          "text": "Dedicated spaces for group therapy sessions and educational programming.",
+          "icon": "users"
         },
         {
-          "title": "Gourmet Culinary Experience",
-          "text": "",
-          "icon": ""
-        },
-        {
-          "title": "Group Therapy & Education Hubs",
-          "text": "",
-          "icon": ""
-        },
-        {
-          "title": "Private Intake & Evaluation Wing",
-          "text": "",
-          "icon": ""
+          "title": "Private Intake & Assessment Space",
+          "text": "A dedicated room for intake and assessments, so your first conversations with our team happen in private.",
+          "icon": "shield"
         }
       ],
       "faqs": [],
       "image": {
         "src": "",
         "alt": ""
-      }
+      },
+      "collapsible": true
     },
     {
       "id": "we-work-with-your-insurance",
