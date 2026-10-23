@@ -14,7 +14,7 @@ import {
 import Link from 'next/link'
 import { getAllPages, getPage, getSiteConfig } from '@/lib/content'
 import { EDITORIAL_POLICY_PATH, policyIsLive } from '@/lib/editorialPolicy'
-import { CANONICAL_AT_PARENT, canonicalPath, canonicalUrl } from '@/lib/urls'
+import { canonicalPath, canonicalUrl } from '@/lib/urls'
 import { resolveImage, orientation } from '@/lib/images'
 import type { Faq, PageModel } from '@/lib/types'
 
@@ -48,13 +48,12 @@ export async function generateMetadata({
   if (!page) return {}
   // Slash-canonical, matching what the server actually serves (T-03).
   const path = canonicalPath('/' + slug.join('/'))
-  // og:url stays on this site's own URL even for a syndicated page — it is the
-  // address a share should open, not the SEO owner of the text.
-  const canonical = CANONICAL_AT_PARENT[page.slug] ?? path
+  // Every page is self-canonical, the network bio for Dr. Tambini included
+  // (Semrush audit, Oct 2026: a cross-domain canonical handed her bio's E-E-A-T to QHG).
   return {
     title: { absolute: page.seo.title },
     description: page.seo.description,
-    alternates: { canonical },
+    alternates: { canonical: path },
     openGraph: {
       title: page.seo.title,
       description: page.seo.description,

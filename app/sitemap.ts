@@ -1,20 +1,17 @@
 import type { MetadataRoute } from 'next'
 import { getAllPages, getSiteConfig } from '@/lib/content'
 import { getBlogPosts } from '@/lib/blog'
-import { CANONICAL_AT_PARENT, canonicalUrl, pathForSlug } from '@/lib/urls'
+import { assertWwwHost, canonicalUrl, pathForSlug } from '@/lib/urls'
 import { EDITORIAL_POLICY_PATH, policyIsLive } from '@/lib/editorialPolicy'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const config = getSiteConfig()
-  const base = config.site.url
+  const base = assertWwwHost(config.site.url)
 
   // Slash-canonical, matching the served form and each page's own canonical
   // (T-03). Previously every entry was slashless against slash-canonical
   // production, so 100% of the sitemap would have redirected at cutover.
-  // Pages canonicalised to the parent site are not this site's URLs to list.
-  const pages: MetadataRoute.Sitemap = getAllPages()
-    .filter((p) => !(p.slug in CANONICAL_AT_PARENT))
-    .map((p) => ({
+  const pages: MetadataRoute.Sitemap = getAllPages().map((p) => ({
     url: canonicalUrl(base, pathForSlug(p.slug)),
     changeFrequency: 'monthly',
     priority: p.slug === 'home' ? 1 : 0.7,
