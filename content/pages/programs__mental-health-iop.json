@@ -1,0 +1,213 @@
+{
+  "slug": "programs/mental-health-iop",
+  "pageType": "program",
+  "seo": {
+    "title": "Mental Health IOP in Des Moines, IA | Coming Soon",
+    "description": "A Mental Health Intensive Outpatient Program (IOP) is coming soon to Des Moines Wellness Center: structured therapy several days a week while you live at home."
+  },
+  "hero": {
+    "eyebrow": "Coming Soon",
+    "headline": "Mental Health Intensive Outpatient Program (IOP) in Des Moines, Iowa",
+    "subhead": "Our Mental Health IOP is launching soon at our Johnston campus, minutes from Des Moines. It will offer structured, clinician-led therapy several days a week while you continue to live at home. If you need support now, our admissions team is available 24/7.",
+    "image": {
+      "src": "/images/facility/group-lounge-large.webp",
+      "alt": "A bright group therapy lounge with comfortable seating"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:8883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-is-mental-health-iop",
+      "kind": "prose",
+      "heading": "What Is a Mental Health IOP?",
+      "subheading": "Intensive support without an overnight stay",
+      "body": [
+        "An Intensive Outpatient Program (IOP) is a structured level of mental health care that sits between weekly therapy and residential treatment. You attend therapy several days a week, then go home each day, so you can keep up with work, school and family while getting far more support than a single weekly appointment.",
+        "Our Mental Health IOP will focus on primary mental health conditions, delivered by the same clinical team behind our residential mental health program, so people stepping down from residential care can continue with clinicians who already know them."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "/images/facility/therapy-room.webp",
+        "alt": "A private therapy room with natural light"
+      }
+    },
+    {
+      "id": "who-it-is-for",
+      "kind": "features",
+      "heading": "Who the Mental Health IOP Will Be For",
+      "subheading": "",
+      "body": [
+        "IOP is designed for people who need more than weekly therapy but do not need round-the-clock care:"
+      ],
+      "items": [
+        {
+          "title": "Stepping down from residential care",
+          "text": "A structured next step after residential treatment, so the progress you made holds up as you return to everyday life.",
+          "icon": "",
+          "href": "/programs/residential-mental-health"
+        },
+        {
+          "title": "When weekly therapy is not enough",
+          "text": "If symptoms keep returning between appointments, more frequent sessions can help you build skills and stability faster.",
+          "icon": ""
+        },
+        {
+          "title": "Keeping up with daily life",
+          "text": "For people who are safe and stable at home and want intensive support without stepping away from work, school or family.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "conditions",
+      "kind": "features",
+      "heading": "Conditions We Plan to Treat",
+      "subheading": "",
+      "body": [
+        "The program will support adults living with primary mental health conditions, including:"
+      ],
+      "items": [
+        {
+          "title": "Depression & Mood Disorders",
+          "text": "Depression, bipolar disorder and other mood-related conditions.",
+          "icon": ""
+        },
+        {
+          "title": "Anxiety & Panic Disorders",
+          "text": "Generalized anxiety, panic disorder and social anxiety.",
+          "icon": ""
+        },
+        {
+          "title": "PTSD & Trauma",
+          "text": "Trauma-informed care for PTSD and trauma-related conditions.",
+          "icon": ""
+        },
+        {
+          "title": "Adjustment & Life Transitions",
+          "text": "Support through major life changes, stressful events and emotional challenges.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "need-care-now",
+      "kind": "features",
+      "heading": "Need Care Before the IOP Opens?",
+      "subheading": "Help is available today",
+      "body": [
+        "You do not have to wait for the IOP to launch to get support. Our admissions team can talk through your situation and point you to the right level of care now."
+      ],
+      "items": [
+        {
+          "title": "Residential Mental Health",
+          "text": "24/7 psychiatric and clinical support in a calm, home-like setting, available now on our Johnston campus.",
+          "icon": "",
+          "href": "/programs/residential-mental-health"
+        },
+        {
+          "title": "Talk to Admissions",
+          "text": "Call (888) 378-2158, day or night, for a free and confidential conversation about your options.",
+          "icon": "",
+          "href": "tel:8883782158"
+        },
+        {
+          "title": "Verify Your Insurance",
+          "text": "Find out what your plan covers before you decide. It is free, private and takes minutes.",
+          "icon": "",
+          "href": "/verify-insurance"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "crisis",
+      "kind": "prose",
+      "heading": "If you need help right now",
+      "subheading": "",
+      "body": [
+        "Call or text 988, the Suicide & Crisis Lifeline, to reach a trained counselor free of charge, any time, day or night. If this is a medical emergency, call 911 or go to your nearest emergency room."
+      ],
+      "items": [],
+      "faqs": [],
+      "primaryCta": {
+        "label": "Call or text 988",
+        "href": "tel:988"
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "Common questions about our upcoming Mental Health IOP",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "When will the Mental Health IOP open?",
+          "a": "The program is launching soon. Call our admissions team at (888) 378-2158 and we will let you know as soon as it is accepting clients."
+        },
+        {
+          "q": "What is the difference between IOP and residential treatment?",
+          "a": "In residential treatment you live on site with 24/7 support. In an IOP you attend structured therapy several days a week and go home each day. Our team can help you decide which level of care fits your needs."
+        },
+        {
+          "q": "Can I get care while I wait for the IOP to open?",
+          "a": "Yes. Our residential mental health program is open now, and our admissions team is available 24/7 to help you find the right level of support."
+        }
+      ],
+      "image": null
+    },
+    {
+      "id": "immediate-consultation",
+      "kind": "cta",
+      "heading": "Get Ready for What Comes Next",
+      "subheading": "",
+      "body": [
+        "Our admissions team is available 24/7 to answer questions, verify your insurance and help you take the first step, whether that is our residential program today or our Mental Health IOP when it opens."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:8883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  ]
+}

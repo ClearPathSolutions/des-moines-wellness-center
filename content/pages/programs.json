@@ -83,6 +83,18 @@
           "href": "/programs/residential-rehab-des-moines"
         },
         {
+          "title": "Residential Mental Health",
+          "text": "24/7 Psychiatric Care. Live-in treatment for depression, anxiety, PTSD, bipolar and other mental health conditions in a calm, home-like setting with psychiatry on site.",
+          "icon": "",
+          "href": "/programs/residential-mental-health"
+        },
+        {
+          "title": "Mental Health IOP (Coming Soon)",
+          "text": "Structured mental health therapy several days a week while you live at home. Launching soon on our Johnston campus.",
+          "icon": "",
+          "href": "/programs/mental-health-iop"
+        },
+        {
           "title": "Intensive Outpatient (IOP)",
           "text": "Flexible Recovery. Balance treatment with your daily responsibilities. IOP offers clinical accountability and group support while you return to work or family life in Des Moines.",
           "icon": "",

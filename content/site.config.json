@@ -111,6 +111,14 @@
             "href": "/programs/residential-rehab-des-moines"
           },
           {
+            "label": "Residential Mental Health",
+            "href": "/programs/residential-mental-health"
+          },
+          {
+            "label": "Mental Health IOP",
+            "href": "/programs/mental-health-iop"
+          },
+          {
             "label": "IOP",
             "href": "/programs/iop-des-moines"
           },
@@ -226,6 +234,14 @@
           {
             "label": "Residential Inpatient",
             "href": "/programs/residential-rehab-des-moines"
+          },
+          {
+            "label": "Residential Mental Health",
+            "href": "/programs/residential-mental-health"
+          },
+          {
+            "label": "Mental Health IOP",
+            "href": "/programs/mental-health-iop"
           },
           {
             "label": "IOP",
@@ -534,12 +550,26 @@
       "route": "/what-we-treat/prescription-drug-rehab-des-moines",
       "pageType": "condition",
       "title": "Prescription Drug Rehab in Des Moines, Iowa"
+    },
+    {
+      "slug": "programs/residential-mental-health",
+      "route": "/programs/residential-mental-health",
+      "pageType": "program",
+      "title": "Residential Mental Health Treatment in Des Moines, IA"
+    },
+    {
+      "slug": "programs/mental-health-iop",
+      "route": "/programs/mental-health-iop",
+      "pageType": "program",
+      "title": "Mental Health IOP in Des Moines, IA (Coming Soon)"
     }
   ],
   "collections": {
     "programs": [
       "programs/medical-detox-des-moines",
       "programs/residential-rehab-des-moines",
+      "programs/residential-mental-health",
+      "programs/mental-health-iop",
       "programs/iop-des-moines",
       "programs/des-moines-outpatient-rehab",
       "programs/virtual-outpatient",

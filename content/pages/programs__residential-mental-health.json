@@ -1,0 +1,560 @@
+{
+  "slug": "programs/residential-mental-health",
+  "pageType": "program",
+  "seo": {
+    "title": "Residential Mental Health Treatment in Des Moines, IA",
+    "description": "Inpatient mental health treatment in Des Moines for depression, anxiety, PTSD, bipolar and more. 24/7 psychiatric care in a calm, home-like setting. Most insurance accepted."
+  },
+  "hero": {
+    "eyebrow": "Residential",
+    "headline": "Residential Mental Health Treatment in Des Moines, Iowa",
+    "subhead": "When outpatient care isn't enough, a change of environment can change everything. Our residential mental health program surrounds you with 24/7 psychiatric and clinical support in a calm, home-like setting on our Johnston campus, minutes from Des Moines.",
+    "image": {
+      "src": "/images/facility/quiet-room.webp",
+      "alt": "A quiet room with soft seating and natural light, used for rest and reflection"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:8883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-you-need-to-know",
+      "kind": "features",
+      "heading": "Residential Mental Health: What You Need To Know",
+      "subheading": "",
+      "body": [],
+      "items": [
+        {
+          "title": "24/7 Psychiatric Care",
+          "text": "Round-the-clock clinical support with psychiatry on site, rather than a month between appointments.",
+          "icon": ""
+        },
+        {
+          "title": "Home-Like Setting",
+          "text": "Private and semi-private rooms in a quiet, residential campus built to feel like a sanctuary, not a hospital.",
+          "icon": ""
+        },
+        {
+          "title": "Personalized Length of Stay",
+          "text": "Your clinical team sets a timeline around your goals and progress, and reviews it with you as you go.",
+          "icon": ""
+        },
+        {
+          "title": "Evidence-Based Therapies",
+          "text": "Individual and group therapy, CBT, DBT, EMDR and medication management, delivered daily.",
+          "icon": ""
+        },
+        {
+          "title": "Family Involvement",
+          "text": "Structured family sessions help the people closest to you understand what you are going through and how to support you at home.",
+          "icon": "",
+          "href": "/therapies/family-therapy"
+        },
+        {
+          "title": "Most Major Insurance",
+          "text": "We work with most major private insurance plans. Verifying your benefits is free, private and takes minutes.",
+          "icon": "",
+          "href": "/verify-insurance"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "insurance-accepted",
+      "kind": "insurance",
+      "heading": "Most Major Private Insurance Plans Accepted",
+      "subheading": "",
+      "body": [
+        "At Des Moines Wellness Center, we believe that financial barriers should never stand in the way of life-saving care. Our admissions team works directly with your provider to maximize your benefits and minimize out-of-pocket costs. We provide a 100% confidential insurance verification process to get you the answers you need in minutes."
+      ],
+      "items": [
+        {
+          "title": "NYSHIP-Logo-White.png",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/NYSHIP-Logo-White.png"
+        },
+        {
+          "title": "mcr-aetna-white.webp",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-aetna-white.webp"
+        },
+        {
+          "title": "UMR-Logo-White.png",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/UMR-Logo-White.png"
+        },
+        {
+          "title": "mcr-first-health-network-white.webp",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-first-health-network-white.webp"
+        },
+        {
+          "title": "Surest-Logo-White.png",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/Surest-Logo-White.png"
+        },
+        {
+          "title": "cigna-white.webp",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/cigna-white.webp"
+        },
+        {
+          "title": "anthem-white.webp",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/anthem-white.webp"
+        },
+        {
+          "title": "med-mutual-white.webp",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/med-mutual-white.webp"
+        },
+        {
+          "title": "mcr-uhc-white.webp",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-uhc-white.webp"
+        },
+        {
+          "title": "mcr-beacon-white.webp",
+          "text": "",
+          "icon": "https://desmoinesrecovery.com/wp-content/uploads/2026/04/mcr-beacon-white.webp"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "what-is-residential-mental-health",
+      "kind": "prose",
+      "heading": "What Is Residential Mental Health Treatment?",
+      "subheading": "Live-in care when weekly appointments are not enough",
+      "body": [
+        "Residential mental health treatment is live-in care. You stay on site and receive structured, daily therapy with 24/7 clinical support, instead of travelling to appointments and going home to the same pressures that made things worse. It suits people whose symptoms are severe, who are not safe or stable at home, or for whom outpatient care simply has not been enough.",
+        "At Des Moines Wellness Center, our residential program is built specifically for primary mental health conditions. Psychiatry reviews your medication, therapy runs every day, and the structure of the day does some of the work for you on the days when getting out of bed is the whole task.",
+        "Our campus in Johnston, minutes from downtown Des Moines, is designed to be a clinical sanctuary: quiet, private and removed from the noise of everyday life, so your nervous system has the chance to settle while you do the deeper work of getting well."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "/images/facility/meditation-room.webp",
+        "alt": "A calm meditation room with soft lighting"
+      }
+    },
+    {
+      "id": "conditions-we-treat",
+      "kind": "features",
+      "heading": "Mental Health Conditions We Treat",
+      "subheading": "Intensive, live-in care for depression and a full range of mental health conditions",
+      "body": [
+        "Our residential program provides round-the-clock care for primary mental health conditions, including:"
+      ],
+      "items": [
+        {
+          "title": "Depression & Mood Disorders",
+          "text": "Comprehensive residential care for depression, bipolar disorder, and other mood-related conditions through individualized therapy, psychiatric support, and medication management.",
+          "icon": ""
+        },
+        {
+          "title": "Anxiety & Panic Disorders",
+          "text": "Individualized treatment for generalized anxiety, panic disorder, and social anxiety, helping individuals manage symptoms, develop healthy coping strategies, and regain emotional stability.",
+          "icon": ""
+        },
+        {
+          "title": "PTSD, Trauma & Dissociative Disorders",
+          "text": "Trauma-informed care for individuals experiencing PTSD, trauma-related conditions, and dissociative disorders, with a focus on emotional regulation, healing, and long-term stability.",
+          "icon": ""
+        },
+        {
+          "title": "Personality & Schizoaffective Disorders",
+          "text": "Structured therapeutic and psychiatric support for individuals managing personality disorders or schizoaffective disorder, focusing on symptom management, emotional stability, and improved daily functioning.",
+          "icon": ""
+        },
+        {
+          "title": "Adjustment Disorders & Life Transitions",
+          "text": "Compassionate care for individuals struggling with significant life changes, stressful events, or emotional challenges, helping build resilience and healthier coping skills.",
+          "icon": ""
+        },
+        {
+          "title": "Non-Acute Eating Disorders",
+          "text": "Therapeutic support for non-acute eating-related concerns associated with mood disorders and emotional distress, addressing underlying mental health challenges and promoting healthier coping strategies.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "crisis",
+      "kind": "prose",
+      "heading": "If you need help right now",
+      "subheading": "",
+      "body": [
+        "Call or text 988, the Suicide & Crisis Lifeline, to reach a trained counselor free of charge, any time, day or night. If this is a medical emergency, call 911 or go to your nearest emergency room."
+      ],
+      "items": [],
+      "faqs": [],
+      "primaryCta": {
+        "label": "Call or text 988",
+        "href": "tel:988"
+      },
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "how-we-treat",
+      "kind": "features",
+      "heading": "Clinical Care Meets Whole-Person Healing",
+      "subheading": "How we treat",
+      "body": [
+        "We treat the whole person, blending proven clinical therapies with the restorative structure of daily life on campus. Every element of your plan is chosen for you, and adjusted as you progress."
+      ],
+      "items": [
+        {
+          "title": "Individual Therapy",
+          "text": "One-on-one sessions with a master's-level clinician, several times a week, focused on the roots of what you are experiencing.",
+          "icon": "",
+          "href": "/therapies/individual-therapy"
+        },
+        {
+          "title": "Group Therapy",
+          "text": "Small, clinician-led groups where you practice new skills alongside people who understand what you are going through.",
+          "icon": "",
+          "href": "/therapies/group-therapy"
+        },
+        {
+          "title": "CBT & DBT",
+          "text": "Cognitive behavioral therapy to change the patterns that keep symptoms going, and dialectical behavior therapy for emotional regulation and distress tolerance.",
+          "icon": "",
+          "href": "/therapies/cognitive-behavioral-therapy"
+        },
+        {
+          "title": "Trauma-Informed Care & EMDR",
+          "text": "Care delivered with an understanding of how trauma shapes the mind and body, including EMDR where it is clinically indicated.",
+          "icon": "",
+          "href": "/therapies/trauma-informed-care"
+        },
+        {
+          "title": "Medication Management",
+          "text": "Psychiatric evaluation on admission and ongoing medication review, so adjustments happen in days rather than between distant appointments.",
+          "icon": ""
+        },
+        {
+          "title": "Family Therapy",
+          "text": "Structured family sessions that repair communication and give the people closest to you the tools to support your recovery.",
+          "icon": "",
+          "href": "/therapies/family-therapy"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "/images/facility/therapy-room.webp",
+        "alt": "A private therapy room with natural light"
+      }
+    },
+    {
+      "id": "a-day-in-treatment",
+      "kind": "steps",
+      "heading": "A Day in Residential Mental Health Treatment",
+      "subheading": "Structure and calm, working together",
+      "body": [
+        "Your days follow a gentle, structured rhythm: individual and group therapy, wellness activities, nourishing meals and quiet time on a calm residential campus. Routine is part of the treatment. When life has felt chaotic or empty, a predictable day gives your mind somewhere steady to stand."
+      ],
+      "items": [
+        {
+          "title": "Mornings: Grounding and Health",
+          "text": "The day starts with a healthy breakfast and a morning check-in with our clinical team, where we review how you slept, how you are feeling and any medication adjustments.",
+          "icon": ""
+        },
+        {
+          "title": "Afternoons: Clinical Work",
+          "text": "The middle of the day is for one-on-one therapy and small group sessions, where you build the skills to manage symptoms and address what is underneath them.",
+          "icon": ""
+        },
+        {
+          "title": "Evenings: Reflection and Connection",
+          "text": "After dinner, the pace slows. Peer support groups, wellness activities and personal time for journaling or reading before lights out.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "who-we-help",
+      "kind": "features",
+      "heading": "Who Residential Mental Health Treatment Is For",
+      "subheading": "",
+      "body": [
+        "Residential care is the right level of support for people who need more than a weekly appointment:"
+      ],
+      "items": [
+        {
+          "title": "When outpatient care has not been enough",
+          "text": "If you have been in therapy or on medication and your symptoms are still running your life, a period of intensive, live-in care can reset the trajectory.",
+          "icon": ""
+        },
+        {
+          "title": "After a crisis or hospitalization",
+          "text": "A structured step between the hospital and home, where stabilization continues with 24/7 support and a clear plan for what comes next.",
+          "icon": ""
+        },
+        {
+          "title": "When home is part of the problem",
+          "text": "If your environment is full of stress, conflict or triggers, our campus offers a private, secure space to step away and focus entirely on your health.",
+          "icon": ""
+        },
+        {
+          "title": "When symptoms are disrupting daily life",
+          "text": "If depression, anxiety or trauma symptoms are making it hard to work, sleep, keep up relationships or take care of yourself, round-the-clock structure gives you room to stabilize.",
+          "icon": ""
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "clinical-sanctuary",
+      "kind": "prose",
+      "heading": "A Calm, Home-Like Setting in Central Iowa",
+      "subheading": "A private place to reset",
+      "body": [
+        "Getting well is hard enough; you should not have to do it in a loud, chaotic hospital setting. Our campus in Johnston is designed to be a clinical sanctuary, a quiet, comfortable environment where you can actually hear your own thoughts. By removing the noise and stress of everyday life, we give your nervous system the chance to finally calm down.",
+        "You will have a private or semi-private room, healthy meals prepared by our team, quiet rooms and outdoor space for reflection. This is not just about comfort. It is about creating a secure space where you feel safe enough to be honest and do the deep work of recovery."
+      ],
+      "items": [],
+      "faqs": [],
+      "primaryCta": {
+        "label": "Tour the facility",
+        "href": "/tour"
+      },
+      "image": {
+        "src": "/images/facility/bedroom-ensuite.webp",
+        "alt": "A private residential bedroom with an en-suite bathroom"
+      }
+    },
+    {
+      "id": "levels-of-care-continuum",
+      "kind": "steps",
+      "heading": "What Comes After Residential Care",
+      "subheading": "",
+      "body": [
+        "Residential treatment is a stage, not the whole journey. As you stabilize, we step your care down gradually so the progress you make on campus holds up at home."
+      ],
+      "items": [
+        {
+          "title": "Residential Mental Health",
+          "text": "Immersive stabilization. Daily therapy and psychiatric care while you live on site in a calm, structured setting.",
+          "icon": "",
+          "href": "/programs/residential-mental-health"
+        },
+        {
+          "title": "Mental Health IOP",
+          "text": "Several therapy sessions a week while you live at home, focused on mental health and built to keep your progress going. Launching soon.",
+          "icon": "",
+          "href": "/programs/mental-health-iop"
+        },
+        {
+          "title": "Outpatient & Virtual Care",
+          "text": "Ongoing therapy and medication management, in person or by secure video, as you return to everyday life.",
+          "icon": "",
+          "href": "/programs/des-moines-outpatient-rehab"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "why-choose-us",
+      "kind": "features",
+      "heading": "Why People Choose Our Des Moines Mental Health Program",
+      "subheading": "PREMIER INPATIENT CARE IN IOWA",
+      "body": [
+        "Healing starts with a change of environment. As part of the Quadrant Health Network, Des Moines Wellness Center provides a physician-led residential program backed by national clinical standards, in a setting built for rest and recovery."
+      ],
+      "items": [
+        {
+          "title": "Physician-Led Clinical Care",
+          "text": "24/7 medical and psychiatric oversight from a multidisciplinary team of doctors and master's-level therapists.",
+          "icon": ""
+        },
+        {
+          "title": "A True Environmental Reset",
+          "text": "A quiet, secure campus away from daily stressors, so your nervous system can stabilize and heal.",
+          "icon": ""
+        },
+        {
+          "title": "Individualized Treatment Plans",
+          "text": "Every plan is built around your diagnosis, history and goals, and adjusted by your clinical team as you progress.",
+          "icon": ""
+        },
+        {
+          "title": "A Full Continuum of Care",
+          "text": "Residential, IOP, outpatient and virtual care on one campus, so stepping down never means starting over with a new team.",
+          "icon": "",
+          "href": "/programs"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "immediate-consultation",
+      "kind": "cta",
+      "heading": "A Calmer, Steadier Life Is Possible",
+      "subheading": "",
+      "body": [
+        "Our admissions team is available 24/7 to answer your questions, verify your insurance and help you or your loved one take the first step. One confidential conversation is all it takes to get started."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "secure-assessment",
+      "kind": "contact",
+      "heading": "Secure Your Private Clinical Assessment",
+      "subheading": "START THE PROCESS",
+      "body": [
+        "Fill out the confidential form below to connect directly with our Des Moines admissions team. We provide a comprehensive clinical review and insurance verification so your transition into residential care is seamless and immediate."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "faq",
+      "kind": "faq",
+      "heading": "Frequently Asked Questions",
+      "subheading": "Common questions about residential mental health treatment",
+      "body": [],
+      "items": [],
+      "faqs": [
+        {
+          "q": "What is residential mental health treatment?",
+          "a": "Residential treatment is live-in care: you stay on site and receive structured therapy with 24/7 clinical support, rather than travelling to appointments. It suits people whose symptoms are severe, or for whom outpatient care has not been enough."
+        },
+        {
+          "q": "How long do people stay?",
+          "a": "Length of stay is personalized. Your clinical team sets a timeline around your goals and your progress, and reviews it with you as you go rather than fixing it on day one. Most stays range from 30 to 45 days."
+        },
+        {
+          "q": "What is the difference between inpatient and residential mental health treatment?",
+          "a": "The terms are often used interchangeably. Both mean you live on site with round-the-clock support. \"Residential\" emphasizes our calm, home-like setting rather than a clinical hospital environment."
+        },
+        {
+          "q": "Can I stay connected with my family?",
+          "a": "Yes. We encourage healthy connection in a safe, structured way so you can carry your wellness tools into real life. Our team explains visitation and communication during admissions, and family therapy is part of the program."
+        },
+        {
+          "q": "What mental health conditions do you treat?",
+          "a": "Our residential program treats depression and mood disorders, anxiety and panic disorders, PTSD, trauma and dissociative disorders, personality and schizoaffective disorders, adjustment disorders, and non-acute eating disorders. Our admissions team can talk through your situation and confirm whether residential care is the right fit."
+        },
+        {
+          "q": "Do you accept my insurance?",
+          "a": "We work with most major private insurance providers as part of the Quadrant Health Network. Because every plan is different, we offer a free, confidential insurance verification before you arrive so you know exactly what is covered. Call us at (888) 378-2158 to get a fast answer."
+        }
+      ],
+      "image": null
+    },
+    {
+      "id": "support-resources",
+      "kind": "cards",
+      "heading": "Mental Health Information & Support Resources",
+      "subheading": "Independent organizations offering information, helplines and community support.",
+      "body": [],
+      "items": [
+        {
+          "title": "988 Suicide & Crisis Lifeline",
+          "text": "Free, confidential support 24/7 for anyone in emotional distress or crisis. Call or text 988.",
+          "icon": "",
+          "href": "https://988lifeline.org/"
+        },
+        {
+          "title": "NIMH: Depression",
+          "text": "The National Institute of Mental Health explains what depression is and how it is treated.",
+          "icon": "",
+          "href": "https://www.nimh.nih.gov/health/topics/depression"
+        },
+        {
+          "title": "NIMH: Anxiety Disorders",
+          "text": "An overview of anxiety disorders and their evidence-based treatments.",
+          "icon": "",
+          "href": "https://www.nimh.nih.gov/health/topics/anxiety-disorders"
+        },
+        {
+          "title": "NIMH: PTSD",
+          "text": "Post-traumatic stress disorder, its symptoms and evidence-based treatments.",
+          "icon": "",
+          "href": "https://www.nimh.nih.gov/health/topics/post-traumatic-stress-disorder-ptsd"
+        },
+        {
+          "title": "NIMH: Bipolar Disorder",
+          "text": "How bipolar disorder is diagnosed and managed.",
+          "icon": "",
+          "href": "https://www.nimh.nih.gov/health/topics/bipolar-disorder"
+        },
+        {
+          "title": "Your Life Iowa",
+          "text": "Iowa's statewide resource for free, confidential mental health support. Call (855) 581-8111 or text (855) 895-8398.",
+          "icon": "",
+          "href": "https://yourlifeiowa.org/"
+        }
+      ],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:8883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    },
+    {
+      "label": "Tour The Facility",
+      "href": "/tour"
+    }
+  ]
+}
