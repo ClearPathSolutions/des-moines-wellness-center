@@ -54,6 +54,7 @@ function fieldsHtml(config: SiteConfig): Record<string, string> {
     // Only greatertexasbehavioral.com carries a legal-entity prefix.
     LEGAL_ENTITY_LINE: '',
     STATE_NAME,
+    STATE_NAME_CAPS: STATE_NAME.toUpperCase(),
     PP_LAST_UPDATED: EFFECTIVE,
     SMS_LAST_UPDATED: EFFECTIVE,
     NPP_EFFECTIVE_DATE: EFFECTIVE,
