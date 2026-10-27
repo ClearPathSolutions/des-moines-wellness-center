@@ -346,6 +346,14 @@
         "href": "/privacy-policy"
       },
       {
+        "label": "Notice of Privacy Practices",
+        "href": "/notice-of-privacy-practices"
+      },
+      {
+        "label": "SMS Terms",
+        "href": "/sms-terms"
+      },
+      {
         "label": "Editorial Policy",
         "href": "/editorial-policy"
       }
@@ -418,6 +426,18 @@
       "route": "/privacy-policy",
       "pageType": "legal",
       "title": "Privacy Policy"
+    },
+    {
+      "slug": "notice-of-privacy-practices",
+      "route": "/notice-of-privacy-practices",
+      "pageType": "legal",
+      "title": "Notice of Privacy Practices"
+    },
+    {
+      "slug": "sms-terms",
+      "route": "/sms-terms",
+      "pageType": "legal",
+      "title": "SMS Terms & Conditions"
     },
     {
       "slug": "programs",

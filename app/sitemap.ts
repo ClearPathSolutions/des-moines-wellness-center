@@ -3,6 +3,7 @@ import { getAllPages, getSiteConfig } from '@/lib/content'
 import { getBlogPosts } from '@/lib/blog'
 import { assertWwwHost, canonicalUrl, pathForSlug } from '@/lib/urls'
 import { EDITORIAL_POLICY_PATH, policyIsLive } from '@/lib/editorialPolicy'
+import { LEGAL_PAGES } from '@/lib/legalPages'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const config = getSiteConfig()
@@ -36,5 +37,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ? [{ url: canonicalUrl(base, EDITORIAL_POLICY_PATH), changeFrequency: 'yearly', priority: 0.4 }]
     : []
 
-  return [...pages, ...policy, ...postEntries]
+  // Privacy policy, NPP and SMS terms are code routes too (lib/legalPages.ts).
+  const legal: MetadataRoute.Sitemap = Object.values(LEGAL_PAGES).map((l) => ({
+    url: canonicalUrl(base, l.path),
+    changeFrequency: 'yearly',
+    priority: 0.3,
+  }))
+
+  return [...pages, ...legal, ...policy, ...postEntries]
 }
