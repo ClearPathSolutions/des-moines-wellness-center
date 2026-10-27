@@ -44,6 +44,8 @@ function fieldsHtml(config: SiteConfig): Record<string, string> {
   const { site } = config
   return {
     FACILITY_NAME: escapeHtml(site.name),
+    // The name inside the terms' ALL-CAPS paragraphs.
+    FACILITY_NAME_CAPS: escapeHtml(site.name.toUpperCase()),
     DOMAIN: escapeHtml(new URL(site.url).hostname.replace(/^www\./, '')),
     PHONE: `<a href="${escapeHtml(site.phoneHref)}">${escapeHtml(site.phone)}</a>`,
     PRIVACY_EMAIL: `<a href="mailto:${escapeHtml(site.email)}">${escapeHtml(site.email)}</a>`,
