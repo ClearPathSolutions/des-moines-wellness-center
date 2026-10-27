@@ -37,7 +37,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ? [{ url: canonicalUrl(base, EDITORIAL_POLICY_PATH), changeFrequency: 'yearly', priority: 0.4 }]
     : []
 
-  // Privacy policy, NPP and SMS terms are code routes too (lib/legalPages.ts).
+  // Privacy policy, NPP, SMS terms and terms of service are code routes too (lib/legalPages.ts).
   const legal: MetadataRoute.Sitemap = Object.values(LEGAL_PAGES).map((l) => ({
     url: canonicalUrl(base, l.path),
     changeFrequency: 'yearly',

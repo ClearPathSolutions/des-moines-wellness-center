@@ -1,6 +1,6 @@
 /**
- * The portfolio-wide legal pages: /privacy-policy/, /notice-of-privacy-practices/
- * and /sms-terms/.
+ * The portfolio-wide legal pages: /privacy-policy/, /notice-of-privacy-practices/,
+ * /sms-terms/ and /terms-of-service/.
  *
  * Like the editorial policy (lib/editorialPolicy.ts), the copy is shared word
  * for word across every Quadrant Health Group site, so it is not authored
@@ -25,6 +25,7 @@ export const LEGAL_PAGES = {
     path: '/notice-of-privacy-practices/',
   },
   'sms-terms': { title: 'SMS Terms & Conditions', path: '/sms-terms/' },
+  'terms-of-service': { title: 'Terms of Service', path: '/terms-of-service/' },
 } as const
 
 export type LegalSlug = keyof typeof LEGAL_PAGES
@@ -46,6 +47,7 @@ function fieldsHtml(config: SiteConfig): Record<string, string> {
     DOMAIN: escapeHtml(new URL(site.url).hostname.replace(/^www\./, '')),
     PHONE: `<a href="${escapeHtml(site.phoneHref)}">${escapeHtml(site.phone)}</a>`,
     PRIVACY_EMAIL: `<a href="mailto:${escapeHtml(site.email)}">${escapeHtml(site.email)}</a>`,
+    CONTACT_EMAIL: `<a href="mailto:${escapeHtml(site.email)}">${escapeHtml(site.email)}</a>`,
     STREET_ADDRESS: escapeHtml(site.address.full),
     // Only greatertexasbehavioral.com carries a legal-entity prefix.
     LEGAL_ENTITY_LINE: '',
@@ -53,6 +55,7 @@ function fieldsHtml(config: SiteConfig): Record<string, string> {
     PP_LAST_UPDATED: EFFECTIVE,
     SMS_LAST_UPDATED: EFFECTIVE,
     NPP_EFFECTIVE_DATE: EFFECTIVE,
+    TOS_EFFECTIVE_DATE: EFFECTIVE,
   }
 }
 

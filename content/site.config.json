@@ -356,6 +356,10 @@
       {
         "label": "Editorial Policy",
         "href": "/editorial-policy"
+      },
+      {
+        "label": "Terms of Service",
+        "href": "/terms-of-service"
       }
     ],
     "napHtml": "Des Moines Wellness Center, 5820 Winwood Dr, Johnston, IA 50131 &middot; <a href=\"tel:8883782158\">888-378-2158</a>"
@@ -438,6 +442,12 @@
       "route": "/sms-terms",
       "pageType": "legal",
       "title": "SMS Terms & Conditions"
+    },
+    {
+      "slug": "terms-of-service",
+      "route": "/terms-of-service",
+      "pageType": "legal",
+      "title": "Terms of Service"
     },
     {
       "slug": "programs",

@@ -22,6 +22,7 @@ const CODE_ROUTES = new Set([
   '/privacy-policy',
   '/notice-of-privacy-practices',
   '/sms-terms',
+  '/terms-of-service',
 ])
 
 const pageSlugs = new Set(
