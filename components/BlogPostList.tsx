@@ -51,7 +51,7 @@ export default function BlogPostList({
                   // Deliberately not a link: the title and "Read the full
                   // article" below already point at the post, and a third
                   // duplicate link adds nothing but noise for screen readers.
-                  <div className="relative aspect-[16/9] w-full">
+                  <div className="relative aspect-[1200/630] w-full">
                     <Image
                       src={post.coverImageUrl}
                       alt=""

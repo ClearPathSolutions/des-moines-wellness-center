@@ -267,7 +267,7 @@ export default async function BlogPostPage({
             />
 
             {post.coverImageUrl ? (
-              <div className="relative mt-8 aspect-[16/9] w-full overflow-hidden rounded-2xl">
+              <div className="relative mt-8 aspect-[1200/630] w-full overflow-hidden rounded-2xl">
                 <Image
                   src={post.coverImageUrl}
                   alt=""
