@@ -658,5 +658,10 @@
     "out": "/images/team/michelle-hernandez.webp",
     "width": 893,
     "height": 1200
+  },
+  "images/team/casey-hyatt.webp": {
+    "out": "/images/team/casey-hyatt.webp",
+    "width": 1000,
+    "height": 1250
   }
 }

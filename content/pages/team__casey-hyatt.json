@@ -1,0 +1,91 @@
+{
+  "slug": "team/casey-hyatt",
+  "pageType": "team",
+  "seo": {
+    "title": "Casey Hyatt — Director of Family Services | Des Moines Wellness Center",
+    "description": "Meet Casey Hyatt, Director of Family Services at Quadrant Health Group, with 15 years of experience in the behavioral health field and 18 years in recovery."
+  },
+  "hero": {
+    "eyebrow": "Quadrant Health Group Network",
+    "headline": "Casey Hyatt",
+    "subhead": "",
+    "image": {
+      "src": "/images/team/casey-hyatt.webp",
+      "alt": "Casey Hyatt - Director of Family Services"
+    },
+    "primaryCta": {
+      "label": "(888) 378-2158",
+      "href": "tel:8883782158"
+    },
+    "secondaryCta": {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  },
+  "sections": [
+    {
+      "id": "about",
+      "kind": "team-bio",
+      "heading": "About:",
+      "subheading": "",
+      "body": [
+        "Casey Hyatt brings 15 years of experience in the behavioral health field, clinical expertise, and a personal connection to recovery to his role as Director of Family Services at Quadrant Health Group. A Nashville, Tennessee native, Casey previously served as Director of Alumni Services for ten years, leading a team of eight peer professionals and coordinating 62 annual alumni and community recovery events to strengthen engagement, connection, and support beyond treatment. He holds a Master of Arts in Counseling from the Hazelden Betty Ford Graduate School and has extensive experience facilitating groups and utilizing multiple clinical approaches, with an emphasis on substance use disorders, mental health, experiential modalities, and Internal Family Systems (IFS).",
+        "With 18 years in recovery, Casey understands the importance of connection, accountability, and continued growth throughout the recovery journey. In his current role, he works collaboratively with clinical teams across Quadrant Health Group to strengthen team dynamics, streamline services, and expand support for families navigating the challenges of addiction and mental health. Casey is passionate about helping families build healthier relationships, improve communication, and develop the tools needed to support long-term recovery while prioritizing their own well-being. His professional experience and personal perspective reflect his commitment to creating stronger support systems for individuals, families, and the broader recovery community."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "ready-to-take-the-first-step",
+      "kind": "cta",
+      "heading": "Ready to Take the First Step?",
+      "subheading": "",
+      "body": [
+        "Recovery is built on relationships. If you’re looking for help with addiction or mental health challenges, our team is here to guide you every step of the way. Contact Des Moines Wellness Center to learn more about our programs and admissions process."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "start-your-recovery-today",
+      "kind": "cta",
+      "heading": "Recovery Starts With the Right People",
+      "subheading": "START Your Recovery Today",
+      "body": [
+        "At Des Moines Wellness Center, our team is committed to providing compassionate, evidence-based care for addiction and co-occurring mental health conditions. Whether you’re looking for medical detox, residential treatment, IOP, or ongoing recovery support, we’re here to help you find the right path forward. Contact our admissions team today to learn more about treatment options, verify insurance, and take the first step toward lasting recovery."
+      ],
+      "items": [],
+      "faqs": [],
+      "image": {
+        "src": "",
+        "alt": ""
+      }
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/team/casey-hyatt.webp",
+      "alt": "Casey Hyatt - Director of Family Services",
+      "role": "hero"
+    }
+  ],
+  "ctas": [
+    {
+      "label": "(888) 378-2158",
+      "href": "tel:8883782158"
+    },
+    {
+      "label": "Verify Insurance",
+      "href": "/verify-insurance"
+    }
+  ],
+  "order": 1.5
+}
