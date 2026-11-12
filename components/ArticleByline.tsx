@@ -30,8 +30,11 @@ function Person({ person, rel }: { person: BylinePersonView; rel?: string }) {
 /**
  * The byline under a post's H1 (editorial policy package, article-byline.html).
  *
- * The reviewer line renders only when the post has both a reviewer and a
- * review date of its own. There is no fallback reviewer, by design.
+ * The reviewer line renders whenever a reviewer is passed, with or without a
+ * review date. The client overrode the package's "reviewer only with a review
+ * date, no default reviewer" rule: every post carries a medical reviewer
+ * (DEFAULT_REVIEWER in lib/blog.ts fills any gaps). "Last reviewed" still shows
+ * only for a real review date.
  */
 export default function ArticleByline({
   author,
@@ -60,7 +63,7 @@ export default function ArticleByline({
     ) : null,
   ].filter(Boolean)
 
-  if (!author && !meta.length) return null
+  if (!author && !reviewer && !meta.length) return null
 
   return (
     <div className="article-byline">
@@ -69,9 +72,9 @@ export default function ArticleByline({
           Written by <Person person={author} rel="author" />
         </p>
       ) : null}
-      {reviewer && reviewedOn ? (
+      {reviewer ? (
         <p className="byline-line">
-          Clinically reviewed by <Person person={reviewer} />
+          Medically reviewed by <Person person={reviewer} />
         </p>
       ) : null}
       {meta.length ? (

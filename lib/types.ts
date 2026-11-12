@@ -86,10 +86,10 @@ export type BylinePerson = {
 /**
  * The per-post byline fields (editorial policy package, "Post fields").
  *
- * There is deliberately no site-wide default reviewer: a post without its own
- * `reviewedBy` and `lastReviewed` shows no reviewer line and emits no
- * `reviewedBy` schema. Attributing a clinical review that did not happen is the
- * failure this is designed to make impossible.
+ * A post without its own `reviewedBy` gets the site's default medical reviewer
+ * (DEFAULT_REVIEWER in lib/blog.ts): the client overrode the package's "no
+ * default reviewer" rule, so every post shows one. `lastReviewed` is optional
+ * and shown only when set.
  */
 export type PostByline = {
   writtenBy?: BylinePerson

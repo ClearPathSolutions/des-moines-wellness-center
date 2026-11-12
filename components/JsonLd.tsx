@@ -204,8 +204,9 @@ function personRef(p: SchemaPerson) {
  * Article schema for blog posts: a MedicalWebPage wrapping a BlogPosting
  * (editorial policy package, clinical-article.jsonld).
  *
- * `reviewedBy` and `lastReviewed` are emitted only when the post has both a
- * reviewer and a review date of its own — never a site-wide default.
+ * `reviewedBy` is emitted whenever a reviewer is passed (every post has one:
+ * the client overrode the package's "no default reviewer" rule, see
+ * DEFAULT_REVIEWER in lib/blog.ts). `lastReviewed` only with a real review date.
  */
 export function ArticleJsonLd({
   headline,
@@ -233,7 +234,6 @@ export function ArticleJsonLd({
   siteName: string
   siteUrl: string
 }) {
-  const reviewed = reviewer && lastReviewed
   const publisher = { '@id': orgId(siteUrl), name: siteName }
   const data = {
     '@context': 'https://schema.org',
@@ -244,7 +244,8 @@ export function ArticleJsonLd({
         url,
         name: headline,
         ...(description ? { description } : {}),
-        ...(reviewed ? { lastReviewed, reviewedBy: personRef(reviewer) } : {}),
+        ...(lastReviewed ? { lastReviewed } : {}),
+        ...(reviewer ? { reviewedBy: personRef(reviewer) } : {}),
         publisher,
       },
       {

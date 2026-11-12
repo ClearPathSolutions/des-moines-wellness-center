@@ -6,7 +6,7 @@ import { ArrowLeft, Phone } from 'lucide-react'
 import PageRenderer from '@/components/PageRenderer'
 import ArticleByline from '@/components/ArticleByline'
 import { getAllPages, getSiteConfig } from '@/lib/content'
-import { getBlogPost, getBlogPosts } from '@/lib/blog'
+import { DEFAULT_REVIEWER, getBlogPost, getBlogPosts } from '@/lib/blog'
 import { policyIsLive } from '@/lib/editorialPolicy'
 import { ArticleJsonLd, BreadcrumbJsonLd, FaqJsonLd } from '@/components/JsonLd'
 import { canonicalPath, canonicalUrl } from '@/lib/urls'
@@ -70,8 +70,8 @@ function localPost(slug: string) {
   )
 }
 
-/** A Clarion reviewer URL on this site's own host, as a local path, so the
- *  byline links internally and the schema @id matches the bio page's own. */
+/** A reviewer URL on this site's own host, as a local path, so the byline
+ *  links internally and the schema @id matches the bio page's own. */
 function ownPath(url: string | null, siteUrl: string): string | null {
   if (!url) return null
   try {
@@ -156,6 +156,12 @@ export default async function BlogPostPage({
     const { writtenBy, reviewedBy, lastReviewed, modifiedAt } = local.byline ?? {}
     const modified = modifiedAt ?? local.publishedAt ?? null
     const bio = (p?: { bioPath?: string }) => (p?.bioPath ? canonicalPath(p.bioPath) : null)
+    // Migrated articles get the site's default medical reviewer unless the
+    // page names its own (client rule: every post shows a reviewer).
+    const defaultPath = ownPath(DEFAULT_REVIEWER.url, site.url)
+    const reviewer = reviewedBy
+      ? { name: reviewedBy.name, credentials: reviewedBy.credentials ?? null, path: bio(reviewedBy) }
+      : { name: DEFAULT_REVIEWER.name, credentials: DEFAULT_REVIEWER.credentials, path: defaultPath }
     return (
       <>
         <PageRenderer
@@ -167,11 +173,7 @@ export default async function BlogPostPage({
               <div className="mx-auto max-w-3xl">
                 <ArticleByline
                   author={writtenBy ? { name: writtenBy.name, href: bio(writtenBy) } : null}
-                  reviewer={
-                    reviewedBy
-                      ? { name: reviewedBy.name, href: bio(reviewedBy), credentials: reviewedBy.credentials }
-                      : null
-                  }
+                  reviewer={{ name: reviewer.name, href: reviewer.path, credentials: reviewer.credentials }}
                   lastReviewed={lastReviewed}
                   modifiedAt={modified}
                   showPolicyLink={showPolicyLink}
@@ -191,15 +193,11 @@ export default async function BlogPostPage({
               ? { name: writtenBy.name, bioUrl: writtenBy.bioPath ? canonicalUrl(site.url, writtenBy.bioPath) : null }
               : null
           }
-          reviewer={
-            reviewedBy
-              ? {
-                  name: reviewedBy.name,
-                  credentials: reviewedBy.credentials,
-                  bioUrl: reviewedBy.bioPath ? canonicalUrl(site.url, reviewedBy.bioPath) : null,
-                }
-              : null
-          }
+          reviewer={{
+            name: reviewer.name,
+            credentials: reviewer.credentials,
+            bioUrl: reviewer.path ? canonicalUrl(site.url, reviewer.path) : null,
+          }}
           lastReviewed={lastReviewed}
           url={url}
           siteName={site.name}
@@ -230,17 +228,17 @@ export default async function BlogPostPage({
     return !!m && !knownSlugs.has(m[1])
   }
 
-  const reviewerPath = ownPath(post.reviewer?.url ?? null, site.url)
-  const reviewer = post.reviewer
-    ? {
-        name: post.reviewer.name,
-        credentials: post.reviewer.credentials,
-        href: reviewerPath,
-        bioUrl: reviewerPath ? canonicalUrl(site.url, reviewerPath) : null,
-      }
-    : null
-  // Clarion has no review-date field, so its posts carry no reviewer line or
-  // reviewedBy schema until it does. Wire the date in here when it exists.
+  // Always set: getBlogPost fills missing Clarion fields from DEFAULT_REVIEWER.
+  // An own-site bio links internally; any other URL is kept as given.
+  const reviewerPath = ownPath(post.reviewer.url, site.url)
+  const reviewer = {
+    name: post.reviewer.name,
+    credentials: post.reviewer.credentials,
+    href: reviewerPath ?? post.reviewer.url,
+    bioUrl: reviewerPath ? canonicalUrl(site.url, reviewerPath) : post.reviewer.url,
+  }
+  // Clarion has no review-date field, so no "Last reviewed" date or
+  // lastReviewed schema until it does. Wire the date in here when it exists.
   const lastReviewed: string | null = null
 
   return (

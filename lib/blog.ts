@@ -34,10 +34,39 @@ export type BlogPostSummary = {
 
 export type BlogPost = BlogPostSummary & {
   bodyHtml: string
-  /** Clinical reviewer as entered in Clarion. Clarion exposes no review date,
-   *  and the byline shows a reviewer only alongside one (editorial policy: no
-   *  undated or default reviewer), so this does not render on its own. */
-  reviewer: { name: string; credentials: string | null; url: string | null } | null
+  /** Medical reviewer: Clarion's fields where populated, each missing field
+   *  filled from DEFAULT_REVIEWER. Always set, so every post shows one. */
+  reviewer: Reviewer
+}
+
+export type Reviewer = { name: string; credentials: string | null; url: string | null }
+
+/**
+ * The site's default medical reviewer. The client has overridden the editorial
+ * package's "no default reviewer / reviewer only with a review date" rule: every
+ * blog post, from every source, shows a medical reviewer. Clarion's
+ * medically_reviewed_by* fields win where populated; each missing field falls
+ * back to this individually. Posts that don't come from Clarion (the migrated
+ * WordPress articles) get this outright. The URL is the live, slash-canonical
+ * bio, so the byline link doesn't redirect.
+ */
+export const DEFAULT_REVIEWER: Reviewer = {
+  name: 'Dr. Pamela Tambini',
+  credentials: 'M.D.',
+  url: 'https://www.desmoinesrecovery.com/team/pamela-tambini/',
+}
+
+/** Clarion's reviewer fields, each missing one filled from DEFAULT_REVIEWER. */
+export function resolveReviewer(raw: {
+  medically_reviewed_by?: unknown
+  medically_reviewed_by_credentials?: unknown
+  medically_reviewed_by_url?: unknown
+}): Reviewer {
+  return {
+    name: str(raw.medically_reviewed_by) ?? DEFAULT_REVIEWER.name,
+    credentials: str(raw.medically_reviewed_by_credentials) ?? DEFAULT_REVIEWER.credentials,
+    url: str(raw.medically_reviewed_by_url) ?? DEFAULT_REVIEWER.url,
+  }
 }
 
 type RawPost = {
@@ -112,17 +141,10 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
   const summary = toSummary(data as RawPost)
   if (!summary) return null
   const raw = data as RawPost
-  const reviewerName = str(raw.medically_reviewed_by)
   return {
     ...summary,
     bodyHtml: str(raw.body_html) ?? '',
-    reviewer: reviewerName
-      ? {
-          name: reviewerName,
-          credentials: str(raw.medically_reviewed_by_credentials),
-          url: str(raw.medically_reviewed_by_url),
-        }
-      : null,
+    reviewer: resolveReviewer(raw),
   }
 }
 
