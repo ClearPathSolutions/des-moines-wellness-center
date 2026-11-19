@@ -18,6 +18,7 @@
  * load. No failure in this file may ever stop a form from submitting — a lead
  * with no attribution is a bad outcome, a lead that never sends is a worse one.
  */
+import { latestReferrer, rememberReferrer } from './latest-referrer'
 
 const FIRST_TOUCH_KEY = 'dmwc.first_touch.v1'
 const SESSION_KEY = 'dmwc.session.v1'
@@ -337,6 +338,7 @@ function pushCtmVars(session: StoredSession): void {
 /** Call on the first render of every page, including client-side route changes. */
 export function recordPageview(): void {
   if (!isBrowser()) return
+  rememberReferrer()
   try {
     const now = currentTouch()
     const nowMs = Date.now()
@@ -480,7 +482,7 @@ export function submissionAttribution(): Record<string, unknown> {
   return {
     page_url: session.last_touch.page_url,
     landing_page_url: entry.page_url,
-    referrer: entry.referrer ?? session.first_touch.referrer,
+    referrer: latestReferrer() ?? entry.referrer ?? session.first_touch.referrer,
     utm: utm && Object.keys(utm).length ? utm : null,
     gclid,
     // Flat and top-level because that is where Clarion looks for it. The same
