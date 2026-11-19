@@ -127,6 +127,18 @@ const nextConfig = {
       { protocol: 'https', hostname: 'api.clarionlabs.ai' },
     ],
   },
+  // Blog images: Clarion stores them, this site serves them, so their address
+  // (and image-search credit) is this domain's. lib/blog.ts points every Clarion
+  // image at /blog-images/; this proxies it to Clarion's bytes route, which
+  // answers with the image itself (never a redirect to Clarion).
+  async rewrites() {
+    return [
+      {
+        source: '/blog-images/:path*',
+        destination: 'https://api.clarionlabs.ai/blog/public/image-inline/:path*',
+      },
+    ]
+  },
   async headers() {
     return [
       {
