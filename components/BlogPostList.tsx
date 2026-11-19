@@ -54,7 +54,7 @@ export default function BlogPostList({
                   <div className="relative aspect-[1200/630] w-full">
                     <Image
                       src={post.coverImageUrl}
-                      alt=""
+                      alt={post.coverImageAlt}
                       fill
                       sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       className="object-cover"

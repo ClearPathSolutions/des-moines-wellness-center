@@ -70,6 +70,11 @@ function localPost(slug: string) {
   )
 }
 
+/** A site-relative image path (/blog-images/...) on this site's origin; other URLs untouched. */
+function ownOrigin(src: string, siteUrl: string): string {
+  return src.startsWith('/') ? `${siteUrl.replace(/\/+$/, '')}${src}` : src
+}
+
 /** A reviewer URL on this site's own host, as a local path, so the byline
  *  links internally and the schema @id matches the bio page's own. */
 function ownPath(url: string | null, siteUrl: string): string | null {
@@ -132,7 +137,7 @@ export async function generateMetadata({
       url: path,
       publishedTime: post.publishedAt ?? undefined,
       images: post.coverImageUrl
-        ? [{ url: post.coverImageUrl }]
+        ? [{ url: ownOrigin(post.coverImageUrl, getSiteConfig().site.url), alt: post.coverImageAlt }]
         : [{ url: '/og.jpg', width: 1200, height: 630, alt: title }],
     },
   }
@@ -268,7 +273,7 @@ export default async function BlogPostPage({
               <div className="relative mt-8 aspect-[1200/630] w-full overflow-hidden rounded-2xl">
                 <Image
                   src={post.coverImageUrl}
-                  alt=""
+                  alt={post.coverImageAlt}
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 48rem"
@@ -322,7 +327,7 @@ export default async function BlogPostPage({
       <ArticleJsonLd
         headline={post.title}
         description={post.seo.description ?? post.excerpt}
-        image={post.coverImageUrl}
+        image={post.coverImageUrl ? ownOrigin(post.coverImageUrl, site.url) : null}
         datePublished={post.publishedAt}
         author={post.authorName ? { name: post.authorName } : null}
         reviewer={reviewer}

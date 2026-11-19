@@ -49,6 +49,7 @@ export default async function BlogIndexPage() {
       title: p.hero.headline,
       excerpt: p.seo.description || null,
       coverImageUrl: null,
+      coverImageAlt: p.hero.headline,
       authorName: null,
       publishedAt: p.publishedAt ?? null,
       seo: { title: p.seo.title, description: p.seo.description },

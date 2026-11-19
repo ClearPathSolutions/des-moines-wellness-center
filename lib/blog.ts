@@ -16,8 +16,35 @@
  * the build or take down the other 34 pages.
  */
 
+import { getSiteConfig } from '@/lib/content'
+
 const SITE_KEY = 'cpx__fSy1X8JikCR2mQQMFTF81zFCiT5KP33'
 const API = 'https://api.clarionlabs.ai'
+
+/**
+ * Blog images on this site's own domain. Clarion stores them and hands out
+ * `https://api.clarionlabs.ai/blog/public/image/<key>` (or, once Clarion is told
+ * this site proxies them, `<this site>/blog-images/<key>`). Both become
+ * `/blog-images/<key>`, which next.config.mjs rewrites to Clarion's bytes route,
+ * so the address a visitor, Google Images or a social card sees is this site's.
+ */
+export const IMAGE_PATH = '/blog-images'
+const CLARION_IMAGE = `${API}/blog/public/image/`
+const OWN_IMAGE = new RegExp(
+  `https://(?:www\\.)?${new URL(getSiteConfig().site.url).hostname
+    .replace(/^www\./, '')
+    .replace(/\./g, '\\.')}(?=${IMAGE_PATH}/)`,
+  'g'
+)
+
+export function onSiteImage(src: string): string {
+  if (src.startsWith(CLARION_IMAGE)) return `${IMAGE_PATH}/${src.slice(CLARION_IMAGE.length)}`
+  return src.replace(OWN_IMAGE, '')
+}
+
+function onSiteImages(html: string): string {
+  return html.split(CLARION_IMAGE).join(`${IMAGE_PATH}/`).replace(OWN_IMAGE, '')
+}
 
 /** Re-fetch at most once an hour so new posts appear without a redeploy. */
 export const BLOG_REVALIDATE_SECONDS = 3600
@@ -27,6 +54,8 @@ export type BlogPostSummary = {
   title: string
   excerpt: string | null
   coverImageUrl: string | null
+  /** Clarion's alt text for the cover, else the post title. Never empty. */
+  coverImageAlt: string
   authorName: string | null
   publishedAt: string | null
   seo: { title: string | null; description: string | null }
@@ -74,6 +103,7 @@ type RawPost = {
   title?: unknown
   excerpt?: unknown
   cover_image_url?: unknown
+  cover_image_alt?: unknown
   author_name?: unknown
   published_at?: unknown
   body_html?: unknown
@@ -95,7 +125,8 @@ function toSummary(raw: RawPost): BlogPostSummary | null {
     slug,
     title,
     excerpt: str(raw.excerpt),
-    coverImageUrl: str(raw.cover_image_url),
+    coverImageUrl: str(raw.cover_image_url) ? onSiteImage(str(raw.cover_image_url) as string) : null,
+    coverImageAlt: str(raw.cover_image_alt)?.trim() || title,
     authorName: str(raw.author_name),
     publishedAt: str(raw.published_at),
     seo: {
@@ -143,7 +174,7 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
   const raw = data as RawPost
   return {
     ...summary,
-    bodyHtml: str(raw.body_html) ?? '',
+    bodyHtml: onSiteImages(str(raw.body_html) ?? ''),
     reviewer: resolveReviewer(raw),
   }
 }
