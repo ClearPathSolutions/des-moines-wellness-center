@@ -5,6 +5,14 @@ import { assertWwwHost, canonicalUrl, pathForSlug } from '@/lib/urls'
 import { EDITORIAL_POLICY_PATH, policyIsLive } from '@/lib/editorialPolicy'
 import { LEGAL_PAGES } from '@/lib/legalPages'
 
+// Rendered per request, like the other Quadrant sites. As ISR (inherited from
+// the feed fetch's revalidate) every background regeneration since Aug 23 threw
+// ENOENT on content/site.config.json, so Vercel served the build-time copy
+// forever and posts published after a deploy never reached the sitemap. The
+// feed fetch keeps its own short cache (FEED_REVALIDATE_SECONDS in lib/blog.ts),
+// and next.config.mjs traces content/ into this function.
+export const dynamic = 'force-dynamic'
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const config = getSiteConfig()
   const base = assertWwwHost(config.site.url)
