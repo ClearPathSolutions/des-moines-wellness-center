@@ -49,6 +49,13 @@ function onSiteImages(html: string): string {
 /** Re-fetch at most once an hour so new posts appear without a redeploy. */
 export const BLOG_REVALIDATE_SECONDS = 3600
 
+/**
+ * The post list (sitemap, /blog/ index) refreshes faster, so a newly published
+ * post is listed within minutes. There is no Clarion publish webhook to push
+ * this instead; one feed call per 5 minutes per region is the cost.
+ */
+export const FEED_REVALIDATE_SECONDS = 300
+
 export type BlogPostSummary = {
   slug: string
   title: string
@@ -136,12 +143,15 @@ function toSummary(raw: RawPost): BlogPostSummary | null {
   }
 }
 
-async function getJson(url: string): Promise<unknown | null> {
+async function getJson(
+  url: string,
+  revalidate: number = BLOG_REVALIDATE_SECONDS
+): Promise<unknown | null> {
   try {
     const res = await fetch(url, {
       // No Origin header is sent server-side, which is what makes this work.
       headers: { Accept: 'application/json' },
-      next: { revalidate: BLOG_REVALIDATE_SECONDS },
+      next: { revalidate },
     })
     if (!res.ok) return null
     return await res.json()
@@ -153,7 +163,8 @@ async function getJson(url: string): Promise<unknown | null> {
 /** All published posts, newest first. Empty array if the feed is unavailable. */
 export async function getBlogPosts(): Promise<BlogPostSummary[]> {
   const data = await getJson(
-    `${API}/blog/public/feed?site_key=${encodeURIComponent(SITE_KEY)}`
+    `${API}/blog/public/feed?site_key=${encodeURIComponent(SITE_KEY)}`,
+    FEED_REVALIDATE_SECONDS
   )
   const posts = (data as { posts?: unknown } | null)?.posts
   if (!Array.isArray(posts)) return []

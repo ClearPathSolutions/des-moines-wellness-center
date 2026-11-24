@@ -93,6 +93,12 @@ const securityHeaders = [
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  // lib/content.ts reads content/*.json with fs at runtime, which the bundler
+  // cannot see, so the files were missing from the sitemap function
+  // (/var/task/content/site.config.json: ENOENT on every regeneration).
+  outputFileTracingIncludes: {
+    '/sitemap.xml': ['./content/**/*'],
+  },
   experimental: {
     // Inlining the stylesheet is a deliberate trade, not a free win, and it was
     // measured both ways (median of 5 Lighthouse mobile runs, third parties
